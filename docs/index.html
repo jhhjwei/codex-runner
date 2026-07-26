@@ -20,13 +20,24 @@
   <main>
     <section aria-labelledby="demo-heading">
       <h2 id="demo-heading">公开可运行案例</h2>
-      <p><strong>配置驱动 CSV/JSON 解析器：</strong>无需修改核心代码，即可通过外部配置完成字段映射、类型转换、默认值、数值换算和数据校验。</p>
+
+      <h3>1. 配置驱动 CSV/JSON 解析器</h3>
+      <p>无需修改核心代码，即可通过外部配置完成字段映射、类型转换、默认值、数值换算和数据校验。</p>
       <ul>
         <li>仅使用 Python 标准库</li>
         <li>包含输入、配置、预期输出和端到端测试</li>
         <li>可继续定制 Excel、批处理、网页上传或 Windows 可执行文件</li>
       </ul>
-      <p><a href="https://github.com/jhhjwei/codex-runner/tree/main/demos/config-driven-parser">查看源码与运行说明</a></p>
+      <p><a href="https://github.com/jhhjwei/codex-runner/tree/main/demos/config-driven-parser">查看解析器源码</a></p>
+
+      <h3>2. 公开网页文本抓取器</h3>
+      <p>面向公开、免登录页面，检查 robots.txt、限制同域范围和访问频率，并输出 CSV/JSON。</p>
+      <ul>
+        <li>提取页面 URL、标题、正文、状态和错误</li>
+        <li>过滤脚本、样式和不可见内容</li>
+        <li>可继续定制 PDF 下载、增量更新或授权网站字段</li>
+      </ul>
+      <p><a href="https://github.com/jhhjwei/codex-runner/tree/main/demos/public-web-text-scraper">查看抓取器源码</a></p>
     </section>
 
     <section aria-labelledby="scope-heading">
