@@ -14,13 +14,20 @@ permissions:
   contents: read
 
 jobs:
-  config-parser:
+  all-demos:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run parser tests
-        working-directory: demos/config-driven-parser
-        run: python -m unittest -v
+      - name: Run every demo test suite
+        shell: bash
+        run: |
+          set -euo pipefail
+          for demo in demos/*; do
+            if compgen -G "$demo/test_*.py" > /dev/null; then
+              echo "Testing $demo"
+              (cd "$demo" && python -m unittest -v)
+            fi
+          done
