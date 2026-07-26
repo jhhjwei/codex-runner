@@ -1,0 +1,20 @@
+[
+  {
+    "id": "SENSOR-A",
+    "temperature_f": 77.0,
+    "status": "online",
+    "is_enabled": true
+  },
+  {
+    "id": "SENSOR-B",
+    "temperature_f": 32.0,
+    "status": "offline",
+    "is_enabled": false
+  },
+  {
+    "id": "SENSOR-C",
+    "temperature_f": 99.5,
+    "status": "unknown",
+    "is_enabled": true
+  }
+]
