@@ -1,0 +1,26 @@
+name: Demo tests
+
+on:
+  push:
+    paths:
+      - "demos/**"
+      - ".github/workflows/demo-tests.yml"
+  pull_request:
+    paths:
+      - "demos/**"
+      - ".github/workflows/demo-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  config-parser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run parser tests
+        working-directory: demos/config-driven-parser
+        run: python -m unittest -v
