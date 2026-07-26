@@ -1,0 +1,80 @@
+name: 代码修复 / 自动化需求
+about: 提交一个可在 24–72 小时内交付的小型技术需求
+labels: ["client-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提交需求。请勿粘贴密码、Cookie、Token、私钥或真实个人数据。公开仓库、脱敏样例和报错截图最有助于快速判断。
+
+  - type: dropdown
+    id: service
+    attributes:
+      label: 需求类型
+      options:
+        - 代码报错定位与修复
+        - Python / CSV 自动化
+        - HTML / CSS / 前端页面修复
+        - 简单落地页开发
+        - 其他小型开发任务
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 当前问题
+      description: 说明你做了什么、出现了什么结果，并粘贴完整报错信息。
+      placeholder: 运行某命令后出现……；预期应当……
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望交付结果
+      description: 用可验证的方式描述完成标准。
+      placeholder: 修复后命令能正常运行，并提供修改后的代码和使用说明。
+    validations:
+      required: true
+
+  - type: input
+    id: reference
+    attributes:
+      label: 仓库或脱敏样例链接
+      description: 可填写公开 GitHub 仓库、最小复现或文件分享链接。
+      placeholder: https://github.com/owner/repo
+
+  - type: dropdown
+    id: budget
+    attributes:
+      label: 预算范围
+      options:
+        - 先做免费初步判断
+        - ¥49–¥99
+        - ¥100–¥299
+        - ¥300–¥599
+        - 需要先评估
+    validations:
+      required: true
+
+  - type: dropdown
+    id: deadline
+    attributes:
+      label: 期望时间
+      options:
+        - 24 小时内
+        - 48 小时内
+        - 72 小时内
+        - 一周内
+        - 不着急
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 信息安全确认
+      options:
+        - label: 我已移除密码、Token、Cookie、私钥和敏感个人数据
+          required: true
