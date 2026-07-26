@@ -1,6 +1,6 @@
 name: 代码修复 / 自动化需求
-about: 提交一个可在 24–72 小时内交付的小型技术需求
-labels: ["client-request"]
+description: 提交一个可在 24–72 小时内交付的小型技术需求
+title: "[需求] "
 body:
   - type: markdown
     attributes:
