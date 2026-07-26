@@ -1,0 +1,10 @@
+{
+  "start_urls": [
+    "https://example.com/"
+  ],
+  "same_domain_only": true,
+  "max_pages": 5,
+  "delay_seconds": 1.0,
+  "timeout_seconds": 20,
+  "user_agent": "PublicTextScraper/1.0 (+https://github.com/jhhjwei/codex-runner)"
+}
