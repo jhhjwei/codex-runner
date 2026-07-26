@@ -1,0 +1,4 @@
+device_id,temperature_c,status,enabled
+ sensor-a ,25,ONLINE,yes
+sensor-b,0,offline,no
+sensor-c,37.5,,true
