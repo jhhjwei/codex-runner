@@ -1,0 +1,5 @@
+source,target,type,required,default,trim,case,multiplier,offset,min,max,choices
+device_id,id,string,true,,true,upper,,,,,
+temperature_c,temperature_f,float,true,,true,,1.8,32,-40,212,
+status,status,string,true,unknown,true,lower,,,,,online|offline|unknown
+enabled,is_enabled,bool,false,true,true,,,,,,
