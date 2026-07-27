@@ -1,0 +1,9 @@
+{
+  "upstream": "Dokploy/dokploy",
+  "issue": 416,
+  "branch": "feat/rclone-backup-destinations",
+  "mode": "claim",
+  "attempt_file": ".bounty/dokploy-416-attempt.md",
+  "pr_title": "feat: add generic rclone backup destinations",
+  "pr_body_file": ".bounty/dokploy-416-pr.md"
+}
