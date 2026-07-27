@@ -7,5 +7,5 @@
   "script": ".bounty/scripts/dokploy-416-v3.sh",
   "pr_title": "feat: add generic rclone backup destinations",
   "pr_body_file": ".bounty/dokploy-416-pr.md",
-  "trigger_revision": 7
+  "trigger_revision": 8
 }
