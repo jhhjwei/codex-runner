@@ -1,9 +1,11 @@
 {
-  "checked_at": "2026-07-27T03:13:19Z",
-  "run_url": "https://github.com/jhhjwei/codex-runner/actions/runs/30234079663",
-  "auth_status": "ok",
-  "auth_detail": "authenticated",
-  "claim_status": "ok",
-  "claim_detail": "attempt_registered",
-  "fork": "jhhjwei/dokploy"
+  "checked_at": "2026-07-27T05:32:02Z",
+  "run_id": "30239861276",
+  "run_url": "https://github.com/jhhjwei/codex-runner/actions/runs/30239861276",
+  "auth": "success",
+  "task": "success",
+  "claim": "success",
+  "implement": "success",
+  "pr": "success",
+  "pr_url": "https://github.com/Dokploy/dokploy/pull/4918"
 }
