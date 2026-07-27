@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.bounty/task.json'
+      - '.bounty/**'
+      - 'scripts/bounties/**'
 
 permissions:
   contents: read
@@ -24,13 +25,22 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Validate authorization
+        shell: bash
         run: |
           set -euo pipefail
+
           if [ -z "${GH_TOKEN:-}" ]; then
-            echo "Missing Actions secret: BOUNTY_GITHUB_TOKEN"
-            exit 1
+            echo "::error title=Missing repository secret::Create the repository Actions secret BOUNTY_GITHUB_TOKEN in jhhjwei/codex-runner. Its value must be a valid GitHub personal access token."
+            exit 10
           fi
-          gh api user --jq '.login'
+
+          if ! LOGIN=$(gh api user --jq '.login' 2>/tmp/gh-auth-error); then
+            echo "::error title=Invalid or expired GitHub token::BOUNTY_GITHUB_TOKEN exists, but GitHub rejected it. Replace it with a valid token that can write to public repositories."
+            cat /tmp/gh-auth-error
+            exit 11
+          fi
+
+          echo "::notice title=GitHub authorization ready::Authenticated as ${LOGIN}"
 
       - name: Load task
         id: task
@@ -61,7 +71,11 @@ jobs:
           BASE=$(gh api "repos/$UPSTREAM" --jq '.default_branch')
 
           if ! gh api "repos/$FORK" >/dev/null 2>&1; then
-            gh api --method POST "repos/$UPSTREAM/forks" >/dev/null
+            if ! gh api --method POST "repos/$UPSTREAM/forks" >/tmp/fork-output 2>/tmp/fork-error; then
+              echo "::error title=Token cannot create the fork::The token is valid, but it cannot fork ${UPSTREAM}. Use a classic personal access token with public_repo access, then replace BOUNTY_GITHUB_TOKEN."
+              cat /tmp/fork-error
+              exit 12
+            fi
             for _ in $(seq 1 30); do
               gh api "repos/$FORK" >/dev/null 2>&1 && break
               sleep 2
@@ -75,7 +89,10 @@ jobs:
               echo "$MARKER"
               cat "$ATTEMPT_FILE"
             } > /tmp/attempt.md
-            gh issue comment "$ISSUE" --repo "$UPSTREAM" --body-file /tmp/attempt.md
+            if ! gh issue comment "$ISSUE" --repo "$UPSTREAM" --body-file /tmp/attempt.md; then
+              echo "::error title=Token cannot comment on the upstream issue::The token created or accessed the fork, but cannot write issue comments on ${UPSTREAM}. Replace it with a classic token with public_repo access."
+              exit 13
+            fi
           fi
 
           {
