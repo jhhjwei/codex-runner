@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-07-27T01:38:37Z",
-  "run_url": "https://github.com/jhhjwei/codex-runner/actions/runs/30230273920",
-  "auth_status": "missing_secret",
-  "auth_detail": "BOUNTY_GITHUB_TOKEN_is_missing_or_empty",
-  "claim_status": "not_run",
-  "claim_detail": "not_run",
-  "fork": ""
+  "checked_at": "2026-07-27T02:33:28Z",
+  "run_url": "https://github.com/jhhjwei/codex-runner/actions/runs/30232455443",
+  "auth_status": "ok",
+  "auth_detail": "authenticated",
+  "claim_status": "ok",
+  "claim_detail": "attempt_registered",
+  "fork": "jhhjwei/dokploy"
 }
