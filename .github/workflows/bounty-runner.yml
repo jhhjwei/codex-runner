@@ -4,15 +4,14 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.bounty/**'
-      - 'scripts/bounties/**'
+      - '.bounty/task.json'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: bounty-runner
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   run:
@@ -28,32 +27,15 @@ jobs:
         id: auth
         shell: bash
         run: |
-          set -uo pipefail
-          STATUS=ok
-          DETAIL=authenticated
-          LOGIN=""
-
-          if [ -z "${GH_TOKEN:-}" ]; then
-            STATUS=missing_secret
-            DETAIL=BOUNTY_GITHUB_TOKEN_is_missing_or_empty
-          elif ! LOGIN=$(gh api user --jq '.login' 2>/tmp/gh-auth-error); then
-            STATUS=invalid_token
-            DETAIL=GitHub_rejected_the_repository_secret
-          fi
-
-          echo "status=$STATUS" >> "$GITHUB_OUTPUT"
-          echo "detail=$DETAIL" >> "$GITHUB_OUTPUT"
+          set -euo pipefail
+          test -n "${GH_TOKEN:-}"
+          LOGIN=$(gh api user --jq '.login')
           echo "login=$LOGIN" >> "$GITHUB_OUTPUT"
-
-          if [ "$STATUS" = "ok" ]; then
-            echo "::notice title=GitHub authorization ready::Authenticated as ${LOGIN}"
-          else
-            echo "::error title=GitHub authorization failed::${DETAIL}"
-          fi
+          echo "Authenticated as $LOGIN"
 
       - name: Load task
         id: task
-        if: steps.auth.outputs.status == 'ok'
+        shell: bash
         run: |
           set -euo pipefail
           test -f .bounty/task.json
@@ -69,119 +51,58 @@ jobs:
 
       - name: Fork repository and register attempt
         id: claim
-        if: steps.auth.outputs.status == 'ok'
         env:
+          OWNER: ${{ steps.auth.outputs.login }}
           UPSTREAM: ${{ steps.task.outputs.upstream }}
           ISSUE: ${{ steps.task.outputs.issue }}
           BRANCH: ${{ steps.task.outputs.branch }}
           ATTEMPT_FILE: ${{ steps.task.outputs.attempt_file }}
         shell: bash
         run: |
-          set -uo pipefail
-          STATUS=ok
-          DETAIL=attempt_registered
-          OWNER=$(gh api user --jq '.login')
+          set -euo pipefail
+          test -f "$ATTEMPT_FILE"
           REPO_NAME=${UPSTREAM#*/}
           FORK="$OWNER/$REPO_NAME"
           BASE=$(gh api "repos/$UPSTREAM" --jq '.default_branch')
 
           if ! gh api "repos/$FORK" >/dev/null 2>&1; then
-            if ! gh api --method POST "repos/$UPSTREAM/forks" >/tmp/fork-output 2>/tmp/fork-error; then
-              STATUS=fork_denied
-              DETAIL=credential_cannot_create_public_fork
-            else
-              for _ in $(seq 1 30); do
-                gh api "repos/$FORK" >/dev/null 2>&1 && break
-                sleep 2
-              done
-              if ! gh api "repos/$FORK" >/dev/null 2>&1; then
-                STATUS=fork_not_ready
-                DETAIL=fork_was_requested_but_not_visible
-              fi
-            fi
+            gh api --method POST "repos/$UPSTREAM/forks" >/dev/null
+            for _ in $(seq 1 30); do
+              gh api "repos/$FORK" >/dev/null 2>&1 && break
+              sleep 2
+            done
+          fi
+          gh api "repos/$FORK" >/dev/null
+
+          MARKER="<!-- codex-bounty-runner:${UPSTREAM//\//-}-$ISSUE -->"
+          if ! gh api "repos/$UPSTREAM/issues/$ISSUE/comments" --paginate --jq '.[].body' | grep -Fq "$MARKER"; then
+            {
+              echo "$MARKER"
+              cat "$ATTEMPT_FILE"
+            } > /tmp/attempt.md
+            gh issue comment "$ISSUE" --repo "$UPSTREAM" --body-file /tmp/attempt.md
           fi
 
-          if [ "$STATUS" = "ok" ]; then
-            MARKER="<!-- codex-bounty-runner:${UPSTREAM//\//-}-$ISSUE -->"
-            if ! gh api "repos/$UPSTREAM/issues/$ISSUE/comments" --paginate --jq '.[].body' | grep -Fq "$MARKER"; then
-              {
-                echo "$MARKER"
-                cat "$ATTEMPT_FILE"
-              } > /tmp/attempt.md
-              if ! gh issue comment "$ISSUE" --repo "$UPSTREAM" --body-file /tmp/attempt.md; then
-                STATUS=comment_denied
-                DETAIL=credential_cannot_comment_on_upstream_issue
-              fi
-            fi
-          fi
-
-          echo "status=$STATUS" >> "$GITHUB_OUTPUT"
-          echo "detail=$DETAIL" >> "$GITHUB_OUTPUT"
-          echo "owner=$OWNER" >> "$GITHUB_OUTPUT"
           echo "fork=$FORK" >> "$GITHUB_OUTPUT"
           echo "base=$BASE" >> "$GITHUB_OUTPUT"
+          echo "Attempt is registered; fork is $FORK"
 
-          if [ "$STATUS" = "ok" ]; then
-            {
-              echo "OWNER=$OWNER"
-              echo "FORK=$FORK"
-              echo "BASE=$BASE"
-              echo "UPSTREAM=$UPSTREAM"
-              echo "ISSUE=$ISSUE"
-              echo "BRANCH=$BRANCH"
-            } >> "$GITHUB_ENV"
-            echo "::notice title=Bounty claim channel ready::Fork ${FORK} is accessible and the attempt is registered"
-          else
-            echo "::error title=Bounty claim failed::${DETAIL}"
-          fi
-
-      - name: Publish diagnostic status
-        if: always()
+      - name: Implement, validate and push
+        id: implement
+        if: steps.task.outputs.mode == 'execute'
         env:
-          GH_TOKEN: ${{ github.token }}
-          AUTH_STATUS: ${{ steps.auth.outputs.status }}
-          AUTH_DETAIL: ${{ steps.auth.outputs.detail }}
-          CLAIM_STATUS: ${{ steps.claim.outputs.status }}
-          CLAIM_DETAIL: ${{ steps.claim.outputs.detail }}
+          UPSTREAM: ${{ steps.task.outputs.upstream }}
           FORK: ${{ steps.claim.outputs.fork }}
+          BASE: ${{ steps.claim.outputs.base }}
+          BRANCH: ${{ steps.task.outputs.branch }}
+          ISSUE: ${{ steps.task.outputs.issue }}
+          TASK_SCRIPT: ${{ steps.task.outputs.script }}
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p .automation
-          jq -n \
-            --arg checked_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
-            --arg run_url "https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
-            --arg auth_status "${AUTH_STATUS:-not_run}" \
-            --arg auth_detail "${AUTH_DETAIL:-not_run}" \
-            --arg claim_status "${CLAIM_STATUS:-not_run}" \
-            --arg claim_detail "${CLAIM_DETAIL:-not_run}" \
-            --arg fork "${FORK:-}" \
-            '{checked_at:$checked_at,run_url:$run_url,auth_status:$auth_status,auth_detail:$auth_detail,claim_status:$claim_status,claim_detail:$claim_detail,fork:$fork}' \
-            > .automation/bounty-status.json
+          test -n "$TASK_SCRIPT"
+          test -f "$GITHUB_WORKSPACE/$TASK_SCRIPT"
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .automation/bounty-status.json
-          if ! git diff --cached --quiet; then
-            git commit -m "ci: record bounty runner status"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
-
-      - name: Fail on authorization or claim error
-        if: steps.auth.outputs.status != 'ok' || steps.claim.outputs.status != 'ok'
-        run: |
-          echo "Authorization: ${{ steps.auth.outputs.status }} / ${{ steps.auth.outputs.detail }}"
-          echo "Claim: ${{ steps.claim.outputs.status }} / ${{ steps.claim.outputs.detail }}"
-          exit 1
-
-      - name: Stop after claim
-        if: steps.auth.outputs.status == 'ok' && steps.claim.outputs.status == 'ok' && steps.task.outputs.mode != 'execute'
-        run: echo "Attempt registered. Waiting for maintainer confirmation before implementation."
-
-      - name: Clone fork and prepare branch
-        if: steps.auth.outputs.status == 'ok' && steps.claim.outputs.status == 'ok' && steps.task.outputs.mode == 'execute'
-        run: |
-          set -euo pipefail
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${FORK}.git" /tmp/bounty-work
           cd /tmp/bounty-work
           git remote add upstream "https://github.com/${UPSTREAM}.git" || true
@@ -190,47 +111,85 @@ jobs:
           git config user.name "jhhjwei"
           git config user.email "8869856+jhhjwei@users.noreply.github.com"
 
-      - name: Implement and validate
-        if: steps.auth.outputs.status == 'ok' && steps.claim.outputs.status == 'ok' && steps.task.outputs.mode == 'execute'
-        env:
-          TASK_SCRIPT: ${{ steps.task.outputs.script }}
-        run: |
-          set -euo pipefail
-          test -n "$TASK_SCRIPT"
-          test -f "$GITHUB_WORKSPACE/$TASK_SCRIPT"
-          cd /tmp/bounty-work
           bash "$GITHUB_WORKSPACE/$TASK_SCRIPT"
-
-      - name: Commit and push
-        if: steps.auth.outputs.status == 'ok' && steps.claim.outputs.status == 'ok' && steps.task.outputs.mode == 'execute'
-        run: |
-          set -euo pipefail
-          cd /tmp/bounty-work
-          if git diff --quiet && git diff --cached --quiet; then
-            echo "Task produced no changes."
-            exit 1
-          fi
           git add -A
+          git diff --cached --quiet && { echo "Task produced no changes"; exit 1; }
           git commit -m "chore: address bounty issue #${ISSUE}"
-          git push --force-with-lease origin "$BRANCH"
+          git push --force origin "$BRANCH"
+          echo "head_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: Open or update pull request
-        if: steps.auth.outputs.status == 'ok' && steps.claim.outputs.status == 'ok' && steps.task.outputs.mode == 'execute'
+      - name: Open or reuse pull request
+        id: pr
+        if: steps.task.outputs.mode == 'execute'
         env:
+          OWNER: ${{ steps.auth.outputs.login }}
+          UPSTREAM: ${{ steps.task.outputs.upstream }}
+          BASE: ${{ steps.claim.outputs.base }}
+          BRANCH: ${{ steps.task.outputs.branch }}
           PR_TITLE: ${{ steps.task.outputs.pr_title }}
           PR_BODY_FILE: ${{ steps.task.outputs.pr_body_file }}
+        shell: bash
         run: |
           set -euo pipefail
           test -n "$PR_BODY_FILE"
-          test -f "$PR_BODY_FILE"
-          EXISTING=$(gh pr list --repo "$UPSTREAM" --head "$OWNER:$BRANCH" --state open --json url --jq '.[0].url // ""')
+          test -f "$GITHUB_WORKSPACE/$PR_BODY_FILE"
+
+          EXISTING=$(gh api --method GET "repos/${UPSTREAM}/pulls" \
+            -f state=open \
+            -f head="${OWNER}:${BRANCH}" \
+            --jq '.[0].html_url // ""')
+
           if [ -n "$EXISTING" ]; then
-            echo "Pull request already open: $EXISTING"
+            PR_URL="$EXISTING"
+            echo "Pull request already open: $PR_URL"
           else
-            gh pr create \
+            PR_URL=$(gh pr create \
               --repo "$UPSTREAM" \
               --base "$BASE" \
               --head "$OWNER:$BRANCH" \
               --title "$PR_TITLE" \
-              --body-file "$PR_BODY_FILE"
+              --body-file "$GITHUB_WORKSPACE/$PR_BODY_FILE")
+            echo "Pull request created: $PR_URL"
           fi
+          echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
+
+      - name: Publish runner status
+        if: always()
+        continue-on-error: true
+        env:
+          AUTH_RESULT: ${{ steps.auth.conclusion }}
+          TASK_RESULT: ${{ steps.task.conclusion }}
+          CLAIM_RESULT: ${{ steps.claim.conclusion }}
+          IMPLEMENT_RESULT: ${{ steps.implement.conclusion }}
+          PR_RESULT: ${{ steps.pr.conclusion }}
+          PR_URL: ${{ steps.pr.outputs.url }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          jq -n \
+            --arg checked_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --arg run_id "$GITHUB_RUN_ID" \
+            --arg run_url "https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+            --arg auth "${AUTH_RESULT:-not_run}" \
+            --arg task "${TASK_RESULT:-not_run}" \
+            --arg claim "${CLAIM_RESULT:-not_run}" \
+            --arg implement "${IMPLEMENT_RESULT:-not_run}" \
+            --arg pr "${PR_RESULT:-not_run}" \
+            --arg pr_url "${PR_URL:-}" \
+            '{checked_at:$checked_at,run_id:$run_id,run_url:$run_url,auth:$auth,task:$task,claim:$claim,implement:$implement,pr:$pr,pr_url:$pr_url}' \
+            > /tmp/bounty-status.json
+
+          CONTENT=$(base64 -w 0 /tmp/bounty-status.json)
+          SHA=$(gh api "repos/${GITHUB_REPOSITORY}/contents/.automation/bounty-status.json" --jq '.sha' 2>/dev/null || true)
+          if [ -n "$SHA" ]; then
+            gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/.automation/bounty-status.json" \
+              -f message="ci: record bounty runner status" \
+              -f content="$CONTENT" \
+              -f sha="$SHA" >/dev/null
+          else
+            gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/.automation/bounty-status.json" \
+              -f message="ci: record bounty runner status" \
+              -f content="$CONTENT" >/dev/null
+          fi
+
+          cat /tmp/bounty-status.json >> "$GITHUB_STEP_SUMMARY"
