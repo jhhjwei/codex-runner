@@ -28,12 +28,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Validate authorization
+        id: auth
         run: |
           set -euo pipefail
           test -n "${GH_TOKEN:-}"
           test "$(gh api user --jq '.login')" = "jhhjwei"
 
       - name: Clone fork and reset implementation branch
+        id: clone
         run: |
           set -euo pipefail
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${FORK}.git" /tmp/dokploy
@@ -45,12 +47,15 @@ jobs:
           git config user.email "8869856+jhhjwei@users.noreply.github.com"
 
       - name: Apply patch and validate
+        id: apply
+        shell: bash
         run: |
-          set -euo pipefail
+          set -o pipefail
           cd /tmp/dokploy
-          bash "$GITHUB_WORKSPACE/.bounty/scripts/dokploy-416-v3.sh"
+          bash "$GITHUB_WORKSPACE/.bounty/scripts/dokploy-416-v3.sh" 2>&1 | tee /tmp/dokploy-416.log
 
       - name: Commit and push
+        id: push
         run: |
           set -euo pipefail
           cd /tmp/dokploy
@@ -60,6 +65,7 @@ jobs:
           git push --force origin "$BRANCH"
 
       - name: Open pull request
+        id: pr
         run: |
           set -euo pipefail
           EXISTING=$(gh pr list --repo "$UPSTREAM" --head "jhhjwei:$BRANCH" --state open --json url --jq '.[0].url // ""')
@@ -72,4 +78,52 @@ jobs:
               --head "jhhjwei:$BRANCH" \
               --title "feat: add generic rclone backup destinations" \
               --body-file "$GITHUB_WORKSPACE/.bounty/dokploy-416-pr.md"
+          fi
+
+      - name: Publish observable status
+        if: always()
+        shell: bash
+        env:
+          AUTH_RESULT: ${{ steps.auth.conclusion }}
+          CLONE_RESULT: ${{ steps.clone.conclusion }}
+          APPLY_RESULT: ${{ steps.apply.conclusion }}
+          PUSH_RESULT: ${{ steps.push.conclusion }}
+          PR_RESULT: ${{ steps.pr.conclusion }}
+        run: |
+          set -euo pipefail
+
+          put_file() {
+            local path="$1"
+            local source="$2"
+            local message="$3"
+            local encoded sha
+            encoded=$(base64 -w 0 "$source")
+            sha=$(gh api "repos/jhhjwei/codex-runner/contents/${path}" --jq '.sha' 2>/dev/null || true)
+            if [ -n "$sha" ]; then
+              gh api --method PUT "repos/jhhjwei/codex-runner/contents/${path}" \
+                -f message="$message" -f content="$encoded" -f sha="$sha" >/dev/null
+            else
+              gh api --method PUT "repos/jhhjwei/codex-runner/contents/${path}" \
+                -f message="$message" -f content="$encoded" >/dev/null
+            fi
+          }
+
+          jq -n \
+            --arg checked_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --arg run_id "$GITHUB_RUN_ID" \
+            --arg run_url "https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+            --arg auth "${AUTH_RESULT:-not_run}" \
+            --arg clone "${CLONE_RESULT:-not_run}" \
+            --arg apply "${APPLY_RESULT:-not_run}" \
+            --arg push "${PUSH_RESULT:-not_run}" \
+            --arg pr "${PR_RESULT:-not_run}" \
+            '{checked_at:$checked_at,run_id:$run_id,run_url:$run_url,auth:$auth,clone:$clone,apply:$apply,push:$push,pr:$pr}' \
+            > /tmp/dokploy-416-status.json
+          put_file ".automation/dokploy-416-status.json" /tmp/dokploy-416-status.json "ci: record Dokploy 416 workflow status"
+
+          if [ "${APPLY_RESULT:-}" = "failure" ] && [ -f /tmp/dokploy-416.log ]; then
+            tail -n 250 /tmp/dokploy-416.log \
+              | sed -E 's/ghp_[A-Za-z0-9_]+/[REDACTED_TOKEN]/g' \
+              > /tmp/dokploy-416-failure.log
+            put_file ".automation/dokploy-416-failure.log" /tmp/dokploy-416-failure.log "ci: record Dokploy 416 failure diagnostics"
           fi
