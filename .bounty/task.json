@@ -4,8 +4,8 @@
   "branch": "feat/rclone-backup-destinations",
   "mode": "execute",
   "attempt_file": ".bounty/dokploy-416-attempt.md",
-  "script": ".bounty/scripts/dokploy-416.sh",
+  "script": ".bounty/scripts/run-dokploy-416-with-diagnostics.sh",
   "pr_title": "feat: add generic rclone backup destinations",
   "pr_body_file": ".bounty/dokploy-416-pr.md",
-  "trigger_revision": 3
+  "trigger_revision": 4
 }
