@@ -1,6 +1,6 @@
 {
-  "revision": 3,
+  "revision": 4,
   "requested_by": "ChatGPT",
   "task": "Dokploy/dokploy#416",
-  "reason": "security hardening with observable status"
+  "reason": "verify existing PR reuse after security hardening"
 }
