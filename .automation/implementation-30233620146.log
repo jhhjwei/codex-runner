@@ -1,0 +1,250 @@
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '-Dlibrary=shared_library',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '-Dvisibility=default',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '-Dnode_root_dir=/home/runner/.cache/node-gyp/22.23.1',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '-Dnode_gyp_dir=/home/runner/.cache/node/corepack/v1/pnpm/10.22.0/dist/node_modules/node-gyp',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '-Dnode_lib_file=/home/runner/.cache/node-gyp/22.23.1/<(target_arch)/node.lib',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '-Dmodule_root_dir=/tmp/bounty-work/node_modules/.pnpm/node-pty@1.1.0/node_modules/node-pty',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '-Dnode_engine=v8',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '--depth=.',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '--no-parallel',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '--generator-output',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args 'build',
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args '-Goutput_dir=.'
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args ]
+.../node_modules/cpu-features install: gyp http GET https://nodejs.org/download/release/v22.23.1/SHASUMS256.txt
+.../node_modules/cpu-features install: gyp http 200 https://nodejs.org/download/release/v22.23.1/SHASUMS256.txt
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn make
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+.../node-pty@1.1.0/node_modules/node-pty install: make: Entering directory '/tmp/bounty-work/node_modules/.pnpm/node-pty@1.1.0/node_modules/node-pty/build'
+.../node-pty@1.1.0/node_modules/node-pty install:   TOUCH Release/obj.target/../../../node-addon-api@7.1.1/node_modules/node-addon-api/node_addon_api_except.stamp
+.../node-pty@1.1.0/node_modules/node-pty install:   CXX(target) Release/obj.target/pty/src/unix/pty.o
+.../node_modules/cpu-features install: gyp info spawn /usr/bin/python3
+.../node_modules/cpu-features install: gyp info spawn args [
+.../node_modules/cpu-features install: gyp info spawn args '/home/runner/.cache/node/corepack/v1/pnpm/10.22.0/dist/node_modules/node-gyp/gyp/gyp_main.py',
+.../node_modules/cpu-features install: gyp info spawn args 'binding.gyp',
+.../node_modules/cpu-features install: gyp info spawn args '-f',
+.../node_modules/cpu-features install: gyp info spawn args 'make',
+.../node_modules/cpu-features install: gyp info spawn args '-I',
+.../node_modules/cpu-features install: gyp info spawn args '/tmp/bounty-work/node_modules/.pnpm/cpu-features@0.0.10/node_modules/cpu-features/build/config.gypi',
+.../node_modules/cpu-features install: gyp info spawn args '-I',
+.../node_modules/cpu-features install: gyp info spawn args '/home/runner/.cache/node/corepack/v1/pnpm/10.22.0/dist/node_modules/node-gyp/addon.gypi',
+.../node_modules/cpu-features install: gyp info spawn args '-I',
+.../node_modules/cpu-features install: gyp info spawn args '/home/runner/.cache/node-gyp/22.23.1/include/node/common.gypi',
+.../node_modules/cpu-features install: gyp info spawn args '-Dlibrary=shared_library',
+.../node_modules/cpu-features install: gyp info spawn args '-Dvisibility=default',
+.../node_modules/cpu-features install: gyp info spawn args '-Dnode_root_dir=/home/runner/.cache/node-gyp/22.23.1',
+.../node_modules/cpu-features install: gyp info spawn args '-Dnode_gyp_dir=/home/runner/.cache/node/corepack/v1/pnpm/10.22.0/dist/node_modules/node-gyp',
+.../node_modules/cpu-features install: gyp info spawn args '-Dnode_lib_file=/home/runner/.cache/node-gyp/22.23.1/<(target_arch)/node.lib',
+.../node_modules/cpu-features install: gyp info spawn args '-Dmodule_root_dir=/tmp/bounty-work/node_modules/.pnpm/cpu-features@0.0.10/node_modules/cpu-features',
+.../node_modules/cpu-features install: gyp info spawn args '-Dnode_engine=v8',
+.../node_modules/cpu-features install: gyp info spawn args '--depth=.',
+.../node_modules/cpu-features install: gyp info spawn args '--no-parallel',
+.../node_modules/cpu-features install: gyp info spawn args '--generator-output',
+.../node_modules/cpu-features install: gyp info spawn args 'build',
+.../node_modules/cpu-features install: gyp info spawn args '-Goutput_dir=.'
+.../node_modules/cpu-features install: gyp info spawn args ]
+.../node_modules/cpu-features install: gyp info spawn make
+.../node_modules/cpu-features install: gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+.../node_modules/cpu-features install: make: Entering directory '/tmp/bounty-work/node_modules/.pnpm/cpu-features@0.0.10/node_modules/cpu-features/build'
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_aarch64_linux_or_android.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_aarch64_macos_or_iphone.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_aarch64_windows.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_arm_linux_or_android.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_mips_linux_or_android.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_ppc_linux.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_x86_freebsd.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_x86_linux_or_android.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_x86_macos.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/impl_x86_windows.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/filesystem.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/stack_line_reader.o
+.../node_modules/cpu-features install:   CC(target) Release/obj.target/cpu_features/deps/cpu_features/src/string_view.o
+.../node_modules/cpu-features install: rm -f Release/obj.target/deps/cpu_features/cpu_features.a Release/obj.target/deps/cpu_features/cpu_features.a.ar-file-list; mkdir -p `dirname Release/obj.target/deps/cpu_features/cpu_features.a`
+.../node_modules/cpu-features install: ar crs Release/obj.target/deps/cpu_features/cpu_features.a @Release/obj.target/deps/cpu_features/cpu_features.a.ar-file-list
+.../node-pty@1.1.0/node_modules/node-pty install:   SOLINK_MODULE(target) Release/obj.target/pty.node
+.../node-pty@1.1.0/node_modules/node-pty install:   COPY Release/pty.node
+.../node-pty@1.1.0/node_modules/node-pty install: make: Leaving directory '/tmp/bounty-work/node_modules/.pnpm/node-pty@1.1.0/node_modules/node-pty/build'
+.../node-pty@1.1.0/node_modules/node-pty install: gyp info ok 
+.../node-pty@1.1.0/node_modules/node-pty install: Done
+.../node-pty@1.1.0/node_modules/node-pty postinstall$ node scripts/post-install.js
+.../node-pty@1.1.0/node_modules/node-pty postinstall: [32m> Cleaning release folder...[0m
+.../node-pty@1.1.0/node_modules/node-pty postinstall: [32m> Moving conpty.dll...[0m
+.../node-pty@1.1.0/node_modules/node-pty postinstall:   SKIPPED (not Windows)
+.../node-pty@1.1.0/node_modules/node-pty postinstall: Done
+.../node_modules/cpu-features install:   COPY Release/cpu_features.a
+.../node_modules/cpu-features install:   CXX(target) Release/obj.target/cpufeatures/src/binding.o
+.../node_modules/cpu-features install: In file included from ../src/binding.cc:1:
+.../node_modules/cpu-features install: /home/runner/.cache/node-gyp/22.23.1/include/node/node.h:1243:7: warning: cast between incompatible function types from ‘void (*)(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE)’ {aka ‘void (*)(v8::Local<v8::Object>)’} to ‘node::addon_register_func’ {aka ‘void (*)(v8::Local<v8::Object>, v8::Local<v8::Value>, void*)’} [-Wcast-function-type]
+.../node_modules/cpu-features install:  1243 |       (node::addon_register_func) (regfunc),                          \
+.../node_modules/cpu-features install:       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.../node_modules/cpu-features install: /home/runner/.cache/node-gyp/22.23.1/include/node/node.h:1277:3: note: in expansion of macro ‘NODE_MODULE_X’
+.../node_modules/cpu-features install:  1277 |   NODE_MODULE_X(modname, regfunc, NULL, 0)  // NOLINT (readability/null_usage)
+.../node_modules/cpu-features install:       |   ^~~~~~~~~~~~~
+.../node_modules/cpu-features install: ../src/binding.cc:151:1: note: in expansion of macro ‘NODE_MODULE’
+.../node_modules/cpu-features install:   151 | NODE_MODULE(cpufeatures, init)
+.../node_modules/cpu-features install:       | ^~~~~~~~~~~
+.../node_modules/cpu-features install:   SOLINK_MODULE(target) Release/obj.target/cpufeatures.node
+.../node_modules/cpu-features install:   COPY Release/cpufeatures.node
+.../node_modules/cpu-features install: make: Leaving directory '/tmp/bounty-work/node_modules/.pnpm/cpu-features@0.0.10/node_modules/cpu-features/build'
+.../node_modules/cpu-features install: gyp info ok 
+.../node_modules/cpu-features install: Done
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install$ node install.js
+.../tree-sitter-yaml install$ node-gyp-build
+.../node_modules/tree-sitter-json install$ node-gyp-build
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info it worked if it ends with ok
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info using node-gyp@11.5.0
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info using node@22.23.1 | linux | x64
+.../tree-sitter-yaml install: Done
+.../node_modules/tree-sitter-json install: Done
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info find Python using Python version 3.12.3 found at "/usr/bin/python3"
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn /usr/bin/python3
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args [
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '/home/runner/.cache/node/corepack/v1/pnpm/10.22.0/dist/node_modules/node-gyp/gyp/gyp_main.py',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args 'binding.gyp',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-f',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args 'make',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-I',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '/tmp/bounty-work/node_modules/.pnpm/ssh2@1.16.0/node_modules/ssh2/lib/protocol/crypto/build/config.gypi',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-I',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '/home/runner/.cache/node/corepack/v1/pnpm/10.22.0/dist/node_modules/node-gyp/addon.gypi',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-I',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '/home/runner/.cache/node-gyp/22.23.1/include/node/common.gypi',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-Dlibrary=shared_library',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-Dvisibility=default',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-Dnode_root_dir=/home/runner/.cache/node-gyp/22.23.1',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-Dnode_gyp_dir=/home/runner/.cache/node/corepack/v1/pnpm/10.22.0/dist/node_modules/node-gyp',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-Dnode_lib_file=/home/runner/.cache/node-gyp/22.23.1/<(target_arch)/node.lib',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-Dmodule_root_dir=/tmp/bounty-work/node_modules/.pnpm/ssh2@1.16.0/node_modules/ssh2/lib/protocol/crypto',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-Dnode_engine=v8',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '--depth=.',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '--no-parallel',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '--generator-output',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args 'build',
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args '-Goutput_dir=.'
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args ]
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn make
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: make: Entering directory '/tmp/bounty-work/node_modules/.pnpm/ssh2@1.16.0/node_modules/ssh2/lib/protocol/crypto/build'
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install:   CXX(target) Release/obj.target/sshcrypto/src/binding.o
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install:   SOLINK_MODULE(target) Release/obj.target/sshcrypto.node
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install:   COPY Release/sshcrypto.node
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: make: Leaving directory '/tmp/bounty-work/node_modules/.pnpm/ssh2@1.16.0/node_modules/ssh2/lib/protocol/crypto/build'
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: gyp info ok 
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: Succeeded in building optional crypto binding
+.../.pnpm/ssh2@1.16.0/node_modules/ssh2 install: Done
+
+devDependencies:
++ @biomejs/biome 2.1.1
++ @types/node 24.10.13
++ dotenv 16.4.5
++ esbuild 0.20.2
++ lint-staged 15.5.2
++ tsx 4.22.4
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: @prisma/client, @prisma/engines, prisma.            │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Done in 33.4s using pnpm v10.22.0
+.                                        |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/api                                 |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/dokploy                             |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/schedules                           |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+packages/server                          |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+
+> @dokploy/server@1.0.0 typecheck /tmp/bounty-work/packages/server
+> tsc --noEmit
+
+.                                        |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/api                                 |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/dokploy                             |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/schedules                           |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+packages/server                          |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+
+> dokploy@v0.29.13 typecheck /tmp/bounty-work/apps/dokploy
+> tsc --noEmit
+
+ WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/dokploy/components/dashboard/settings/destination/constants.ts:1:8 lint/correctness/noUnusedImports  FIXABLE  ━━━━━━━━━━
+
+  × This import is unused.
+  
+  > 1 │ import { CUSTOM_RCLONE_PROVIDER } from "@dokploy/server/db/validations/destination";
+      │        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    2 │ 
+    3 │ export const S3_PROVIDERS: Array<{
+  
+  i Unused imports might be the result of an incomplete refactoring.
+  
+  i Unsafe fix: Remove the unused imports.
+  
+    1 │ import·{·CUSTOM_RCLONE_PROVIDER·}·from·"@dokploy/server/db/validations/destination";
+      │ ------------------------------------------------------------------------------------
+
+Skipped 1 suggested fixes.
+If you wish to apply the suggested (unsafe) fixes, use the command biome check --write --unsafe
+
+Checked 16 files in 37ms. Fixed 9 files.
+Found 1 error.
+check ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  × Some errors were emitted while applying fixes.
+  
+
+ WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/api                                 |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/dokploy                             |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/schedules                           |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+packages/server                          |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+Scope: all 5 workspace projects
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: @prisma/client, @prisma/engines, prisma.            │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Done in 2.3s using pnpm v10.22.0
+.                                        |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/api                                 |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/dokploy                             |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/schedules                           |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+packages/server                          |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+
+> @dokploy/server@1.0.0 typecheck /tmp/bounty-work/packages/server
+> tsc --noEmit
+
+.                                        |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/api                                 |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/dokploy                             |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+apps/schedules                           |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+packages/server                          |  WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+
+> dokploy@v0.29.13 typecheck /tmp/bounty-work/apps/dokploy
+> tsc --noEmit
+
+ WARN  Unsupported engine: wanted: {"node":"^24.4.0"} (current: {"node":"v22.23.1","pnpm":"10.22.0"})
+Checked 16 files in 33ms. No fixes applied.
+ M apps/dokploy/components/dashboard/settings/destination/constants.ts
+ M apps/dokploy/components/dashboard/settings/destination/handle-destinations.tsx
+ M apps/dokploy/server/api/routers/destination.ts
+ M packages/server/src/db/schema/destination.ts
+ M packages/server/src/db/validations/destination.ts
+ M packages/server/src/utils/backups/compose.ts
+ M packages/server/src/utils/backups/index.ts
+ M packages/server/src/utils/backups/libsql.ts
+ M packages/server/src/utils/backups/mariadb.ts
+ M packages/server/src/utils/backups/mongo.ts
+ M packages/server/src/utils/backups/mysql.ts
+ M packages/server/src/utils/backups/postgres.ts
+ M packages/server/src/utils/backups/redact.ts
+ M packages/server/src/utils/backups/utils.ts
+ M packages/server/src/utils/backups/web-server.ts
