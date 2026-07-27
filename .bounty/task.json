@@ -5,5 +5,6 @@
   "mode": "claim",
   "attempt_file": ".bounty/dokploy-416-attempt.md",
   "pr_title": "feat: add generic rclone backup destinations",
-  "pr_body_file": ".bounty/dokploy-416-pr.md"
+  "pr_body_file": ".bounty/dokploy-416-pr.md",
+  "trigger_revision": 2
 }
