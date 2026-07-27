@@ -8,6 +8,7 @@ Adds a provider-neutral custom rclone destination while preserving the existing 
 - accepts a named rclone remote such as `gdrive:` / `onedrive:` or an on-the-fly connection string such as `:sftp,host=example.com,user=alice:`
 - supports an optional remote base path
 - reuses the same destination builder for connection tests, database backups, compose backups, web-server backups, and retention cleanup
+- shell-quotes every generated destination argument and redacts passwords, tokens, secrets, and access keys from logs/errors
 - keeps all existing S3 providers and credentials behavior unchanged
 - updates backup logs to say “destination” instead of “S3”
 - fixes the streaming backup path so database dumps are no longer executed twice before upload
