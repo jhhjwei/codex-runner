@@ -48,7 +48,7 @@ jobs:
         run: |
           set -euo pipefail
           cd /tmp/dokploy
-          bash "$GITHUB_WORKSPACE/.bounty/scripts/dokploy-416-v2.sh"
+          bash "$GITHUB_WORKSPACE/.bounty/scripts/dokploy-416-v3.sh"
 
       - name: Commit and push
         run: |
