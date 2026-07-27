@@ -1,0 +1,75 @@
+name: Dokploy 416 Implementation
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.automation/dokploy-416-run.json'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dokploy-416-implementation
+  cancel-in-progress: true
+
+jobs:
+  implement:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.BOUNTY_GITHUB_TOKEN }}
+      UPSTREAM: Dokploy/dokploy
+      FORK: jhhjwei/dokploy
+      BASE: canary
+      BRANCH: feat/rclone-backup-destinations
+
+    steps:
+      - name: Check out control repository
+        uses: actions/checkout@v4
+
+      - name: Validate authorization
+        run: |
+          set -euo pipefail
+          test -n "${GH_TOKEN:-}"
+          test "$(gh api user --jq '.login')" = "jhhjwei"
+
+      - name: Clone fork and reset implementation branch
+        run: |
+          set -euo pipefail
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${FORK}.git" /tmp/dokploy
+          cd /tmp/dokploy
+          git remote add upstream "https://github.com/${UPSTREAM}.git" || true
+          git fetch upstream "$BASE"
+          git checkout -B "$BRANCH" "upstream/$BASE"
+          git config user.name "jhhjwei"
+          git config user.email "8869856+jhhjwei@users.noreply.github.com"
+
+      - name: Apply patch and validate
+        run: |
+          set -euo pipefail
+          cd /tmp/dokploy
+          bash "$GITHUB_WORKSPACE/.bounty/scripts/dokploy-416-v2.sh"
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          cd /tmp/dokploy
+          git add -A
+          git diff --cached --quiet && { echo "No changes produced"; exit 1; }
+          git commit -m "feat: add generic rclone backup destinations"
+          git push --force origin "$BRANCH"
+
+      - name: Open pull request
+        run: |
+          set -euo pipefail
+          EXISTING=$(gh pr list --repo "$UPSTREAM" --head "jhhjwei:$BRANCH" --state open --json url --jq '.[0].url // ""')
+          if [ -n "$EXISTING" ]; then
+            echo "Pull request already open: $EXISTING"
+          else
+            gh pr create \
+              --repo "$UPSTREAM" \
+              --base "$BASE" \
+              --head "jhhjwei:$BRANCH" \
+              --title "feat: add generic rclone backup destinations" \
+              --body-file "$GITHUB_WORKSPACE/.bounty/dokploy-416-pr.md"
+          fi
