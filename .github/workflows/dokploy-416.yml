@@ -64,11 +64,14 @@ jobs:
           git commit -m "feat: add generic rclone backup destinations"
           git push --force origin "$BRANCH"
 
-      - name: Open pull request
+      - name: Open or reuse pull request
         id: pr
         run: |
           set -euo pipefail
-          EXISTING=$(gh pr list --repo "$UPSTREAM" --head "jhhjwei:$BRANCH" --state open --json url --jq '.[0].url // ""')
+          EXISTING=$(gh api --method GET "repos/${UPSTREAM}/pulls" \
+            -f state=open \
+            -f head="jhhjwei:${BRANCH}" \
+            --jq '.[0].html_url // ""')
           if [ -n "$EXISTING" ]; then
             echo "Pull request already open: $EXISTING"
           else
