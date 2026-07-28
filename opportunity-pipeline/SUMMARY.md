@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-28 14:16 +08:00_
+_Last updated: 2026-07-28 16:17 +08:00_
 
 ## Current counts
 
@@ -14,11 +14,11 @@ _Last updated: 2026-07-28 14:16 +08:00_
 | L10 accepted/merged/deal | 0 |
 | L11 payment confirmed | 0 |
 | L12 received | 0 |
-| Archived/D | 4 |
+| Archived/D | 5 |
 
 ## Nearest income path
 
-1. **Dokploy #416 / PR #4918** — USD 50 — L9 — PR remains open, mergeable and unmerged; waiting for maintainer Actions approval and review.
+1. **Dokploy #416 / PR #4918** — USD 50 — L9 — freshly rechecked at 16:17; PR remains open, mergeable and unmerged, with maintainer review still requested.
 
 ## Best upstream opportunities
 
@@ -30,10 +30,10 @@ _Last updated: 2026-07-28 14:16 +08:00_
 
 ## Recent changes
 
-- Added Haveno #795, #83 and #901, plus microG #2851 as non-duplicate L1 leads.
-- Rechecked six existing opportunities.
-- AIBTC #39 moved from L1 to L2 after payout model and five-day FCFS rule were verified; exact expiry remains unresolved.
-- Dokploy PR #4918 remains L9 with no merge or payment.
+- Rechecked Dokploy PR #4918: still open, mergeable and unmerged; no payment progression.
+- Scanned the legacy `zama-ai/bounty-program` repository. Its README explicitly marks the page archived and redirects contributors to a separate Developer Program, so the legacy program was archived as D rather than treated as a current opportunity.
+- No new L4 opportunity, deal, payment or receipt was verified in this run.
+- The run did not reach the target of 10 new reliable leads or five fully advanced verifications; low-confidence search results were not used to inflate the funnel.
 
 ## Deliverable coverage
 
@@ -47,4 +47,4 @@ _Last updated: 2026-07-28 14:16 +08:00_
 
 ## Data integrity
 
-The current hour added 4 reliable non-duplicate leads, below the target of 10. Low-confidence or non-paying open-source issues were not used to inflate the funnel. No deal, payment or receipt is claimed.
+This hour added no reliable non-duplicate active lead and one D archive record. Search results without a current payable original task were not counted. No deal, payment or receipt is claimed.
