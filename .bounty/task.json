@@ -1,11 +1,8 @@
 {
-  "upstream": "Dokploy/dokploy",
-  "issue": 416,
-  "branch": "feat/rclone-backup-destinations",
-  "mode": "execute",
-  "attempt_file": ".bounty/dokploy-416-attempt.md",
-  "script": ".bounty/scripts/dokploy-416-v3.sh",
-  "pr_title": "feat: add generic rclone backup destinations",
-  "pr_body_file": ".bounty/dokploy-416-pr.md",
-  "trigger_revision": 8
+  "upstream": "asyncapi/studio",
+  "issue": 1333,
+  "branch": "microgrant/asyncapi-studio-1333",
+  "mode": "claim",
+  "attempt_file": ".bounty/asyncapi-1333-attempt.md",
+  "trigger_revision": 9
 }
