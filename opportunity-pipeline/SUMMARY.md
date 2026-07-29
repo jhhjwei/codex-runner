@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-28 22:13 +08:00_
+_Last updated: 2026-07-29 09:24 +08:00_
 
 ## Current counts
 
@@ -19,7 +19,7 @@ _Last updated: 2026-07-28 22:13 +08:00_
 
 ## Real conversion actions
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B — public application remains visible; no maintainer reply or assignment yet. No implementation started before assignment.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B- — public application remains visible; no maintainer reply or assignment. A second applicant has now appeared, increasing known competition from one to two. No implementation started before assignment.
 2. **Dokploy #416 / PR #4918** — USD 50 — L9 — PR remains open, mergeable and unmerged; no maintainer review, merge or payment.
 
 ## Nearest income paths
@@ -29,16 +29,17 @@ _Last updated: 2026-07-28 22:13 +08:00_
 
 ## Highest-value candidates
 
-1. **AsyncAPI Studio #1333** — official USD 200/400 microgrant schedule; application submitted; assignment pending.
-2. **Dokploy #416 / PR #4918** — USD 50; completed delivery pending review, but payer history and competition make expected value low.
+1. **AsyncAPI Studio #1333** — official USD 200/400 schedule; application submitted; two known applicants; assignment pending.
+2. **Dokploy #416 / PR #4918** — USD 50; completed delivery pending review, but payer history, competition and reviewer inactivity make expected value low.
 3. **Haveno #795** — 4 XMR signal; not actionable until shared-award status, platform matrix and payment route are verified.
 
 ## This-hour verification
 
-- AsyncAPI #1333: no new maintainer reply, assignment or competing applicant was observed after the `jhhjwei` application.
-- Dokploy PR #4918: still open, mergeable, unmerged, with reviewer request intact; no upstream response since the claim refresh.
-- No additional comment was posted this hour because both applications are inside a reasonable response window; duplicate follow-ups would reduce trust rather than advance conversion.
-- No new implementation was started because no candidate passed the full payment, assignment, competition and economics gate.
+- AsyncAPI #1333: application remains visible; no maintainer reply or assignment; known applicants increased to two.
+- Dokploy PR #4918: still open, mergeable and unmerged; reviewer request remains; no upstream response since the refreshed claim.
+- No new external comment was posted because AsyncAPI remains inside the initial response window and a duplicate follow-up would not improve assignment odds; Dokploy has passed into passive monitoring.
+- Tari #7935 was rejected as a new action because another contributor already submitted PR #7936 and received active maintainer review.
+- No implementation started because no candidate passed assignment, competition, payment and economics gates.
 
 ## Data integrity
 
