@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-29 21:27 +08:00_
+_Last updated: 2026-07-30 02:19 +08:00_
 
 ## Current counts
 
@@ -19,14 +19,15 @@ _Last updated: 2026-07-29 21:27 +08:00_
 
 ## Current downstream
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B — open, formally labeled `microgrant`, classified by the service comment as `microgrant/2026-08`, `microgrant/medium`, `microgrant/coding`; first regular-contributor assignment is 2026-08-02 00:00 UTC+12. It remains unassigned. The public application comment from `jhhjwei` is present on the issue; the earlier local record saying the comment failed with 403 was incorrect and has been reconciled. A second applicant is also present.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. No maintainer review, CI approval, merge, award, payment or receipt was verified this hour.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B — open, formally labeled `microgrant`, classified as `microgrant/2026-08`, `microgrant/medium`, `microgrant/coding`; remains unassigned. The public application from `jhhjwei` is present. No maintainer reply was verified this hour; there are now three public applicants.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open and unmerged. No maintainer review, CI approval, merge, award, payment or receipt was verified this hour.
 
-## 21:00 result
+## 02:00 result
 
-- Material reconciliation: AsyncAPI #1333 already contains the public application comment from `jhhjwei`; no duplicate comment was posted.
-- AsyncAPI remains unassigned; Dokploy PR #4918 remains open and unchanged.
-- No new external action was completed this hour and no new L3 candidate was added; hourly commercial target therefore failed despite the data correction.
+- Both downstream checks were performed once and showed no monetization progress.
+- No new external action was completed.
+- Rotated bounty-channel candidates with verified $100 rewards were rejected because they had 21 and 33 claims, above the competition gate.
+- No candidate passed payment, competition, entry and 1–4 hour economics verification; hourly commercial target failed.
 - L3-L12 funnel counts did not change.
 
 ## Income status
@@ -37,8 +38,8 @@ _Last updated: 2026-07-29 21:27 +08:00_
 
 ## Next action
 
-At the next run, do not re-comment on AsyncAPI. Rotate to a new paid channel and produce one verified L3 candidate or one externally visible application/claim.
+Use a different direct-submit paid channel and complete one public claim/application. Do not re-comment on AsyncAPI and do not develop it before assignment.
 
 ## Data integrity
 
-The public AsyncAPI application is counted once at L6. No reply, assignment, review, merge, payment or receipt is claimed.
+No reply, assignment, review, merge, payment or receipt is claimed. Search and archive activity are not counted as commercial progress.
