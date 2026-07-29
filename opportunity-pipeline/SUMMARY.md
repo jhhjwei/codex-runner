@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-29 09:24 +08:00_
+_Last updated: 2026-07-29 15:10 +08:00_
 
 ## Current counts
 
@@ -17,30 +17,25 @@ _Last updated: 2026-07-29 09:24 +08:00_
 | L12 received | 0 |
 | Archived / D | 5 |
 
-## Real conversion actions
+## Current downstream
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B- — public application remains visible; no maintainer reply or assignment. A second applicant has now appeared, increasing known competition from one to two. No implementation started before assignment.
-2. **Dokploy #416 / PR #4918** — USD 50 — L9 — PR remains open, mergeable and unmerged; no maintainer review, merge or payment.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B- — the public application remains visible. The issue is open, unassigned and has no formal microgrant labels. Two applicants are visible; no maintainer response or assignment has occurred.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — the PR remains open, mergeable and unmerged. The reviewer request remains; no review, acceptance, award, payment or receipt is verified.
 
-## Nearest income paths
+## Income status
 
-1. **AsyncAPI #1333:** maintainer confirms scope/classification and assigns the microgrant → acceptance matrix → implementation and PR → merge → Open Collective expense → payout.
-2. **Dokploy #416 / PR #4918:** maintainer reviews and approves CI → merge/award → payout.
+- L10 accepted/deal: 0
+- L11 payment confirmed: 0
+- L12 received: 0
 
-## Highest-value candidates
+## Publication recovery
 
-1. **AsyncAPI Studio #1333** — official USD 200/400 schedule; application submitted; two known applicants; assignment pending.
-2. **Dokploy #416 / PR #4918** — USD 50; completed delivery pending review, but payer history, competition and reviewer inactivity make expected value low.
-3. **Haveno #795** — 4 XMR signal; not actionable until shared-award status, platform matrix and payment route are verified.
-
-## This-hour verification
-
-- AsyncAPI #1333: application remains visible; no maintainer reply or assignment; known applicants increased to two.
-- Dokploy PR #4918: still open, mergeable and unmerged; reviewer request remains; no upstream response since the refreshed claim.
-- No new external comment was posted because AsyncAPI remains inside the initial response window and a duplicate follow-up would not improve assignment odds; Dokploy has passed into passive monitoring.
-- Tari #7935 was rejected as a new action because another contributor already submitted PR #7936 and received active maintainer review.
-- No implementation started because no candidate passed assignment, competition, payment and economics gates.
+- The scheduled 14:20 run did not complete its GitHub publication.
+- The watchdog was created after the 14:35 window, so it could not recover that hour.
+- A manual 15:10 recovery created the hourly health record and Pipeline snapshot.
+- The main executor now runs at every full hour starting 16:00 Beijing time.
+- The watchdog now verifies and compensates at minute 10 starting 16:10 Beijing time.
 
 ## Data integrity
 
-Search volume, internal reports and archive commits are not counted as commercial progress. Only externally visible contact, assignment, delivery, acceptance and payment move the conversion funnel. No reply, assignment, merge, payment or receipt is claimed.
+This recovery publication restores observability only. It is not counted as an external commercial action. No new reply, assignment, review, merge, payment or receipt is claimed.
