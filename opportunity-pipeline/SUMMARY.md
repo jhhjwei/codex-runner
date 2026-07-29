@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-29 15:42 +08:00_
+_Last updated: 2026-07-29 18:25 +08:00_
 
 ## Current counts
 
@@ -19,17 +19,16 @@ _Last updated: 2026-07-29 15:42 +08:00_
 
 ## Current downstream
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B- — issue remains open, unassigned and without formal microgrant labels. Two applicants are visible; there is no maintainer reply or assignment.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. Reviewer request remains; no verified review, CI approval, merge, award, payment or receipt.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B — the issue is now formally labeled `microgrant`; its service comment classifies it as `microgrant/2026-08`, `microgrant/medium`, `microgrant/coding`, with first regular-contributor assignment on 2026-08-02 00:00 UTC+12. It remains unassigned. A formal post-label application comment was attempted at 18:00 but GitHub returned 403, so no new public comment was created.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. No verified review, CI approval, merge, award, payment or receipt.
 
-## 15:00 fallback result
+## 18:00 result
 
-- The missing 15:00 Pipeline record was restored at 15:40.
-- Real external commercial action: none.
-- L3-L12 funnel change: none.
-- No new candidate passed the open-task, verified-payment, competition, 1-4 hour delivery and direct-submission gates.
-- urllib3 #1362 was checked but rejected: although it carries a public USD 100 OpenCollective bounty, its old and security-sensitive malformed-header scope does not support a credible 1-4 hour estimate.
-- Evidence: `opportunity-pipeline/health/2026-07-29/15-fallback.md`, commit `1884f229b4473d2742bba1c4c49ff1e170450e0c`.
+- Material downstream change: AsyncAPI #1333 became a formally labeled Medium Coding Microgrant.
+- External action attempted: formal post-label application comment; failed with `403 Resource not accessible by integration`.
+- No new candidate search was required because an existing downstream materially changed.
+- L3-L12 funnel counts did not change.
+- Evidence: `opportunity-pipeline/health/2026-07-29/18.md`; start commit `6f8c5dc11c3a4126705dc27b00b0393da5549b29`; completion commit `96612418cae8d1a80731116e6a8cbe91c03339ab`; latest heartbeat commit `8c915c5884ac2c37dc221444970bb5dc56029812`.
 
 ## Income status
 
@@ -37,6 +36,10 @@ _Last updated: 2026-07-29 15:42 +08:00_
 - L11 payment confirmed: 0
 - L12 received: 0
 
+## Next action
+
+Retry the formal AsyncAPI application through an authorized GitHub write path. Do not start implementation before explicit assignment.
+
 ## Data integrity
 
-Search and publication recovery are not counted as commercial progress. No reply, assignment, review, merge, payment or receipt is claimed.
+The failed comment is not counted as a successful external commercial action. No reply, assignment, review, merge, payment or receipt is claimed.
