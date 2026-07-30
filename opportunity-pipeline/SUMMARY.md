@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-30 17:20 +08:00_
+_Last updated: 2026-07-30 18:18 +08:00_
 
 ## Current counts
 
@@ -22,7 +22,7 @@ _Last updated: 2026-07-30 17:20 +08:00_
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — not actionable for `jhhjwei`: issue remains open and formally labeled `microgrant`, but is assigned to `Shurtu-gal`. No assignment to `jhhjwei`, payment or receipt was verified.
 2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. Review is still requested; no maintainer review, merge, award, payment or receipt was verified.
 
-## 17:00 result
+## 18:00 result
 
 - Both downstream items were checked once and showed no actionable monetization change.
 - No external action was completed.
@@ -38,7 +38,7 @@ _Last updated: 2026-07-30 17:20 +08:00_
 
 ## Next action
 
-Inspect one newly posted fixed-scope paid documentation, data, spreadsheet or research task from a direct public procurement channel. Submit exactly one application only if the original task is open, payment is verifiable, active competition is no more than two, delivery fits 1-4 hours, and no long-term maintenance or hardware testing is required.
+Inspect one newly posted fixed-scope paid documentation, data, spreadsheet or research task from a new direct public procurement channel. Submit exactly one application only if the original task is open, payment is verifiable, active competition is no more than two, delivery fits 1-4 hours, and no long-term maintenance or hardware testing is required.
 
 ## Data integrity
 
