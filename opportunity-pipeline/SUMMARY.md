@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-30 07:20 +08:00_
+_Last updated: 2026-07-30 08:20 +08:00_
 
 ## Current counts
 
@@ -19,17 +19,16 @@ _Last updated: 2026-07-30 07:20 +08:00_
 
 ## Current downstream
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B — open, formally labeled `microgrant`, and unassigned. The public application from `jhhjwei` remains present. No newly verified maintainer reply or assignment this hour. Four public applicants are visible; first assignment to regular contributors begins 2026-08-02 00:00 UTC+12.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. No maintainer review submission, CI approval, merge, award, payment or receipt was verified this hour.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B — open, formally labeled `microgrant`, and unassigned. The public application from `jhhjwei` remains historical evidence. No assignment or monetization progress was verified in the single hourly check.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open and unmerged. No maintainer review, CI approval, merge, award, payment or receipt was verified in the single hourly check.
 
-## 07:00 result
+## 08:00 result
 
-- Both downstream checks were performed once and showed no monetization progress.
+- Both downstream items were checked once and showed no verified monetization progress.
 - No new external action was completed.
-- Rotated to fresh public bounty search outside Algora, Opire and Polar.
-- `activepieces/activepieces#9915` advertises $35 but is below the preferred $100 threshold for a potentially nontrivial MCP integration and requires a demo video.
-- `1btc-news/news-client#33` requires ongoing daily operation and long-term maintenance, so it fails the delivery model.
-- No candidate was verified simultaneously open, payment-backed, competition <=2, directly actionable and deliverable in 1-4 hours.
+- Rotated to fresh fixed-scope bounty search rather than repeating comments or monitoring.
+- No candidate passed all gates simultaneously: original task open, payment verifiable, active competition <=2, directly actionable, 1-4 hour delivery, and acceptable maintenance/economics.
+- Tuist #5925 has an existing active attempt and is not a fixed-scope 1-4 hour documentation/data deliverable; archived Bountysource items fail payment verification. Other surfaced tasks were closed, security/hardware-test dependent, long-term, or below threshold.
 - L3-L12 funnel counts did not change; hourly commercial target failed.
 
 ## Income status
@@ -40,7 +39,7 @@ _Last updated: 2026-07-30 07:20 +08:00_
 
 ## Next action
 
-Inspect one fresh fixed-scope documentation, data or public procurement bounty outside previously monitored channels. Submit exactly one claim only if the reward is verifiable, active competition is no more than two, and the work fits a 1-4 hour delivery window.
+Inspect one fresh paid documentation, data, spreadsheet or research task from a direct public procurement channel. Submit exactly one application only if the payment mechanism is verifiable, active competition is no more than two, and delivery fits 1-4 hours.
 
 ## Data integrity
 
