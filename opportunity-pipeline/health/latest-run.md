@@ -1,12 +1,12 @@
 # Hourly income conversion heartbeat
 
-- Beijing time: 2026-07-31 01:19:39 +08:00
+- Beijing time: 2026-07-31 02:21:17 +08:00
 - status: failed
 - task: first-income hourly executor
 - external_actions: 0
 - pipeline_changes: L3-L12 unchanged
 - AsyncAPI Studio #1333: open, formal `microgrant` label present, assigned to `Shurtu-gal`; no actionable reassignment, payment or receipt verified
-- Dokploy PR #4918: open, mergeable and unmerged; reviewer still requested, reviews=0, both workflows completed with `action_required`, no merge, payment or receipt verified
-- new_candidate: none; rotated to newly posted fixed-scope public documentation/data/spreadsheet/research work, but no result passed payment, competition<=2, direct-entry and 1-4 hour gates
-- evidence: start f609a45b8c27f537eee9a8275fd284dba9ca2be7; completion 9479efc5173d30afae328fdea6d9ee41f6a93cd1
-- next_action: verify one newly posted fixed-price documentation/data/spreadsheet/research procurement and submit exactly one application only if all gates pass
+- Dokploy PR #4918: open and unmerged; mergeable changed from true to false, requested reviewer remains `Siumauricio`, submitted reviews=0; no merge, payment or receipt verified
+- new_candidate: not opened because one downstream state changed; no external action was available within this run
+- evidence: start 22d641cdd4a12c9deb99f3ea0981a64242614b01; completion b6b7ac064a9e7fb394d221f6c0cc226eb5432e98
+- next_action: inspect the cause of Dokploy PR #4918 becoming non-mergeable and perform exactly one conflict-fix update only if the branch can be safely rebased without scope expansion
