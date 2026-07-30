@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-30 08:20 +08:00_
+_Last updated: 2026-07-30 16:21 +08:00_
 
 ## Current counts
 
@@ -19,17 +19,16 @@ _Last updated: 2026-07-30 08:20 +08:00_
 
 ## Current downstream
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — L6/B — open, formally labeled `microgrant`, and unassigned. The public application from `jhhjwei` remains historical evidence. No assignment or monetization progress was verified in the single hourly check.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open and unmerged. No maintainer review, CI approval, merge, award, payment or receipt was verified in the single hourly check.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — no longer actionable for `jhhjwei`: issue remains open and formally labeled `microgrant`, but is now assigned to `Shurtu-gal`. No maintainer reply, assignment to `jhhjwei`, payment or receipt was verified.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. Review is still requested; no maintainer review, CI approval, merge, award, payment or receipt was verified.
 
-## 08:00 result
+## 16:00 result
 
-- Both downstream items were checked once and showed no verified monetization progress.
-- No new external action was completed.
-- Rotated to fresh fixed-scope bounty search rather than repeating comments or monitoring.
-- No candidate passed all gates simultaneously: original task open, payment verifiable, active competition <=2, directly actionable, 1-4 hour delivery, and acceptable maintenance/economics.
-- Tuist #5925 has an existing active attempt and is not a fixed-scope 1-4 hour documentation/data deliverable; archived Bountysource items fail payment verification. Other surfaced tasks were closed, security/hardware-test dependent, long-term, or below threshold.
-- L3-L12 funnel counts did not change; hourly commercial target failed.
+- Both downstream items were checked once.
+- AsyncAPI #1333 changed from unassigned to assigned to another contributor; it should be removed from the actionable queue.
+- Dokploy PR #4918 showed no verified monetization progress.
+- No external action was completed and no new L3 candidate was added, so the hourly commercial target failed.
+- L3-L12 funnel counts did not change.
 
 ## Income status
 
@@ -39,8 +38,8 @@ _Last updated: 2026-07-30 08:20 +08:00_
 
 ## Next action
 
-Inspect one fresh paid documentation, data, spreadsheet or research task from a direct public procurement channel. Submit exactly one application only if the payment mechanism is verifiable, active competition is no more than two, and delivery fits 1-4 hours.
+Inspect one fresh fixed-scope paid documentation, data, spreadsheet or research task from a direct public procurement or bounty channel. Submit exactly one application only if the original task is open, payment is verifiable, active competition is no more than two, delivery fits 1-4 hours, and no long-term maintenance or hardware testing is required.
 
 ## Data integrity
 
-No reply, assignment, review, merge, payment or receipt is claimed. Search and archive activity are not counted as commercial progress.
+No reply, assignment to `jhhjwei`, review, merge, payment or receipt is claimed. Search and archive activity are not counted as commercial progress.
