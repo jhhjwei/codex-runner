@@ -1,12 +1,12 @@
 # Hourly income conversion heartbeat
 
-- Beijing time: 2026-07-30 21:20:00 +08:00
+- Beijing time: 2026-07-30 22:21:23 +08:00
 - status: failed
 - task: first-income hourly executor
 - external_actions: 0
-- pipeline_changes: L3-L12 unchanged; AsyncAPI remains assigned to Shurtu-gal; Dokploy remains open with no submitted review
-- AsyncAPI Studio #1333: open, formal `microgrant` label present, assigned to `Shurtu-gal`; no maintainer reassignment, payment or receipt verified
-- Dokploy PR #4918: open, mergeable and unmerged; zero submitted reviews; no CI approval, merge, payment or receipt verified
-- new_candidate: none; Opire microG #1583 has a verifiable $40 reward and one claimant but exceeds the 1-4 hour delivery gate
-- evidence: start 0416becc0d3f9cb7fdd87cb310d4ce9007d83d97; completion 43552a910807f111993fc3350d22f24f32382cf4
-- next_action: rotate to a newly posted fixed-scope documentation, data, spreadsheet or research procurement and submit exactly one application only if every gate passes
+- pipeline_changes: L3-L12 unchanged
+- AsyncAPI Studio #1333: open, formal `microgrant` label present, assigned to `Shurtu-gal`; no actionable reassignment or payment verified
+- Dokploy PR #4918: open, mergeable and unmerged; zero submitted reviews; both workflow runs ended `action_required`, not approval
+- new_candidate: none; rotated to new fixed-scope public task searches, but no result passed payment, competition<=2, direct-entry and 1-4 hour gates
+- evidence: start 04720f679543410847e24a327246c8abb1ab3616; completion 42dec3ce05a36740fb90e38e6132a4a1bfc6df8a
+- next_action: verify one newly posted fixed-price documentation/data/research procurement and submit only if all gates pass
