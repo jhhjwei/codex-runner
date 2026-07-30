@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-31 01:19 +08:00_
+_Last updated: 2026-07-31 02:21 +08:00_
 
 ## Current counts
 
@@ -20,15 +20,15 @@ _Last updated: 2026-07-31 01:19 +08:00_
 ## Current downstream
 
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — not actionable for `jhhjwei`: issue remains open and formally labeled `microgrant`, but is assigned to `Shurtu-gal`. No maintainer reassignment, payment or receipt was verified.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. The maintainer review request remains pending; submitted reviews remain 0. Both current workflow runs completed with `action_required`, not approval. No merge, award, payment or receipt was verified.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open and unmerged. Mergeability changed from true to false; requested reviewer remains `Siumauricio`, submitted reviews remain 0. No review, merge, award, payment or receipt was verified.
 
-## 01:00 result
+## 02:00 result
 
 - Both downstream items were checked once.
 - AsyncAPI had no actionable change.
-- Dokploy remains open and unreviewed; no review-fix action was available.
+- Dokploy changed from mergeable to non-mergeable; no review was submitted and no maintainer comment identified the cause.
 - No external action was completed.
-- Candidate sourcing remained rotated to newly posted fixed-scope public documentation, data, spreadsheet and research work; no result passed payment verification, competition <=2, direct-entry and 1-4 hour delivery gates.
+- Because one downstream state changed, no new-candidate search was opened in this run.
 - No new L3 candidate was added; L3-L12 funnel counts did not change.
 - The hourly commercial target failed.
 
@@ -40,7 +40,7 @@ _Last updated: 2026-07-31 01:19 +08:00_
 
 ## Next action
 
-Verify one newly posted fixed-price documentation, data, spreadsheet or research procurement task. Submit exactly one application only when payment is verifiable, active competition is no more than two, delivery fits 1-4 hours, and no long-term maintenance or hardware testing is required.
+Inspect why Dokploy PR #4918 became non-mergeable. Perform exactly one conflict-fix branch update only if it can be safely rebased without scope expansion; otherwise record the blocking conflict and rotate immediately to a new fixed-price channel.
 
 ## Data integrity
 
