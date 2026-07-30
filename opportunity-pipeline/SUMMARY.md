@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-30 22:21 +08:00_
+_Last updated: 2026-07-30 23:20 +08:00_
 
 ## Current counts
 
@@ -20,15 +20,15 @@ _Last updated: 2026-07-30 22:21 +08:00_
 ## Current downstream
 
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — not actionable for `jhhjwei`: issue remains open and formally labeled `microgrant`, but is assigned to `Shurtu-gal`. No maintainer reassignment, payment or receipt was verified.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. No submitted review exists. Both workflow runs ended `action_required`, which is not CI approval. No merge, award, payment or receipt was verified.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. No submitted review, merge, award, payment or receipt was verified; workflow approval was not established in this run.
 
-## 22:00 result
+## 23:00 result
 
 - Both downstream items were checked once.
 - AsyncAPI had no actionable change.
-- Dokploy remains open and unreviewed; no approved CI or review-fix action was available.
+- Dokploy remains open and unreviewed; no review-fix action was available.
 - No external action was completed.
-- Candidate sourcing rotated to newly posted fixed-scope public documentation, data, spreadsheet and research tasks; no result passed payment verification, competition <=2, direct-entry and 1-4 hour delivery gates.
+- Candidate sourcing remained rotated away from prior bounty channels and targeted newly posted fixed-scope public documentation, data, spreadsheet and research work; no result passed payment verification, competition <=2, direct-entry and 1-4 hour delivery gates.
 - No new L3 candidate was added; L3-L12 funnel counts did not change.
 - The hourly commercial target failed.
 
