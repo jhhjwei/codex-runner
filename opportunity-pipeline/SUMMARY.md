@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-30 23:20 +08:00_
+_Last updated: 2026-07-31 00:18 +08:00_
 
 ## Current counts
 
@@ -20,9 +20,9 @@ _Last updated: 2026-07-30 23:20 +08:00_
 ## Current downstream
 
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — not actionable for `jhhjwei`: issue remains open and formally labeled `microgrant`, but is assigned to `Shurtu-gal`. No maintainer reassignment, payment or receipt was verified.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. No submitted review, merge, award, payment or receipt was verified; workflow approval was not established in this run.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. The maintainer review request remains pending; no submitted review, merge, award, payment or receipt was verified.
 
-## 23:00 result
+## 00:00 result
 
 - Both downstream items were checked once.
 - AsyncAPI had no actionable change.
