@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-30 16:21 +08:00_
+_Last updated: 2026-07-30 17:20 +08:00_
 
 ## Current counts
 
@@ -19,16 +19,16 @@ _Last updated: 2026-07-30 16:21 +08:00_
 
 ## Current downstream
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — no longer actionable for `jhhjwei`: issue remains open and formally labeled `microgrant`, but is now assigned to `Shurtu-gal`. No maintainer reply, assignment to `jhhjwei`, payment or receipt was verified.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. Review is still requested; no maintainer review, CI approval, merge, award, payment or receipt was verified.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — not actionable for `jhhjwei`: issue remains open and formally labeled `microgrant`, but is assigned to `Shurtu-gal`. No assignment to `jhhjwei`, payment or receipt was verified.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open, mergeable and unmerged. Review is still requested; no maintainer review, merge, award, payment or receipt was verified.
 
-## 16:00 result
+## 17:00 result
 
-- Both downstream items were checked once.
-- AsyncAPI #1333 changed from unassigned to assigned to another contributor; it should be removed from the actionable queue.
-- Dokploy PR #4918 showed no verified monetization progress.
-- No external action was completed and no new L3 candidate was added, so the hourly commercial target failed.
-- L3-L12 funnel counts did not change.
+- Both downstream items were checked once and showed no actionable monetization change.
+- No external action was completed.
+- A fresh-channel search found no task meeting all payment, competition, 1-4 hour scope and direct-submission gates.
+- No new L3 candidate was added; L3-L12 funnel counts did not change.
+- The hourly commercial target failed.
 
 ## Income status
 
@@ -38,7 +38,7 @@ _Last updated: 2026-07-30 16:21 +08:00_
 
 ## Next action
 
-Inspect one fresh fixed-scope paid documentation, data, spreadsheet or research task from a direct public procurement or bounty channel. Submit exactly one application only if the original task is open, payment is verifiable, active competition is no more than two, delivery fits 1-4 hours, and no long-term maintenance or hardware testing is required.
+Inspect one newly posted fixed-scope paid documentation, data, spreadsheet or research task from a direct public procurement channel. Submit exactly one application only if the original task is open, payment is verifiable, active competition is no more than two, delivery fits 1-4 hours, and no long-term maintenance or hardware testing is required.
 
 ## Data integrity
 
