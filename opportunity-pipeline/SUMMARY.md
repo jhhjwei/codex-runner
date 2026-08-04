@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-07-31 02:21 +08:00_
+_Last updated: 2026-08-04 22:32 +08:00_
 
 ## Current counts
 
@@ -19,17 +19,16 @@ _Last updated: 2026-07-31 02:21 +08:00_
 
 ## Current downstream
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — not actionable for `jhhjwei`: issue remains open and formally labeled `microgrant`, but is assigned to `Shurtu-gal`. No maintainer reassignment, payment or receipt was verified.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — PR remains open and unmerged. Mergeability changed from true to false; requested reviewer remains `Siumauricio`, submitted reviews remain 0. No review, merge, award, payment or receipt was verified.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — not actionable for `jhhjwei`: open, formally labeled `microgrant`, and assigned to `Shurtu-gal`; no reassignment, payment or receipt verified.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and currently mergeable; requested reviewer remains `Siumauricio`. No new review, approval, merge, payment or receipt verified.
 
-## 02:00 result
+## 22:00 result
 
-- Both downstream items were checked once.
-- AsyncAPI had no actionable change.
-- Dokploy changed from mergeable to non-mergeable; no review was submitted and no maintainer comment identified the cause.
-- No external action was completed.
-- Because one downstream state changed, no new-candidate search was opened in this run.
-- No new L3 candidate was added; L3-L12 funnel counts did not change.
+- Both downstream items were checked once and had no actionable change.
+- Reconciled stale SUMMARY data: Dokploy is currently mergeable=true, matching the latest heartbeat.
+- Rotated to the 3mdeb Open-Source Bounty Program. Its public rules verify $1–50 warmup and $51–100 easy ranges, with payouts processed through Open Collective.
+- No issue passed all gates: active implementation PRs (#602, #668, #921), assignment (#1041), two existing applicants (#902), over-4-hour scope (#542), or stale assignment plus pending applicant (#320).
+- No external action was completed; no L3 candidate was added; L3-L12 counts did not change.
 - The hourly commercial target failed.
 
 ## Income status
@@ -40,7 +39,7 @@ _Last updated: 2026-07-31 02:21 +08:00_
 
 ## Next action
 
-Inspect why Dokploy PR #4918 became non-mergeable. Perform exactly one conflict-fix branch update only if it can be safely rebased without scope expansion; otherwise record the blocking conflict and rotate immediately to a new fixed-price channel.
+Inspect one newly funded BountyHub issue in the $20–$200 range; only if it is open, unassigned, has at most two applicants and fits 1–4 hours, submit exactly one claim comment.
 
 ## Data integrity
 
@@ -50,9 +49,8 @@ No reply assigning `jhhjwei`, review, CI approval, merge, payment or receipt is 
 
 _Last updated: 2026-08-04 21:24:08 +08:00_
 
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-04/20.md`
-- commercial actions in audited hour: 0 (none)
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-04/22.md`
+- commercial actions in latest primary hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: primary hourly pipeline commit missing, two consecutive hours without commercial action
+- trigger reasons: no verified commercial action; no L3 candidate passed every gate
 - counting rule: search, archive and reports are not commercial progress
-
