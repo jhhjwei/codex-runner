@@ -1,21 +1,25 @@
 # Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-04 23:00–23:59 +08:00
+- Beijing hour: 2026-08-05 00:00–00:59 +08:00
 - status: failed
 - task: first-income hourly executor
 - primary_heartbeat: true
 - fallback: false
 - commercial_actions: 0
 - commercial_action_types: none
-- git_evidence: b19d26a110bb74b50a1cffe1bdf4c6b051ec379b	pipeline: record 2026-08-04 23:00 commercial result; 99e6b712d4c27fa0d003da411c330f1d07b8127c	health: point latest run to 2026-08-04 23:00; 8596ec1383cca21f24e357e7920ecabd363257a8	health: complete 2026-08-04 23:00 income run; ebb4b859c9c0c012e67633480e4dc594068b99a4	health: start 2026-08-04 23:00 income run
+- git_evidence: 459cfc93df6f98df475e916e0234bddc7fe8516e health completion; ac2f643f6ed290fa801a9c2d442e69a0ad94e811 health start
 - punishment_triggered: true
-- trigger_reasons: two consecutive hours without commercial action
+- trigger_reasons: three consecutive hours without commercial action; new-channel candidates failed direct-action gates
 
 ## Downstream
 
-- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
+- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none; no change
+- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none; no change
+
+## Commercial result
+
+IssueHunt/MapLibre rotation produced no valid L3. Docute #232 is archived/read-only and the attempted confirmation comment returned GitHub 403; MapLibre #2534 has had its bounty removed; dooked #1 has more than two competitors.
 
 ## Commercial integrity
 
-Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
+Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and failed write attempts count as zero. No reply, merge, payment or receipt is inferred.
