@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-08-05 06:43 +08:00_
+_Last updated: 2026-08-05 07:43 +08:00_
 
 ## Current counts
 
@@ -22,13 +22,13 @@ _Last updated: 2026-08-05 06:43 +08:00_
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — open, formally labeled `microgrant`, assigned to `Shurtu-gal`; no actionable change.
 2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and mergeable; requested reviewer remains `Siumauricio`; no review, CI approval or payment.
 
-## 06:00 result
+## 07:00 result
 
-- Guard commit `3e2555a8d3308f2cb264ae887fdff42bd4ef43af` overwrote latest-run and the completed 05:00 snapshot with a reduced audit heartbeat; the retained 05:00 commercial result in SUMMARY was used as authoritative.
+- SUMMARY, latest-run and completed 06:00 snapshot agreed at start; no history scan was needed.
 - Both downstream items were checked once and then stopped; neither changed.
-- Rotated to PeoplePerHour and verified proposal plus escrow/invoice payment mechanics.
-- The visible zero-proposal listing was on-site in Woking and USD 15; a GBP 199 beta-testing job required one month; short-scope public jobs had at least five proposals.
-- No candidate passed competition <=2 and 1–4 hour scope/economics gates. No external action was completed, no L3 was added, and L3-L12 did not change. The hourly target failed.
+- Rotated to Contra. Current official help verifies platform contracts, payments, fees and China payouts.
+- The public jobs feed did not expose a current individual job with budget, applicant count and direct application entry together; public prize challenges did not prove competition <=2 or 1–4 hour scope.
+- No candidate passed all gates. No external action was completed, no L3 was added, and L3-L12 did not change. The hourly target failed.
 
 ## Income status
 
@@ -38,7 +38,7 @@ _Last updated: 2026-08-05 06:43 +08:00_
 
 ## Next action
 
-Rotate away from PeoplePerHour and verify one newly posted Contra fixed-price documentation, data, spreadsheet or research contract; if payment, competition <=2, direct application entry and 1–4h scope all pass, submit exactly one application.
+Rotate away from Contra and verify one newly posted Guru fixed-price documentation, data, spreadsheet or research job; if payment, competition <=2, direct quote entry and 1–4h scope all pass, submit exactly one quote.
 
 ## Data integrity
 
