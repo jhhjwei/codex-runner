@@ -1,13 +1,13 @@
 # Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-05 06:00–06:59 +08:00
+- Beijing hour: 2026-08-05 07:00–07:59 +08:00
 - status: failed
 - task: first-income hourly executor
 - primary_heartbeat: true
 - fallback: false
 - commercial_actions: 0
 - commercial_action_types: none
-- git_evidence: 97a7614d431977742dbbe41ed231008dfaae45da health: start 2026-08-05 06 hourly run; 0c69a3a58c8f5974d60f36209869d00b91989b58 health: complete 2026-08-05 06 hourly run
+- git_evidence: b604938901cb13ea0496b0623149730f79a1f44c health: start 2026-08-05 07 hourly run; 71773a151d67a27d6161140a4ce614fff766995c health: complete 2026-08-05 07 hourly run
 - punishment_triggered: true
 - trigger_reasons: two consecutive hours without commercial action
 
@@ -18,12 +18,8 @@
 
 ## Commercial result
 
-PeoplePerHour payment and direct proposal mechanics were verified. The zero-proposal listing was on-site and USD 15; the GBP 199 candidate required one month; short-scope listings exceeded two proposals. No eligible L3 and no external action.
-
-## Integrity conflict
-
-Guard commit `3e2555a8d3308f2cb264ae887fdff42bd4ef43af` overwrote the completed 05:00 snapshot and latest-run with a reduced audit heartbeat. SUMMARY retained the commercial result and was authoritative.
+Contra payment, contracts, platform fees and China payouts were verified. The public jobs feed did not expose a current individual job with budget, applicant count and direct application together; public challenges did not prove competition <=2 or 1–4 hour scope. No eligible L3 and no external action.
 
 ## Next action
 
-Verify one newly posted Contra fixed-price documentation, data, spreadsheet or research contract and submit exactly one application only if every gate passes.
+Verify one newly posted Guru fixed-price documentation, data, spreadsheet or research job and submit exactly one quote only if every gate passes.
