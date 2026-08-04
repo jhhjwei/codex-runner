@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-08-05 05:43 +08:00_
+_Last updated: 2026-08-05 06:43 +08:00_
 
 ## Current counts
 
@@ -22,13 +22,13 @@ _Last updated: 2026-08-05 05:43 +08:00_
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — open, formally labeled `microgrant`, assigned to `Shurtu-gal`; no actionable change.
 2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and mergeable; requested reviewer remains `Siumauricio`; no review, CI approval or payment.
 
-## 05:00 result
+## 06:00 result
 
-- latest-run had again regressed to the 03:00 heartbeat; the completed 04:00 snapshot was retained as authoritative.
+- Guard commit `3e2555a8d3308f2cb264ae887fdff42bd4ef43af` overwrote latest-run and the completed 05:00 snapshot with a reduced audit heartbeat; the retained 05:00 commercial result in SUMMARY was used as authoritative.
 - Both downstream items were checked once and then stopped; neither changed.
-- Rotated to Freelancer and verified bid plus milestone-payment mechanics.
-- Monthly Expense Tracker Dashboard had 18 proposals; Chinese University Data Compilation had 37 and undefined multi-day scope; Tender Data Web Scraping had 48 plus CAPTCHA/OTP, daily operation and maintenance.
-- No candidate passed competition <=2 and scope/economics gates. No external action was completed, no L3 was added, and L3-L12 did not change. The hourly target failed.
+- Rotated to PeoplePerHour and verified proposal plus escrow/invoice payment mechanics.
+- The visible zero-proposal listing was on-site in Woking and USD 15; a GBP 199 beta-testing job required one month; short-scope public jobs had at least five proposals.
+- No candidate passed competition <=2 and 1–4 hour scope/economics gates. No external action was completed, no L3 was added, and L3-L12 did not change. The hourly target failed.
 
 ## Income status
 
@@ -38,19 +38,18 @@ _Last updated: 2026-08-05 05:43 +08:00_
 
 ## Next action
 
-Rotate to one newly posted PeoplePerHour fixed-price documentation, data, spreadsheet or research task; if payment, competition <=2, direct proposal entry and 1–4h scope all pass, submit exactly one proposal.
+Rotate away from PeoplePerHour and verify one newly posted Contra fixed-price documentation, data, spreadsheet or research contract; if payment, competition <=2, direct application entry and 1–4h scope all pass, submit exactly one application.
 
 ## Data integrity
 
-No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and rejected bids are not commercial progress.
+No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and rejected listings are not commercial progress.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-05 06:17:41 +08:00_
+_Last observed: 2026-08-05 06:17:41 +08:00_
 
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/05.md`
+- latest primary heartbeat reported by guard: `opportunity-pipeline/health/2026-08-05/05.md`
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
