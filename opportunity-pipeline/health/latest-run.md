@@ -1,25 +1,25 @@
 # Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-05 00:00–00:59 +08:00
+- Beijing hour: 2026-08-05 01:00–01:59 +08:00
 - status: failed
 - task: first-income hourly executor
 - primary_heartbeat: true
 - fallback: false
 - commercial_actions: 0
 - commercial_action_types: none
-- git_evidence: 459cfc93df6f98df475e916e0234bddc7fe8516e health completion; ac2f643f6ed290fa801a9c2d442e69a0ad94e811 health start
+- git_evidence: 423192e3e9654b93ef2d12d5f5467822a2ee21fe health completion; cc53d70616ae3b7bac9b0cfbea977045cf9e8529 health start
 - punishment_triggered: true
-- trigger_reasons: three consecutive hours without commercial action; new-channel candidates failed direct-action gates
+- trigger_reasons: four consecutive hours without commercial action; new-channel candidates failed payment/competition/scope gates
 
 ## Downstream
 
-- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none; no change
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none; no change
+- AsyncAPI Studio #1333: state=open; label=microgrant; assignees=['Shurtu-gal']; no change
+- Dokploy PR #4918: state=open; merged=False; mergeable=False; review=none; head is 50 commits behind canary; changed from prior hour
 
 ## Commercial result
 
-IssueHunt/MapLibre rotation produced no valid L3. Docute #232 is archived/read-only and the attempted confirmation comment returned GitHub 403; MapLibre #2534 has had its bounty removed; dooked #1 has more than two competitors.
+Rotated to Algora. Current public boards contained stale closed/rewarded tasks, tasks with more than two active attempts, or sub-$100 work requiring broad changes. No candidate passed the verified-payment, competition <=2, direct-entry and 1–4h gates; no external action or L3 was recorded.
 
 ## Commercial integrity
 
-Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and failed write attempts count as zero. No reply, merge, payment or receipt is inferred.
+Only contact, claim, PR, review_fix, accepted, payment and received count. Search and rejected candidates count as zero. No reply, review, merge, payment or receipt is inferred.
