@@ -46,8 +46,11 @@ No reply assigning `jhhjwei`, review, CI approval, merge, payment or receipt is 
 
 ## Hourly guard status
 
+_Last updated: 2026-08-05 00:15:38 +08:00_
+
 - latest primary heartbeat: `opportunity-pipeline/health/2026-08-04/23.md`
-- commercial actions in latest primary hour: 0 (none)
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: no verified commercial action; no L3 candidate passed every gate
+- trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
+
