@@ -207,7 +207,7 @@ _Last updated: {now:%Y-%m-%d %H:%M:%S} +08:00_
     atomic_write(SUMMARY, old_summary.rstrip() + guard + "\n")
     update_p0_issue(start, end, actions, reasons)
     print(target.relative_to(ROOT))
-    return 1 if reasons else 0
+    return 10 if reasons else 0
 
 
 if __name__ == "__main__":
