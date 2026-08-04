@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-08-04 22:32 +08:00_
+_Last updated: 2026-08-04 23:31 +08:00_
 
 ## Current counts
 
@@ -19,15 +19,14 @@ _Last updated: 2026-08-04 22:32 +08:00_
 
 ## Current downstream
 
-1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — not actionable for `jhhjwei`: open, formally labeled `microgrant`, and assigned to `Shurtu-gal`; no reassignment, payment or receipt verified.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and currently mergeable; requested reviewer remains `Siumauricio`. No new review, approval, merge, payment or receipt verified.
+1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — open, formally labeled `microgrant`, assigned to `Shurtu-gal`; no actionable change.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and mergeable; requested reviewer remains `Siumauricio`; no actionable change.
 
-## 22:00 result
+## 23:00 result
 
-- Both downstream items were checked once and had no actionable change.
-- Reconciled stale SUMMARY data: Dokploy is currently mergeable=true, matching the latest heartbeat.
-- Rotated to the 3mdeb Open-Source Bounty Program. Its public rules verify $1–50 warmup and $51–100 easy ranges, with payouts processed through Open Collective.
-- No issue passed all gates: active implementation PRs (#602, #668, #921), assignment (#1041), two existing applicants (#902), over-4-hour scope (#542), or stale assignment plus pending applicant (#320).
+- Both downstream items were checked once and then stopped.
+- Rotated away from 3mdeb to BountyHub. BountyHub documents Stripe-managed payouts and PR-based claims.
+- No candidate passed all gates: SuperPlane #2258/#2829 are closed or retracted; Freelens #1280 is assigned and explicitly refuses new PRs; Memanto #770 passed its Aug 1 deadline and has heavy competition.
 - No external action was completed; no L3 candidate was added; L3-L12 counts did not change.
 - The hourly commercial target failed.
 
@@ -39,7 +38,7 @@ _Last updated: 2026-08-04 22:32 +08:00_
 
 ## Next action
 
-Inspect one newly funded BountyHub issue in the $20–$200 range; only if it is open, unassigned, has at most two applicants and fits 1–4 hours, submit exactly one claim comment.
+Inspect one newly posted fixed-price GitHub Sponsor, IssueHunt, Polar, or public procurement task for documentation/data/research; if all gates pass, submit exactly one claim or proposal.
 
 ## Data integrity
 
@@ -47,9 +46,7 @@ No reply assigning `jhhjwei`, review, CI approval, merge, payment or receipt is 
 
 ## Hourly guard status
 
-_Last updated: 2026-08-04 21:24:08 +08:00_
-
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-04/22.md`
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-04/23.md`
 - commercial actions in latest primary hour: 0 (none)
 - enforcement state: RED
 - trigger reasons: no verified commercial action; no L3 candidate passed every gate
