@@ -105,14 +105,14 @@ def downstream() -> dict:
     }
 
 
-def update_p0_issue(start: dt.datetime, actions: list[str], reasons: list[str]) -> None:
+def update_p0_issue(start: dt.datetime, end: dt.datetime, actions: list[str], reasons: list[str]) -> None:
     if not reasons:
         return
     repo = os.environ.get("GITHUB_REPOSITORY", "jhhjwei/codex-runner")
     title = "P0 冲刺偷懒处罚"
     body = f"""## RED enforcement update
 
-- audited Beijing hour: {start:%Y-%m-%d %H}:00–{start:%H}:59
+- audited Beijing hour: {start:%Y-%m-%d %H}:00–{(end - dt.timedelta(seconds=1)):%H}:59
 - trigger reasons: {', '.join(reasons)}
 - verified commercial actions: {len(actions)} ({', '.join(actions) if actions else 'none'})
 - responsibility state: primary executor failed closed
@@ -205,7 +205,7 @@ _Last updated: {now:%Y-%m-%d %H:%M:%S} +08:00_
 - counting rule: search, archive and reports are not commercial progress
 """
     atomic_write(SUMMARY, old_summary.rstrip() + guard + "\n")
-    update_p0_issue(start, actions, reasons)
+    update_p0_issue(start, end, actions, reasons)
     print(target.relative_to(ROOT))
     return 1 if reasons else 0
 
