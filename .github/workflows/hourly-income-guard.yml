@@ -54,9 +54,16 @@ jobs:
             git push
           fi
 
-      - name: Enforce RED result
-        if: steps.guard.outputs.exit_code != '0'
+      - name: Record RED business result
+        if: steps.guard.outputs.exit_code == '10'
         shell: bash
         run: |
-          echo "Hourly guard detected missing heartbeat, stale summaries, or no commercial action."
+          echo "::warning::Hourly guard is RED: missing heartbeat, stale summaries, or no commercial action."
+          echo "Business RED was recorded without turning the workflow into a technical failure."
+
+      - name: Enforce technical failures
+        if: steps.guard.outputs.exit_code != '0' && steps.guard.outputs.exit_code != '10'
+        shell: bash
+        run: |
+          echo "::error::Hourly income guard failed technically with exit code ${{ steps.guard.outputs.exit_code }}."
           exit 1
