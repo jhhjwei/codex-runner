@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-08-05 00:34 +08:00_
+_Last updated: 2026-08-05 01:39 +08:00_
 
 ## Current counts
 
@@ -20,14 +20,13 @@ _Last updated: 2026-08-05 00:34 +08:00_
 ## Current downstream
 
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — open, formally labeled `microgrant`, assigned to `Shurtu-gal`; no actionable change.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and mergeable; requested reviewer remains `Siumauricio`; no actionable change.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open and unmerged; mergeability changed to false because the head is 50 commits behind `canary`; requested reviewer remains `Siumauricio`, with no review or payment.
 
-## 00:00 result
+## 01:00 result
 
-- Both downstream items were checked once and then stopped.
-- Rotated away from BountyHub to IssueHunt and MapLibre.
-- Docute #232 superficially passed amount ($100), competition and scope gates, but the repository is archived/read-only; a confirmation/assignment comment returned GitHub 403, so it failed the direct-contact gate.
-- MapLibre Native #2534 was rejected because its bounty was removed and eligibility requires the developer pool. Dooked #1 was rejected because at least six competing PRs exist.
+- Both downstream items were checked once.
+- Dokploy changed from mergeable to non-mergeable. The branch has diverged (1 ahead, 50 behind); a blind rebase or conflict fix would exceed safe incremental scope, so no unrequested rewrite was performed.
+- Rotated to Algora. ProjectDiscovery listings were already closed/rewarded; Aqualink, Space and Time and Tailcall tasks had more than two active attempts; Coolify #6696 was a $20 feature larger than four hours.
 - No external action was completed; no L3 candidate was added; L3-L12 counts did not change. The hourly commercial target failed.
 
 ## Income status
@@ -38,18 +37,18 @@ _Last updated: 2026-08-05 00:34 +08:00_
 
 ## Next action
 
-Inspect one newly posted fixed-price public procurement or active GitHub bounty outside IssueHunt/BountyHub/MapLibre; only if payment, competition, direct entry and 1–4h scope all pass, submit exactly one claim or proposal.
+Rotate to newly posted Opire tasks; if one passes verified payout, competition <=2, direct entry and 1–4h scope, submit exactly one claim.
 
 ## Data integrity
 
-The failed 403 comment is not counted as contact. No reply assigning `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and archive activity are not commercial progress.
+No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and rejected candidates are not commercial progress.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-05 00:34 +08:00_
+_Last updated: 2026-08-05 01:39 +08:00_
 
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/00.md`
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/01.md`
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: three consecutive hours without commercial action
+- trigger reasons: four consecutive hours without commercial action
 - counting rule: search, archive, failed writes and reports are not commercial progress
