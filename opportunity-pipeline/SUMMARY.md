@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-08-05 01:39 +08:00_
+_Last updated: 2026-08-05 02:43 +08:00_
 
 ## Current counts
 
@@ -20,13 +20,14 @@ _Last updated: 2026-08-05 01:39 +08:00_
 ## Current downstream
 
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — open, formally labeled `microgrant`, assigned to `Shurtu-gal`; no actionable change.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open and unmerged; mergeability changed to false because the head is 50 commits behind `canary`; requested reviewer remains `Siumauricio`, with no review or payment.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and non-mergeable; requested reviewer remains `Siumauricio`; no review, CI approval or payment.
 
-## 01:00 result
+## 02:00 result
 
-- Both downstream items were checked once.
-- Dokploy changed from mergeable to non-mergeable. The branch has diverged (1 ahead, 50 behind); a blind rebase or conflict fix would exceed safe incremental scope, so no unrequested rewrite was performed.
-- Rotated to Algora. ProjectDiscovery listings were already closed/rewarded; Aqualink, Space and Time and Tailcall tasks had more than two active attempts; Coolify #6696 was a $20 feature larger than four hours.
+- Both downstream items were checked once and then stopped; neither changed.
+- Rotated from Algora to Opire. Payment and direct-entry mechanics were verified through Opire documentation.
+- Opire's public board was stale: aueangpanit/electron-template#1 returned GitHub 404; ArcaneCircle/pixelsocial had no open “Image resize” issue; madalynerlge2/gin#1 was closed with all $100 rewards already claimed.
+- Remaining entries with no more than two solvers required hardware, C++/macOS reproduction, more than four hours, or failed the low-price economics rule.
 - No external action was completed; no L3 candidate was added; L3-L12 counts did not change. The hourly commercial target failed.
 
 ## Income status
@@ -37,18 +38,18 @@ _Last updated: 2026-08-05 01:39 +08:00_
 
 ## Next action
 
-Rotate to newly posted Opire tasks; if one passes verified payout, competition <=2, direct entry and 1–4h scope, submit exactly one claim.
+Rotate to Polar's newly posted public bounties; if one passes open original task, verified payout, competition <=2, direct entry and 1–4h scope, submit exactly one claim.
 
 ## Data integrity
 
-No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and rejected candidates are not commercial progress.
+No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and stale/rejected listings are not commercial progress.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-05 01:39 +08:00_
+_Last updated: 2026-08-05 02:43 +08:00_
 
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/01.md`
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/02.md`
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: four consecutive hours without commercial action
+- trigger reasons: five consecutive hours without commercial action
 - counting rule: search, archive, failed writes and reports are not commercial progress
