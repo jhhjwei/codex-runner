@@ -7,19 +7,15 @@
 - fallback: false
 - commercial_actions: 0
 - commercial_action_types: none
-- git_evidence: 17ffccbf7dfe1651371b99345be792c0912c59e3 health completion; 877cc1998fd6516eb192590f7b124537af3e19cd health start
+- git_evidence: d8058a289eca7cdd31452a74ec9aac598e3edf14	health: update 2026-08-05 05 hourly heartbeat; c317e3d81e025ffb48fb541262015155436ca30f	pipeline: record 2026-08-05 05 Freelancer rotation; 17ffccbf7dfe1651371b99345be792c0912c59e3	health: complete 2026-08-05 05 hourly run; 877cc1998fd6516eb192590f7b124537af3e19cd	health: start 2026-08-05 05 hourly run
 - punishment_triggered: true
-- trigger_reasons: continued absence of commercial action; Freelancer candidates exceeded competition or scope gates
+- trigger_reasons: two consecutive hours without commercial action
 
 ## Downstream
 
-- AsyncAPI Studio #1333: state=open; label=microgrant; assignees=['Shurtu-gal']; no change
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; review=none; no change
-
-## Commercial result
-
-Both downstream items were unchanged. Freelancer's bid and milestone-payment mechanisms were verified, but the three relevant open projects had 18, 37 and 48 proposals respectively; two also exceeded the 1–4h or maintenance gates. No bid was submitted, no external action occurred and no L3 was recorded.
+- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
+- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
 
 ## Commercial integrity
 
-Only contact, claim, bid, PR, review_fix, accepted, payment and received count. Search and rejected bids count as zero. No reply, review, CI approval, merge, payment or receipt is inferred.
+Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
