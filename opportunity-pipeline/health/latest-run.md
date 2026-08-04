@@ -1,25 +1,21 @@
 # Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-05 04:00–04:59 +08:00
+- Beijing hour: 2026-08-05 03:00–03:59 +08:00
 - status: failed
 - task: first-income hourly executor
 - primary_heartbeat: true
 - fallback: false
 - commercial_actions: 0
 - commercial_action_types: none
-- git_evidence: e4119a0cf8eac3903fd9f7f2ef113f35924cfea4 health completion; 1c3cd28c031d58e8f12f0e0d59cbe702c7fca392 health start
+- git_evidence: 866667c02ebf32ee93706e482a77547a2030a1df	pipeline: record 2026-08-05 03 downstream change; b16ec32c3bc9c32fa55df9a9a9d70093e049ef75	health: update 2026-08-05 03 hourly heartbeat; c1a1ea6aed313d8461ace70153a5972d6a6215ae	health: complete 2026-08-05 03 hourly run; 7c5212ba893498f05b422de8a5ac35e43d3043b7	health: start 2026-08-05 03 hourly run
 - punishment_triggered: true
-- trigger_reasons: continued absence of commercial action; two rotated channels lack current task-level bounty entry
+- trigger_reasons: two consecutive hours without commercial action
 
 ## Downstream
 
-- AsyncAPI Studio #1333: state=open; label=microgrant; assignees=['Shurtu-gal']; no change
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; review=none; no change
-
-## Commercial result
-
-Both downstream items were unchanged. Polar was rejected because its current official product and docs no longer expose public issue-bounty discovery or claiming. OnlyDust was then rejected because its official homepage says the chapter has closed and its terms make grants discretionary, untied to specific tasks and not guaranteed. No external action or L3 was recorded.
+- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
+- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
 
 ## Commercial integrity
 
-Only contact, claim, PR, review_fix, accepted, payment and received count. Search and dead/non-task funding channels count as zero. No reply, review, CI approval, merge, payment or receipt is inferred.
+Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
