@@ -1,25 +1,25 @@
 # Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-05 03:00–03:59 +08:00
+- Beijing hour: 2026-08-05 04:00–04:59 +08:00
 - status: failed
 - task: first-income hourly executor
 - primary_heartbeat: true
 - fallback: false
 - commercial_actions: 0
 - commercial_action_types: none
-- git_evidence: c1a1ea6aed313d8461ace70153a5972d6a6215ae health completion; 7c5212ba893498f05b422de8a5ac35e43d3043b7 health start
+- git_evidence: e4119a0cf8eac3903fd9f7f2ef113f35924cfea4 health completion; 1c3cd28c031d58e8f12f0e0d59cbe702c7fca392 health start
 - punishment_triggered: true
-- trigger_reasons: continued absence of commercial action; downstream mergeability change was informational only
+- trigger_reasons: continued absence of commercial action; two rotated channels lack current task-level bounty entry
 
 ## Downstream
 
 - AsyncAPI Studio #1333: state=open; label=microgrant; assignees=['Shurtu-gal']; no change
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; review=none; changed from prior hour false to true
+- Dokploy PR #4918: state=open; merged=False; mergeable=True; review=none; no change
 
 ## Commercial result
 
-A stale latest-run conflict was reconciled using the completed 02:00 snapshot and one fresh PR query. Dokploy is mergeable again but has no review, CI approval, merge or payment. Because a monitored downstream changed, no new-channel search or duplicate review request was made. No external action or L3 was recorded.
+Both downstream items were unchanged. Polar was rejected because its current official product and docs no longer expose public issue-bounty discovery or claiming. OnlyDust was then rejected because its official homepage says the chapter has closed and its terms make grants discretionary, untied to specific tasks and not guaranteed. No external action or L3 was recorded.
 
 ## Commercial integrity
 
-Only contact, claim, PR, review_fix, accepted, payment and received count. Mergeability and reporting count as zero. No reply, review, CI approval, merge, payment or receipt is inferred.
+Only contact, claim, PR, review_fix, accepted, payment and received count. Search and dead/non-task funding channels count as zero. No reply, review, CI approval, merge, payment or receipt is inferred.
