@@ -45,3 +45,14 @@ Inspect why Dokploy PR #4918 became non-mergeable. Perform exactly one conflict-
 ## Data integrity
 
 No reply assigning `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and archive activity are not counted as commercial progress.
+
+## Hourly guard status
+
+_Last updated: 2026-08-04 21:15:35 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-04/20.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: primary hourly pipeline commit missing, two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
