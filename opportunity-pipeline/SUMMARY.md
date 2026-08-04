@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-08-05 03:39 +08:00_
+_Last updated: 2026-08-05 04:42 +08:00_
 
 ## Current counts
 
@@ -20,14 +20,14 @@ _Last updated: 2026-08-05 03:39 +08:00_
 ## Current downstream
 
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — open, formally labeled `microgrant`, assigned to `Shurtu-gal`; no actionable change.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and mergeable again; requested reviewer remains `Siumauricio`; no review, CI approval or payment.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and mergeable; requested reviewer remains `Siumauricio`; no review, CI approval or payment.
 
-## 03:00 result
+## 04:00 result
 
-- At start, latest-run had regressed to the 01:00 heartbeat and conflicted with the completed 02:00 snapshot.
-- One fresh downstream query reconciled the state: AsyncAPI is unchanged; Dokploy changed from mergeable=false to mergeable=true.
-- Mergeability is informational only. No duplicate review request was posted, no external action was completed, and L3-L12 counts did not change. The hourly commercial target failed.
-- Because a monitored downstream changed, the planned Polar rotation was deferred rather than mixing channels.
+- Both downstream items were checked once and then stopped; neither changed.
+- Rotated to Polar. Current official pages expose software billing and payouts, not a public issue-bounty marketplace or direct claim entry.
+- Immediately rotated to OnlyDust. Its official homepage says the chapter has closed; its terms state grants are discretionary, not tied to a specific task/bounty/deliverable and not guaranteed.
+- No open task with verified task-level payment was available. No external action was completed, no L3 candidate was added, and L3-L12 counts did not change. The hourly commercial target failed.
 
 ## Income status
 
@@ -37,18 +37,18 @@ _Last updated: 2026-08-05 03:39 +08:00_
 
 ## Next action
 
-Inspect Polar's newly posted public bounties; if one passes open original task, verified payout, competition <=2, direct entry and 1–4h scope, submit exactly one claim.
+Inspect one newly posted Freelancer fixed-price documentation, data, spreadsheet or research project in the $20–200 range; if payment, competition <=2, direct bid entry and 1–4h scope all pass, submit exactly one bid.
 
 ## Data integrity
 
-No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search, mergeability and reports are not commercial progress.
+No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and closed/non-task funding channels are not commercial progress.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-05 03:39 +08:00_
+_Last updated: 2026-08-05 04:42 +08:00_
 
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/03.md`
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/04.md`
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
 - trigger reasons: continued absence of commercial action
-- counting rule: search, archive, mergeability and reports are not commercial progress
+- counting rule: search, archive and reports are not commercial progress
