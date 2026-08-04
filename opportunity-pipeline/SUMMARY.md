@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-08-05 02:43 +08:00_
+_Last updated: 2026-08-05 03:39 +08:00_
 
 ## Current counts
 
@@ -20,15 +20,14 @@ _Last updated: 2026-08-05 02:43 +08:00_
 ## Current downstream
 
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — open, formally labeled `microgrant`, assigned to `Shurtu-gal`; no actionable change.
-2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and non-mergeable; requested reviewer remains `Siumauricio`; no review, CI approval or payment.
+2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and mergeable again; requested reviewer remains `Siumauricio`; no review, CI approval or payment.
 
-## 02:00 result
+## 03:00 result
 
-- Both downstream items were checked once and then stopped; neither changed.
-- Rotated from Algora to Opire. Payment and direct-entry mechanics were verified through Opire documentation.
-- Opire's public board was stale: aueangpanit/electron-template#1 returned GitHub 404; ArcaneCircle/pixelsocial had no open “Image resize” issue; madalynerlge2/gin#1 was closed with all $100 rewards already claimed.
-- Remaining entries with no more than two solvers required hardware, C++/macOS reproduction, more than four hours, or failed the low-price economics rule.
-- No external action was completed; no L3 candidate was added; L3-L12 counts did not change. The hourly commercial target failed.
+- At start, latest-run had regressed to the 01:00 heartbeat and conflicted with the completed 02:00 snapshot.
+- One fresh downstream query reconciled the state: AsyncAPI is unchanged; Dokploy changed from mergeable=false to mergeable=true.
+- Mergeability is informational only. No duplicate review request was posted, no external action was completed, and L3-L12 counts did not change. The hourly commercial target failed.
+- Because a monitored downstream changed, the planned Polar rotation was deferred rather than mixing channels.
 
 ## Income status
 
@@ -38,19 +37,18 @@ _Last updated: 2026-08-05 02:43 +08:00_
 
 ## Next action
 
-Rotate to Polar's newly posted public bounties; if one passes open original task, verified payout, competition <=2, direct entry and 1–4h scope, submit exactly one claim.
+Inspect Polar's newly posted public bounties; if one passes open original task, verified payout, competition <=2, direct entry and 1–4h scope, submit exactly one claim.
 
 ## Data integrity
 
-No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search and stale/rejected listings are not commercial progress.
+No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is claimed. Search, mergeability and reports are not commercial progress.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-05 02:42:01 +08:00_
+_Last updated: 2026-08-05 03:39 +08:00_
 
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/01.md`
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/03.md`
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
+- trigger reasons: continued absence of commercial action
+- counting rule: search, archive, mergeability and reports are not commercial progress
