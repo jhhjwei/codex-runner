@@ -1,6 +1,10 @@
 name: Hourly income guard
 
 on:
+  push:
+    paths:
+      - "scripts/hourly_income_guard.py"
+      - ".github/workflows/hourly-income-guard.yml"
   schedule:
     - cron: "7 * * * *"
   workflow_dispatch:
