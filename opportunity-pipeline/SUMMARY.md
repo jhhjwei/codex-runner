@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-06 03:32 +08:00
+- Updated: 2026-08-06 04:31 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -14,19 +14,12 @@
 
 ## Latest demand-first rotation
 
-Atom publicly lists 26+ active naming contests and verifies guaranteed cash awards, but all four visible buyer requests fail the competition gate: the newest US$135 contest has 1,915 entries; the other visible contests have 1,499–6,959 entries and are invitation-only Tier A/NDA work. Creative onboarding also requires verified PayPal, W9/W8-BEN and possible identity documents. Qualified list: 0; no signup, speculative naming or submission.
+Brand New Name verifies US$100–150 winner awards and Payoneer payout, but exposes no current named buyer, original brief, deadline, live participant/submission count or direct contest entry publicly. Its buyer page says naming contests typically receive 100+ ideas, while live requests require full-name/email signup. Qualified list: 0; no identity profile, speculative naming or submission.
+
+## State correction
+
+The guard rewrote latest-run to its 02:00 audit after the completed 03:00 run. The completed 03:00 heartbeat remains authoritative; business stages are unchanged.
 
 ## Next single action
 
-Verify Brand New Name active contests. Submit once only if a specific buyer, US$100–150 cash award with Payoneer payout, public deadline, live participant/submission count <=2, direct entry and 1–4-hour scope are all public without identity claims.
-
-## Hourly guard status
-
-_Last updated: 2026-08-06 03:43:31 +08:00_
-
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-06/02.md`
-- commercial actions in audited hour: 0 (none)
-- enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
+Search fresh GitHub bounty issues posted within seven days. Claim once only if an open original issue has a named sponsor, US$20–200 escrow/platform payout, <=2 claimants or PRs, public claim entry and a 1–4-hour deliverable.
