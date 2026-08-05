@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "10 1 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate_overnight_morning_report.py"
+      - ".github/workflows/morning-income-report.yml"
 
 permissions:
   contents: write
@@ -27,7 +31,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Self-heal and generate 08:00 primary heartbeat
+      - name: Self-heal and generate latest primary heartbeat
         shell: bash
         run: |
           set +e
