@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-05 23:31 +08:00
+- Updated: 2026-08-06 00:31 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -52,6 +52,9 @@ None.
 | 99designs public contest browser | rejected | Open categories show 0 and public results are finished contests; no current buyer/deadline/live entry count available |
 | 99designs designer marketplace | rejected | Help directs designers to browse open contests from their profile; current requests require account access |
 
+| Hatchwise active contest | rejected | Indexed live result showed US$50, about 3 days 19 hours remaining and 291 entries; competition far above 2 |
+| Hatchwise active listing | rejected | Stable unique request URL, named buyer and full deliverable were not publicly returned |
+
 ## Next channel
 
-Hatchwise design and naming contests: require a named buyer, guaranteed prize/payment, exact deliverable, live entry/designer count <=2, open deadline, direct entry and <=4-hour scope; only submit if every gate passes without identity claims or irreversible publication.
+crowdspring design and naming projects: require a named buyer, guaranteed award/payment, exact deliverable, live participant or entry count <=2, open deadline, direct entry and <=4-hour scope; only submit if every gate passes without identity claims.
