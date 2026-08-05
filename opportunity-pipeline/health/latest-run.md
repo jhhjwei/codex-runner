@@ -1,11 +1,11 @@
 # Latest hourly income demand run
 
-- Beijing hour: 2026-08-06 00:00–00:59 +08:00
+- Beijing hour: 2026-08-06 01:00–01:59 +08:00
 - status: failed
-- heartbeat: `opportunity-pipeline/health/2026-08-06/00.md`
-- demand-list: `opportunity-pipeline/demand-list/2026-08-06/00.md`
-- started_commit: `d7525b797ad3c954013e6504bdc68d01c522ea58`
-- completed_commit: `916ee098b25fe5c5cbfbdaae4947f3a2fb0b31e8`
+- heartbeat: `opportunity-pipeline/health/2026-08-06/01.md`
+- demand-list: `opportunity-pipeline/demand-list/2026-08-06/01.md`
+- started_commit: `59cf6066c929fea3d8b76143cda0ae7571854ab5`
+- completed_commit: `f05ac15d5ad8350801e8118862a3dfccfb6d05c0`
 - external_action_count: 0
 - qualified_demand_count: 0
 - L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
@@ -17,15 +17,15 @@
 
 ## Result
 
-Hatchwise's current indexed active result showed US$50, about three days and nineteen hours remaining and 291 entries. Competition far exceeds two; direct fetch did not expose a stable unique request URL, buyer and complete deliverable. Qualified list: 0; no speculative design or submission.
+crowdspring's client `ky` offered US$200 for an industrial-hardware logo, but live status, deadline, competition and direct entry were JavaScript/robot-gated. Graylog's mascot result had over 100 entries; creative registration uses a waitlist. Qualified list: 0; no registration or speculative submission.
 
 ## Evidence commits
 
-- demand list: `d58cf253393272831585dd34b39a18cc7f7d7f51`
-- demand pipeline: `3cd7e946c0c56743c70e0b02c49dcb24e9050026`
-- summary: `5b510ae5b26dd74655110f944efd44e0ccfa5022`
-- health: `916ee098b25fe5c5cbfbdaae4947f3a2fb0b31e8`
+- demand list: `2ee7311ad722cf1f0182825a1e579403222e671b`
+- demand pipeline: `69079864db46c63b05cb8eb3f1905333c5c34806`
+- summary: `66ba08aa630f8a03e0e91fcd629e2744e2c82207`
+- health: `f05ac15d5ad8350801e8118862a3dfccfb6d05c0`
 
 ## Next action
 
-Verify newly posted crowdspring design or naming projects; submit once only if named buyer, guaranteed award/payment, deliverable, competition <=2, deadline, direct entry and <=4-hour scope are public without identity claims.
+Verify newly posted NamingForce contests; submit once only if buyer, guaranteed prize/payment, naming brief, competition <=2, deadline, direct entry and 1–4-hour scope are public without identity claims.
