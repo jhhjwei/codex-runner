@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-05 20:28 +08:00
+- Updated: 2026-08-05 21:29 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -42,7 +42,9 @@ None.
 | Freelancehunt #1645290 — Kosiv interior concepts | rejected | US$67, 11 proposals, 6–12h and portfolio requirement |
 | SproutGigs public job board | rejected | Live task details are account-gated; buyer, reward, remaining positions and direct worker entry cannot all be verified publicly |
 | SproutGigs Hire Gigs | rejected | Seller service marketplace, not a specific buyer purchase demand |
+| Respondent public paid-project page | rejected | Payment is verified through Tremendous, but specific live buyer, exact incentive, participant places and direct screener require an identity-verified profile/login |
+| Respondent generic study formats | rejected | Payout ranges are examples, not current buyer purchase requests |
 
 ## Next channel
 
-Respondent online paid studies: require a public sponsor/buyer, payout mechanism, session duration, available participant places or competition evidence, deadline/open status and direct screener entry; only submit if every gate passes.
+User Interviews paid studies: require a public specific researcher/buyer, exact incentive/payment, session deliverable and duration, applicant or remaining-place evidence, open status and direct application; only submit if every gate passes without identity claims.
