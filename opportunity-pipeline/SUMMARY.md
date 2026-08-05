@@ -19,3 +19,14 @@ Atom publicly lists 26+ active naming contests and verifies guaranteed cash awar
 ## Next single action
 
 Verify Brand New Name active contests. Submit once only if a specific buyer, US$100–150 cash award with Payoneer payout, public deadline, live participant/submission count <=2, direct entry and 1–4-hour scope are all public without identity claims.
+
+## Hourly guard status
+
+_Last updated: 2026-08-06 03:43:31 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-06/02.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+

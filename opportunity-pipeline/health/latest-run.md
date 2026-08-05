@@ -1,31 +1,21 @@
-# Latest hourly income demand run
+# Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-06 03:00–03:59 +08:00
+- Beijing hour: 2026-08-06 02:00–02:59 +08:00
 - status: failed
-- heartbeat: `opportunity-pipeline/health/2026-08-06/03.md`
-- demand-list: `opportunity-pipeline/demand-list/2026-08-06/03.md`
-- started_commit: `f989b5d0f10ba42f04b363bf027af9f710b64a89`
-- completed_commit: `7a3382a89190ee6fdd3965f727c171caa32b3fd8`
-- external_action_count: 0
-- qualified_demand_count: 0
-- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
+- task: first-income hourly executor
+- primary_heartbeat: true
+- fallback: false
+- commercial_actions: 0
+- commercial_action_types: none
+- git_evidence: 356c9d76e7f26d7110a3b1a96373d57e0b62de1c	health: restore latest pointer to 02:00; 8e5a7e4e4c7fd9b147aa5af0cbc56c3db7b9859d	health: complete 02:00 demand run; 20b866c90e4e98a7839e4f7b7abdd8f896af780c	pipeline: summarize 02:00 demand run; 6149cf9217ba30efe72d7511464413602bd9036b	pipeline: rotate NamingForce evidence to Atom; 16c1302f5438a1c7f55ab05e4410ffe97cb34e2a	pipeline: record 02:00 NamingForce demand validation; 8839d0ba4ccbe0dbd8afbb2b2dd24252e40d349b	health: start 2026-08-06 02 demand run
+- punishment_triggered: true
+- trigger_reasons: two consecutive hours without commercial action
 
 ## Downstream
 
-- AsyncAPI Studio #1333: unchanged; open, official microgrant, assigned to `Shurtu-gal`.
-- Dokploy PR #4918: unchanged; open, mergeable and unmerged; no new review, CI approval, merge or payment evidenced.
+- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
+- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
 
-## Result
+## Commercial integrity
 
-Atom publicly lists 26+ active contests and guaranteed prizes, but visible contests have 1,499–6,959 entries. Three are Tier A/NDA invitation-only, and onboarding requires identity/tax documentation. Qualified list: 0; no signup or submission.
-
-## Evidence commits
-
-- demand list: `cb1bd738b5328e38a7ad36a831622a3f20d655ce`
-- demand pipeline: `fb915dcf16d7f71cde9b6dfa6ce9b99d2a7244a0`
-- summary: `168e5cf40454750448409ffac08810ffea9801c2`
-- health: `7a3382a89190ee6fdd3965f727c171caa32b3fd8`
-
-## Next action
-
-Verify Brand New Name active contests; submit once only if buyer, US$100–150 cash award/Payoneer payout, competition <=2, deadline, direct entry and 1–4-hour scope are public without identity claims.
+Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
