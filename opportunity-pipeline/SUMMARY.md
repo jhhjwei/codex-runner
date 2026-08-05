@@ -23,3 +23,14 @@ The guard rewrote latest-run to its 02:00 audit after the completed 03:00 run. T
 ## Next single action
 
 Search fresh GitHub bounty issues posted within seven days. Claim once only if an open original issue has a named sponsor, US$20–200 escrow/platform payout, <=2 claimants or PRs, public claim entry and a 1–4-hour deliverable.
+
+## Hourly guard status
+
+_Last updated: 2026-08-06 05:17:41 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-06/04.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
