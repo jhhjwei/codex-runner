@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-05 12:44 +08:00
+- Updated: 2026-08-05 13:44 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -13,19 +13,8 @@
 
 ## Latest channel rotation
 
-MyZubster #274 is open, unassigned, and labeled as a 1–2 hour task. It advertises 50 `$MYZ` plus points after merge, but no reliable USD/RMB value or cash-convertible payout was verified. Another contributor has already claimed it with PR #322 ready for review, so it was rejected and no L3 candidate was added.
+Mautic's Open Collective payment workflow and $528.86 bounty balance are verified, but the official open Mautic bounty search currently returns zero tasks. Mautic #16769 is open and T1 yet has no attached bounty amount or label. The only recent Algora-keyword result inspected was a 344-comment mirror without verified escrow. No L3 candidate was added.
 
 ## Next single action
 
-Verify an original GitHub issue created in the last 30 days with a $20–200 USD bounty escrowed by Algora or Open Collective. Submit one claim only if competition <=2, direct entry, and 1–4 hour delivery all pass.
-
-## Hourly guard status
-
-_Last updated: 2026-08-05 12:23:05 +08:00_
-
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/11.md`
-- commercial actions in audited hour: 0 (none)
-- enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
+Rotate to one newly posted Truelancer fixed-price documentation, spreadsheet, data, or research task. Submit one proposal only if the public budget is $20–200, proposals <=2, direct entry is available, and delivery fits 1–4 hours.
