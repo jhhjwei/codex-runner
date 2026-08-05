@@ -1,7 +1,7 @@
 # 首笔收入转化冲刺夜间晨报
 
 **统计区间：2026年08月04日22:00—2026年08月05日08:59（北京时间）**  
-**生成时间：2026-08-05 08:32:10 +08:00**  
+**生成时间：2026-08-05 12:23:09 +08:00**  
 **执行环境：GitHub Actions 仓库内审计，不依赖 ChatGPT Connector 权限**
 
 | 时段 | 心跳 | 状态 | 真实商业动作 | Dokploy / AsyncAPI等状态 | GitHub提交证据 | 错误和阻塞 |
@@ -27,7 +27,7 @@
 ## 夜间汇总
 
 - **累计真实外部动作：0**
-- **累计 Pipeline：L3=0、L4=0、L6=1、L9=1、L10=0、L11=0、L12=0**
+- **累计 Pipeline：L3=unknown、L4=unknown、L6=unknown、L9=unknown、L10=unknown、L11=unknown、L12=unknown**
 - **AsyncAPI #1333：** state=open；assignees=['Shurtu-gal']；error=none
 - **Dokploy PR #4918：** state=open；merged=False；mergeable=True；error=none
 - **首笔收入状态：** 未发现到账前，不得宣称已付款或到账。

@@ -18,3 +18,14 @@ MyZubster #274 is open, unassigned, and labeled as a 1–2 hour task. It adverti
 ## Next single action
 
 Verify an original GitHub issue created in the last 30 days with a $20–200 USD bounty escrowed by Algora or Open Collective. Submit one claim only if competition <=2, direct entry, and 1–4 hour delivery all pass.
+
+## Hourly guard status
+
+_Last updated: 2026-08-05 12:23:05 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/11.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
