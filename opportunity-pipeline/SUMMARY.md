@@ -19,3 +19,14 @@ SproutGigs did not expose a qualifying buyer demand publicly. Its public marketp
 ## Next single action
 
 Verify one newly posted Respondent online paid study. Accept only if sponsor/buyer, payout mechanism, session duration, participant-place or competition evidence, open status and direct screener entry are public; submit the screener once only if every gate passes.
+
+## Hourly guard status
+
+_Last updated: 2026-08-05 20:58:43 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/19.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
