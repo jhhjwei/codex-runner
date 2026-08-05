@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-05 21:29 +08:00
+- Updated: 2026-08-05 22:30 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -44,7 +44,12 @@ None.
 | SproutGigs Hire Gigs | rejected | Seller service marketplace, not a specific buyer purchase demand |
 | Respondent public paid-project page | rejected | Payment is verified through Tremendous, but specific live buyer, exact incentive, participant places and direct screener require an identity-verified profile/login |
 | Respondent generic study formats | rejected | Payout ranges are examples, not current buyer purchase requests |
+| User Interviews — Gen Z Lifestyles Study | rejected | $20/40 min and deadline 2026-08-07 public; researcher and applicant/remaining-place evidence absent |
+| User Interviews — New Financial Product | rejected | $38/29 min public; buyer, competition and unique public request URL absent |
+| User Interviews — Website navigation activity | rejected | $50/25 min public; buyer, competition and unique public request URL absent |
+| User Interviews — Software Research Study | rejected | $60/60 min public; buyer, competition and unique public request URL absent |
+| User Interviews — Banking Research Study | rejected | $60/60 min public; buyer, competition and unique public request URL absent |
 
 ## Next channel
 
-User Interviews paid studies: require a public specific researcher/buyer, exact incentive/payment, session deliverable and duration, applicant or remaining-place evidence, open status and direct application; only submit if every gate passes without identity claims.
+99designs contests: require a named buyer, guaranteed prize/payment, exact deliverable, current designer/entry count <=2, open deadline, direct submission entry and <=4-hour scope; only submit if every gate passes without identity claims or irreversible publication.
