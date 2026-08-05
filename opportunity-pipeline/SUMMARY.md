@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-05 20:29 +08:00
+- Updated: 2026-08-05 21:30 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -10,23 +10,16 @@
 ## Active downstream
 
 - AsyncAPI Studio #1333: unchanged; open, official `microgrant`, assigned to `Shurtu-gal`; no maintainer change or payment.
-- Dokploy PR #4918: unchanged; open, mergeable and unmerged; requested reviewer `Siumauricio`; no review, CI approval, merge, payment, or receipt.
+- Dokploy PR #4918: unchanged; open and unmerged; last public update remains 2026-07-28; no new review, CI approval, merge, payment or receipt was evidenced.
 
 ## Latest demand-first rotation
 
-SproutGigs did not expose a qualifying buyer demand publicly. Its public marketplace pages are generic, while Hire Gigs lists freelancers selling services; the visible US$3.11 PDF/DOC submission listing is therefore not a purchase request. Current Classic Jobs details needed to verify advertiser, reward, available positions, duration and direct worker acceptance are account-gated. No item was padded into the five-item list, no qualified-L3 was created, and no login or blind acceptance was attempted.
+Respondent verifies researchers and pays verified completed sessions through Tremendous, typically within 5–7 business days. However, its public paid-project page exposes only study formats and typical payout ranges. A participant must create an identity-verified profile and log in before specific matched studies, exact incentives, requirements and applications appear. No current demand publicly disclosed the sponsor, exact payout, applicant/participant-place evidence and direct screener together. Qualified list: 0; no identity profile, login or padded item.
+
+## State correction
+
+The guard rewrote latest-run to the 19:00 heartbeat after the completed 20:00 run. The completed 20:00 heartbeat is authoritative. Business stages are unchanged.
 
 ## Next single action
 
-Verify one newly posted Respondent online paid study. Accept only if sponsor/buyer, payout mechanism, session duration, participant-place or competition evidence, open status and direct screener entry are public; submit the screener once only if every gate passes.
-
-## Hourly guard status
-
-_Last updated: 2026-08-05 20:58:43 +08:00_
-
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/19.md`
-- commercial actions in audited hour: 0 (none)
-- enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
+Verify newly posted User Interviews paid studies. Submit once only if a specific researcher/buyer, exact incentive/payment, session duration and deliverable, applicant or remaining-place evidence, open status and direct application are public without identity claims.
