@@ -1,10 +1,11 @@
 # Latest hourly income run
 
-- Beijing hour: 2026-08-05 14:00–14:59 +08:00
+- Beijing hour: 2026-08-05 15:00–15:59 +08:00
 - status: failed
-- heartbeat: `opportunity-pipeline/health/2026-08-05/14.md`
-- started_commit: `de344f60c48c587d7b0b08835763a5885dc4192c`
+- heartbeat: `opportunity-pipeline/health/2026-08-05/15.md`
+- started_commit: `b1b593165a2f57b716f6fe288bbd26cf2548d8e1`
 - external_action_count: 0
+- qualified_demand_count: 0
 - L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
 
 ## Downstream
@@ -14,8 +15,8 @@
 
 ## Result
 
-Truelancer’s directly applicable fixed-price listings were verified, but no task passed every gate. The INR 5,000 executive presentation had about 35 proposals, and the three-hour thesis research task had 20. Listings with one proposal were location-specific calling or videography rather than accepted bounded deliverables. No L3 candidate and no external action.
+No concrete buyer demand passed all gates. The five exact paid requests checked were rejected because they were closed/rewarded/assigned or, for open Coolify #7528, had 46 comments and a scope beyond four hours. No L3 candidate and no external action.
 
 ## Next action
 
-Verify one newly posted RemoteHub fixed-price documentation, spreadsheet, data, or research task and apply only if public payment, competition <=2, direct entry, and 1–4 hour delivery are all verified.
+Verify one newly opened Topcoder challenge and register only if buyer, prize, <=2 registrations, direct entry, and a 1–4 hour deliverable are public and valid.
