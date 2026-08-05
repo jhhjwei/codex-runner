@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-06 05:34 +08:00
+- Updated: 2026-08-06 06:36 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -14,12 +14,8 @@
 
 ## Latest demand-first rotation
 
-Fresh GitHub searches for open issues created 2026-07-30 through 2026-08-06 with cash or USDC bounties returned no qualifying original demand. Surfaced web results were outside the window, promotional listings, US$10 transaction programs, or old Bountysource-dependent graphics work. Qualified list: 0; no claim or speculative development.
-
-## State correction
-
-The guard replaced latest-run and the completed 04:00 heartbeat with an audit format. The 04:00 demand list, SUMMARY history and evidence commits preserve the completed business state; stages are unchanged.
+Roxonn's public pages verify a bounty platform and XDC/ROXN/USDC payment support, but not one current issue with a named buyer, funded amount, live competition count, deadline and direct claim entry. Its public GitHub issues are platform feature work, implemented notices or promotion rather than a funded 1–4-hour buyer demand. Qualified list: 0; no wallet/signup, claim or speculative development.
 
 ## Next single action
 
-Verify Roxonn's live funded bounty board and linked original issues. Claim once only if a named sponsor, funded USDC/XDC escrow, open issue, <=2 claimants/PRs, public entry and a 1–4-hour deliverable are all verified.
+Verify the latest public Superteam Earn USDC bounty. Submit once only if the named buyer, exact funded reward, open brief, deadline, <=2 applicants/submissions, direct entry and a 1–4-hour deliverable are all verified.
