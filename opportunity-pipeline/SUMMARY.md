@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-05 11:43 +08:00
+- Updated: 2026-08-05 12:44 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -13,19 +13,8 @@
 
 ## Latest channel rotation
 
-FinMind #144 is technically open and advertises a $1,000 bounty, but its March 31, 2026 deadline has expired. The public attempt table lists at least 17 attempts, and the required Docker, multi-cloud, Kubernetes, Helm, Tilt, observability, testing, documentation, and demo scope is far beyond 1–4 hours. It was rejected; no L3 candidate was added.
+MyZubster #274 is open, unassigned, and labeled as a 1–2 hour task. It advertises 50 `$MYZ` plus points after merge, but no reliable USD/RMB value or cash-convertible payout was verified. Another contributor has already claimed it with PR #322 ready for review, so it was rejected and no L3 candidate was added.
 
 ## Next single action
 
-Search direct GitHub original issues created in the last seven days for a $20–200 bounty. Submit one claim only if the payment, competition <=2, direct entry, and 1–4 hour delivery gates all pass.
-
-## Hourly guard status
-
-_Last updated: 2026-08-05 12:15:44 +08:00_
-
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/11.md`
-- commercial actions in audited hour: 0 (none)
-- enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
+Verify an original GitHub issue created in the last 30 days with a $20–200 USD bounty escrowed by Algora or Open Collective. Submit one claim only if competition <=2, direct entry, and 1–4 hour delivery all pass.
