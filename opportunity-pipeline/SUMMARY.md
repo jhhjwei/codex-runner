@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-05 10:43 +08:00
+- Updated: 2026-08-05 11:43 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -13,8 +13,8 @@
 
 ## Latest channel rotation
 
-Rysolv's current upstream repository presents a hiring/Git analytics product. No current funded issue list, bounty amount, payment flow, claim entry, or qualifying 1–4 hour task was found. Old issue-bounty descriptions are stale. No L3 candidate was added.
+FinMind #144 is technically open and advertises a $1,000 bounty, but its March 31, 2026 deadline has expired. The public attempt table lists at least 17 attempts, and the required Docker, multi-cloud, Kubernetes, Helm, Tilt, observability, testing, documentation, and demo scope is far beyond 1–4 hours. It was rejected; no L3 candidate was added.
 
 ## Next single action
 
-Verify one newly opened FinMind GitHub bounty. Submit one claim only if the original issue is open and the payment, competition <=2, direct entry, and 1–4 hour delivery gates all pass.
+Search direct GitHub original issues created in the last seven days for a $20–200 bounty. Submit one claim only if the payment, competition <=2, direct entry, and 1–4 hour delivery gates all pass.
