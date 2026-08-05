@@ -18,3 +18,14 @@ FinMind #144 is technically open and advertises a $1,000 bounty, but its March 3
 ## Next single action
 
 Search direct GitHub original issues created in the last seven days for a $20–200 bounty. Submit one claim only if the payment, competition <=2, direct entry, and 1–4 hour delivery gates all pass.
+
+## Hourly guard status
+
+_Last updated: 2026-08-05 12:15:44 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/11.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
