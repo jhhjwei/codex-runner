@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 00:31 +08:00
+- Updated: 2026-08-06 01:31 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -55,6 +55,10 @@ None.
 | Hatchwise active contest | rejected | Indexed live result showed US$50, about 3 days 19 hours remaining and 291 entries; competition far above 2 |
 | Hatchwise active listing | rejected | Stable unique request URL, named buyer and full deliverable were not publicly returned |
 
+| crowdspring — Industrial Grade Hardware Solution | rejected | Client ky and US$200 award public, but live status, deadline, entry count and direct submission are JavaScript/robot-gated |
+| crowdspring — Graylog Party Gorilla Mascot | rejected | Public result reports over 100 entries; competition far above 2 |
+| crowdspring creative registration | rejected | Designer/namer registration uses a waitlist; no immediate public submission route verified |
+
 ## Next channel
 
-crowdspring design and naming projects: require a named buyer, guaranteed award/payment, exact deliverable, live participant or entry count <=2, open deadline, direct entry and <=4-hour scope; only submit if every gate passes without identity claims.
+NamingForce naming contests: require a specific buyer, guaranteed cash prize/payment, naming brief, live submission count <=2, open deadline, direct entry and 1–4-hour scope; only submit if every gate passes without identity claims.
