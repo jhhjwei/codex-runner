@@ -1,21 +1,23 @@
-# Hourly income conversion heartbeat
+# Latest hourly income demand run
 
-- Beijing hour: 2026-08-05 14:00–14:59 +08:00
+- Beijing hour: 2026-08-05 16:00–16:59 +08:00
 - status: failed
-- task: first-income hourly executor
-- primary_heartbeat: true
-- fallback: false
-- commercial_actions: 0
-- commercial_action_types: none
-- git_evidence: 94210bad17f91ddde6d28337285d8b3e2d77a7a4	pipeline: record Truelancer rotation result; df21eb6f960695a3b73b87b3819a12217affdc9d	health: advance latest run to 2026-08-05 14; 316233849ff636830ef31163a056a541bd54d369	health: complete 2026-08-05 14 hourly run; de344f60c48c587d7b0b08835763a5885dc4192c	health: start 2026-08-05 14 hourly run
-- punishment_triggered: true
-- trigger_reasons: two consecutive hours without commercial action
+- heartbeat: `opportunity-pipeline/health/2026-08-05/16.md`
+- demand-list: `opportunity-pipeline/demand-list/2026-08-05/16.md`
+- started_commit: `afdd8bdbb2e8bf66635927ed554031c3c3fa7c4f`
+- external_action_count: 0
+- qualified_demand_count: 0
+- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
 
 ## Downstream
 
-- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
+- AsyncAPI Studio #1333: unchanged; open, microgrant, assigned to `Shurtu-gal`.
+- Dokploy PR #4918: unchanged; open and mergeable; no review, CI approval, merge, or payment.
 
-## Commercial integrity
+## Result
 
-Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
+Topcoder did not expose usable live prize and registrant evidence. Five original paid requests were checked, but all failed competition, verified-payment, hardware-free, maintenance, or 1–4 hour gates. No qualified-L3 and no external action.
+
+## Next action
+
+Verify one newly posted LaborX fixed-price job and apply only if buyer, cash/USDT payment, proposals <=2, direct entry, and 1–4 hour delivery are all public.
