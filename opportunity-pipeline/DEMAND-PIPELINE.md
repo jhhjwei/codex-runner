@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-05 18:24 +08:00
+- Updated: 2026-08-05 19:23 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -25,17 +25,22 @@ None.
 | OrcaSlicer #14503 | rejected | Personal $200 proposal without escrow; hardware validation and >4h |
 | Synaptic #149 | rejected | $200 offer expired 2025-10-26; 13 comments and major C++ refactor |
 | microG #2843 | rejected | 147 comments; full WearOS framework and hardware scope |
-| LaborX — Blockchain/Crypto Research writers | rejected | Applicant count and bounded article scope not public; anomalous $3,700–$9,000 range |
-| LaborX — Python or Unity Game Design | rejected | $300 fixed, but implementation exceeds four hours and applicant count is not public |
-| LaborX — Bring Me Web2/Web3 Clients | rejected | Commission-only; no guaranteed paid deliverable; requires finding a third-party buyer |
+| LaborX — Blockchain/Crypto Research writers | rejected | Applicant count and bounded article scope not public |
+| LaborX — Python or Unity Game Design | rejected | $300 fixed, but implementation exceeds four hours |
+| LaborX — Bring Me Web2/Web3 Clients | rejected | Commission-only and requires finding a third-party buyer |
 | LaborX — Data entry from India | rejected | $27 ongoing/region-restricted work; volume and applicant count not public |
-| LaborX — Website Speed Optimization | rejected | $150 original page now returns 404; competition unverifiable |
+| LaborX — Website Speed Optimization | rejected | $150 original page returns 404 |
 | DesignCrowd #4117635 — A4 vasectomy flyer | rejected | A$110 guaranteed, 2–4h, but 18 designs from 13 designers |
 | DesignCrowd #4117660 — Second Star Creative logo | rejected | US$150, but 50 designs from 21 designers |
 | DesignCrowd #4117658 — Rossiór logo | rejected | US$150, but 23 designs from 12 designers |
-| DesignCrowd #4117657 — M&A name and logo | rejected | A$150, 8 designs from 6 designers, and scope may exceed four hours |
-| DesignCrowd #4117488 — 3D app icons | rejected | US$110, 16 designs from 12 designers, 6–12h and weak economics |
+| DesignCrowd #4117657 — M&A name and logo | rejected | A$150, 8 designs from 6 designers, scope may exceed four hours |
+| DesignCrowd #4117488 — 3D app icons | rejected | US$110, 16 designs from 12 designers, 6–12h |
+| Freelancehunt #1645736 — Anton Shved AI solar video | rejected | US$75 and 0 proposals, but full production not reliably <=4h; requires existing portfolio/experience statement and login |
+| Freelancehunt #1645400 — Amazon verification translator | rejected | US$78 but Kyiv in-person, identity-sensitive and proposal count hidden |
+| Freelancehunt #1645622 — automotive connector Excel | rejected | US$16, 6 proposals and ongoing specialist requirement |
+| Freelancehunt #1645417 — icon extraction/redraw | rejected | US$22, 43 proposals and 6–15h scope |
+| Freelancehunt #1645290 — Kosiv interior concepts | rejected | US$67, 11 proposals, 6–12h and portfolio requirement |
 
 ## Next channel
 
-Freelancehunt current document, spreadsheet, data and research projects: require a named buyer, public budget/escrow, <=2 bids, live proposal entry, and 1–4 hour delivery before promotion to qualified-L3.
+SproutGigs current data, document and research microjobs: require a named advertiser, public reward/escrow, remaining positions, live entry, <=4-hour delivery and >=US$10/hour economics without credentials or identity checks.
