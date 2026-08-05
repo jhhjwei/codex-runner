@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-05 19:23 +08:00
+- Updated: 2026-08-05 20:28 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -40,7 +40,9 @@ None.
 | Freelancehunt #1645622 — automotive connector Excel | rejected | US$16, 6 proposals and ongoing specialist requirement |
 | Freelancehunt #1645417 — icon extraction/redraw | rejected | US$22, 43 proposals and 6–15h scope |
 | Freelancehunt #1645290 — Kosiv interior concepts | rejected | US$67, 11 proposals, 6–12h and portfolio requirement |
+| SproutGigs public job board | rejected | Live task details are account-gated; buyer, reward, remaining positions and direct worker entry cannot all be verified publicly |
+| SproutGigs Hire Gigs | rejected | Seller service marketplace, not a specific buyer purchase demand |
 
 ## Next channel
 
-SproutGigs current data, document and research microjobs: require a named advertiser, public reward/escrow, remaining positions, live entry, <=4-hour delivery and >=US$10/hour economics without credentials or identity checks.
+Respondent online paid studies: require a public sponsor/buyer, payout mechanism, session duration, available participant places or competition evidence, deadline/open status and direct screener entry; only submit if every gate passes.
