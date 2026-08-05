@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-_Last updated: 2026-08-05 07:43 +08:00_
+_Last updated: 2026-08-05 08:43 +08:00_
 
 ## Current counts
 
@@ -22,12 +22,13 @@ _Last updated: 2026-08-05 07:43 +08:00_
 1. **AsyncAPI Studio #1333 — August 2026 Microgrant** — open, formally labeled `microgrant`, assigned to `Shurtu-gal`; no actionable change.
 2. **Dokploy #416 / PR #4918** — USD 50 signal — L9 — open, unmerged and mergeable; requested reviewer remains `Siumauricio`; no review, CI approval or payment.
 
-## 07:00 result
+## 08:00 result
 
-- SUMMARY, latest-run and completed 06:00 snapshot agreed at start; no history scan was needed.
+- The guard again replaced completed 07:00 and latest-run with a reduced audit heartbeat; SUMMARY retained the Contra result and was authoritative.
 - Both downstream items were checked once and then stopped; neither changed.
-- Rotated to Contra. Current official help verifies platform contracts, payments, fees and China payouts.
-- The public jobs feed did not expose a current individual job with budget, applicant count and direct application entry together; public prize challenges did not prove competition <=2 or 1–4 hour scope.
+- Rotated to Guru and verified SafePay, fixed-price/task agreements and direct quote entry.
+- Job 2119970 was China-based, USD 250–500 and had 0 quotes, but required two years of sourcing experience, an existing supplier network and ongoing procurement support; 1–4 hour completion was not verifiable.
+- Job 2119876 explicitly required about 3 hours but already had 20 quotes and one hire.
 - No candidate passed all gates. No external action was completed, no L3 was added, and L3-L12 did not change. The hourly target failed.
 
 ## Income status
@@ -38,7 +39,7 @@ _Last updated: 2026-08-05 07:43 +08:00_
 
 ## Next action
 
-Rotate away from Contra and verify one newly posted Guru fixed-price documentation, data, spreadsheet or research job; if payment, competition <=2, direct quote entry and 1–4h scope all pass, submit exactly one quote.
+Rotate away from Guru and verify one newly posted Workana fixed-price documentation, data, spreadsheet or research job; if payment, competition <=2, direct proposal entry and 1–4h scope all pass, submit exactly one proposal.
 
 ## Data integrity
 
@@ -46,11 +47,10 @@ No assignment to `jhhjwei`, review, CI approval, merge, payment or receipt is cl
 
 ## Hourly guard status
 
-_Last updated: 2026-08-05 08:10:01 +08:00_
+_Last observed: 2026-08-05 08:10:01 +08:00_
 
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/07.md`
+- latest primary heartbeat reported by guard: `opportunity-pipeline/health/2026-08-05/07.md`
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
