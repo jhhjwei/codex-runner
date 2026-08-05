@@ -1,11 +1,11 @@
 # Latest hourly income demand run
 
-- Beijing hour: 2026-08-06 05:00–05:59 +08:00
+- Beijing hour: 2026-08-06 06:00–06:59 +08:00
 - status: failed
-- heartbeat: `opportunity-pipeline/health/2026-08-06/05.md`
-- demand-list: `opportunity-pipeline/demand-list/2026-08-06/05.md`
-- started_commit: `a59d75d31c5a897bbe5053500da1daac43ab3cbb`
-- completed_commit: `0bc951251b67644bb18751818e020df84f6e154e`
+- heartbeat: `opportunity-pipeline/health/2026-08-06/06.md`
+- demand-list: `opportunity-pipeline/demand-list/2026-08-06/06.md`
+- started_commit: `89184a73f02cf0479ad9f6777acd101872b51c31`
+- completed_commit: `e0041bd941af247a7d098d864a8bffc0542ed944`
 - external_action_count: 0
 - qualified_demand_count: 0
 - L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
@@ -17,15 +17,15 @@
 
 ## Result
 
-No qualifying open GitHub bounty issue created 2026-07-30–2026-08-06 was found. Surfaced alternatives were stale, promotional, below value or beyond four hours. Qualified list: 0; no claim.
+Roxonn verifies a bounty platform and crypto payment currencies, but no current public item jointly exposed the named buyer, funded amount, competition, deadline and direct claim entry. Its repository issues did not provide issue-bound reward evidence. Qualified list: 0; no claim or speculative work.
 
 ## Evidence commits
 
-- demand list: `7121ba9082471a41e18473796986393f5b1ea719`
-- demand pipeline: `be13bf5966a5e7e0dff6e08c8b04c728acc2973b`
-- summary: `9b0ec5cac62634133084ebc67ba372f63d800e13`
-- health: `0bc951251b67644bb18751818e020df84f6e154e`
+- demand list: `042d7a0dd0f931830ec20b775d8b336cc89fe075`
+- demand pipeline: `fe3fc082d7f24d879720e9aceb61f8f417ef41c8`
+- summary: `588db074cf1113fdfdff3e45036cb114e77b9edf`
+- health: `e0041bd941af247a7d098d864a8bffc0542ed944`
 
 ## Next action
 
-Verify Roxonn live funded bounties; claim once only if sponsor, funded escrow, competition <=2, public entry and 1–4-hour scope are verified.
+Verify the latest public Superteam Earn USDC bounty; submit only if buyer, funded reward, competition <=2, deadline, direct entry and 1–4-hour scope are all public.
