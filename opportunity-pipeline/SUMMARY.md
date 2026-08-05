@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-06 02:31 +08:00
+- Updated: 2026-08-06 03:32 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -10,16 +10,12 @@
 ## Active downstream
 
 - AsyncAPI Studio #1333: unchanged; open, official `microgrant`, assigned to `Shurtu-gal`; no maintainer change or payment.
-- Dokploy PR #4918: unchanged; open and unmerged; last public update remains 2026-07-28; no new review, CI approval, merge, payment or receipt evidenced.
+- Dokploy PR #4918: unchanged; open, mergeable and unmerged; no new review, CI approval, merge, payment or receipt evidenced.
 
 ## Latest demand-first rotation
 
-NamingForce's public gallery reports zero active contests. Its recent Locksmith Company Name contest was awarded three months ago after 216 participants and 680 submissions. The US$249 contest price is a buyer-facing package and does not establish a worker prize or current purchase request. Qualified list: 0; no registration, speculative naming or submission.
-
-## State correction
-
-The guard rewrote latest-run to 00:00 after the completed 01:00 run. The completed 01:00 heartbeat remains authoritative; business stages are unchanged.
+Atom publicly lists 26+ active naming contests and verifies guaranteed cash awards, but all four visible buyer requests fail the competition gate: the newest US$135 contest has 1,915 entries; the other visible contests have 1,499–6,959 entries and are invitation-only Tier A/NDA work. Creative onboarding also requires verified PayPal, W9/W8-BEN and possible identity documents. Qualified list: 0; no signup, speculative naming or submission.
 
 ## Next single action
 
-Verify newly posted Atom naming contests. Submit once only if a specific buyer, guaranteed cash prize/payment, naming brief, live participant/submission count <=2, open deadline, direct entry and 1–4-hour scope are all public without identity claims.
+Verify Brand New Name active contests. Submit once only if a specific buyer, US$100–150 cash award with Payoneer payout, public deadline, live participant/submission count <=2, direct entry and 1–4-hour scope are all public without identity claims.
