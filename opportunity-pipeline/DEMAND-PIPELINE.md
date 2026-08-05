@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-05 17:21 +08:00
+- Updated: 2026-08-05 18:24 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -30,7 +30,12 @@ None.
 | LaborX — Bring Me Web2/Web3 Clients | rejected | Commission-only; no guaranteed paid deliverable; requires finding a third-party buyer |
 | LaborX — Data entry from India | rejected | $27 ongoing/region-restricted work; volume and applicant count not public |
 | LaborX — Website Speed Optimization | rejected | $150 original page now returns 404; competition unverifiable |
+| DesignCrowd #4117635 — A4 vasectomy flyer | rejected | A$110 guaranteed, 2–4h, but 18 designs from 13 designers |
+| DesignCrowd #4117660 — Second Star Creative logo | rejected | US$150, but 50 designs from 21 designers |
+| DesignCrowd #4117658 — Rossiór logo | rejected | US$150, but 23 designs from 12 designers |
+| DesignCrowd #4117657 — M&A name and logo | rejected | A$150, 8 designs from 6 designers, and scope may exceed four hours |
+| DesignCrowd #4117488 — 3D app icons | rejected | US$110, 16 designs from 12 designers, 6–12h and weak economics |
 
 ## Next channel
 
-DesignCrowd current contests: require a named buyer, public prize, <=2 entries, live submission entry, and 1–4 hour delivery before promotion to qualified-L3.
+Freelancehunt current document, spreadsheet, data and research projects: require a named buyer, public budget/escrow, <=2 bids, live proposal entry, and 1–4 hour delivery before promotion to qualified-L3.
