@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 02:30 +08:00
+- Updated: 2026-08-06 03:31 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -63,6 +63,12 @@ None.
 | NamingForce — Locksmith Company Name | rejected | Awarded three months ago; 216 participants and 680 submissions |
 | NamingForce US$249 package | rejected | Buyer-facing package price promising hundreds of entries, not a worker award or live request |
 
+| Atom — ceiling fan with heater | rejected | Guaranteed US$135 and 3d 11h left, but 1,915 entries |
+| Atom — tech startup | rejected | Guaranteed US$1,000, but 6,959 entries and Tier A/NDA invitation-only |
+| Atom — agency & consulting business | rejected | Guaranteed US$300, but 3,182 entries and Tier A/NDA invitation-only |
+| Atom — casual performance footwear | rejected | Guaranteed US$300, but 1,499 entries and Tier A/NDA invitation-only |
+| Atom creative onboarding | rejected | Direct participation requires signup, verified PayPal, W9/W8-BEN and possible identity documents |
+
 ## Next channel
 
-Atom naming contests: require a specific buyer, guaranteed cash prize/payment, naming brief, live participant or submission count <=2, open deadline, direct entry and 1–4-hour scope; only submit if every gate passes without identity claims.
+Brand New Name active contests: require a specific buyer, US$100–150 cash award with Payoneer payout, public deadline, live participant/submission count <=2, direct entry and 1–4-hour scope; only submit if every gate passes without identity claims.
