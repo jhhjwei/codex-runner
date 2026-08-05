@@ -1,29 +1,21 @@
-# Latest hourly income demand run
+# Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-05 18:00–18:59 +08:00
+- Beijing hour: 2026-08-05 17:00–17:59 +08:00
 - status: failed
-- heartbeat: `opportunity-pipeline/health/2026-08-05/18.md`
-- demand-list: `opportunity-pipeline/demand-list/2026-08-05/18.md`
-- started_commit: `c9cb6fff93742fa08df1221b229df38b8c382003`
-- external_action_count: 0
-- qualified_demand_count: 0
-- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
+- task: first-income hourly executor
+- primary_heartbeat: true
+- fallback: false
+- commercial_actions: 0
+- commercial_action_types: none
+- git_evidence: bbf295943221e97b418d42d48623b9895522450a	pipeline: roll LaborX demand evidence; 6a6e3893986eb6cdd4092fb57632c11dd85d2e12	pipeline: summarize 17:00 LaborX scan; 4d153296b984253414d2add03c75e5a2faca5dd5	health: point latest run to 17:00; cb10017a688e81e38fe053d407be68de64476c26	pipeline: record 17:00 demand-first scan; 4e70c796b3c15ef666e0981aefedb8f53ed5b56d	health: complete 17:00 demand run; 93e21b95f6bb4e80749a9261081806b977d314d6	health: start 2026-08-05 17 demand run
+- punishment_triggered: true
+- trigger_reasons: two consecutive hours without commercial action
 
 ## Downstream
 
-- AsyncAPI Studio #1333: unchanged; open, official microgrant, assigned to `Shurtu-gal`.
-- Dokploy PR #4918: unchanged; open, mergeable and unmerged; no review, CI approval, merge, or payment.
+- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
+- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
 
-## Result
+## Commercial integrity
 
-DesignCrowd exposed live buyers, public prizes, entry counts and direct submission entries. Five current requests were checked. The leading A$110 guaranteed flyer fit the 2–4 hour delivery gate but already had 18 designs from 13 designers. All five failed competition or delivery-time gates. No qualified-L3 and no external action.
-
-## Evidence commits
-
-- demand list: `f8a2d132f433c518f63dc5201e76cb5299a2a873`
-- demand pipeline: `82cca9531cf537c2bf64a3fab5fab8445ac8ec7a`
-- summary: `af0705a7e97a692979e226d8ca27dc3348ce20bf`
-
-## Next action
-
-Verify one newly posted Freelancehunt document, spreadsheet, data or research project and submit only if buyer, budget/escrow, <=2 bids, live proposal entry and 1–4 hour delivery are all verified.
+Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.

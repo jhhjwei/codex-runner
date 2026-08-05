@@ -19,3 +19,14 @@ DesignCrowd exposed public buyers/briefs, prizes, entry counts, deadlines and di
 ## Next single action
 
 Verify one newly posted Freelancehunt document, spreadsheet, data or research project. Submit only if buyer, budget/escrow, <=2 bids, open proposal entry, and 1–4 hour delivery are all verified.
+
+## Hourly guard status
+
+_Last updated: 2026-08-05 18:42:35 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/17.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
