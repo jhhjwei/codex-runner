@@ -1,21 +1,31 @@
-# Hourly income conversion heartbeat
+# Latest hourly income demand run
 
-- Beijing hour: 2026-08-05 19:00–19:59 +08:00
+- Beijing hour: 2026-08-05 21:00–21:59 +08:00
 - status: failed
-- task: first-income hourly executor
-- primary_heartbeat: true
-- fallback: false
-- commercial_actions: 0
-- commercial_action_types: none
-- git_evidence: c5780374f2a86a6d355d0bb26b256169ce1d1ed7	health: complete 19:00 demand heartbeat; 00e6953175ae71dd13f4a1595cf7b54d3342afdb	health: restore latest pointer to 19:00 demand run; cdc8a76f993f08238a127679e13847e1746073ab	pipeline: record 19:00 Freelancehunt demand scan; 41096707cd3bc41483b416c18da16866c57b9d3c	pipeline: summarize 19:00 demand run; 61939e32658f4ac9b637d4f00b5383831924fd66	pipeline: rotate Freelancehunt evidence to SproutGigs; 2fe6d85892e1136400e2a13553e0d87cf2f2c614	health: start 2026-08-05 19 demand run
-- punishment_triggered: true
-- trigger_reasons: two consecutive hours without commercial action
+- heartbeat: `opportunity-pipeline/health/2026-08-05/21.md`
+- demand-list: `opportunity-pipeline/demand-list/2026-08-05/21.md`
+- started_commit: `626d49ac2481aee83866275bf2601da026870f5b`
+- completed_commit: `1dad511afa85c04ab52061c97240cf0499b7de73`
+- external_action_count: 0
+- qualified_demand_count: 0
+- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
 
 ## Downstream
 
-- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
+- AsyncAPI Studio #1333: unchanged; open, official microgrant, assigned to `Shurtu-gal`.
+- Dokploy PR #4918: unchanged; open and unmerged; no new review, CI approval, merge or payment evidenced.
 
-## Commercial integrity
+## Result
 
-Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
+Respondent payment is verified through Tremendous, typically 5–7 business days after verified completion. Specific live studies and applications require an identity-verified participant profile and login; public pages do not expose a current specific buyer, exact incentive, applicant or participant-place evidence and direct screener together. Qualified list: 0; no identity profile, login, blind application or padded item.
+
+## Evidence commits
+
+- demand list: `92e7c3a0b4bdc2e7fd2491b4cdb6d1b66f5a8232`
+- demand pipeline: `6c3e7c7e77af50f31ed65c423ccc3c28ef83b1b3`
+- summary: `473acbd8e9e99486ceddc7c43d3c8d8fee814dea`
+- health: `1dad511afa85c04ab52061c97240cf0499b7de73`
+
+## Next action
+
+Verify newly posted User Interviews paid studies; submit once only if a specific buyer, exact incentive/payment, duration/deliverable, competition or remaining places, open status and direct application are public without identity claims.
