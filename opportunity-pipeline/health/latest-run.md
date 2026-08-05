@@ -1,21 +1,31 @@
-# Hourly income conversion heartbeat
+# Latest hourly income demand run
 
-- Beijing hour: 2026-08-06 02:00–02:59 +08:00
+- Beijing hour: 2026-08-06 04:00–04:59 +08:00
 - status: failed
-- task: first-income hourly executor
-- primary_heartbeat: true
-- fallback: false
-- commercial_actions: 0
-- commercial_action_types: none
-- git_evidence: 356c9d76e7f26d7110a3b1a96373d57e0b62de1c	health: restore latest pointer to 02:00; 8e5a7e4e4c7fd9b147aa5af0cbc56c3db7b9859d	health: complete 02:00 demand run; 20b866c90e4e98a7839e4f7b7abdd8f896af780c	pipeline: summarize 02:00 demand run; 6149cf9217ba30efe72d7511464413602bd9036b	pipeline: rotate NamingForce evidence to Atom; 16c1302f5438a1c7f55ab05e4410ffe97cb34e2a	pipeline: record 02:00 NamingForce demand validation; 8839d0ba4ccbe0dbd8afbb2b2dd24252e40d349b	health: start 2026-08-06 02 demand run
-- punishment_triggered: true
-- trigger_reasons: two consecutive hours without commercial action
+- heartbeat: `opportunity-pipeline/health/2026-08-06/04.md`
+- demand-list: `opportunity-pipeline/demand-list/2026-08-06/04.md`
+- started_commit: `6a37efb8344ee3b03c4d39df0fa4a53592d30930`
+- completed_commit: `bdc95b11af654d6e9be182cff3ceba7ac49c3d36`
+- external_action_count: 0
+- qualified_demand_count: 0
+- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
 
 ## Downstream
 
-- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
+- AsyncAPI Studio #1333: unchanged; open, official microgrant, assigned to `Shurtu-gal`.
+- Dokploy PR #4918: unchanged; open, mergeable and unmerged; no new review, CI approval, merge or payment evidenced.
 
-## Commercial integrity
+## Result
 
-Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
+Brand New Name verifies US$100–150 awards and Payoneer payout, but no current named buyer, brief, deadline, live competition or direct entry is public. Buyer guidance says contests commonly receive 100+ ideas; current work is account-gated. Qualified list: 0; no signup or submission.
+
+## Evidence commits
+
+- demand list: `6eb477f81b58ff8906457a276a3d251aea07ec0c`
+- demand pipeline: `e4e54858d3e64b1e7e94c3afdfdd390ceabc92f7`
+- summary: `7153a13f5835e04e7f5a2b0ffdcb624536e5b88b`
+- health: `bdc95b11af654d6e9be182cff3ceba7ac49c3d36`
+
+## Next action
+
+Search fresh GitHub bounty issues posted within seven days; claim once only if sponsor, US$20–200 platform payout, competition <=2, public claim entry and 1–4-hour scope are all verified.
