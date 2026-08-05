@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 06:36 +08:00
+- Updated: 2026-08-06 07:37 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -13,16 +13,17 @@ None.
 
 ## Rejected evidence
 
-The prior rejected-demand ledger remains in repository history through the 05:00 snapshot. This rolling view keeps the newest channel evidence only.
+The prior ledger remains in repository history. This rolling view retains the latest rotations.
 
 | Request | Status | Reason |
 |---|---|---|
-| GitHub issues created 2026-07-30–2026-08-06 — cash bounty queries | rejected | No matching open original issue passed funding, competition and 1–4-hour gates |
-| Roxonn Explore funded repositories | rejected | Platform/payment currencies are public, but a live named buyer, funded amount, claimant count, deadline and direct claim entry cannot be jointly verified from the JavaScript-only public board |
-| Roxonn-FutureTech/Roxonn-Platform issues | rejected | Feature backlog or already-implemented notices; no issue-bound bounty, escrow evidence or claimant count |
-| Roxonn Platform #46/#47/#51/#54 | rejected | Multi-currency, tiered rewards, OpenAPI and GDPR platform work lacks fixed reward evidence and mostly exceeds four hours |
-| Roxonn cross-repository promotion issues | rejected | Platform advertisements/cooperation requests, not a repository buyer purchasing a funded deliverable |
+| Roxonn Explore funded repositories | rejected | No live item jointly exposed named buyer, funded amount, competition, deadline and direct claim entry |
+| Superteam Earn — My Crypto Casino X thread | rejected | 1,500 USDC pool and public entry, but 9 submissions |
+| Superteam Earn — Bring Your Web2 Ideas Onchain | rejected | 5,000 USDC, but 8 submissions, Vietnam-only and scope exceeds four hours |
+| Superteam Earn — Dutch Solana ecosystem thread | rejected | 1,000 USDG, but 4 submissions and Netherlands-only |
+| Superteam Earn — FBYT content | rejected | 600 USDC pool, but 73 submissions |
+| Superteam Earn — Zeroclaw plugins | rejected | 5,000 USDG pool, but 118 submissions and development scope exceeds four hours |
 
 ## Next channel
 
-Superteam Earn public USDC bounties: require named project/buyer, exact funded reward, open original brief, public deadline, <=2 applicants/submissions, direct entry and a 1–4-hour deliverable; act only if every gate passes.
+Dework live funded bounties: require a named DAO buyer, exact funded reward, open original task, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
