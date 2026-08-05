@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 03:31 +08:00
+- Updated: 2026-08-06 04:30 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -69,6 +69,10 @@ None.
 | Atom — casual performance footwear | rejected | Guaranteed US$300, but 1,499 entries and Tier A/NDA invitation-only |
 | Atom creative onboarding | rejected | Direct participation requires signup, verified PayPal, W9/W8-BEN and possible identity documents |
 
+| Brand New Name public creative page | rejected | US$100–150 award and Payoneer payout verified, but no specific current buyer/brief/deadline/live competition |
+| Brand New Name business naming contests | rejected | Platform says contests commonly receive 100+ ideas; competition gate cannot pass |
+| Brand New Name creative signup | rejected | Current contests and entry counts are account-gated behind full-name/email signup |
+
 ## Next channel
 
-Brand New Name active contests: require a specific buyer, US$100–150 cash award with Payoneer payout, public deadline, live participant/submission count <=2, direct entry and 1–4-hour scope; only submit if every gate passes without identity claims.
+Fresh GitHub bounty issues posted within seven days: require an open original issue, named sponsoring organization, US$20–200 escrow/platform payout, <=2 claimants or PRs, public claim entry and a 1–4-hour deliverable; only claim if every gate passes.
