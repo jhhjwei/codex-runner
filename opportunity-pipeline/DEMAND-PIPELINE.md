@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-05 22:30 +08:00
+- Updated: 2026-08-05 23:31 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -49,7 +49,9 @@ None.
 | User Interviews — Website navigation activity | rejected | $50/25 min public; buyer, competition and unique public request URL absent |
 | User Interviews — Software Research Study | rejected | $60/60 min public; buyer, competition and unique public request URL absent |
 | User Interviews — Banking Research Study | rejected | $60/60 min public; buyer, competition and unique public request URL absent |
+| 99designs public contest browser | rejected | Open categories show 0 and public results are finished contests; no current buyer/deadline/live entry count available |
+| 99designs designer marketplace | rejected | Help directs designers to browse open contests from their profile; current requests require account access |
 
 ## Next channel
 
-99designs contests: require a named buyer, guaranteed prize/payment, exact deliverable, current designer/entry count <=2, open deadline, direct submission entry and <=4-hour scope; only submit if every gate passes without identity claims or irreversible publication.
+Hatchwise design and naming contests: require a named buyer, guaranteed prize/payment, exact deliverable, live entry/designer count <=2, open deadline, direct entry and <=4-hour scope; only submit if every gate passes without identity claims or irreversible publication.
