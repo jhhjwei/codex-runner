@@ -19,3 +19,14 @@ User Interviews publicly displayed current online study cards and states incenti
 ## Next single action
 
 Verify newly posted 99designs contests. Submit once only if a named buyer, guaranteed prize/payment, exact deliverable, current designer/entry count <=2, open deadline, direct entry and <=4-hour scope are all public without identity claims or irreversible publication.
+
+## Hourly guard status
+
+_Last updated: 2026-08-05 23:19:25 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/22.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
