@@ -1,20 +1,21 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-05 14:44 +08:00
+- Updated: 2026-08-05 15:45 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
 - External actions this hour: 0
+- Qualified buyer demands this hour: 0
 
 ## Active downstream
 
 - AsyncAPI Studio #1333: open, official `microgrant` label, assigned to `Shurtu-gal`; no reassignment or payment.
 - Dokploy PR #4918: open, mergeable, unmerged; requested reviewer `Siumauricio`; no new review, CI approval, merge, payment, or receipt.
 
-## Latest channel rotation
+## Latest demand-first rotation
 
-Truelancer has fixed-price work and a direct proposal entry, but no listing passed every gate. The INR 5,000 executive presentation had about 35 proposals, and the three-hour thesis research task had 20. One-proposal listings were location-specific outbound calling or videography, outside the accepted bounded documentation, data, spreadsheet, presentation, research, or code scope. No L3 candidate was added.
+The new demand-first pipeline was initialized. Five specific paid requests were checked: Coolify #7743, Nuclei #5838, SigNoz #6010, and urllib3 #1362 were already closed/rewarded/assigned. Coolify #7528 remains open but has 46 comments and a broad database-model feature beyond four hours. Freelancer discovery returned only closed/old or highly competitive listings. No concrete buyer demand passed every gate.
 
 ## Next single action
 
-Rotate to one newly posted RemoteHub fixed-price documentation, spreadsheet, data, or research task. Submit one application only if public payment is verifiable, competition is <=2, direct entry is available, and delivery fits 1–4 hours.
+Verify one newly opened Topcoder challenge. Register only if the buyer and prize are public, registrations are <=2, direct entry is open, and the deliverable fits 1–4 hours.
