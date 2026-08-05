@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-05 16:44 +08:00
+- Updated: 2026-08-05 17:21 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -25,7 +25,12 @@ None.
 | OrcaSlicer #14503 | rejected | Personal $200 proposal without escrow; hardware validation and >4h |
 | Synaptic #149 | rejected | $200 offer expired 2025-10-26; 13 comments and major C++ refactor |
 | microG #2843 | rejected | 147 comments; full WearOS framework and hardware scope |
+| LaborX — Blockchain/Crypto Research writers | rejected | Applicant count and bounded article scope not public; anomalous $3,700–$9,000 range |
+| LaborX — Python or Unity Game Design | rejected | $300 fixed, but implementation exceeds four hours and applicant count is not public |
+| LaborX — Bring Me Web2/Web3 Clients | rejected | Commission-only; no guaranteed paid deliverable; requires finding a third-party buyer |
+| LaborX — Data entry from India | rejected | $27 ongoing/region-restricted work; volume and applicant count not public |
+| LaborX — Website Speed Optimization | rejected | $150 original page now returns 404; competition unverifiable |
 
 ## Next channel
 
-LaborX fixed-price online jobs: require a named buyer, public cash/USDT budget, <=2 proposals, direct application, and 1–4 hour delivery before promotion to qualified-L3.
+DesignCrowd current contests: require a named buyer, public prize, <=2 entries, live submission entry, and 1–4 hour delivery before promotion to qualified-L3.
