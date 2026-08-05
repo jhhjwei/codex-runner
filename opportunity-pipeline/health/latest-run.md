@@ -1,22 +1,21 @@
-# Latest hourly income run
+# Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-05 15:00–15:59 +08:00
+- Beijing hour: 2026-08-05 14:00–14:59 +08:00
 - status: failed
-- heartbeat: `opportunity-pipeline/health/2026-08-05/15.md`
-- started_commit: `b1b593165a2f57b716f6fe288bbd26cf2548d8e1`
-- external_action_count: 0
-- qualified_demand_count: 0
-- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
+- task: first-income hourly executor
+- primary_heartbeat: true
+- fallback: false
+- commercial_actions: 0
+- commercial_action_types: none
+- git_evidence: 94210bad17f91ddde6d28337285d8b3e2d77a7a4	pipeline: record Truelancer rotation result; df21eb6f960695a3b73b87b3819a12217affdc9d	health: advance latest run to 2026-08-05 14; 316233849ff636830ef31163a056a541bd54d369	health: complete 2026-08-05 14 hourly run; de344f60c48c587d7b0b08835763a5885dc4192c	health: start 2026-08-05 14 hourly run
+- punishment_triggered: true
+- trigger_reasons: two consecutive hours without commercial action
 
 ## Downstream
 
-- AsyncAPI Studio #1333: unchanged; open, microgrant, assigned to `Shurtu-gal`.
-- Dokploy PR #4918: unchanged; open and mergeable, no review, CI approval, merge, or payment.
+- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
+- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
 
-## Result
+## Commercial integrity
 
-No concrete buyer demand passed all gates. The five exact paid requests checked were rejected because they were closed/rewarded/assigned or, for open Coolify #7528, had 46 comments and a scope beyond four hours. No L3 candidate and no external action.
-
-## Next action
-
-Verify one newly opened Topcoder challenge and register only if buyer, prize, <=2 registrations, direct entry, and a 1–4 hour deliverable are public and valid.
+Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.

@@ -19,3 +19,14 @@ The new demand-first pipeline was initialized. Five specific paid requests were 
 ## Next single action
 
 Verify one newly opened Topcoder challenge. Register only if the buyer and prize are public, registrations are <=2, direct entry is open, and the deliverable fits 1–4 hours.
+
+## Hourly guard status
+
+_Last updated: 2026-08-05 15:44:15 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-05/14.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
