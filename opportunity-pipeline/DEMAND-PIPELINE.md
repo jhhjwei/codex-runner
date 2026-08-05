@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 04:30 +08:00
+- Updated: 2026-08-06 05:33 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -73,6 +73,11 @@ None.
 | Brand New Name business naming contests | rejected | Platform says contests commonly receive 100+ ideas; competition gate cannot pass |
 | Brand New Name creative signup | rejected | Current contests and entry counts are account-gated behind full-name/email signup |
 
+| GitHub issues created 2026-07-30–2026-08-06 — cash bounty queries | rejected | No matching open original issue returned by connector searches |
+| crewAI #6679 / Eliza #17201 | rejected | US$10, created 2026-07-26, requires 100 Base-mainnet transactions/integration |
+| chatmcp/docs #4 | rejected | Promotional directory-listing request, not a funded worker deliverable |
+| Armory3D US$100 bounty issues | rejected | Created in 2022, old Bountysource links and graphics-engine scope >4h |
+
 ## Next channel
 
-Fresh GitHub bounty issues posted within seven days: require an open original issue, named sponsoring organization, US$20–200 escrow/platform payout, <=2 claimants or PRs, public claim entry and a 1–4-hour deliverable; only claim if every gate passes.
+Roxonn live funded bounty board: require named sponsor, funded USDC/XDC escrow, open original issue, <=2 claimants/PRs, direct claim entry and a 1–4-hour deliverable; only claim if every gate passes.
