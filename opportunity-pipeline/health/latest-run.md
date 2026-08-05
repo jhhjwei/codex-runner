@@ -1,21 +1,29 @@
-# Hourly income conversion heartbeat
+# Latest hourly income demand run
 
-- Beijing hour: 2026-08-05 17:00–17:59 +08:00
+- Beijing hour: 2026-08-05 19:00–19:59 +08:00
 - status: failed
-- task: first-income hourly executor
-- primary_heartbeat: true
-- fallback: false
-- commercial_actions: 0
-- commercial_action_types: none
-- git_evidence: bbf295943221e97b418d42d48623b9895522450a	pipeline: roll LaborX demand evidence; 6a6e3893986eb6cdd4092fb57632c11dd85d2e12	pipeline: summarize 17:00 LaborX scan; 4d153296b984253414d2add03c75e5a2faca5dd5	health: point latest run to 17:00; cb10017a688e81e38fe053d407be68de64476c26	pipeline: record 17:00 demand-first scan; 4e70c796b3c15ef666e0981aefedb8f53ed5b56d	health: complete 17:00 demand run; 93e21b95f6bb4e80749a9261081806b977d314d6	health: start 2026-08-05 17 demand run
-- punishment_triggered: true
-- trigger_reasons: two consecutive hours without commercial action
+- heartbeat: `opportunity-pipeline/health/2026-08-05/19.md`
+- demand-list: `opportunity-pipeline/demand-list/2026-08-05/19.md`
+- started_commit: `2fe6d85892e1136400e2a13553e0d87cf2f2c614`
+- external_action_count: 0
+- qualified_demand_count: 0
+- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
 
 ## Downstream
 
-- AsyncAPI Studio #1333: state=open; assignees=['Shurtu-gal']; error=none
-- Dokploy PR #4918: state=open; merged=False; mergeable=True; error=none
+- AsyncAPI Studio #1333: unchanged; open, official microgrant, assigned to `Shurtu-gal`.
+- Dokploy PR #4918: unchanged; open, mergeable and unmerged; no review, CI approval, merge, or payment.
 
-## Commercial integrity
+## Result
 
-Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
+Freelancehunt exposed named buyers, public budgets, proposal evidence, deadlines and Safe escrow. The best demand was Anton Shved's US$75 AI solar-video job with zero proposals, but the script-to-finished-video scope was not reliably <=4h and the application requires existing portfolio/experience statements plus login. Four other demands failed location, identity, competition, duration or economics gates. No qualified-L3 and no external action.
+
+## Evidence commits
+
+- demand list: `cdc8a76f993f08238a127679e13847e1746073ab`
+- demand pipeline: `61939e32658f4ac9b637d4f00b5383831924fd66`
+- summary: `41096707cd3bc41483b416c18da16866c57b9d3c`
+
+## Next action
+
+Verify one newly posted SproutGigs data, document or research microjob; accept only if advertiser, reward/escrow, remaining positions, direct entry, <=4-hour delivery and >=US$10/hour economics are public, without credentials or identity checks.
