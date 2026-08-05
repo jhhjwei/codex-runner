@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 01:31 +08:00
+- Updated: 2026-08-06 02:30 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -59,6 +59,10 @@ None.
 | crowdspring — Graylog Party Gorilla Mascot | rejected | Public result reports over 100 entries; competition far above 2 |
 | crowdspring creative registration | rejected | Designer/namer registration uses a waitlist; no immediate public submission route verified |
 
+| NamingForce active contests | rejected | Gallery reports 0 active contests; no open buyer demand |
+| NamingForce — Locksmith Company Name | rejected | Awarded three months ago; 216 participants and 680 submissions |
+| NamingForce US$249 package | rejected | Buyer-facing package price promising hundreds of entries, not a worker award or live request |
+
 ## Next channel
 
-NamingForce naming contests: require a specific buyer, guaranteed cash prize/payment, naming brief, live submission count <=2, open deadline, direct entry and 1–4-hour scope; only submit if every gate passes without identity claims.
+Atom naming contests: require a specific buyer, guaranteed cash prize/payment, naming brief, live participant or submission count <=2, open deadline, direct entry and 1–4-hour scope; only submit if every gate passes without identity claims.
