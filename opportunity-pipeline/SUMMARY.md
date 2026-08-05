@@ -19,3 +19,14 @@ Roxonn's public pages verify a bounty platform and XDC/ROXN/USDC payment support
 ## Next single action
 
 Verify the latest public Superteam Earn USDC bounty. Submit once only if the named buyer, exact funded reward, open brief, deadline, <=2 applicants/submissions, direct entry and a 1–4-hour deliverable are all verified.
+
+## Hourly guard status
+
+_Last updated: 2026-08-06 07:06:05 +08:00_
+
+- latest primary heartbeat: `opportunity-pipeline/health/2026-08-06/06.md`
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
