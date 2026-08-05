@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-06 00:32 +08:00
+- Updated: 2026-08-06 01:32 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -14,8 +14,8 @@
 
 ## Latest demand-first rotation
 
-Hatchwise's indexed active-contest result showed a US$50 prize, about three days and nineteen hours remaining, and 291 entries. Competition therefore exceeds the <=2 gate by a wide margin. Direct fetching timed out, and no stable unique request URL, named buyer and complete deliverable were returned publicly. Historical browse results are awarded contests with dozens to hundreds of entries and were not reused as demand. Qualified list: 0; no account, speculative design or irreversible submission.
+crowdspring exposed an Industrial Grade Hardware Solution logo request from client handle `ky` with a US$200 award, but JavaScript/robot verification hid current status, deadline, entry count and direct submission. A Graylog Party Gorilla Mascot result reported over 100 entries. Creative registration also uses a waitlist. No request publicly combined payment, competition <=2, open deadline and direct entry. Qualified list: 0; no registration, identity claim, speculative design or irreversible submission.
 
 ## Next single action
 
-Verify newly posted crowdspring design or naming projects. Submit once only if a named buyer, guaranteed award/payment, exact deliverable, live participant/entry count <=2, open deadline, direct entry and <=4-hour scope are all public without identity claims.
+Verify newly posted NamingForce naming contests. Submit once only if a specific buyer, guaranteed cash prize/payment, naming brief, live submission count <=2, open deadline, direct entry and 1–4-hour scope are all public without identity claims.
