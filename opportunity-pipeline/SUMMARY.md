@@ -24,9 +24,10 @@ Verify Dework's latest public funded bounty. Apply once only if a named DAO buye
 
 _Last updated: 2026-08-06 08:07:47 +08:00_
 
-- latest primary heartbeat: `opportunity-pipeline/health/2026-08-06/07.md`
+- audit record: `opportunity-pipeline/health/audit/2026-08-06/07.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-06/07.md`
+- primary status: failed
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
