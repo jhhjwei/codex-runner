@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 08:34 +08:00
+- Updated: 2026-08-06 09:31 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -17,13 +17,13 @@ The prior ledger remains in repository history. This rolling view retains the la
 
 | Request | Status | Reason |
 |---|---|---|
-| Superteam Earn — current candidates | rejected | Live submission counts 4–118; regional/scope gates also failed |
-| Dework Open Bounties | rejected | Public page confirms an open-bounty aggregator but exposes no current task cards with buyer, reward, competition and direct entry together |
-| Dework payment workflow | rejected | On-chain token/Gnosis Safe payments verified at platform level, not a current buyer demand |
-| YOLOrekt Community Bug Bounty | rejected | 5,000 USDC but deadline was 2022-08-01 |
-| IDriss integration bounty | rejected | 100 USDC result; current status, competition and bounded scope cannot be verified; detail page timed out |
+| Dework Open Bounties | rejected | Public board did not expose a current task with buyer, funded reward, competition and direct entry together |
+| IDriss integration bounty | rejected | Current status, competition and bounded scope could not be verified |
 | meToken Discord bot | rejected | Reward, live competition and direct entry unavailable; scope likely exceeds four hours |
+| Wonderverse Explore Work | rejected | Public work view currently says “No results found”; no open task to validate |
+| Wonderverse featured projects | rejected | Organization cards are not specific purchase requests and omit reward, competition and application evidence |
+| Wonderverse sign-in entry | rejected | Account-gated possibilities do not prove a current funded buyer demand |
 
 ## Next channel
 
-Wonderverse live bounties: require a named DAO buyer, fixed funded reward, open original task, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
+OnlyDust public rewarded issues: require a named project buyer, fixed reward/payment, open original issue, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
