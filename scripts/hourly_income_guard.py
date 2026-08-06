@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Primary hourly heartbeat and anti-idling guard for the income pipeline."""
+"""Read-only audit guard for the hourly income pipeline."""
 from __future__ import annotations
 
 import datetime as dt
@@ -13,12 +13,17 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 PIPELINE = ROOT / "opportunity-pipeline"
 HEALTH = PIPELINE / "health"
+AUDIT = HEALTH / "audit"
 LATEST = HEALTH / "latest-run.md"
 SUMMARY = PIPELINE / "SUMMARY.md"
 TZ = ZoneInfo("Asia/Shanghai")
 ACTION_RE = re.compile(
     r"(?:^|\s)action_type\s*:\s*(contact|claim|pr|review_fix|accepted|payment|received)\b",
     re.I,
+)
+STATUS_RE = re.compile(r"^- status:\s*([\w-]+)\s*$", re.M)
+ACTION_COUNT_RE = re.compile(
+    r"^- (?:commercial_actions|external_action_count):\s*(\d+)\s*$", re.M
 )
 
 
@@ -38,16 +43,6 @@ def atomic_write(path: Path, content: str) -> None:
     temp = path.with_suffix(path.suffix + ".tmp")
     temp.write_text(content, encoding="utf-8")
     temp.replace(path)
-
-
-def api(endpoint: str) -> dict:
-    result = run("gh", "api", endpoint, check=False)
-    if result.returncode != 0:
-        return {"error": result.stderr.strip() or "gh api failed"}
-    try:
-        return json.loads(result.stdout)
-    except json.JSONDecodeError:
-        return {"error": "invalid GitHub API response"}
 
 
 def audited_window(now: dt.datetime) -> tuple[dt.datetime, dt.datetime]:
@@ -78,31 +73,23 @@ def age_minutes(path: Path, now: dt.datetime) -> int | None:
     return int((now - modified).total_seconds() // 60)
 
 
-def previous_actions(start: dt.datetime) -> int:
-    previous = start - dt.timedelta(hours=1)
-    path = HEALTH / previous.strftime("%Y-%m-%d") / f"{previous:%H}.md"
+def action_count(path: Path) -> int:
     if not path.exists():
         return 0
-    match = re.search(
-        r"^- commercial_actions:\s*(\d+)\s*$",
-        path.read_text(encoding="utf-8"),
-        re.M,
-    )
+    match = ACTION_COUNT_RE.search(path.read_text(encoding="utf-8"))
     return int(match.group(1)) if match else 0
 
 
-def downstream() -> dict:
-    asyncapi = api("repos/asyncapi/studio/issues/1333")
-    dokploy = api("repos/Dokploy/dokploy/pulls/4918")
-    return {
-        "asyncapi_state": asyncapi.get("state", "unknown"),
-        "asyncapi_assignees": [item.get("login") for item in asyncapi.get("assignees", [])],
-        "asyncapi_error": asyncapi.get("error"),
-        "dokploy_state": dokploy.get("state", "unknown"),
-        "dokploy_merged": dokploy.get("merged", False),
-        "dokploy_mergeable": dokploy.get("mergeable"),
-        "dokploy_error": dokploy.get("error"),
-    }
+def previous_actions(start: dt.datetime) -> int:
+    previous = start - dt.timedelta(hours=1)
+    return action_count(HEALTH / previous.strftime("%Y-%m-%d") / f"{previous:%H}.md")
+
+
+def primary_status(path: Path) -> str:
+    if not path.exists():
+        return "missing"
+    match = STATUS_RE.search(path.read_text(encoding="utf-8"))
+    return match.group(1).lower() if match else "unknown"
 
 
 def update_p0_issue(start: dt.datetime, end: dt.datetime, actions: list[str], reasons: list[str]) -> None:
@@ -123,14 +110,14 @@ Repair the primary chain and complete at least one verifiable contact, claim, PR
 
 ## Acceptance criteria
 
-1. Two consecutive primary heartbeats exist; fallback-only records do not qualify.
+1. The primary heartbeat exists and ends in completed or failed.
 2. `health/latest-run.md` and `SUMMARY.md` stay within 90 minutes.
 3. At least one structured `action_type:` marker has public evidence.
 4. No reply, merge, payment or receipt is fabricated.
 """
     found = run(
         "gh", "issue", "list", "--repo", repo, "--state", "open",
-        "--search", f'\"{title}\" in:title', "--json", "number", "--limit", "1",
+        "--search", f'"{title}" in:title', "--json", "number", "--limit", "1",
         check=False,
     )
     number = None
@@ -149,10 +136,19 @@ Repair the primary chain and complete at least one verifiable contact, claim, PR
 def main() -> int:
     now = dt.datetime.now(TZ)
     start, end = audited_window(now)
+    primary = HEALTH / start.strftime("%Y-%m-%d") / f"{start:%H}.md"
+    audit = AUDIT / start.strftime("%Y-%m-%d") / f"{start:%H}.md"
+
     commits, actions = git_evidence(start, end)
+    status = primary_status(primary)
     latest_age = age_minutes(LATEST, now)
     summary_age = age_minutes(SUMMARY, now)
     reasons: list[str] = []
+
+    if status == "missing":
+        reasons.append("primary hourly heartbeat missing")
+    elif status not in {"completed", "failed"}:
+        reasons.append(f"primary heartbeat incomplete: {status}")
     if not commits:
         reasons.append("primary hourly pipeline commit missing")
     if not actions and previous_actions(start) == 0:
@@ -162,33 +158,25 @@ def main() -> int:
     if summary_age is None or summary_age > 90:
         reasons.append("SUMMARY stale >90m")
 
-    state = downstream()
-    status = "failed" if reasons else "completed"
-    target = HEALTH / start.strftime("%Y-%m-%d") / f"{start:%H}.md"
-    heartbeat = f"""# Hourly income conversion heartbeat
+    enforcement = "RED" if reasons else "GREEN"
+    report = f"""# Hourly income guard audit
 
-- Beijing hour: {start:%Y-%m-%d %H}:00–{(end - dt.timedelta(seconds=1)):%H}:59 +08:00
-- status: {status}
-- task: first-income hourly executor
-- primary_heartbeat: true
-- fallback: false
+- audited Beijing hour: {start:%Y-%m-%d %H}:00–{(end - dt.timedelta(seconds=1)):%H}:59 +08:00
+- audit_time: {now:%Y-%m-%d %H:%M:%S} +08:00
+- enforcement_state: {enforcement}
+- primary_heartbeat: `{primary.relative_to(ROOT)}`
+- primary_status: {status}
 - commercial_actions: {len(actions)}
 - commercial_action_types: {', '.join(actions) if actions else 'none'}
 - git_evidence: {'; '.join(commits) if commits else 'none'}
-- punishment_triggered: {str(bool(reasons)).lower()}
 - trigger_reasons: {', '.join(reasons) if reasons else 'none'}
 
-## Downstream
+## Guard boundaries
 
-- AsyncAPI Studio #1333: state={state['asyncapi_state']}; assignees={state['asyncapi_assignees']}; error={state['asyncapi_error'] or 'none'}
-- Dokploy PR #4918: state={state['dokploy_state']}; merged={state['dokploy_merged']}; mergeable={state['dokploy_mergeable']}; error={state['dokploy_error'] or 'none'}
-
-## Commercial integrity
-
-Only contact, claim, PR, review_fix, accepted, payment and received count. Search, archive and reports count as zero. No reply, merge, payment or receipt is inferred.
+This guard is read-only with respect to the primary heartbeat and `health/latest-run.md`.
+It does not query downstream opportunities; the primary executor owns those checks.
 """
-    atomic_write(target, heartbeat)
-    atomic_write(LATEST, heartbeat)
+    atomic_write(audit, report)
 
     old_summary = SUMMARY.read_text(encoding="utf-8") if SUMMARY.exists() else "# Opportunity Pipeline Summary\n"
     old_summary = re.sub(r"\n## Hourly guard status\n.*\Z", "", old_summary, flags=re.S)
@@ -198,15 +186,17 @@ Only contact, claim, PR, review_fix, accepted, payment and received count. Searc
 
 _Last updated: {now:%Y-%m-%d %H:%M:%S} +08:00_
 
-- latest primary heartbeat: `{target.relative_to(ROOT)}`
+- audit record: `{audit.relative_to(ROOT)}`
+- primary heartbeat: `{primary.relative_to(ROOT)}`
+- primary status: {status}
 - commercial actions in audited hour: {len(actions)} ({', '.join(actions) if actions else 'none'})
-- enforcement state: {'RED' if reasons else 'GREEN'}
+- enforcement state: {enforcement}
 - trigger reasons: {', '.join(reasons) if reasons else 'none'}
 - counting rule: search, archive and reports are not commercial progress
 """
     atomic_write(SUMMARY, old_summary.rstrip() + guard + "\n")
     update_p0_issue(start, end, actions, reasons)
-    print(target.relative_to(ROOT))
+    print(audit.relative_to(ROOT))
     return 10 if reasons else 0
 
 
