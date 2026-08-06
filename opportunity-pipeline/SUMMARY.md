@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-06 09:32 +08:00
+- Updated: 2026-08-06 10:32 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -14,15 +14,15 @@
 
 ## Latest demand-first rotation
 
-Wonderverse's public Explore Work view currently returns “No results found”. Featured organizations are directory cards rather than specific purchase requests, and public evidence does not expose a current buyer, funded reward, competition and direct entry together. Qualified list: 0; no login, wallet connection or speculative application.
+OnlyDust's official homepage now says its chapter has closed and redirects the mission to ctrlg.com. Search-visible OnlyDust Wave issues are closed/assigned historical work, and bounty labels alone do not establish a current funded buyer demand. Qualified list: 0; no application.
 
 ## Next single action
 
-Verify OnlyDust's latest public rewarded issues. Apply once only if the named project buyer, fixed reward/payment, open issue, <=2 applicants/claims, direct entry and a 1–4-hour deliverable all pass.
+Verify ctrlg.com's current funded tasks. Apply once only if a named buyer, fixed reward/payment, open task, <=2 applicants/claims, direct entry and a 1–4-hour deliverable all pass.
 
 ## Hourly guard status
 
-- primary heartbeat: `opportunity-pipeline/health/2026-08-06/09.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-06/10.md`
 - primary status: failed
 - commercial actions in current hour: 0
 - enforcement state: RED
