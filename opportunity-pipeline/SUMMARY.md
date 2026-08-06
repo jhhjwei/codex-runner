@@ -22,8 +22,13 @@ Verify Bountycaster's current USDC tasks. Apply once only if a named buyer, fixe
 
 ## Hourly guard status
 
-- primary heartbeat: `opportunity-pipeline/health/2026-08-06/12.md`
+_Last updated: 2026-08-06 12:25:00 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-06/11.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-06/11.md`
 - primary status: failed
-- commercial actions in current hour: 0
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
+
