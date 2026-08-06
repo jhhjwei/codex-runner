@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-06 18:35 +08:00
+- Updated: 2026-08-06 19:38 +08:00
 - Revenue received (L12): 0
 - Paid / receivable (L10/L11): 0 / 0
 - External actions this hour: 0
@@ -13,11 +13,11 @@
 
 ## Current-hour result
 
-BountyHub verifies GitHub bounty funding, Stripe/PayPal payouts and PR-based claiming, but its current public browse page returned no item cards. No current buyer, funded amount, competition count, deadline or item-specific entry could be verified, so no demand entered L3 and no speculative PR was started.
+Opire's Stripe payment path and five concrete rewards were verified. None passed every gate: the best $100 tray-indicator task has exactly two claims and a 2–4h estimate, but its linked GitHub issue returns 404, so the original demand and direct entry are unverifiable. No L3 promotion or speculative PR was made.
 
 ## Next single action
 
-Validate Opire's current public GitHub rewards and publicly claim one only when buyer, fixed funded reward, <=2 competitors, direct issue entry and 1–4-hour scope are all verified.
+Validate IssueHunt's current publicly funded issues and publicly claim one only when buyer, available reward, <=2 competitors, direct issue entry and 1–4-hour scope are all verified.
 
 ## Hourly guard status
 
@@ -30,4 +30,3 @@ _Last updated: 2026-08-06 19:02:15 +08:00_
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
