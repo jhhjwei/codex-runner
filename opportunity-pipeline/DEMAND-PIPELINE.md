@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 15:39 +08:00
+- Updated: 2026-08-06 16:36 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -17,12 +17,10 @@ The prior ledger remains in repository history. This rolling view retains the la
 
 | Request | Status | Reason |
 |---|---|---|
-| OpenBuild Web3 Frontend Bootcamp First Prize | rejected | $500 deposit shown, but task body is blank and deadline, applicants and scope are absent |
-| OpenBuild Solidity Hackathon Bounty | rejected | $100 deposit shown, but appears to be a preselected project payout and lacks scope, deadline and competition evidence |
-| Zama Confidential Onchain Finance | rejected | Challenge page closed; full dApp, documentation and human video exceed four hours |
-| Haya $6000 bug bounty | rejected | Audit window expired; competition hidden and security review exceeds four hours |
-| LootLot Mini-Hackerhouse | rejected | Completed and paid to one builder |
+| Bounties.sh public marketplace | rejected | Escrow, milestone payment and zero commission are verified, but all current buyer demands, budgets, deadlines and applicant counts require an account |
+| Bounties.sh account creation | rejected | Requires age/identity and email assertions that cannot be made on the user's behalf |
+| Bounties.sh platform examples | rejected | Generic examples such as logo, code tweak and content series are not current purchase demands |
 
 ## Next channel
 
-Bounties.sh current creative tasks: require a named buyer, locked verified budget, an open original demand, <=2 applicants, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
+Bountee.fun's five public live bounties: require a named community buyer, verified reward pool, an open original demand, <=2 submissions, direct entry and a 1–4-hour deliverable; submit only if every gate passes.
