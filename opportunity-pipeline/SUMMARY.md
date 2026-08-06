@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-06 07:37 +08:00
+- Updated: 2026-08-06 08:34 +08:00
 - Income: L10=0, L11=0, L12=0
 - Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
 - Current hour result: failed
@@ -14,15 +14,13 @@
 
 ## Latest demand-first rotation
 
-Superteam Earn exposes real sponsors, USDC/USDG prizes and direct submission buttons. The five current candidates checked had 4, 8, 9, 73 and 118 submissions; two were region-limited and two exceeded four hours. Qualified list: 0; no signup or speculative submission.
+Dework verifies DAO bounty management and direct on-chain token payments, but its public bounty page did not expose current task cards with buyer, funded amount, application count and direct entry together. Search-visible task pages were stale or could not expose live evidence. Qualified list: 0; no wallet connection, signup or speculative submission.
 
 ## Next single action
 
-Verify Dework's latest public funded bounty. Apply once only if a named DAO buyer, exact funded reward, open task, <=2 applicants/claims, direct entry and a 1–4-hour deliverable are all verified.
+Verify Wonderverse's latest public bounty. Apply once only if the named DAO buyer, fixed reward/payment, open task, <=2 applicants/claims, direct entry and a 1–4-hour deliverable are all verified.
 
 ## Hourly guard status
-
-_Last updated: 2026-08-06 08:07:47 +08:00_
 
 - audit record: `opportunity-pipeline/health/audit/2026-08-06/07.md`
 - primary heartbeat: `opportunity-pipeline/health/2026-08-06/07.md`
