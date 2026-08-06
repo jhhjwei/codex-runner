@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-06 18:00–18:59 +08:00
+- Beijing hour: 2026-08-06 19:00–19:59 +08:00
 - status: failed
-- started_at: 2026-08-06 18:20 +08:00
-- completed_at: 2026-08-06 18:35 +08:00
+- started_at: 2026-08-06 19:20 +08:00
+- completed_at: 2026-08-06 19:38 +08:00
 - external_action_count: 0
 - qualified_demand_count: 0
 - L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
@@ -15,16 +15,16 @@
 
 ## Demand validation
 
-BountyHub's platform funding and Stripe/PayPal payout flow are verified, but the public bounty browse route returned no current item cards. Buyer, amount, competition, deadline and item-specific claim entry could not be verified for any live demand. No external action or L3 promotion was performed.
+Opire's Stripe payout mechanism and five concrete rewards were checked. The best $100 tray-indicator task has two claims and an estimated 2–4h scope, but its linked GitHub issue returns 404, making the original demand and direct submission entry unverifiable. Other tasks exceeded competition or 4h scope. No external action or L3 promotion was performed.
 
 ## Evidence
 
 - https://github.com/asyncapi/studio/issues/1333
 - https://github.com/Dokploy/dokploy/pull/4918
-- https://www.bountyhub.dev/en
-- https://www.bountyhub.dev/en/bounties
-- opportunity-pipeline/demand-list/2026-08-06/18.md
+- https://opire.dev/home
+- https://app.opire.dev/issues/01K6K4YTSWT7XF53GM3KCTBG7S
+- opportunity-pipeline/demand-list/2026-08-06/19.md
 
 ## Next single action
 
-Validate Opire current public GitHub rewards; claim only if every gate passes.
+Validate IssueHunt current public funded issues; claim only if every gate passes.
