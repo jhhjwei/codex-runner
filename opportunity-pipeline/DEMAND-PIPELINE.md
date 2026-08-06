@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 11:31 +08:00
+- Updated: 2026-08-06 12:31 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -17,13 +17,13 @@ The prior ledger remains in repository history. This rolling view retains the la
 
 | Request | Status | Reason |
 |---|---|---|
-| OnlyDust platform | rejected | Official homepage says the OnlyDust chapter has closed |
-| ForgeCode #389 /retry | rejected | Closed and assigned; historical OnlyDust Wave issue |
-| Boundless #102 GraphQL migration | rejected | Closed, assigned, and no current fixed reward/application entry |
-| Ctrl+G cybersecurity data lab | rejected | Corporate solution page has no current task, fixed reward, competition or contributor claim entry |
-| Ctrl+G contact | rejected | Enterprise partnership contact is not a concrete purchase request |
-| Ctrl+G careers | rejected | No public short contract with budget, competition and bounded deliverable |
+| Ctrl+G cybersecurity data lab | rejected | No current task, fixed reward, competition or contributor claim entry |
+| Biome #1724 editorconfig | rejected | Open/fundable but no current funded amount; 57 reactions and scope exceeds four hours |
+| PolarSource Algora board | rejected | Zero open bounties |
+| Polar issue-funding mechanism | rejected | Platform capability without a discoverable current buyer demand |
+| Gitea #29331 | rejected | Closed discussion, not a current purchase request |
+| Polar Open Collective records | rejected | Historical transfers do not fund a current open issue |
 
 ## Next channel
 
-Polar-funded GitHub issues: require a named project buyer, fixed reward/payment, open original issue, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; claim only if every gate passes.
+Bountycaster current USDC tasks: require a named buyer, fixed escrowed reward, open original task, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
