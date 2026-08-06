@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 07:37 +08:00
+- Updated: 2026-08-06 08:34 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -17,13 +17,13 @@ The prior ledger remains in repository history. This rolling view retains the la
 
 | Request | Status | Reason |
 |---|---|---|
-| Roxonn Explore funded repositories | rejected | No live item jointly exposed named buyer, funded amount, competition, deadline and direct claim entry |
-| Superteam Earn — My Crypto Casino X thread | rejected | 1,500 USDC pool and public entry, but 9 submissions |
-| Superteam Earn — Bring Your Web2 Ideas Onchain | rejected | 5,000 USDC, but 8 submissions, Vietnam-only and scope exceeds four hours |
-| Superteam Earn — Dutch Solana ecosystem thread | rejected | 1,000 USDG, but 4 submissions and Netherlands-only |
-| Superteam Earn — FBYT content | rejected | 600 USDC pool, but 73 submissions |
-| Superteam Earn — Zeroclaw plugins | rejected | 5,000 USDG pool, but 118 submissions and development scope exceeds four hours |
+| Superteam Earn — current candidates | rejected | Live submission counts 4–118; regional/scope gates also failed |
+| Dework Open Bounties | rejected | Public page confirms an open-bounty aggregator but exposes no current task cards with buyer, reward, competition and direct entry together |
+| Dework payment workflow | rejected | On-chain token/Gnosis Safe payments verified at platform level, not a current buyer demand |
+| YOLOrekt Community Bug Bounty | rejected | 5,000 USDC but deadline was 2022-08-01 |
+| IDriss integration bounty | rejected | 100 USDC result; current status, competition and bounded scope cannot be verified; detail page timed out |
+| meToken Discord bot | rejected | Reward, live competition and direct entry unavailable; scope likely exceeds four hours |
 
 ## Next channel
 
-Dework live funded bounties: require a named DAO buyer, exact funded reward, open original task, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
+Wonderverse live bounties: require a named DAO buyer, fixed funded reward, open original task, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
