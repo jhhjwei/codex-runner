@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 14:36 +08:00
+- Updated: 2026-08-06 15:39 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@ The prior ledger remains in repository history. This rolling view retains the la
 
 | Request | Status | Reason |
 |---|---|---|
-| HackQuest ChainHack Industrial 5.0 | rejected | 4,000 USD total; competition and individual payout not public, detail page timed out, full hackathon exceeds four hours |
-| Arbitrum Open House Singapore | rejected | 115,000 USD total, 28 public participants and scope exceeds four hours |
-| Injective Global Cup | rejected | 1,000 USDT total, 114+ participants; body deadline 2026-07-26 conflicts with registration badge |
-| 0G APAC Hackathon | rejected | Submission ended 2026-05-16, now voting, 1145+ participants |
-| Injective Solo AI Builder Sprint | rejected | Ended 2026-06-10, 107+ participants and multi-asset scope exceeds four hours |
+| OpenBuild Web3 Frontend Bootcamp First Prize | rejected | $500 deposit shown, but task body is blank and deadline, applicants and scope are absent |
+| OpenBuild Solidity Hackathon Bounty | rejected | $100 deposit shown, but appears to be a preselected project payout and lacks scope, deadline and competition evidence |
+| Zama Confidential Onchain Finance | rejected | Challenge page closed; full dApp, documentation and human video exceed four hours |
+| Haya $6000 bug bounty | rejected | Audit window expired; competition hidden and security review exceeds four hours |
+| LootLot Mini-Hackerhouse | rejected | Completed and paid to one builder |
 
 ## Next channel
 
-OpenBuild current public bounties: require a named buyer, fixed reward and verifiable payment, an open original demand, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
+Bounties.sh current creative tasks: require a named buyer, locked verified budget, an open original demand, <=2 applicants, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
