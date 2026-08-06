@@ -1,7 +1,7 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 19:37 +08:00
-- qualified-L3: 0
+- Updated: 2026-08-06 20:39 +08:00
+- qualified-L3: 1
 - applied: 0
 - executing: 0
 - submitted: 0
@@ -9,7 +9,9 @@
 
 ## Active qualified demands
 
-None.
+| Request | Status | Reward | Competition | Next gate |
+|---|---|---:|---:|---|
+| BoostIO/BoostNote-Legacy #2667 fenced HTML formatting | qualified-L3 | $20 IssueHunt funded | 1 open PR | Maintainer confirms bounty is active and accepts an alternative PR |
 
 ## Rejected evidence
 
@@ -17,12 +19,11 @@ The prior ledger remains in repository history. This rolling view retains the la
 
 | Request | Status | Reason |
 |---|---|---|
-| Opire electron-template tray indicator ($100) | rejected | 2 claims and 2–4h look viable, but linked GitHub issue returns 404; original demand/entry unavailable |
-| Opire ReVanced universal microG patch ($40) | rejected | 1 claim, but broad Kotlin compatibility work exceeds 4h and is under $100 for a major change |
-| Opire Deno editor coverage ($70) | rejected | 3 claims and large Rust/LSP scope |
-| Opire zeroperl asynchronous APIs ($1,500) | rejected | 0 claims, but large C/WASM systems change exceeds 4h |
-| Opire TypeORM normalization ($300) | rejected | 6 public solvers and likely repository-wide regression work |
+| KeePassXC #1775 remote database support | rejected | $340 and 1 PR, but scope far exceeds 4h |
+| react-redux-typescript-guide #108 | rejected | $40 funded but a PR is already pending; current maintainer demand not revalidated |
+| code-settings-sync #396 | rejected | $80 funded but a PR is already pending in a legacy project |
+| BoostNote #2225 preview lines | rejected | $15, below preferred floor, with a submitted fix |
 
-## Next channel
+## Next action
 
-IssueHunt current publicly funded issues: require a named buyer, fixed available reward, <=2 active claims/PRs, direct issue entry and a 1–4-hour deliverable; publicly claim only if every gate passes.
+Monitor BoostNote #2667 and PR #3789 once; if comment permission becomes available, publish the prepared maintainer clarification before any development.
