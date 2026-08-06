@@ -18,3 +18,16 @@ BountyHub verifies GitHub bounty funding, Stripe/PayPal payouts and PR-based cla
 ## Next single action
 
 Validate Opire's current public GitHub rewards and publicly claim one only when buyer, fixed funded reward, <=2 competitors, direct issue entry and 1–4-hour scope are all verified.
+
+## Hourly guard status
+
+_Last updated: 2026-08-06 19:02:15 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-06/18.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-06/18.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
