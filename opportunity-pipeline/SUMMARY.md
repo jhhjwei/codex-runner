@@ -1,30 +1,20 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-06 16:37 +08:00
-- Income: L10=0, L11=0, L12=0
-- Stage counts: L3=0, L4=0, L6=1, L9=1, L10=0, L11=0, L12=0
-- Current hour result: failed
+- Updated: 2026-08-06 17:34 +08:00
+- Revenue received (L12): 0
+- Paid / receivable (L10/L11): 0 / 0
 - External actions this hour: 0
-- Qualified buyer demands this hour: 0
+- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
 
-## Active downstream
+## Downstream
 
-- AsyncAPI Studio #1333: unchanged; open, official `microgrant`, assigned to `Shurtu-gal`; no newer maintainer action.
-- Dokploy PR #4918: mergeable restored to true with unchanged commit/update timestamps; still open/unmerged and no new review, CI approval, merge or payment.
+- AsyncAPI Studio #1333 remains open with the microgrant label and assigned to Shurtu-gal; no new maintainer action.
+- Dokploy PR #4918 remains open, unmerged and mergeable=true; commit/update times are unchanged, with no new review, CI approval or payment evidence.
 
-## Latest demand-first rotation
+## Current-hour result
 
-Bounties.sh verifies escrow, milestone payout and zero commission, but every current demand is account-gated. Public pages expose no buyer task, budget, deadline, applicant count or application entry; account creation requires user identity assertions. Qualified list: 0; no registration or application.
+Bountee.fun exposes five live pump.fun community bounties with rewards and submission counts. All five have 4–170 submissions, so none passes the <=2 competition gate. No L3 promotion, registration, wallet connection or speculative submission was made.
 
 ## Next single action
 
-Verify Bountee.fun's five public live bounties. Submit once only if a named community buyer, verified reward pool, open original demand, <=2 submissions, direct entry and a 1–4-hour deliverable all pass.
-
-## Hourly guard status
-
-- authoritative heartbeat: `opportunity-pipeline/health/2026-08-06/16.md`
-- authoritative status: failed
-- commercial actions in current hour: 0
-- enforcement state: RED
-- trigger reason: more than two consecutive hours without a commercial action
-- counting rule: search, archive and reports are not commercial progress
+Validate BountyHub's current publicly funded GitHub bounties and publicly claim one only when buyer, funded amount, <=2 competitors, direct issue entry and 1–4-hour scope are all verified.
