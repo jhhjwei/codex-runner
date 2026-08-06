@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 13:36 +08:00
+- Updated: 2026-08-06 14:36 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -17,13 +17,12 @@ The prior ledger remains in repository history. This rolling view retains the la
 
 | Request | Status | Reason |
 |---|---|---|
-| Bountycaster Sean /base-builds invitation | rejected | 20 USDC and 2 submissions visible only in profile snippet; current open status, deadline, unique entry and payment certainty not verifiable |
-| Bountycaster Base outage research | rejected | Completed; 5 submissions and verified historical payment |
-| Bountycaster Satori dynamic images | rejected | Expired; at least 3 interested and scope exceeds four hours |
-| Bountycaster Nillion Minesweeper | rejected | Completed and scope exceeds four hours |
-| Bountycaster Unlock Labs event | rejected | Deadline 2024-06-30 and scope exceeds four hours |
-| Bountycaster payment mechanism | rejected | Peer-to-peer creator-discretion payment, not an escrow guarantee |
+| HackQuest ChainHack Industrial 5.0 | rejected | 4,000 USD total; competition and individual payout not public, detail page timed out, full hackathon exceeds four hours |
+| Arbitrum Open House Singapore | rejected | 115,000 USD total, 28 public participants and scope exceeds four hours |
+| Injective Global Cup | rejected | 1,000 USDT total, 114+ participants; body deadline 2026-07-26 conflicts with registration badge |
+| 0G APAC Hackathon | rejected | Submission ended 2026-05-16, now voting, 1145+ participants |
+| Injective Solo AI Builder Sprint | rejected | Ended 2026-06-10, 107+ participants and multi-asset scope exceeds four hours |
 
 ## Next channel
 
-HackQuest current public bounties: require a named buyer, fixed reward and verifiable payment, an open original demand, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
+OpenBuild current public bounties: require a named buyer, fixed reward and verifiable payment, an open original demand, <=2 applicants/claims, direct entry and a 1–4-hour deliverable; apply only if every gate passes.
