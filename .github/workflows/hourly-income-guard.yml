@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/hourly_income_guard.py"
+      - "tests/test_hourly_income_guard.py"
       - ".github/workflows/hourly-income-guard.yml"
   schedule:
     - cron: "7 * * * *"
@@ -31,7 +32,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run primary hourly guard
+      - name: Test guard boundaries
+        run: python3 -m pytest -q tests/test_hourly_income_guard.py
+
+      - name: Run read-only primary guard
         id: guard
         shell: bash
         run: |
@@ -41,16 +45,16 @@ jobs:
           set -e
           echo "exit_code=$code" >> "$GITHUB_OUTPUT"
 
-      - name: Commit primary heartbeat and summaries
+      - name: Commit audit and guard summary
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add opportunity-pipeline/health opportunity-pipeline/SUMMARY.md
+          git add opportunity-pipeline/health/audit opportunity-pipeline/SUMMARY.md
           if git diff --cached --quiet; then
-            echo "No heartbeat changes to commit"
+            echo "No audit changes to commit"
           else
-            git commit -m "health: record primary hourly income audit"
+            git commit -m "health: record read-only hourly income audit"
             git push
           fi
 
