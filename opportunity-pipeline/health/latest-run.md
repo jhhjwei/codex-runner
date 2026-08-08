@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-09 02:00–02:59 +08:00
+- Beijing hour: 2026-08-09 03:00–03:59 +08:00
 - status: failed
-- started_at: 2026-08-09 02:19 +08:00
-- completed_at: 2026-08-09 02:38 +08:00
+- started_at: 2026-08-09 03:20 +08:00
+- completed_at: 2026-08-09 03:37 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -17,16 +17,17 @@
 
 ## Result
 
-Guru candidates failed on competition, credentials, scope or missing exact budget. PeoplePerHour blocked public validation behind JavaScript robot verification. Existing BoostNote demand remains qualified-L3; no external action or new L3.
+Workana candidates failed exact-budget, competition, age, buyer-payment or scope gates. A current Freelancer Excel analysis request had 2 proposals and a public ₹600–1500 budget, but the anonymous buyer had no payment/verification history and the dataset size was unknown. Existing BoostNote demand remains qualified-L3; no external action or new L3.
 
 ## Evidence
 
 - https://github.com/asyncapi/studio/issues/1333
 - https://github.com/Dokploy/dokploy/pull/4918
 - https://github.com/BoostIO/BoostNote-Legacy/issues/2667
-- https://www.guru.com/jobs/setup-spreadsheet-to-calc-miles/2120088
-- opportunity-pipeline/demand-list/2026-08-09/02.md
+- https://www.workana.com/job/especialista-en-introduccion-de-datos-para-sitios-web-y-excel-1
+- https://www.freelancer.com/projects/excel/patient-demographic-stats-excel
+- opportunity-pipeline/demand-list/2026-08-09/03.md
 
 ## Next single action
 
-Validate current Workana document/data/research projects and act only if every threshold passes.
+Validate current Algora open bounties; act only if every threshold passes.
