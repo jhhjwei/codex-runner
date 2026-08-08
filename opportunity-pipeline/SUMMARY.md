@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-09 06:22 +08:00
+- Updated: 2026-08-09 07:22 +08:00
 - Revenue received (L12): 0
 - Paid / receivable (L10/L11): 0 / 0
 - External actions completed this hour: 0
@@ -8,17 +8,17 @@
 
 ## Downstream
 
-- AsyncAPI Studio #1333 has no new maintainer action.
+- AsyncAPI Studio #1333 has no new maintainer action; assignment remains with Shurtu-gal.
 - Dokploy PR #4918 remains open, unmerged and mergeable=true; head SHA and update time are unchanged, with no review, CI approval, merge or payment.
 - BoostNote #2667 and PR #3789 remain open and unchanged.
 
 ## Current-hour result
 
-BoostNote #2667 remains qualified-L3. Activepieces Gmail #8072 is open but explicitly reserved for finalized PR #8083; the other checked $50–100 bounty issues are closed. No external action or new L3; result failed.
+BoostNote #2667 remains qualified-L3. Expensify searches for $100/$125/$200 found no current issue satisfying every gate; surfaced $250 issues were rejected for price, scope, testing burden or absent public competition/claim evidence. No external action or new L3; result failed.
 
 ## Next single action
 
-Stop Activepieces and validate current Expensify public bounty issues in the $20–200 range; require competition <=2, direct claim and 1–4h delivery.
+Stop Expensify and validate current Open Collective-funded GitHub issues in the $20–200 range; require competition <=2, direct claim and 1–4h delivery.
 
 ## Hourly guard status
 
@@ -31,4 +31,3 @@ _Last updated: 2026-08-09 06:35:21 +08:00_
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
