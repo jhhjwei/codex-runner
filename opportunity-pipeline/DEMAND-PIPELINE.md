@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 04:21 +08:00
+- Updated: 2026-08-09 05:23 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Algora / Dokploy #1413 | rejected | $100 but 24 claims and scope exceeds 4h |
-| Algora / Dokploy #416 | rejected | $50 but 11 claims; current PR already exists |
-| Algora / EdgeChains #290 | rejected | $75 aggregate but 22 claims and scope exceeds 4h |
-| Algora / EdgeChains #279 | rejected | $25, 15 claims and stale demand |
-| Algora / cal.com font #2 | rejected | $150 aggregate and 1 claim, but 38-month-old listing lacks verifiable current acceptance path |
+| Gitcoin current bounty directory | rejected | Mechanism is public, but no concrete task exposes fixed reward, live competition and direct entry |
+| Dokploy #2579 HPA | rejected | $50 but broad autoscaling implementation exceeds 4h |
+| Activepieces #9328 Teamwork | rejected | $100 listing is already closed/rewarded |
+| antiwork/gumroad #2703 | rejected | Search result advertises $100, but original repository/issue returns 404 |
+| AxiomID #135 | rejected | Bonus amounts are public, but base payment and bounded 1–4h deliverable are not verified |
 
 ## Next action
 
-Rotate away from Algora to current Gitcoin bounty/grant tasks; require a public fixed reward, competition <=2, direct submission and 1–4h delivery.
+Stop Gitcoin and validate current open Activepieces $50–100 bounty-labelled issues; require competition <=2, direct claim and 1–4h delivery.
