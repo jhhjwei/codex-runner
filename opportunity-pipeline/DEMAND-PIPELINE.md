@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 02:38 +08:00
+- Updated: 2026-08-09 03:37 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Guru spreadsheet miles #2120088 | rejected | 43 quotes and U.S. W9 required |
-| Guru legal transcription #2120057 | rejected | Certification required; 275-minute audio exceeds 4h |
-| Guru wiki update #2119923 | rejected | 42 quotes |
-| PeoplePerHour data/research candidates | rejected | Robot verification hides current buyer/status/competition evidence |
-| Guru sponsor presentation #2120056 | rejected | 3 quotes and no exact public budget |
+| Workana Excel 110 exercises | rejected | 117 bids, 5–20h, no public budget |
+| Workana websites/Excel data entry | rejected | No public budget; buyer has 0 paid projects |
+| Workana Project 2 | rejected | 2020 posting, no public budget, stale-open ambiguity |
+| Workana automated Excel dashboard | rejected | 36 bids and no public budget |
+| Freelancer patient demographic Excel | rejected | Anonymous unverified buyer, no payment history, unknown dataset size, reward below preferred floor |
 
 ## Next action
 
-Rotate to Workana current document, data or research projects; require public buyer, exact budget, payment, bids <=2 and direct entry.
+Rotate to current Algora open bounties; require $20–200, public buyer/reward, competition <=2, direct claim and 1–4h delivery.
