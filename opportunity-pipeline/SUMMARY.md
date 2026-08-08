@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-09 03:37 +08:00
+- Updated: 2026-08-09 04:21 +08:00
 - Revenue received (L12): 0
 - Paid / receivable (L10/L11): 0 / 0
 - External actions completed this hour: 0
@@ -8,27 +8,26 @@
 
 ## Downstream
 
-- AsyncAPI Studio #1333 remains open with microgrant and assigned to Shurtu-gal; no new maintainer action.
-- Dokploy PR #4918 remains open, unmerged and mergeable=true; no new review, CI approval, merge or payment.
+- AsyncAPI Studio #1333 remains the August microgrant thread; no new maintainer action verified.
+- Dokploy PR #4918 remains open and unmerged but changed to mergeable=false; no new review, CI approval, merge or payment, and the head SHA is unchanged.
 - BoostNote #2667 and PR #3789 remain open and unchanged.
 
 ## Current-hour result
 
-BoostNote #2667 remains qualified-L3. Workana candidates failed public-budget, competition, age, buyer-payment or scope gates. One current Freelancer Excel job had 2 proposals and a public budget, but the anonymous buyer had no payment/verification history and the input size was unknown. No external action or new L3; result failed.
+BoostNote #2667 remains qualified-L3. A public clarification was attempted, but GitHub returned 403 and no comment was published. Algora candidates failed competition, freshness, reward-floor or 1–4h scope gates. No completed external action or new L3; result failed.
 
 ## Next single action
 
-Rotate to current Algora open bounties; require $20–200, public buyer/reward, competition <=2, direct claim and 1–4h delivery.
+Rotate away from Algora to current Gitcoin bounty/grant tasks; require a public fixed reward, competition <=2, direct submission and 1–4h delivery.
 
 ## Hourly guard status
 
 _Last updated: 2026-08-09 03:34:43 +08:00_
 
 - audit record: `opportunity-pipeline/health/audit/2026-08-09/02.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-09/02.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-09/04.md`
 - primary status: failed
-- commercial actions in audited hour: 0 (none)
+- commercial actions in audited hour: 0 (one blocked attempt)
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
