@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 00:36 +08:00
+- Updated: 2026-08-09 01:31 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| EdgeChains #290 | rejected | At least 10 linked PRs; competition exceeds threshold |
-| EdgeChains #279 | rejected | At least 10 linked PRs and SDK scope exceeds 4h |
-| EdgeChains #273 | rejected | At least 10 linked PRs and SDK scope exceeds 4h |
+| Freelancer Public Database Data Entry -- 2 | rejected | Indexed as open at ₹600–1500, but original page returns 404 and public evidence lacks buyer, scope and competition count |
+| Freelancer related data/document jobs | rejected | Search results expose only related titles or old closed/cancelled pages; no current original entry plus competition evidence |
+| EdgeChains #290/#279/#273 | rejected | At least 10 linked PRs; competition exceeds threshold |
 | Omi #1643 | rejected | Algora stale; original issue closed |
 | PHPOffice #69/#48 | rejected | Full document-format writers exceed 4h |
 
 ## Next action
 
-Stop the stale Algora scan and rotate to current public document, data or test procurement.
+Rotate to Guru or PeoplePerHour current data/document jobs and accept only listings with a public buyer, budget, payment method, proposal count and direct quote entry.
