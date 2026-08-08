@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 06:22 +08:00
+- Updated: 2026-08-09 07:22 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Activepieces #8072 Gmail | rejected | Open, but PR #8083 is finalized and issue explicitly forbids alternatives |
-| Activepieces #9914 MeisterTask | rejected | $100 bounty issue is closed |
-| Activepieces #8687 OpenPhone | rejected | Bounty issue is closed |
-| Activepieces #9430 TimelinesAI | rejected | $50 bounty issue is closed |
-| Activepieces #9848 Uscreen | rejected | Bounty issue is closed |
+| Expensify/App #61414 | rejected | $250; outside preferred range and no public live claim/competition evidence |
+| Expensify/App #97577 | rejected | $250; payment-state workflow exceeds 4h |
+| Expensify/App #97127 | rejected | $250; mobile reproduction/testing and no public competition evidence |
+| Expensify/App #95506 | rejected | $250; validation flow and regression scope exceed threshold |
+| Expensify/App #94907 | rejected | $250; search totals logic and testing exceed threshold |
 
 ## Next action
 
-Stop Activepieces and validate current Expensify public bounty issues in the $20–200 range; require competition <=2, direct claim and 1–4h delivery.
+Stop Expensify and validate current Open Collective-funded GitHub issues in the $20–200 range; require competition <=2, direct claim and 1–4h delivery.
