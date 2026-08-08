@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 03:37 +08:00
+- Updated: 2026-08-09 04:21 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Workana Excel 110 exercises | rejected | 117 bids, 5–20h, no public budget |
-| Workana websites/Excel data entry | rejected | No public budget; buyer has 0 paid projects |
-| Workana Project 2 | rejected | 2020 posting, no public budget, stale-open ambiguity |
-| Workana automated Excel dashboard | rejected | 36 bids and no public budget |
-| Freelancer patient demographic Excel | rejected | Anonymous unverified buyer, no payment history, unknown dataset size, reward below preferred floor |
+| Algora / Dokploy #1413 | rejected | $100 but 24 claims and scope exceeds 4h |
+| Algora / Dokploy #416 | rejected | $50 but 11 claims; current PR already exists |
+| Algora / EdgeChains #290 | rejected | $75 aggregate but 22 claims and scope exceeds 4h |
+| Algora / EdgeChains #279 | rejected | $25, 15 claims and stale demand |
+| Algora / cal.com font #2 | rejected | $150 aggregate and 1 claim, but 38-month-old listing lacks verifiable current acceptance path |
 
 ## Next action
 
-Rotate to current Algora open bounties; require $20–200, public buyer/reward, competition <=2, direct claim and 1–4h delivery.
+Rotate away from Algora to current Gitcoin bounty/grant tasks; require a public fixed reward, competition <=2, direct submission and 1–4h delivery.
