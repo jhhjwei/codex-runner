@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-06 20:39 +08:00
+- Updated: 2026-08-08 23:35 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -11,19 +11,18 @@
 
 | Request | Status | Reward | Competition | Next gate |
 |---|---|---:|---:|---|
-| BoostIO/BoostNote-Legacy #2667 fenced HTML formatting | qualified-L3 | $20 IssueHunt funded | 1 open PR | Maintainer confirms bounty is active and accepts an alternative PR |
+| BoostIO/BoostNote-Legacy #2667 fenced HTML formatting | qualified-L3 | $20 IssueHunt funded | 1 open PR | Maintainer confirms bounty remains active and accepts an alternative PR |
 
-## Rejected evidence
-
-The prior ledger remains in repository history. This rolling view retains the latest rotation.
+## Latest rejected evidence
 
 | Request | Status | Reason |
 |---|---|---|
-| KeePassXC #1775 remote database support | rejected | $340 and 1 PR, but scope far exceeds 4h |
-| react-redux-typescript-guide #108 | rejected | $40 funded but a PR is already pending; current maintainer demand not revalidated |
-| code-settings-sync #396 | rejected | $80 funded but a PR is already pending in a legacy project |
-| BoostNote #2225 preview lines | rejected | $15, below preferred floor, with a submitted fix |
+| Daytona devcontainer-generator #22/#24/#25/#28 | rejected | Algora lists rewards, but original GitHub pages return 404 |
+| Space and Time #557 | rejected | Algora says open $100; original issue is closed with multiple related PRs |
+| Tailcall graphql-conf-2024 #1 | rejected | Original issue closed |
+| Tailcall forgecode #389 | rejected | Original issue closed and assigned |
+| Coolify #6696 | rejected | Existing PR, not an open original demand for a new claimant |
 
 ## Next action
 
-Monitor BoostNote #2667 and PR #3789 once; if comment permission becomes available, publish the prepared maintainer clarification before any development.
+Validate a newly updated Algora bounty against the original GitHub issue; claim only when open, funded, competition <=2 and 1–4h.
