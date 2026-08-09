@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-09 13:00–13:59 +08:00
+- Beijing hour: 2026-08-09 14:00–14:59 +08:00
 - status: failed
-- started_at: 2026-08-09 13:21 +08:00
-- completed_at: 2026-08-09 13:22 +08:00
+- started_at: 2026-08-09 14:21 +08:00
+- completed_at: 2026-08-09 14:24 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -11,4 +11,4 @@
 
 ## Result
 
-Both downstreams and BoostNote #2667/#3789 were unchanged. Dework's indexed tasks were expired, while current dynamic pages did not expose verifiable competition and open status. No external action or new L3.
+Both downstreams and BoostNote #2667/#3789 were unchanged. Superteam Earn's public feed exposed low-competition listings, but each failed the identity, location, real-money, privacy or 1–4h gates. No external action or new L3.
