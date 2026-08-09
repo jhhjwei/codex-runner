@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 16:25 +08:00
+- Updated: 2026-08-09 17:25 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| Rysolv current funded issues | rejected | No current public individual task exposed buyer, reward, competition, open state and direct claim entry; source repo latest commit is 2022-05-24 |
 | Cal Sans #2 | rejected | Algora shows $50+$100/1 claim, but original issue is closed |
 | Coolify #6696 | rejected | $20/no claim, but original link is another contributor's existing PR |
 | Daytona devcontainer-generator #28 | rejected | $20/no claim, but original GitHub issue returns 404 |
 | Daytona devcontainer-generator #24 | rejected | $20/no claim, but original GitHub issue returns 404 |
-| EdgeChains #290 | rejected | $50 but 22 claims |
 
 ## Next action
 
-Stop Algora and validate Rysolv's current funded issues; accept only $20–200, competition <=2, direct claim entry and 1–4h delivery.
+Stop Rysolv and validate Bountysource's current funded GitHub issues; accept only $20–200, competition <=2, direct claim entry and 1–4h delivery.
