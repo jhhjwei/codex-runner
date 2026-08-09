@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-10 06:00–06:59 +08:00
+- Beijing hour: 2026-08-10 07:00–07:59 +08:00
 - status: failed
-- started_at: 2026-08-10 06:18 +08:00
-- completed_at: 2026-08-10 06:25 +08:00
+- started_at: 2026-08-10 07:21 +08:00
+- completed_at: 2026-08-10 07:29 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -11,4 +11,4 @@
 
 ## Result
 
-Both downstreams and BoostNote #2667/#3789 had no substantive change. Gitcoin exposes no current task-level buyer, amount, competition or claim route. No external action or new L3.
+Both downstreams and BoostNote #2667/#3789 had no substantive change. Drips Waves exposes no public active task list, fixed per-task payout or competition count, and requires login/KYC. No external action or new L3.
