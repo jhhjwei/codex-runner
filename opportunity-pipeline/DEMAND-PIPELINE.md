@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 18:25 +08:00
+- Updated: 2026-08-09 19:25 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| FinMind current project bounties | rejected | Active project but no current public paid issue, reward amount, payout mechanism or claim entry |
 | Bountysource current funded issues | rejected | No current public individual task; official repo latest commit 2021-08-17 and cash-out evidence makes payment uncertain |
 | Rysolv current funded issues | rejected | No current public individual task exposed buyer, reward, competition, open state and direct claim entry; source repo latest commit is 2022-05-24 |
 | Cal Sans #2 | rejected | Algora shows $50+$100/1 claim, but original issue is closed |
 | Coolify #6696 | rejected | $20/no claim, but original link is another contributor's existing PR |
-| Daytona devcontainer-generator #28 | rejected | $20/no claim, but original GitHub issue returns 404 |
 
 ## Next action
 
-Stop Bountysource and validate current FinMind project bounties; accept only $20–200, competition <=2, direct claim entry and 1–4h delivery.
+Stop FinMind and search recently updated GitHub issues with explicit bounty/payment labels; accept only $20–200, competition <=2, direct claim entry and 1–4h delivery.
