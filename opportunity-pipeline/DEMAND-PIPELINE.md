@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 22:26 +08:00
+- Updated: 2026-08-09 23:27 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| Turso historical data-corruption challenge | rejected | Turso officially retired the $1,000 bounty program on 2026-05-12; no current open claim route, amount exceeds $200 and work exceeds 4h |
 | Activepieces Algora board | rejected | Live board shows 0 open bounties; visible priced items are completed |
 | Tailcall forgecode #389 | rejected | $50 board entry is stale; original issue is closed/completed and assigned |
 | Tailcall rust-grpc #44 | rejected | $50, multiple attempts and at least five open claim PRs; dependency migration exceeds 4h |
 | Tailcall gargantua #16 | rejected | $100 board entry points to a 404 original issue |
-| Tailcall website/PDF/benchmark entries | rejected | Originals are closed or repository is archived; no normal direct entry |
 
 ## Next action
 
-Validate Turso's current Algora board against original GitHub issues; act once only if a $20–200 task is open, competition <=2 and deliverable in 1–4h.
+Validate Golem Cloud's current Algora bounties against original GitHub issues; act once only if a $20–200 task is open, competition <=2 and deliverable in 1–4h.
