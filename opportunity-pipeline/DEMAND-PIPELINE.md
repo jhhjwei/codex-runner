@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 19:25 +08:00
+- Updated: 2026-08-09 20:25 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| FinMind current project bounties | rejected | Active project but no current public paid issue, reward amount, payout mechanism or claim entry |
-| Bountysource current funded issues | rejected | No current public individual task; official repo latest commit 2021-08-17 and cash-out evidence makes payment uncertain |
-| Rysolv current funded issues | rejected | No current public individual task exposed buyer, reward, competition, open state and direct claim entry; source repo latest commit is 2022-05-24 |
-| Cal Sans #2 | rejected | Algora shows $50+$100/1 claim, but original issue is closed |
-| Coolify #6696 | rejected | $20/no claim, but original link is another contributor's existing PR |
+| Coolify #8042 | rejected | $50/open, but at least 3 open implementation PRs and 53 comments |
+| Activepieces #8072 | rejected | $200/open, but PR #8083 is finalized and buyer explicitly asks for no additional PRs |
+| Firecrawl #2167 | rejected | $100 PayPal bounty closed 2026-03-06 |
+| Keep #2112 | rejected | Former $200 task closed 2026-05-18 after 95 comments |
+| libarchive #2886 | rejected | $100 direct bounty closed 2026-03-03 |
 
 ## Next action
 
-Stop FinMind and search recently updated GitHub issues with explicit bounty/payment labels; accept only $20–200, competition <=2, direct claim entry and 1–4h delivery.
+Use the newest Bountyscout alert only for discovery, then validate each original GitHub source; accept only $20–200, competition <=2, direct claim entry and 1–4h delivery.
