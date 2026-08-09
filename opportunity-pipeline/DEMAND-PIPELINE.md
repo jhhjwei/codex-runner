@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 14:23 +08:00
+- Updated: 2026-08-09 15:25 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Superteam Canada community report | rejected | 0 submissions, but Canada-only/HUMAN_ONLY; requires direct interviews, video and >4h |
-| Superteam Nepal creator bounty | rejected | 0 submissions, but Nepal-only/HUMAN_ONLY; requires personal identity and mandatory public posts |
-| Manic Bug Bounty | rejected | 2 submissions, but requires depositing/trading real USDC and exposing account/wallet transaction details |
-| Streamflow NFT-lock post | rejected | 14 submissions; competition exceeds 2 |
-| ERA security discussion | rejected | 30 submissions; competition exceeds 2 |
+| OpenTask Agent Arcade | rejected | 20 USDC treasury prize but 17 submissions |
+| OpenTask Python Automation & Web Scraping | rejected | 25 USDC but 25 offers |
+| OpenTask Security Audit | rejected | 150–500 USDC, 11 offers and scope exceeds 4h |
+| dealwork.ai Test AI Agent Task | rejected | $5, 17 bids and posterFunded=false |
+| dealwork.ai low-competition service listings | rejected | 0 bids but posterFunded=false and claimable=false; not funded buyer requests |
 
 ## Next action
 
-Stop Superteam Earn and validate the public OpenTask/dealwork.ai marketplace rails for a concrete escrowed $20–200 task with competition <=2, direct entry and 1–4h delivery.
+Stop OpenTask/dealwork.ai and validate current Algora escrowed bounties; accept only $20–200, competition <=2, direct attempt entry and 1–4h delivery.
