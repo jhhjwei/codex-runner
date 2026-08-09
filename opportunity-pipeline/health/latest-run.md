@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-09 17:00–17:59 +08:00
+- Beijing hour: 2026-08-09 18:00–18:59 +08:00
 - status: failed
-- started_at: 2026-08-09 17:22 +08:00
-- completed_at: 2026-08-09 17:26 +08:00
+- started_at: 2026-08-09 18:22 +08:00
+- completed_at: 2026-08-09 18:26 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -11,4 +11,4 @@
 
 ## Result
 
-Both downstreams and BoostNote #2667/#3789 had no substantive change. Rysolv exposed no current public individual funded task with complete buyer, payment, competition, open-state and direct-entry evidence; no external action or new L3.
+Both downstreams and BoostNote #2667/#3789 had no substantive change. Bountysource exposed no current public individual funded task with complete buyer, payment, competition, open-state and direct-entry evidence; its official repo is stale and cash-out evidence makes payment certainty unacceptable. No external action or new L3.
