@@ -19,3 +19,16 @@ Bountyscout is now disabled by GitHub and was rejected as a source. Algora origi
 ## Next single action
 
 Validate the newest $20–200 Activepieces Algora listing against its original GitHub issue and live attempt table; act only if open, competition <=2 and deliverable in 1–4h.
+
+## Hourly guard status
+
+_Last updated: 2026-08-09 21:53:31 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-09/20.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-09/20.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
