@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 11:23 +08:00
+- Updated: 2026-08-09 12:20 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| GitBounty current platform | rejected | Base Sepolia testnet; $GITLAWB test token has public mint; mainnet is only a future v1.0 milestone |
-| TaskBounty taskbounty-mcp-server #18 | rejected | $10; already Awarded; closed 2026-06-01 |
-| TaskBounty taskbounty-mcp-server #17 | rejected | $10; already Awarded; closed 2026-06-01 |
-| TaskBounty taskbounty-mcp-server #16 | rejected | $10; already Awarded; closed 2026-06-01 |
-| TaskBounty URL-normalisation regex | rejected | $50; public card is Closed since 2026-05-17 |
+| BOSS.dev public inventory | rejected | No public current-bounty board; real repository examples are closed or state the service is broken |
+| kistek/boss-demo #3 | rejected | $1,234 page is explicitly a demo, not a real purchase request |
+| homebox #62 | rejected | Closed; maintainer states no active bounty program and BOSS.dev is broken |
+| homebox #18 | rejected | Closed; historical bounty cannot use BOSS.dev |
+| GitBounty current platform | rejected | Base Sepolia testnet and publicly mintable test token; not real income |
 
 ## Next action
 
-Stop GitBounty and validate BOSS.dev's current public GitHub bounties; reject wallet/testnet rewards, upfront payments and any task missing live competition evidence.
+Stop BOSS.dev and validate Dework's current public stablecoin bounties; reject wallet-gated validation, missing competition evidence and work over 4h.
