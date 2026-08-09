@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 10:22 +08:00
+- Updated: 2026-08-09 11:23 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| GitBounty current platform | rejected | Base Sepolia testnet; $GITLAWB test token has public mint; mainnet is only a future v1.0 milestone |
 | TaskBounty taskbounty-mcp-server #18 | rejected | $10; already Awarded; closed 2026-06-01 |
 | TaskBounty taskbounty-mcp-server #17 | rejected | $10; already Awarded; closed 2026-06-01 |
 | TaskBounty taskbounty-mcp-server #16 | rejected | $10; already Awarded; closed 2026-06-01 |
-| TaskBounty langflow #8476 | rejected | $10; already Awarded; closed 2026-05-31 |
 | TaskBounty URL-normalisation regex | rejected | $50; public card is Closed since 2026-05-17 |
 
 ## Next action
 
-Rotate away from TaskBounty and validate GitBounty's current public Stripe-backed GitHub bounties; reject any claim that requires upfront payment.
+Stop GitBounty and validate BOSS.dev's current public GitHub bounties; reject wallet/testnet rewards, upfront payments and any task missing live competition evidence.
