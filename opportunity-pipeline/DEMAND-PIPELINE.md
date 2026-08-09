@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 15:25 +08:00
+- Updated: 2026-08-09 16:25 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| OpenTask Agent Arcade | rejected | 20 USDC treasury prize but 17 submissions |
-| OpenTask Python Automation & Web Scraping | rejected | 25 USDC but 25 offers |
-| OpenTask Security Audit | rejected | 150–500 USDC, 11 offers and scope exceeds 4h |
-| dealwork.ai Test AI Agent Task | rejected | $5, 17 bids and posterFunded=false |
-| dealwork.ai low-competition service listings | rejected | 0 bids but posterFunded=false and claimable=false; not funded buyer requests |
+| Cal Sans #2 | rejected | Algora shows $50+$100/1 claim, but original issue is closed |
+| Coolify #6696 | rejected | $20/no claim, but original link is another contributor's existing PR |
+| Daytona devcontainer-generator #28 | rejected | $20/no claim, but original GitHub issue returns 404 |
+| Daytona devcontainer-generator #24 | rejected | $20/no claim, but original GitHub issue returns 404 |
+| EdgeChains #290 | rejected | $50 but 22 claims |
 
 ## Next action
 
-Stop OpenTask/dealwork.ai and validate current Algora escrowed bounties; accept only $20–200, competition <=2, direct attempt entry and 1–4h delivery.
+Stop Algora and validate Rysolv's current funded issues; accept only $20–200, competition <=2, direct claim entry and 1–4h delivery.
