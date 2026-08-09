@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 09:27 +08:00
+- Updated: 2026-08-09 10:22 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Gitpay current public task inventory | rejected | Payment workflow is public, but no current task exposes buyer, deliverable, fixed reward, competition and direct claim together |
-| urllib3/urllib3 #1362 | rejected | $100 Open Collective bounty closed 2026-08-04; five competing PRs found |
-| stashapp/stash #3815 | rejected | $50 Open Collective bounty is closed |
-| stashapp/stash #3530 | rejected | $50; multi-scene file architecture exceeds 4h |
-| stashapp/stash #3553 | rejected | $100 Open Collective bounty is closed |
+| TaskBounty taskbounty-mcp-server #18 | rejected | $10; already Awarded; closed 2026-06-01 |
+| TaskBounty taskbounty-mcp-server #17 | rejected | $10; already Awarded; closed 2026-06-01 |
+| TaskBounty taskbounty-mcp-server #16 | rejected | $10; already Awarded; closed 2026-06-01 |
+| TaskBounty langflow #8476 | rejected | $10; already Awarded; closed 2026-05-31 |
+| TaskBounty URL-normalisation regex | rejected | $50; public card is Closed since 2026-05-17 |
 
 ## Next action
 
-Stop Gitpay and validate TaskBounty's current publicly sponsored GitHub issues; require $20–200, competition <=2, direct claim and 1–4h delivery.
+Rotate away from TaskBounty and validate GitBounty's current public Stripe-backed GitHub bounties; reject any claim that requires upfront payment.
