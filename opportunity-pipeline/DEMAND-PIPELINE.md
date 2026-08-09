@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 12:20 +08:00
+- Updated: 2026-08-09 13:22 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| BOSS.dev public inventory | rejected | No public current-bounty board; real repository examples are closed or state the service is broken |
-| kistek/boss-demo #3 | rejected | $1,234 page is explicitly a demo, not a real purchase request |
-| homebox #62 | rejected | Closed; maintainer states no active bounty program and BOSS.dev is broken |
-| homebox #18 | rejected | Closed; historical bounty cannot use BOSS.dev |
-| GitBounty current platform | rejected | Base Sepolia testnet and publicly mintable test token; not real income |
+| Dework Zcash Ecosystem Digest | rejected | Due 2026-03-07; expired |
+| Dework ZEC/NYM visual thread | rejected | Due 2026-02-18; expired |
+| Dework Community Bug Bounty | rejected | 5,000 USDC but due 2022-08-01; stale |
+| Dework Avalanche Bounty9000 | rejected | Deadline 2024-09-30 and far over 4h |
+| Dework Plancker transcript | rejected | 150 USDC but due 2023-09-07; expired |
 
 ## Next action
 
-Stop BOSS.dev and validate Dework's current public stablecoin bounties; reject wallet-gated validation, missing competition evidence and work over 4h.
+Stop Dework and validate Superteam Earn's current public small bounties; require $20–200, competition <=2, direct entry and 1–4h delivery.
