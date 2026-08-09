@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-09 13:22 +08:00
+- Updated: 2026-08-09 14:23 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Dework Zcash Ecosystem Digest | rejected | Due 2026-03-07; expired |
-| Dework ZEC/NYM visual thread | rejected | Due 2026-02-18; expired |
-| Dework Community Bug Bounty | rejected | 5,000 USDC but due 2022-08-01; stale |
-| Dework Avalanche Bounty9000 | rejected | Deadline 2024-09-30 and far over 4h |
-| Dework Plancker transcript | rejected | 150 USDC but due 2023-09-07; expired |
+| Superteam Canada community report | rejected | 0 submissions, but Canada-only/HUMAN_ONLY; requires direct interviews, video and >4h |
+| Superteam Nepal creator bounty | rejected | 0 submissions, but Nepal-only/HUMAN_ONLY; requires personal identity and mandatory public posts |
+| Manic Bug Bounty | rejected | 2 submissions, but requires depositing/trading real USDC and exposing account/wallet transaction details |
+| Streamflow NFT-lock post | rejected | 14 submissions; competition exceeds 2 |
+| ERA security discussion | rejected | 30 submissions; competition exceeds 2 |
 
 ## Next action
 
-Stop Dework and validate Superteam Earn's current public small bounties; require $20–200, competition <=2, direct entry and 1–4h delivery.
+Stop Superteam Earn and validate the public OpenTask/dealwork.ai marketplace rails for a concrete escrowed $20–200 task with competition <=2, direct entry and 1–4h delivery.
