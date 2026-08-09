@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-09 10:22 +08:00
+- Updated: 2026-08-09 11:23 +08:00
 - Revenue received (L12): 0
 - Paid / receivable (L10/L11): 0 / 0
 - External actions completed this hour: 0
@@ -14,11 +14,11 @@
 
 ## Current-hour result
 
-BoostNote #2667 remains qualified-L3. TaskBounty's payment mechanism is public, but all visible concrete tasks are already Awarded or Closed; four are $10. No current item passed every gate. No external action or new L3; result failed.
+BoostNote #2667 remains qualified-L3. GitBounty is not a Stripe real-money channel: its live contract is on Base Sepolia, rewards use a publicly mintable test token, and mainnet is a future roadmap milestone. No current GitBounty item can pass real-payment verification. No wallet action, external action or new L3; result failed.
 
 ## Next single action
 
-Rotate away from TaskBounty and validate GitBounty's current public Stripe-backed GitHub bounties; accept only $20–200, competition <=2, 1–4h, direct entry, and no upfront payment.
+Stop GitBounty and validate BOSS.dev's current public GitHub bounties; require $20–200, competition <=2, direct submission, 1–4h delivery and a production payout with no upfront payment.
 
 ## Hourly guard status
 
@@ -31,4 +31,3 @@ _Last updated: 2026-08-09 11:06:34 +08:00_
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
