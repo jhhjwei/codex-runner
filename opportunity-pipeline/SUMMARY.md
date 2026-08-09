@@ -19,3 +19,16 @@ Activepieces has zero open Algora bounties. Tailcall's current eight-item board 
 ## Next single action
 
 Validate Turso's current Algora board against original GitHub issues; act once only if a $20–200 task is open, competition <=2 and deliverable in 1–4h.
+
+## Hourly guard status
+
+_Last updated: 2026-08-09 22:40:22 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-09/21.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-09/21.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
