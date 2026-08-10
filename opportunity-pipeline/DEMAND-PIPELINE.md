@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-10 08:30 +08:00
+- Updated: 2026-08-10 09:35 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Superteam Earn current public listings | rejected | No current $20–200 task could be publicly verified with submissions <=2, direct entry and 1–4h scope; application/winner flow requires account/KYC |
-| Superteam Mexico Head of Operations | rejected | 1,750 USDC, 3 submissions, in review, long-term role and far beyond 4h |
-| Drips Waves current public program | rejected | No public active task list, fixed per-task payout or competition count; login and KYC required before applying |
-| Gitcoin current public bounty search | rejected | Current site is a funding directory/research library; no live task-level buyer, amount, competition or claim route found |
-| Prettier Rust pretty-printer challenge | rejected | Historical $25,000 challenge has a winner and no current entry; far beyond 4h |
+| RentAHuman newest 100 remote $20–200 open bounties | rejected | Public API returned zero items with applicationCount <=2; lowest visible count was 4 |
+| RentAHuman Home shift | rejected | $32/3h but 4 applications and no public funding method |
+| RentAHuman technical meeting representative | rejected | $40 escrow/1h but 5 applications and identity verification required |
+| Superteam Earn current public listings | rejected | No current $20–200 task verified with submissions <=2, direct entry and 1–4h scope |
+| BOSS.dev current inventory | rejected | Already checked 2026-08-09 12:00; no real current public inventory, so not searched again |
 
 ## Next action
 
-Validate current boss.dev GitHub issue bounties; act only if a concrete buyer, fixed reward, verifiable payout, competition <=2, direct entry and 1–4h delivery are all public.
+Validate HackenProof's current public low-value programs; act only if a concrete scope, $20–200 payout, competition <=2 or zero claims, direct submission and 1–4h delivery are publicly verifiable.
