@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 00:36 +08:00
+- Updated: 2026-08-11 01:37 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Polar funded-issue channel | rejected | Polar now exposes billing/Merchant-of-Record products; no current buyer-level funded issue or direct claim entry found |
-| Coolify #6696 | rejected | $20; multiple generic OIDC implementation PRs and scope exceeds the under-$100 low-change gate |
-| Aqualink #1162 | rejected | $50; 20 claims |
-| ForgeCode #389 | rejected | $50; source issue closed and feature already released via PR #1262 |
-| Opire electron-template #1 | rejected | $100, 2 solvers/claims; source repository and issue now return 404 |
+| BountyHub Memanto + LangGraph | rejected | $100; dynamic listing lacks verifiable buyer/source issue, claims/competition and prepayment status |
+| BountyHub CrewAI + Memanto | rejected | $100; dynamic listing lacks verifiable buyer/source issue, claims/competition and prepayment status |
+| SPLURT Station #76 | rejected | $150+; explicitly not prepaid, no competition evidence, and large porting scope exceeds 4h |
+| SPLURT Station #109 | rejected | $100+; no competition evidence and asset-completion scope is unclear |
+| SPLURT Station #31 | rejected | $175+; system port exceeds 4h and no competition evidence |
 
 ## Next action
 
-Rotate to BountyHub current public bounties; act only on a fully evidenced $20–200 open issue with <=2 competitors and 1–4h scope.
+Rotate to Gitpay current public tasks; act only on a prepaid $20–200 open task with <=2 competitors, direct GitHub claim entry and 1–4h scope.
