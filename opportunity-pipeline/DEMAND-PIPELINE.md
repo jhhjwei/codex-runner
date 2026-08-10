@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-10 23:32 +08:00
+- Updated: 2026-08-11 00:36 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -11,18 +11,18 @@
 
 | Request | Status | Reward | Competition | Next gate |
 |---|---|---:|---:|---|
-| DesignCrowd #4117760 Les Flots-Atlantique business card | qualified-L3 | €90 Guaranteed (€50 winner + 4×€10 participation) | 0 designs / 0 designers | DesignCrowd login required before submission |
+| DesignCrowd #4117760 Les Flots-Atlantique business card | qualified-L3 | €90 Guaranteed (€50 winner + 4×€10 participation) | 3 designs / 1 designer | DesignCrowd login required before submission |
 
 ## Latest rejected evidence
 
 | Request | Status | Reason |
 |---|---|---|
-| code-settings-sync #396 | rejected | $80; 1 competing PR already implements the narrow fix; VS Code extension-host integration testing fails the under-$100 low-change gate |
-| typesafe-actions #230 | rejected | $50; 2 open competing PRs plus 1 closed submission; feature and tests require multi-file change |
-| ant-design #12402 | rejected | $20 bounty page exists but the source GitHub issue is closed |
-| Boostnote #2070 | rejected | $30; current accepting repository and live direct submission entry could not both be verified |
-| AvenioDesign/Bounty-Hunters | rejected | $0; no funded issue |
+| Polar funded-issue channel | rejected | Polar now exposes billing/Merchant-of-Record products; no current buyer-level funded issue or direct claim entry found |
+| Coolify #6696 | rejected | $20; multiple generic OIDC implementation PRs and scope exceeds the under-$100 low-change gate |
+| Aqualink #1162 | rejected | $50; 20 claims |
+| ForgeCode #389 | rejected | $50; source issue closed and feature already released via PR #1262 |
+| Opire electron-template #1 | rejected | $100, 2 solvers/claims; source repository and issue now return 404 |
 
 ## Next action
 
-Rotate to current public Polar.sh funded issues; act only on a fully evidenced $20–200 open issue with <=2 competitors and 1–4h scope.
+Rotate to BountyHub current public bounties; act only on a fully evidenced $20–200 open issue with <=2 competitors and 1–4h scope.
