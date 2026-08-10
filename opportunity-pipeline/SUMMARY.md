@@ -1,34 +1,42 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-11 03:38 +08:00
-- Revenue received (L12): 0
-- Paid / receivable (L10/L11): 0 / 0
-- External actions completed this hour: 0
-- L3/L4/L6/L9/L10/L11/L12: 1/0/1/1/0/0/0
+- Updated: 2026-08-11
+- Revenue received: 0
+- Paid consultations: 0
+- Primary objective: Maven Dependency Doctor first real customer and first quote
 
-## Downstream
+## Core conversion KPI
 
-- AsyncAPI Studio #1333 remains open with microgrant label, 13 comments and assignment to Shurtu-gal; no new maintainer action.
-- Dokploy PR #4918 remains open and unmerged at head 7dad1798671a7fc710d9f45876b53f0d9c048ce4; no new review, approval, merge or payment.
-- BoostNote #2667 remains rejected because its repository is archived/read-only.
+- target_users_found: 0
+- outreach_sent: 0
+- replies_received: 0
+- projects_submitted: 0
+- quotes_sent: 0
+- payments_received: 0
 
-## Current-hour result
+> Search volume, candidate lists, snapshots, health reports, archive operations and code commits do **not** count as commercial progress.
 
-DesignCrowd #4117760 remains Open, Guaranteed and €90 with 3 designs from 1 designer and about 6 days left; login still blocks submission, so no design or upload was started. Gitcoin exposed no current buyer-level bounty with complete budget, competition and direct claim evidence. Daytona #36, Armory #2613, Revert #551 and Activepieces #7670 were rejected for scope, competition or closed state. No external action and no new L3; result failed.
+## Maven Dependency Doctor
+
+Current stage: **pre-customer validation**.
+
+Required path:
+
+`real Maven problem → target user → project-specific diagnosis → outreach → reply → real project → free initial diagnosis → $19–39 quote for full fix/PR → payment`
+
+Until the first payment, do not add non-essential product features. The next useful evidence is a real user action, not another internal tool improvement.
+
+## Existing downstream opportunities
+
+- AsyncAPI Studio #1333: already assigned elsewhere; watch only for meaningful maintainer change.
+- Dokploy PR #4918: already submitted; watch only for review/approval/merge/payment change.
+- BoostNote #2667: rejected; archived/read-only.
+- Other bounty searches: secondary to Maven customer acquisition unless an immediately claimable, funded, low-competition 1–4h opportunity appears.
 
 ## Next single action
 
-Validate Daytona/content's current public 💎 Bounty article tasks; act only on a funded $20–200, <=2-competitor, directly claimable, 1–4h demand without multi-repository implementation.
+Find one recent, active Maven/Spring/Java dependency-conflict owner with a public contact/reply path; produce a project-specific Dependency Doctor diagnosis and complete one compliant external outreach.
 
-## Hourly guard status
+## Guard
 
-_Last updated: 2026-08-11 03:57:27 +08:00_
-
-- audit record: `opportunity-pipeline/health/audit/2026-08-11/02.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-11/02.md`
-- primary status: failed
-- commercial actions in audited hour: 0 (none)
-- enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
+If two consecutive hours have `outreach_sent=0`, the next run must not spend its main effort on expanding search channels, reports, health checks, or infrastructure. It must prioritize a real customer-facing action when a suitable target exists.
