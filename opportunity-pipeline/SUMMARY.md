@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-10 18:22 +08:00
+- Updated: 2026-08-10 19:20 +08:00
 - Revenue received (L12): 0
 - Paid / receivable (L10/L11): 0 / 0
 - External actions completed this hour: 0
@@ -14,11 +14,11 @@
 
 ## Current-hour result
 
-DesignCrowd #4117760 for Les Flots-Atlantique is a current €90 Guaranteed business-card contest with 0 designs, 0 designers, a concrete public buyer/brief, a 2026-08-17 deadline and a 2–4h delivery estimate. It is now qualified-L3. The submission entry requires DesignCrowd login, so work stopped before login and no design was produced. Business goal B completed.
+DesignCrowd #4117760 remains open, €90 Guaranteed and at 0 designs/0 designers, but submission still requires login. No external action was taken. After two consecutive hours without an external action, the channel was rotated to Hatchwise; its current active-contests page returned 403, so buyer, competition, deadline and entry could not be verified. No new L3; result failed.
 
 ## Next single action
 
-Check DesignCrowd #4117760 once for open status and competition; submit only if designers remain <=2 and a usable authenticated session exists, otherwise stop at login.
+Validate current public 99designs Guaranteed contests; act only on a $20–200, <=2-competitor, directly enterable, 1–4h demand.
 
 ## Hourly guard status
 
