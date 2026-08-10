@@ -19,3 +19,16 @@ HackenProof's public directory verifies real programs and payouts, but no review
 ## Next single action
 
 Validate current Topcoder public challenges; act only if a specific buyer, $20–200 prize, <=2 registrants/submissions, direct registration and 1–4h delivery are public.
+
+## Hourly guard status
+
+_Last updated: 2026-08-10 11:17:19 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-10/10.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-10/10.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
