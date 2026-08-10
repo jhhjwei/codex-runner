@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-10 09:35 +08:00
+- Updated: 2026-08-10 10:31 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| RentAHuman newest 100 remote $20–200 open bounties | rejected | Public API returned zero items with applicationCount <=2; lowest visible count was 4 |
-| RentAHuman Home shift | rejected | $32/3h but 4 applications and no public funding method |
-| RentAHuman technical meeting representative | rejected | $40 escrow/1h but 5 applications and identity verification required |
-| Superteam Earn current public listings | rejected | No current $20–200 task verified with submissions <=2, direct entry and 1–4h scope |
-| BOSS.dev current inventory | rejected | Already checked 2026-08-09 12:00; no real current public inventory, so not searched again |
+| HackenProof BTSE | rejected | $100 floor and USDT payment verified, but current competitor count is not public and delivery cannot be bounded to 1–4h |
+| HackenProof KuCoin | rejected | 299 submissions and 175 hackers; competition exceeds 2 |
+| HackenProof Cronos Web | rejected | Trusted Payer, but 66 submissions and 36 hackers; competition exceeds 2 |
+| HackenProof LiNEAR Protocol | rejected | Low severity $100–500, but 447 submissions; competition exceeds 2 |
+| HackenProof 1inch Aqua | rejected | Low severity $100–2,000, but 529 submissions; competition exceeds 2 |
 
 ## Next action
 
-Validate HackenProof's current public low-value programs; act only if a concrete scope, $20–200 payout, competition <=2 or zero claims, direct submission and 1–4h delivery are publicly verifiable.
+Validate current Topcoder public challenges; act only if a specific buyer, $20–200 prize, <=2 registrants/submissions, direct registration and 1–4h delivery are public.
