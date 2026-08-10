@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-10 14:00–14:59 +08:00
+- Beijing hour: 2026-08-10 15:00–15:59 +08:00
 - status: failed
-- started_at: 2026-08-10 14:23 +08:00
-- completed_at: 2026-08-10 14:25 +08:00
+- started_at: 2026-08-10 15:23 +08:00
+- completed_at: 2026-08-10 15:26 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -11,4 +11,4 @@
 
 ## Result
 
-Both downstreams and BoostNote #2667/#3789 had no substantive change. Upwork's payment mechanism was verified, but current candidates failed exact competition or bounded 1–4h gates. No external action or new L3.
+Downstreams were queried once without a confirmable structured delta. Guru SafePay was verified, but current jobs failed bounded scope, competition, credentials, location or identity gates. No external action or new L3.
