@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-10 22:31 +08:00
+- Updated: 2026-08-10 23:32 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| BoostNote-Legacy #2667 | rejected | Repository archived/read-only; cannot accept a replacement PR |
-| DesignHill current contest inventory | rejected | Dynamic cards did not expose buyer, prize, competition, deadline and entry together |
-| 48HoursLogo Kure Health | rejected | $299, 852 entries, Ended |
-| 48HoursLogo Beardstown Chamber | rejected | $129, 371 entries, Ended |
-| 48HoursLogo Robin Riviera | rejected | $199, 908 entries, Ended |
+| code-settings-sync #396 | rejected | $80; 1 competing PR already implements the narrow fix; VS Code extension-host integration testing fails the under-$100 low-change gate |
+| typesafe-actions #230 | rejected | $50; 2 open competing PRs plus 1 closed submission; feature and tests require multi-file change |
+| ant-design #12402 | rejected | $20 bounty page exists but the source GitHub issue is closed |
+| Boostnote #2070 | rejected | $30; current accepting repository and live direct submission entry could not both be verified |
+| AvenioDesign/Bounty-Hunters | rejected | $0; no funded issue |
 
 ## Next action
 
-Rotate to current public IssueHunt funded issues; act only on a fully evidenced $20–200 open issue with <=2 competitors and 1–4h scope.
+Rotate to current public Polar.sh funded issues; act only on a fully evidenced $20–200 open issue with <=2 competitors and 1–4h scope.
