@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-10 23:00–23:59 +08:00
+- Beijing hour: 2026-08-11 00:00–00:59 +08:00
 - status: failed
-- started_at: 2026-08-10 23:20 +08:00
-- completed_at: 2026-08-10 23:32 +08:00
+- started_at: 2026-08-11 00:22 +08:00
+- completed_at: 2026-08-11 00:36 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -11,4 +11,4 @@
 
 ## Result
 
-Both downstreams had no substantive change. DesignCrowd #4117760 remained Open, Guaranteed, €90 and at 0 designs/0 designers with 6 days left, but login blocks submission. IssueHunt yielded no new L3 after current state, funding, competition and scope checks. No external action or new L3.
+Both downstreams had no substantive change. DesignCrowd #4117760 remained Open, Guaranteed and €90; competition rose to 3 designs from 1 designer, still <=2 competitors, but login blocks submission. Polar, Algora and Opire yielded no new L3 after current buyer, source, funding, competition, entry and scope checks. No external action or new L3.
