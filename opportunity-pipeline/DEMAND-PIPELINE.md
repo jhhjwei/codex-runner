@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-10 11:31 +08:00
+- Updated: 2026-08-10 12:32 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Topcoder current public listing | rejected | Page returned only a loading state; current buyer, prize, competition, deadline and scope were not publicly verifiable |
-| Topcoder Work Task | rejected | $500/$250 and explicitly finished |
-| Topcoder Persist Message Command | rejected | $800/$400 and explicitly finished |
-| Topcoder HK Driver Mobile App Design | rejected | $100 checkpoints existed but challenge is finished |
-| Topcoder HP Exploratory Testing Series 4 | rejected | $300 and 36h testing period, with no public current competitor count |
+| Freelancer Replit to Namecheap migration | rejected | $10–50, payment-verified buyer and open, but 147 proposals and scope exceeds 4h |
+| Freelancer Framer website modifications | rejected | $10–30 AUD, 96 proposals and already awarded/in progress |
+| Freelancer experienced gamer | rejected | $10–30 and 37 bidders; competition exceeds 2 |
+| Freelancer fake Google review removal | rejected | $10–30, 28 proposals, closed and requires ongoing appeals |
+| Freelancer hotel upgrade bidding system | rejected | 176 proposals, awarded and multi-system scope exceeds 4h |
 
 ## Next action
 
-Validate current Freelancer.com fixed-price public jobs; act only if a specific buyer, $20–200 budget, <=2 bids, direct bid entry and 1–4h delivery are public, stopping before login or identity claims.
+Validate current PeoplePerHour fixed-price public projects; act only if a specific buyer, $20–200 budget, <=2 proposals, direct proposal entry and 1–4h delivery are public, stopping before login or identity claims.
