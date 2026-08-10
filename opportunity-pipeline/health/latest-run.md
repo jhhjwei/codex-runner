@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-11 00:00–00:59 +08:00
+- Beijing hour: 2026-08-11 01:00–01:59 +08:00
 - status: failed
-- started_at: 2026-08-11 00:22 +08:00
-- completed_at: 2026-08-11 00:36 +08:00
+- started_at: 2026-08-11 01:21 +08:00
+- completed_at: 2026-08-11 01:37 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -11,4 +11,4 @@
 
 ## Result
 
-Both downstreams had no substantive change. DesignCrowd #4117760 remained Open, Guaranteed and €90; competition rose to 3 designs from 1 designer, still <=2 competitors, but login blocks submission. Polar, Algora and Opire yielded no new L3 after current buyer, source, funding, competition, entry and scope checks. No external action or new L3.
+Both downstreams had no substantive change. DesignCrowd #4117760 remained Open, Guaranteed, €90, with 3 designs from 1 designer and 6 days left; login blocks submission. BountyHub payment mechanics were verified, but no listing met the full buyer/source, prepayment, competition and 1–4h evidence gate. No external action or new L3.
