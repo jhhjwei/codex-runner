@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-10 23:32 +08:00
+- Updated: 2026-08-11 00:36 +08:00
 - Revenue received (L12): 0
 - Paid / receivable (L10/L11): 0 / 0
 - External actions completed this hour: 0
@@ -9,16 +9,16 @@
 ## Downstream
 
 - AsyncAPI Studio #1333 remains open with microgrant label, 13 comments and assignment to Shurtu-gal; no new maintainer action.
-- Dokploy PR #4918 remains open and unmerged; reviews and CI status remain 0, with no approval, merge or payment.
+- Dokploy PR #4918 remains open and unmerged; reviews remain 0, commit statuses are empty, with no approval, merge or payment.
 - BoostNote #2667 remains rejected because its repository is archived/read-only.
 
 ## Current-hour result
 
-DesignCrowd #4117760 was freshly verified Open, Guaranteed, €90 and at 0 designs/0 designers, with 6 days remaining; submission still requires login, so no design or upload was started. IssueHunt produced no new L3: candidates failed on closed state, <$100 plus integration scope, competing implementations, unverifiable live entry or $0 funding. No external action and no new L3; result failed.
+DesignCrowd #4117760 remains Open, Guaranteed and €90; competition increased from 0 designs/0 designers to 3 designs/1 designer, still within the <=2 competitor gate. Submission still requires login, so no design or upload was started. Polar no longer exposes a public funded-issue marketplace; Algora and Opire backups produced no new L3 because of high competition, closed or missing sources, large scope or existing implementations. No external action and no new L3; result failed.
 
 ## Next single action
 
-Validate current public Polar.sh funded issues; act only on a $20–200, <=2-competitor, directly claimable, 1–4h demand.
+Validate BountyHub's current public bounty inventory; act only on a $20–200, <=2-competitor, directly claimable, 1–4h demand.
 
 ## Hourly guard status
 
@@ -31,4 +31,3 @@ _Last updated: 2026-08-11 00:06:05 +08:00_
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
