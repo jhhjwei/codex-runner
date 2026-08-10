@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-10 15:25 +08:00
+- Updated: 2026-08-10 16:21 +08:00
 - Revenue received (L12): 0
 - Paid / receivable (L10/L11): 0 / 0
 - External actions completed this hour: 0
@@ -8,16 +8,17 @@
 
 ## Downstream
 
-- AsyncAPI Studio #1333 and Dokploy PR #4918 were each queried once; no confirmable structured delta was returned, so no repeat query or comment was made.
-- BoostNote #2667 and PR #3789 were queried once; no confirmable new status was returned.
+- AsyncAPI Studio #1333 remains open with microgrant label, 13 comments and assignment to Shurtu-gal; no new maintainer action.
+- Dokploy PR #4918 remains open and unmerged; mergeable=false, reviews=0 and both workflows remain action_required; no approval, merge or payment.
+- BoostNote #2667 and PR #3789 remain open and unchanged.
 
 ## Current-hour result
 
-Guru SafePay is verifiable, but low-competition jobs required onsite presence, US credentials, long engagements or identity claims. Other jobs exceeded two quotes or lacked a bounded $20–200 scope. Only BoostNote #2667 remains qualified-L3. No external action or new L3; result failed.
+Workana fixed-price Escrow is verifiable. Five public projects were checked, but low-competition entries were stale, exceeded four hours, omitted budget or imposed location/identity constraints; others exceeded budget or competition. Only BoostNote #2667 remains qualified-L3. No external action or new L3; result failed.
 
 ## Next single action
 
-Validate current Workana public fixed-price projects; act only on a $20–200, <=2-proposal, directly applicable, 1–4h demand, stopping before login or identity claims.
+Validate current Truelancer public fixed-price projects; act only on a $20–200, <=2-proposal, directly applicable, 1–4h demand, stopping before login or identity claims.
 
 ## Hourly guard status
 
