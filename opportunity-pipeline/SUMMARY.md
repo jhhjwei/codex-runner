@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-10 14:25 +08:00
+- Updated: 2026-08-10 15:25 +08:00
 - Revenue received (L12): 0
 - Paid / receivable (L10/L11): 0 / 0
 - External actions completed this hour: 0
@@ -8,17 +8,16 @@
 
 ## Downstream
 
-- AsyncAPI Studio #1333 remains open with microgrant label and assignment to Shurtu-gal; no new maintainer action.
-- Dokploy PR #4918 remains open and unmerged; mergeable=false, reviews=0 and two workflows remain action_required; no approval, merge or payment.
-- BoostNote #2667 and PR #3789 remain open and unchanged.
+- AsyncAPI Studio #1333 and Dokploy PR #4918 were each queried once; no confirmable structured delta was returned, so no repeat query or comment was made.
+- BoostNote #2667 and PR #3789 were queried once; no confirmable new status was returned.
 
 ## Current-hour result
 
-Upwork's funded-milestone payment mechanism is verifiable. Five current public fixed-price jobs were checked, but proposal counts exceeded two or were only disclosed as “Less than 5”; that sole low-count listing was ongoing monthly work. Only BoostNote #2667 remains qualified-L3. No external action or new L3; result failed.
+Guru SafePay is verifiable, but low-competition jobs required onsite presence, US credentials, long engagements or identity claims. Other jobs exceeded two quotes or lacked a bounded $20–200 scope. Only BoostNote #2667 remains qualified-L3. No external action or new L3; result failed.
 
 ## Next single action
 
-Validate current Guru public jobs and SafePay; act only on a $20–200, <=2-quote, directly quotable, 1–4h demand, stopping before login or identity claims.
+Validate current Workana public fixed-price projects; act only on a $20–200, <=2-proposal, directly applicable, 1–4h demand, stopping before login or identity claims.
 
 ## Hourly guard status
 
