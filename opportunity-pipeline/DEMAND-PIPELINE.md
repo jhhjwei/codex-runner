@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-10 16:21 +08:00
+- Updated: 2026-08-10 17:21 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Workana AItevoy Logo | rejected | $50–200 and 0 bids, but 4–8h estimate and stale since July 2025 |
-| Workana Reels Stories | rejected | $50, verified payment and 0 bids, but eight videos exceed 4h and listing dates to March 2023 |
-| Workana remote data entry | rejected | 1 bid, but no public budget, 5–20h and US/EU residence required |
-| Workana Amazon FBA pilot | rejected | $200–400, 4 bids, 10-page report and paid tools required |
-| Workana e-commerce assistant | rejected | $300–500 and 2 bids, but over budget and explicitly long-term |
+| Truelancer native-speaker business email collection | rejected | $100, but 23 proposals and buyer identity not public on index |
+| Truelancer ETABs MTECH problem | rejected | $52, but 9 proposals and specialized engineering scope |
+| Truelancer B2B maritime/biobased coatings research | rejected | $31, but 19 proposals and buyer identity not public on index |
+| Truelancer professional PowerPoint presentation | rejected | $103, but 36 proposals |
+| Truelancer Power Automate Desktop data entry | rejected | $20, but 36 proposals |
 
 ## Next action
 
-Rotate to current Truelancer public fixed-price projects and verify buyer, Safe Deposit, exact proposal count, $20–200 budget, direct proposal entry and 1–4h scope; act only on a fully evidenced <=2-proposal demand, stopping before login or identity claims.
+Rotate to current DesignCrowd public contests; verify buyer, prize/payment, current entrant count, direct entry and 1–4h scope, and act only on a fully evidenced $20–200 demand with no more than 2 competitors.
