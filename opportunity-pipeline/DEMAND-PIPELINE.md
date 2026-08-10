@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-10 18:22 +08:00
+- Updated: 2026-08-10 19:20 +08:00
 - qualified-L3: 2
 - applied: 0
 - executing: 0
@@ -18,12 +18,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| Hatchwise active contests inventory | rejected | Public active-contests page returned 403; buyer, current competition, deadline and entry could not be verified |
 | DesignCrowd Sydney Cricket Club sponsorship PowerPoint | rejected | A$150 and 1 designer, but not marked Guaranteed |
 | DesignCrowd private graphic project A$110 | rejected | 1 designer, but buyer and brief require login |
 | DesignCrowd private graphic project US$110 | rejected | 0 designers, but buyer/brief private and payment not guaranteed |
-| DesignCrowd private tattoo project US$190 | rejected | 0 designers, but buyer/brief private and payment not guaranteed |
 | DesignCrowd private t-shirt project US$110 | rejected | Guaranteed and 0 designers, but buyer and scope private |
 
 ## Next action
 
-Check DesignCrowd #4117760 once for open status and designer count; proceed to submission only if competition remains <=2 and a usable authenticated session exists, otherwise stop at login.
+Rotate to current public 99designs Guaranteed contests; act only on a fully evidenced $20–200 demand with <=2 competitors and 1–4h scope.
