@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-10 13:35 +08:00
+- Updated: 2026-08-10 14:25 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| PeoplePerHour AI paper correction | rejected | About $48 and 4 pages, but latest concrete page shows 15 proposals |
-| PeoplePerHour UK first-year accounts | rejected | £250, 40 proposals and UK accounting expertise required |
-| PeoplePerHour AI chatbot inspection | rejected | About $146 but 50 proposals |
-| PeoplePerHour Chinese/Japanese medical translation | rejected | £6 and current open status not verifiable |
-| PeoplePerHour AI data scraping automation | rejected | $28/hour and 2 proposals, but 4 months old with no verifiable current status, total budget or bounded scope |
+| Upwork TikTok Posters Wanted | rejected | $100/month and <5 proposals, but exact <=2 cannot be proven and work is ongoing |
+| Upwork Link Image to URL and Phone | rejected | $50, 20–50 proposals and one hire |
+| Upwork Pinescript review | rejected | $50 and 10–15 proposals |
+| Upwork AI image generation data entry | rejected | $50, 20–50 proposals and seven hires |
+| Upwork PowerPoint Report Design | rejected | $100, 20–50 proposals and five interviews |
 
 ## Next action
 
-Validate current Upwork public fixed-price jobs; act only if a specific buyer, $20–200 budget, fewer than 5 proposals with evidence consistent with <=2, direct proposal entry and 1–4h delivery are public, stopping before login or identity claims.
+Rotate to current Guru public jobs and verify SafePay, exact quote count, $20–200 budget, direct quote entry and 1–4h scope; act only on a fully evidenced <=2-quote demand, stopping before login or identity claims.
