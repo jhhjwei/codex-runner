@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 02:34 +08:00
+- Updated: 2026-08-11 03:38 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Gitpay public task inventory | rejected | Payment flow is verifiable, but no current buyer-level task, reward, competition and direct claim evidence is publicly exposed |
-| TaskBounty public board | rejected | Official live board says “No code bounties yet”; no concrete demand exists to claim |
-| BountyHub Memanto + LangGraph | rejected | $100; dynamic listing lacks verifiable buyer/source issue, claims/competition and prepayment status |
-| SPLURT Station #76 | rejected | $150+; explicitly not prepaid, no competition evidence, and large porting scope exceeds 4h |
-| SPLURT Station #31 | rejected | $175+; system port exceeds 4h and no competition evidence |
+| Gitcoin public bounty inventory | rejected | No current buyer-level task with complete reward, competition and direct claim evidence was publicly exposed |
+| Daytona content #36 | rejected | $100; article plus two external-repository devcontainer contributions exceeds 4h and page shows >2 development references |
+| Armory3D #2613 | rejected | $100 Bountysource; engine feature exceeds 4h |
+| Revert #551 | rejected | $100; 2 assignees plus PR #657 means competition >2, and OAuth work exceeds 4h |
+| Activepieces #7670 | rejected | Closed/completed; 8 attempts and multiple rewarded claims; pCloud OAuth2 app declared infeasible |
 
 ## Next action
 
-Rotate to Gitcoin current public bounties; act only on a funded $20–200 open task with <=2 competitors, direct claim entry and 1–4h scope.
+Validate Daytona/content's current public 💎 Bounty article tasks; act only on a funded $20–200 open task with <=2 competitors, direct claim entry and 1–4h scope.
