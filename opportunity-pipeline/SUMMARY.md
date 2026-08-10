@@ -19,3 +19,16 @@ PeoplePerHour's escrow mechanism is verifiable, but reviewed jobs had 15–50 pr
 ## Next single action
 
 Validate current Upwork public fixed-price jobs; act only if a specific buyer, $20–200 budget, fewer than 5 proposals with evidence consistent with <=2, direct proposal entry and 1–4h delivery are public, stopping before login or identity claims.
+
+## Hourly guard status
+
+_Last updated: 2026-08-10 14:14:21 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-10/13.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-10/13.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
