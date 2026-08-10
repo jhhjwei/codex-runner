@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-11 06:40 +08:00
+- Updated: 2026-08-11 07:38 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Primary objective: Maven Dependency Doctor first real customer and first quote
@@ -32,16 +32,16 @@ Until the first payment, do not add non-essential product features. The next use
 - AsyncAPI Studio #1333: open, microgrant, 13 comments and assigned elsewhere; no meaningful maintainer change.
 - Dokploy PR #4918: open and unmerged at 7dad1798671a7fc710d9f45876b53f0d9c048ce4; 2 comments, zero reviews and no CI statuses, approval, merge or payment.
 - BoostNote #2667: rejected; archived/read-only.
-- DesignCrowd #4117760: sole qualified-L3; freshly verified Open, Guaranteed, €90, 3 designs from 1 designer, deadline 2026-08-17 05:15:52 UTC; login blocks submission.
+- DesignCrowd #4117760: sole qualified-L3; freshly verified Open, Guaranteed, €90, 3 designs from 1 designer, deadline 2026-08-17 05:15:52 UTC; login/account identity blocks submission.
 - Other bounty searches: secondary to Maven customer acquisition unless an immediately claimable, funded, low-competition 1–4h opportunity appears.
 
 ## Latest hourly result
 
-Freelancer's only live Java results with <=2 proposals were a $1,500–3,000 five-month mentorship and a ₹60,000–70,000 long-term evening role. Other current Spring/Java projects had 21–96 proposals. No task met the $20–200, <=2-proposal and 1–4h gates. External actions, outreach and new L3 were all zero; result failed.
+Workana's only live Java/Maven results with <=2 proposals lacked a public budget/verified payment or required 20 days to 80 hours/month. Fresh DesignCrowd projects #4117786, #4117791 and #4117745 already had 6, 4 and 10 designers. No task met all payment, competition and 1–4h gates. External actions, outreach and new L3 were zero; result failed.
 
 ## Next single action
 
-Rotate to Workana's current Java/Maven fixed-price projects; act only on a public $20–200 task with <=2 proposals, verified payment, direct application entry and 1–4h scope.
+Rotate to Guru's current Java/Maven fixed-price jobs; act only on a public US$20–200 task with <=2 quotes, SafePay or equivalent verified payment, direct application entry and 1–4h scope.
 
 ## Guard
 
@@ -58,4 +58,3 @@ _Last updated: 2026-08-11 06:44:06 +08:00_
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
