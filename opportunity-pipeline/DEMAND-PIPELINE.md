@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 05:39 +08:00
+- Updated: 2026-08-11 06:40 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,12 +17,12 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| JHipster #22487 | rejected | Open Maven issue, but bounty removed; 13 comments and no payment evidence |
-| JHipster #19626 | rejected | Historical $100 bounty already closed/completed |
-| Freelancer #37526721 | rejected | $10–30 paid on delivery, but closed with 12 proposals |
-| Upwork Código Fonte API e IA | rejected | $27 fixed-price but 5–10 proposals and complete C#/AI scope exceeds 4h |
-| Upwork Senior Java/ADF modernization | rejected | $20–30/hour, 20–50 proposals and long-term maintenance |
+| Freelancer #39675951 | rejected | $1,500–3,000 and 1 proposal, but requires five months of daily mentoring |
+| Freelancer Java Full-Stack Enhancement Lead | rejected | 2 proposals, but ₹60,000–70,000 long-term evening role exceeds budget and 4h |
+| Freelancer Java-Spring & Angular Expert | rejected | 96 proposals and long-term development |
+| Freelancer Java Web & Desktop Solution | rejected | 21 proposals, unclear broad scope |
+| Freelancer #40541671 | rejected | 60 proposals and incomplete public budget evidence |
 
 ## Next action
 
-Validate Freelancer's newly posted Java/Maven fixed-price projects; bid only on an open $20–200 task with <=2 bids, verified payment and 1–4h scope.
+Rotate to Workana current Java/Maven fixed-price projects; act only on an open $20–200 task with <=2 proposals, verified payment, direct application entry and 1–4h scope.
