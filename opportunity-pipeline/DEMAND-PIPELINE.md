@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 06:40 +08:00
+- Updated: 2026-08-11 07:38 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -11,18 +11,18 @@
 
 | Request | Status | Reward | Competition | Next gate |
 |---|---|---:|---:|---|
-| DesignCrowd #4117760 Les Flots-Atlantique business card | qualified-L3 | €90 Guaranteed (€50 winner + 4×€10 participation) | 3 designs / 1 designer | DesignCrowd login required before submission |
+| DesignCrowd #4117760 Les Flots-Atlantique business card | qualified-L3 | €90 Guaranteed (€50 winner + 4×€10 participation) | 3 designs / 1 designer | DesignCrowd login/account identity required before submission |
 
 ## Latest rejected evidence
 
 | Request | Status | Reason |
 |---|---|---|
-| Freelancer #39675951 | rejected | $1,500–3,000 and 1 proposal, but requires five months of daily mentoring |
-| Freelancer Java Full-Stack Enhancement Lead | rejected | 2 proposals, but ₹60,000–70,000 long-term evening role exceeds budget and 4h |
-| Freelancer Java-Spring & Angular Expert | rejected | 96 proposals and long-term development |
-| Freelancer Java Web & Desktop Solution | rejected | 21 proposals, unclear broad scope |
-| Freelancer #40541671 | rejected | 60 proposals and incomplete public budget evidence |
+| Workana JADE–SUMO integration | rejected | 1 bid, but no public budget or verified payment; 20-day integration plus weekly meetings exceeds 4h |
+| Workana Java Spring Boot part-time | rejected | R$70/hour and 1 bid, but ~80h/month/indefinite; buyer shows 0 paid projects |
+| DesignCrowd #4117786 site signage | rejected | £90 and public payment, but current competition is 6 designers |
+| DesignCrowd #4117791 Arctos T-shirt | rejected | US$190 and public payment, but current competition is 4 designers |
+| DesignCrowd #4117745 Slingshot flyer | rejected | US$110 and public payment, but current competition is 10 designers |
 
 ## Next action
 
-Rotate to Workana current Java/Maven fixed-price projects; act only on an open $20–200 task with <=2 proposals, verified payment, direct application entry and 1–4h scope.
+Rotate to Guru current Java/Maven fixed-price jobs; act only on an open US$20–200 task with <=2 quotes, SafePay or equivalent verified payment, direct application entry and 1–4h scope.
