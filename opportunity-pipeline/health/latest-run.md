@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-10 22:00–22:59 +08:00
+- Beijing hour: 2026-08-10 23:00–23:59 +08:00
 - status: failed
-- started_at: 2026-08-10 22:21 +08:00
-- completed_at: 2026-08-10 22:31 +08:00
+- started_at: 2026-08-10 23:20 +08:00
+- completed_at: 2026-08-10 23:32 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -11,4 +11,4 @@
 
 ## Result
 
-Both downstreams had no substantive change. DesignCrowd #4117760 remained Open, Guaranteed, €90 and at 0 designs/0 designers, but login blocks submission. DesignHill exposed no buyer-level contest cards. Missing 21:00 evidence files were backfilled. No external action or new L3.
+Both downstreams had no substantive change. DesignCrowd #4117760 remained Open, Guaranteed, €90 and at 0 designs/0 designers with 6 days left, but login blocks submission. IssueHunt yielded no new L3 after current state, funding, competition and scope checks. No external action or new L3.
