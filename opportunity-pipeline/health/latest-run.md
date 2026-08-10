@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-10 07:00–07:59 +08:00
+- Beijing hour: 2026-08-10 08:00–08:59 +08:00
 - status: failed
-- started_at: 2026-08-10 07:21 +08:00
-- completed_at: 2026-08-10 07:29 +08:00
+- started_at: 2026-08-10 08:19 +08:00
+- completed_at: 2026-08-10 08:30 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 1
@@ -11,4 +11,4 @@
 
 ## Result
 
-Both downstreams and BoostNote #2667/#3789 had no substantive change. Drips Waves exposes no public active task list, fixed per-task payout or competition count, and requires login/KYC. No external action or new L3.
+Both downstreams and BoostNote #2667/#3789 had no substantive change. Superteam Earn exposed no current $20–200 task with submissions <=2, public direct entry and 1–4h scope. No external action or new L3.
