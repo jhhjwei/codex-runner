@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 11:39 +08:00
+- Updated: 2026-08-11 12:39 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,15 +17,15 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| Upwork Excel statutory-interest verification | rejected | $70, 10–15 proposals, 1 hire and CPA/Chartered Accountant qualification |
+| Upwork MS Excel instructor/tutor | rejected | 15–20 proposals, 1–3 months and full 20-lesson recording scope |
+| Upwork Landing Page Redesign | rejected | $50, but 20–50 proposals and 1 hire |
+| Upwork Shopify paid research | rejected | US-only Shopify-owner identity and private transaction/order data required |
+| Upwork “Less than 5” results | rejected | Proposal range does not prove actual competition <=2 and payment verification was incomplete |
 | Freelancehunt Genially interactive presentation | rejected | 700 UAH, but 23 bids exceed competition gate |
 | Freelancehunt children's-book creative presentation | rejected | 3000 UAH, but 33 bids exceed competition gate |
 | Freelancehunt video-course presentation | rejected | Budget not stated and 37 bids exceed competition gate |
-| Freelancer Re-typing material/hard copy | rejected | US$250–750 and long-term daily work exceed budget and 4h gates |
-| Freelancer PDF to Word #29208018 | rejected | Cancelled; 1-proposal evidence does not restore the closed entry |
-| Freelancer Do some data entry #14790606 | rejected | In Progress and stale |
-| Freelancer Excel dropdown variables #6945933 | rejected | Cancelled |
-| Freelancer Volume variance dashboard #30215408 | rejected | In Progress and stale |
 
 ## Next action
 
-Rotate to current Upwork fixed-price Excel/PPT/research tasks; require payment-verified buyer, US$20–200, evidence consistent with <=2 applicants, direct proposal entry and 1–4h scope.
+Rotate to current Truelancer Excel/PPT/data fixed-price tasks; require verified payment, US$20–200, <=2 proposals, direct bid entry and 1–4h scope.
