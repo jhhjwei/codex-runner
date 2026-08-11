@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-11 21:00–21:59 +08:00
+- Beijing hour: 2026-08-11 22:00–22:59 +08:00
 - status: failed
-- started_at: 2026-08-11 21:22 +08:00
-- completed_at: 2026-08-11 21:31 +08:00
+- started_at: 2026-08-11 22:19 +08:00
+- completed_at: 2026-08-11 22:34 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 0
@@ -13,4 +13,4 @@
 
 ## Result
 
-Both tracked downstreams were unchanged. DesignContest exposed only buyer-facing category information and historical project archives, not a current contest with all required buyer, prize, <=2 competition, deadline and direct participation evidence. No eligible external action or new L3. Channel rotates to Crowdspring.
+Both downstreams were unchanged. Crowdspring exposed no verifiable current request, so the channel rotated immediately to Algora. Cal's only low-competition listing pointed to a closed GitHub issue; tscircuit candidates were over-competitive or failed scope/economic gates. No eligible action or new L3.
