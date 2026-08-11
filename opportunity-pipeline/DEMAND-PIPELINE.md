@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 10:38 +08:00
+- Updated: 2026-08-11 11:39 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,18 +17,15 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| Freelancehunt Genially interactive presentation | rejected | 700 UAH, but 23 bids exceed competition gate |
+| Freelancehunt children's-book creative presentation | rejected | 3000 UAH, but 33 bids exceed competition gate |
+| Freelancehunt video-course presentation | rejected | Budget not stated and 37 bids exceed competition gate |
 | Freelancer Re-typing material/hard copy | rejected | US$250–750 and long-term daily work exceed budget and 4h gates |
 | Freelancer PDF to Word #29208018 | rejected | Cancelled; 1-proposal evidence does not restore the closed entry |
 | Freelancer Do some data entry #14790606 | rejected | In Progress and stale |
 | Freelancer Excel dropdown variables #6945933 | rejected | Cancelled |
 | Freelancer Volume variance dashboard #30215408 | rejected | In Progress and stale |
-| Freelancer PowerPoint search results | rejected | Public evidence did not simultaneously verify open state, payment-verified buyer and direct active entry |
-| Firecrawl #2167 | rejected | $100, but source issue is closed/completed with 24 comments and multiple implementations |
-| Tailcall #2551 | rejected | $100 issue is closed/Rewarded; existing submitters were paid |
-| Memanto #1609 | rejected | $200 and open, but 32 comments/many submissions plus migration, video and social work exceed competition and 4h gates |
-| Memanto #770 | rejected | $100 deadline passed on 2026-08-01; BountyHub awarded a winner and many claims/PRs exist |
-| TigerVNC #1483 | rejected | $100 source issue is closed/completed; claim entry is no longer valid |
 
 ## Next action
 
-Rotate to current Freelancehunt Excel/PPT/research tasks; act only with Safe payment, US$20–200 equivalent, <=2 bids, direct proposal entry and 1–4h scope.
+Rotate to current Upwork fixed-price Excel/PPT/research tasks; require payment-verified buyer, US$20–200, evidence consistent with <=2 applicants, direct proposal entry and 1–4h scope.
