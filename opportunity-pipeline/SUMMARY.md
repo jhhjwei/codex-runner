@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-12 05:42 +08:00
+- Updated: 2026-08-12 06:31 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Primary objective: Maven Dependency Doctor first real customer and first quote
@@ -29,18 +29,18 @@ Until the first payment, do not add non-essential product features. The next use
 
 ## Existing downstream opportunities
 
-- AsyncAPI Studio #1333: open, microgrant, 13 comments and assigned to Shurtu-gal; no new maintainer reply, label or assignment change.
-- Dokploy PR #4918: open and unmerged; review requested from Siumauricio; no new review, CI approval, merge or payment signal.
+- AsyncAPI Studio #1333: same open microgrant issue returned; no visible new maintainer response or ownership change.
+- Dokploy PR #4918: same open PR returned; no visible review, CI approval, merge or payment change.
 - BoostNote #2667: rejected; archived/read-only.
 - DesignCrowd #4117760: rejected after rising to 13 designs from 4 designers, above the <=2 competition threshold.
 
 ## Latest hourly result
 
-Both downstreams were unchanged. Dework exposed no public task card details. GitHub bounty search found Claude Builders #1 with a US$50 Opire reward and direct claim command, but the source issue had 2,009 comments. Mirrors lacked a buyer-owned payment/entry path. External actions, outreach and new L3 were zero; result failed.
+Bountysource failed the payment-certainty gate because its public core issue documents unpaid cash-outs. Rotation to Gitpay found a US$100 OpenIsopix listing whose source issue is 404; sxt-proof-of-sql #229 lacked a public amount, was assigned and exceeded 4h; priced OpShin issues were closed. External actions, outreach and new L3 were zero; result failed.
 
 ## Next single action
 
-Validate current Bountysource open paid issues; require an original buyer issue, US$20–200 funded reward, <=2 claimants, open direct claim and 1–4h scope.
+Validate FinMind's current price-labelled GitHub issues; require an open original issue, public US$20–200-equivalent reward, <=2 claimants, direct public claim and 1–4h scope.
 
 ## Guard
 
@@ -57,4 +57,3 @@ _Last updated: 2026-08-12 05:55:10 +08:00_
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
