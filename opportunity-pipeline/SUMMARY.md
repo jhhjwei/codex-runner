@@ -1,10 +1,10 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-11 15:28 +08:00
+- Updated: 2026-08-11 16:33 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Primary objective: Maven Dependency Doctor first real customer and first quote
-- Latest L3/L4/L6/L9/L10/L11/L12: 1/0/1/1/0/0/0
+- Latest L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
 
 ## Core conversion KPI
 
@@ -32,15 +32,15 @@ Until the first payment, do not add non-essential product features. The next use
 - AsyncAPI Studio #1333: open, microgrant, 13 comments and assigned to Shurtu-gal; no new maintainer reply or assignment to jhhjwei.
 - Dokploy PR #4918: open and unmerged; 2 comments, zero reviews and no combined-status entries; no approval, merge or payment signal.
 - BoostNote #2667: rejected; archived/read-only.
-- DesignCrowd #4117760: sole qualified-L3; Open, Guaranteed, €90, 4 designs from 2 designers, deadline 2026-08-17 05:15:52 UTC; login/account identity blocks submission.
+- DesignCrowd #4117760: rejected after rising to 13 designs from 4 designers, above the <=2 competition threshold.
 
 ## Latest hourly result
 
-99designs validation produced no current candidate: the public PowerPoint-template and infographic category pages each show zero open contests, and displayed contests are Finished. DesignCrowd #4117760 remains the only qualified-L3. External actions, outreach and new L3 were zero; result failed.
+Freelancer Guaranteed validation produced no qualified demand. Four checked contests were Pending/Closed, had 5–241 entries, exceeded the $200 ceiling or required more than 4 hours. DesignCrowd #4117760 also left L3 after competition rose to 4 designers. External actions, outreach and new L3 were zero; result failed.
 
 ## Next single action
 
-Validate current Freelancer Guaranteed document/PPT/infographic contests; act only with US$20–200 equivalent prize, <=2 entries, direct submission and 1–4h scope.
+Validate current Hatchwise presentation/infographic/document contests; act only with US$20–200 prize, <=2 entries, direct submission and 1–4h scope.
 
 ## Guard
 
