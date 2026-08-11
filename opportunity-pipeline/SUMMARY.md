@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-12 06:31 +08:00
+- Updated: 2026-08-12 07:33 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Primary objective: Maven Dependency Doctor first real customer and first quote
@@ -29,18 +29,18 @@ Until the first payment, do not add non-essential product features. The next use
 
 ## Existing downstream opportunities
 
-- AsyncAPI Studio #1333: same open microgrant issue returned; no visible new maintainer response or ownership change.
-- Dokploy PR #4918: same open PR returned; no visible review, CI approval, merge or payment change.
+- AsyncAPI Studio #1333: same original microgrant issue returned; no visible new maintainer response or ownership change.
+- Dokploy PR #4918: same original PR returned; no visible review, CI approval, merge or payment change.
 - BoostNote #2667: rejected; archived/read-only.
 - DesignCrowd #4117760: rejected after rising to 13 designs from 4 designers, above the <=2 competition threshold.
 
 ## Latest hourly result
 
-Bountysource failed the payment-certainty gate because its public core issue documents unpaid cash-outs. Rotation to Gitpay found a US$100 OpenIsopix listing whose source issue is 404; sxt-proof-of-sql #229 lacked a public amount, was assigned and exceeded 4h; priced OpShin issues were closed. External actions, outreach and new L3 were zero; result failed.
+FinMind was archived read-only on 2026-06-19. Its #121 US$500 bounty had at least 10 linked submissions and exceeded scope/budget; #144 was US$1,000, expired and already submitted. Rotation to ZIO found no current US$150–200 original issue passing all gates. External actions, outreach and new L3 were zero; result failed.
 
 ## Next single action
 
-Validate FinMind's current price-labelled GitHub issues; require an open original issue, public US$20–200-equivalent reward, <=2 claimants, direct public claim and 1–4h scope.
+Validate Tari #7795 and current `bounty-S` issues; require a public reward/payment rule, <=2 claimants, direct public claim and 1–4h scope.
 
 ## Guard
 
@@ -57,4 +57,3 @@ _Last updated: 2026-08-12 06:51:16 +08:00_
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
