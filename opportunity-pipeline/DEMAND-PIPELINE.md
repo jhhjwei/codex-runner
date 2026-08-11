@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 07:38 +08:00
+- Updated: 2026-08-11 08:34 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,6 +17,8 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| Guru Apache Maven public channel | rejected | SafePay is verified, but no concrete current listing exposed all of buyer, US$20–200 budget, ≤2 quotes and 1–4h scope |
+| PeoplePerHour Spring Boot/Maven and Java results | rejected | Public results were ended, archived, awarded, stale or had 5–16 proposals |
 | Workana JADE–SUMO integration | rejected | 1 bid, but no public budget or verified payment; 20-day integration plus weekly meetings exceeds 4h |
 | Workana Java Spring Boot part-time | rejected | R$70/hour and 1 bid, but ~80h/month/indefinite; buyer shows 0 paid projects |
 | DesignCrowd #4117786 site signage | rejected | £90 and public payment, but current competition is 6 designers |
@@ -25,4 +27,4 @@
 
 ## Next action
 
-Rotate to Guru current Java/Maven fixed-price jobs; act only on an open US$20–200 task with <=2 quotes, SafePay or equivalent verified payment, direct application entry and 1–4h scope.
+Rotate to a current GitHub bounty program with public reward labels and zero assignees; act only on an open US$20–200 issue with direct claim entry and 1–4h scope.
