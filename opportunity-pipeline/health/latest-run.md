@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-11 17:00–17:59 +08:00
+- Beijing hour: 2026-08-11 18:00–18:59 +08:00
 - status: failed
-- started_at: 2026-08-11 17:19 +08:00
-- completed_at: 2026-08-11 17:29 +08:00
+- started_at: 2026-08-11 18:20 +08:00
+- completed_at: 2026-08-11 18:29 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 0
@@ -13,4 +13,4 @@
 
 ## Result
 
-Both tracked downstreams had no substantive change in their single checks. Hatchwise public search exposed no current original contest page containing buyer, prize/payment, competition and direct-submission evidence together. No eligible external action, outreach or new L3. Channel rotates to Designhill.
+Both tracked downstreams had no substantive change in their single checks. Designhill exposed platform payment rules and historical examples, but no current original contest satisfying the buyer, open status, US$20–200 budget, <=2 competitors and direct-entry gates. No eligible external action, outreach or new L3. Channel rotates to Workana.
