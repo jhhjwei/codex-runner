@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-12 02:00–02:59 +08:00
+- Beijing hour: 2026-08-12 03:00–03:59 +08:00
 - status: failed
-- started_at: 2026-08-12 02:18 +08:00
-- completed_at: 2026-08-12 02:38 +08:00
+- started_at: 2026-08-12 03:20 +08:00
+- completed_at: 2026-08-12 03:42 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 0
@@ -13,4 +13,4 @@
 
 ## Result
 
-Both downstreams were unchanged. Polar lacked a current public issue-funding discovery/claim path, OnlyDust had closed its contributor chapter, and three newly surfaced BountyHub listings pointed to closed source issues. No eligible action or new L3.
+Both downstreams were unchanged. Gitcoin exposed a mechanism description but no current verifiable task list. Rotation to Opire found apparent $86–100 candidates, but the qualifying source issues were closed; Deno #18147 had 3 solvers and >4h scope. No eligible action or new L3.
