@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-12 03:42 +08:00
+- Updated: 2026-08-12 04:41 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Primary objective: Maven Dependency Doctor first real customer and first quote
@@ -30,17 +30,17 @@ Until the first payment, do not add non-essential product features. The next use
 ## Existing downstream opportunities
 
 - AsyncAPI Studio #1333: open, microgrant, 13 comments and assigned to Shurtu-gal; no new maintainer reply or assignment to jhhjwei.
-- Dokploy PR #4918: open and unmerged; 2 comments and review requested from Siumauricio; no new review, merge or payment signal.
+- Dokploy PR #4918: open and unmerged; review requested from Siumauricio; no new review, merge or payment signal.
 - BoostNote #2667: rejected; archived/read-only.
 - DesignCrowd #4117760: rejected after rising to 13 designs from 4 designers, above the <=2 competition threshold.
 
 ## Latest hourly result
 
-Gitcoin's current site describes task bounties but did not expose a verifiable live task list. Rotation to Opire found apparent $86–100 candidates, yet gin #1, restfuncs #6 and go-task-task #1 were closed at source; Deno #18147 had 3 solvers and >4h Rust LSP scope. Both downstreams were unchanged. External actions, outreach and new L3 were zero; result failed.
+Catch The Signal's public page exposed no concrete paid issue details without an account. Rotation to IssueHunt found passkit #75 closed, remotion #518 already rewarded, organization #58 closed completed, and Boostnote #1595 archived/oversized. Both downstreams were unchanged. External actions, outreach and new L3 were zero; result failed.
 
 ## Next single action
 
-Validate Catch The Signal's newest 24-hour paid issues; require open source issue, US$20–200, verifiable payment, <=2 competitors, direct application entry and 1–4h scope.
+Validate Dework Explore Bounties; require a concrete DAO buyer, US$20–200, verifiable payment, <=2 competitors, direct application entry and 1–4h scope.
 
 ## Guard
 
