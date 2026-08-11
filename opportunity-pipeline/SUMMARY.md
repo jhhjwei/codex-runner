@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-11 23:29 +08:00
+- Updated: 2026-08-12 00:31 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Primary objective: Maven Dependency Doctor first real customer and first quote
@@ -36,11 +36,11 @@ Until the first payment, do not add non-essential product features. The next use
 
 ## Latest hourly result
 
-Algora Daytona reports 16 nominal open bounties totaling $630, but all inspected source issues returned 404 and the source repository was not publicly searchable. Buyer request, open state and direct claim path were therefore unverifiable. Both downstreams were unchanged. External actions, outreach and new L3 were zero; result failed.
+Golem Cloud had zero open bounties. Immediate rotation to Space and Time found five current bounties and verifiable historical payments, but every task had 11–1053 claims or exceeded the budget. Both downstreams were unchanged. External actions, outreach and new L3 were zero; result failed.
 
 ## Next single action
 
-Validate Algora Golem Cloud current bounties; require an accessible open source issue, US$20–200, <=2 claims and 1–4h scope before any claim.
+Validate Algora Turso current bounties; require an accessible open source issue, US$20–200, <=2 claims and 1–4h scope before any claim.
 
 ## Guard
 
@@ -57,4 +57,3 @@ _Last updated: 2026-08-12 00:06:00 +08:00_
 - enforcement state: RED
 - trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
-
