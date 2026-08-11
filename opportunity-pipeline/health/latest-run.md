@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-11 16:00–16:59 +08:00
+- Beijing hour: 2026-08-11 17:00–17:59 +08:00
 - status: failed
-- started_at: 2026-08-11 16:22 +08:00
-- completed_at: 2026-08-11 16:33 +08:00
+- started_at: 2026-08-11 17:19 +08:00
+- completed_at: 2026-08-11 17:29 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 0
@@ -13,4 +13,4 @@
 
 ## Result
 
-Both tracked downstreams had no substantive change. DesignCrowd #4117760 rose to 13 designs/4 designers and was rejected for exceeding the competition threshold. Four Freelancer Guaranteed contests were rejected for Pending/Closed status, 5–241 entries, over-budget prize or scope beyond 4 hours. No eligible external action, outreach or new L3.
+Both tracked downstreams had no substantive change in their single checks. Hatchwise public search exposed no current original contest page containing buyer, prize/payment, competition and direct-submission evidence together. No eligible external action, outreach or new L3. Channel rotates to Designhill.
