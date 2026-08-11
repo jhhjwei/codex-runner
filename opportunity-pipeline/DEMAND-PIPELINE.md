@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 12:39 +08:00
+- Updated: 2026-08-11 13:39 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,6 +17,9 @@
 
 | Request | Status | Reason |
 |---|---|---|
+| Truelancer #654148 paid research interview | rejected | Search showed ₹800/hour, 1 hour and 0 proposals, but the page returned 403; specific poster, buyer payment status and live bid entry were unverifiable, and eligibility needs a personal work-history statement |
+| Truelancer #653433 STAAD structural analysis | rejected | ₹3000 and 0 proposals, but specialist structural-engineering scope/liability cannot be bounded to 1–4 hours |
+| Truelancer current Excel/PPT/data results | rejected | 5–317 proposals or estimated duration over 4 hours |
 | Upwork Excel statutory-interest verification | rejected | $70, 10–15 proposals, 1 hire and CPA/Chartered Accountant qualification |
 | Upwork MS Excel instructor/tutor | rejected | 15–20 proposals, 1–3 months and full 20-lesson recording scope |
 | Upwork Landing Page Redesign | rejected | $50, but 20–50 proposals and 1 hire |
@@ -28,4 +31,4 @@
 
 ## Next action
 
-Rotate to current Truelancer Excel/PPT/data fixed-price tasks; require verified payment, US$20–200, <=2 proposals, direct bid entry and 1–4h scope.
+Validate current DesignCrowd Guaranteed PowerPoint/Word-document contests; require US$20–200 equivalent reward, <=2 designers, direct submission entry and 1–4h scope.
