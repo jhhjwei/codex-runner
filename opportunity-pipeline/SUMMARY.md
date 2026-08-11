@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-12 01:38 +08:00
+- Updated: 2026-08-12 02:38 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Primary objective: Maven Dependency Doctor first real customer and first quote
@@ -30,17 +30,17 @@ Until the first payment, do not add non-essential product features. The next use
 ## Existing downstream opportunities
 
 - AsyncAPI Studio #1333: open, microgrant, 13 comments and assigned to Shurtu-gal; no new maintainer reply or assignment to jhhjwei.
-- Dokploy PR #4918: open and unmerged; 2 comments, zero reviews and no combined-status entries; no approval, merge or payment signal.
+- Dokploy PR #4918: open and unmerged; 2 comments, review requested from Siumauricio and no combined-status entries; no approval, merge or payment signal.
 - BoostNote #2667: rejected; archived/read-only.
 - DesignCrowd #4117760: rejected after rising to 13 designs from 4 designers, above the <=2 competition threshold.
 
 ## Latest hourly result
 
-Turso's challenge is completed and closed. Rotation to Tailcall exposed stale board entries whose source issues were 404, closed or archived. BountyHub/Memanto #1609 is genuinely open at $200, but has 46 competing PRs and >4h scope. Both downstreams were unchanged. External actions, outreach and new L3 were zero; result failed.
+Polar's current product no longer exposes a verifiable public issue-funding discovery/claim path. OnlyDust's current homepage says its contributor chapter has closed. BountyHub surfaced three $50–100 listings, but each source GitHub issue was already closed. Both downstreams were unchanged. External actions, outreach and new L3 were zero; result failed.
 
 ## Next single action
 
-Validate current Polar open bounties; require accessible open source issue, US$20–200, <=2 claims and 1–4h scope before any claim.
+Validate current Gitcoin public tasks; require accessible open source request, US$20–200, verifiable payment, <=2 claims, direct application entry and 1–4h scope before any claim.
 
 ## Guard
 
