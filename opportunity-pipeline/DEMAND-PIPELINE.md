@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-12 04:41 +08:00
+- Updated: 2026-08-12 05:42 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -15,6 +15,11 @@ None.
 
 | Request | Status | Reason |
 |---|---|---|
+| Dework Explore Bounties | rejected | Public page exposes no concrete buyer, task amount, competition or direct task application entry |
+| Claude Builders #1 CHANGELOG Skill | rejected | US$50 Opire task is open, but source issue has 2,009 comments |
+| bounty-plaza #490 mirror | rejected | Not the original buyer entry; source competition exceeds threshold |
+| awesome-agent-bounties #322 mirror | rejected | No independent buyer, payment mechanism or buyer-owned claim entry |
+| BoostIO Boostnote #1085 | rejected | US$105 historical funding, but repository is archived/read-only and an existing PR was submitted |
 | Catch The Signal newest paid issues | rejected | Public page exposes no concrete buyer, issue, budget, competition or direct application entry without an account |
 | IssueHunt / destinationstransfers passkit #75 | rejected | $100 funded and one PR, but source issue is closed |
 | IssueHunt / JonnyBurger remotion #518 | rejected | $112 task already rewarded |
@@ -27,4 +32,4 @@ None.
 
 ## Next action
 
-Validate Dework Explore Bounties; require a concrete DAO buyer, US$20–200, verifiable payment, <=2 competitors, direct application entry and 1–4h scope.
+Validate current Bountysource open paid issues; require an original buyer issue, US$20–200 funded reward, <=2 claimants, open direct claim and 1–4h scope.
