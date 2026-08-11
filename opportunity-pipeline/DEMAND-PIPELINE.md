@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-11 08:34 +08:00
+- Updated: 2026-08-11 09:37 +08:00
 - qualified-L3: 1
 - applied: 0
 - executing: 0
@@ -17,14 +17,14 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Guru Apache Maven public channel | rejected | SafePay is verified, but no concrete current listing exposed all of buyer, US$20–200 budget, ≤2 quotes and 1–4h scope |
-| PeoplePerHour Spring Boot/Maven and Java results | rejected | Public results were ended, archived, awarded, stale or had 5–16 proposals |
-| Workana JADE–SUMO integration | rejected | 1 bid, but no public budget or verified payment; 20-day integration plus weekly meetings exceeds 4h |
-| Workana Java Spring Boot part-time | rejected | R$70/hour and 1 bid, but ~80h/month/indefinite; buyer shows 0 paid projects |
-| DesignCrowd #4117786 site signage | rejected | £90 and public payment, but current competition is 6 designers |
-| DesignCrowd #4117791 Arctos T-shirt | rejected | US$190 and public payment, but current competition is 4 designers |
-| DesignCrowd #4117745 Slingshot flyer | rejected | US$110 and public payment, but current competition is 10 designers |
+| Firecrawl #2167 | rejected | $100, but source issue is closed/completed with 24 comments and multiple implementations |
+| Tailcall #2551 | rejected | $100 issue is closed/Rewarded; existing submitters were paid |
+| Memanto #1609 | rejected | $200 and open, but 32 comments/many submissions plus migration, video and social work exceed competition and 4h gates |
+| Memanto #770 | rejected | $100 deadline passed on 2026-08-01; BountyHub has awarded a winner and many claims/PRs exist |
+| TigerVNC #1483 | rejected | $100 source issue is closed/completed; claim entry is no longer valid |
+| Guru Apache Maven public channel | rejected | SafePay verified, but no concrete listing exposed buyer, US$20–200 budget, <=2 quotes and 1–4h scope |
+| PeoplePerHour Spring Boot/Maven and Java results | rejected | Results were ended, archived, awarded, stale or had 5–16 proposals |
 
 ## Next action
 
-Rotate to a current GitHub bounty program with public reward labels and zero assignees; act only on an open US$20–200 issue with direct claim entry and 1–4h scope.
+Rotate to current Freelancer data/PPT/Excel fixed-price tasks; act only on a payment-verified buyer, US$20–200 budget, <=2 bids, direct proposal entry and 1–4h scope.
