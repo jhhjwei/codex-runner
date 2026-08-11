@@ -1,9 +1,9 @@
 # Hourly income demand heartbeat
 
-- Beijing hour: 2026-08-12 00:00–00:59 +08:00
+- Beijing hour: 2026-08-12 01:00–01:59 +08:00
 - status: failed
-- started_at: 2026-08-12 00:21 +08:00
-- completed_at: 2026-08-12 00:31 +08:00
+- started_at: 2026-08-12 01:19 +08:00
+- completed_at: 2026-08-12 01:38 +08:00
 - external_action_count: 0
 - new_qualified_demand_count: 0
 - qualified_demand_count: 0
@@ -13,4 +13,4 @@
 
 ## Result
 
-Both downstreams were unchanged. Golem Cloud had zero open bounties. Immediate rotation to Space and Time found five open bounties, but all had 11–1053 claims or exceeded the budget. No eligible action or new L3.
+Both downstreams were unchanged. Turso was closed. Tailcall board entries were stale at source, and Memanto #1609 had 46 competing PRs with >4h scope. No eligible action or new L3.
