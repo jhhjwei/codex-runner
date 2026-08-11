@@ -48,10 +48,10 @@ If two consecutive hours have `outreach_sent=0`, the next run must not spend its
 
 ## Hourly guard status
 
-_Last updated: 2026-08-11 18:07:24 +08:00_
+_Last updated: 2026-08-11 19:48:58 +08:00_
 
-- audit record: `opportunity-pipeline/health/audit/2026-08-11/17.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-11/17.md`
+- audit record: `opportunity-pipeline/health/audit/2026-08-11/18.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-11/18.md`
 - primary status: failed
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
