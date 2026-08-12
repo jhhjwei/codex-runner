@@ -1,60 +1,27 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-12 07:33 +08:00
+- Updated: 2026-08-12 08:33 +08:00
 - Revenue received: 0
 - Paid consultations: 0
-- Primary objective: Maven Dependency Doctor first real customer and first quote
 - Latest L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
 
-## Core conversion KPI
+## Conversion funnel
 
-- target_users_found: 0
-- outreach_sent: 0
-- replies_received: 0
-- projects_submitted: 0
-- quotes_sent: 0
-- payments_received: 0
+- This hour: 8 buyer-demand visits → 0 qualified-L3 → 0 external actions → 0 revenue
+- Visit→L3: 0%
+- L3→external action: N/A
+- Rolling 24h under new counter: 8 / 0 / 0 / 0 revenue
+- Shortfall: 3 L3 and 2 external actions
 
-> Search volume, candidate lists, snapshots, health reports, archive operations and code commits do **not** count as commercial progress.
+## Downstreams
 
-## Maven Dependency Doctor
+- AsyncAPI Studio #1333: still open with microgrant label and same assignee; no update after 2026-07-30.
+- Dokploy PR #4918: still open, unmerged and mergeable=false; review requested, no payment evidence.
 
-Current stage: **pre-customer validation**.
+## Latest validation
 
-Required path:
-
-`real Maven problem → target user → project-specific diagnosis → outreach → reply → real project → free initial diagnosis → $19–39 quote for full fix/PR → payment`
-
-Until the first payment, do not add non-essential product features. The next useful evidence is a real user action, not another internal tool improvement.
-
-## Existing downstream opportunities
-
-- AsyncAPI Studio #1333: same original microgrant issue returned; no visible new maintainer response or ownership change.
-- Dokploy PR #4918: same original PR returned; no visible review, CI approval, merge or payment change.
-- BoostNote #2667: rejected; archived/read-only.
-- DesignCrowd #4117760: rejected after rising to 13 designs from 4 designers, above the <=2 competition threshold.
-
-## Latest hourly result
-
-FinMind was archived read-only on 2026-06-19. Its #121 US$500 bounty had at least 10 linked submissions and exceeded scope/budget; #144 was US$1,000, expired and already submitted. Rotation to ZIO found no current US$150–200 original issue passing all gates. External actions, outreach and new L3 were zero; result failed.
+Eight concrete Algora-backed demand pages were visited. opik #1010 and Revert #551 are assigned; RustDesk #3762 needs hardware and has 49 comments; four EdgeChains tasks have 46–71 comments or poor economics; LabLab #462 has an expired 2024-04-08 deadline. No candidate passed all gates, so no claim, quote or development was started.
 
 ## Next single action
 
-Validate Tari #7795 and current `bounty-S` issues; require a public reward/payment rule, <=2 claimants, direct public claim and 1–4h scope.
-
-## Guard
-
-If two consecutive hours have `outreach_sent=0`, the next run must not spend its main effort on expanding search channels, reports, health checks, or infrastructure. It must prioritize a real customer-facing action when a suitable target exists.
-
-## Hourly guard status
-
-_Last updated: 2026-08-12 07:49:19 +08:00_
-
-- audit record: `opportunity-pipeline/health/audit/2026-08-12/06.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-12/06.md`
-- primary status: failed
-- commercial actions in audited hour: 0 (none)
-- enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
+Rotate away from stale Algora index results to fresh Opire issues created or updated in the last 30 days; require zero assignees, <=5 actual attempts, verifiable payment and direct public claim.
