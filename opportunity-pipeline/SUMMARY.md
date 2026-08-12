@@ -25,3 +25,16 @@ Eight new Freelancer paid-on-delivery demand pages were visited. Every page had 
 ## Next single action
 
 Rotate away from Freelancer to a funded channel that publicly exposes applicant counts before login; act immediately on the first two entries with no more than five applicants.
+
+## Hourly guard status
+
+_Last updated: 2026-08-12 19:52:22 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-12/18.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-12/18.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
