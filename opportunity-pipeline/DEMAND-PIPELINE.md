@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-12 21:47 +08:00
+- Updated: 2026-08-12 22:47 +08:00
 - qualified-L3: 2
 - applied: 1
 - executing: 0
@@ -17,12 +17,12 @@
 
 ## Latest rejected evidence
 
-Eight new Expensify $250 issues (#98001, #96140, #96139, #98107, #98106, #97442, #96348, #96291) were rejected because they were selected/assigned, had more than five competitors, or carried Skip Payment/on-hold state.
+Eight new PeoplePerHour demands (#4515215, #4515210, #4515207, #4515202, #4515196, #4515195, #4515188, #4515187) were rejected: seven exceeded five proposals or required physical/voice identity; the five-proposal UE5 task required an unpaid pre-selection screenshot plus login/portfolio claims.
 
 ## Channel rejection
 
-DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, hardware bounties, and Expensify Help Wanted remain excluded until state changes.
+DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, hardware bounties, Expensify Help Wanted, and PeoplePerHour current feed remain excluded until state changes.
 
 ## Next action
 
-Rotate to public fixed-price procurement exposing proposal counts before login and execute the first two fully qualified entries.
+Rotate to a different public procurement or bounty channel exposing <=5 competitors and a non-login public claim path; execute the first two fully qualified entries.
