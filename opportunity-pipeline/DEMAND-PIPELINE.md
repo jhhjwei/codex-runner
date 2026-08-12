@@ -13,7 +13,7 @@
 |---|---|---|---|---|---|
 | [Winning Translation Contract Bid, 1500+](https://www.freelancer.com/projects/content-writing/winning-translation-contract-bid-edt) | qualified-L3 | ≥$50/hour; Freelancer delivery payment | 5 proposals; open | 4–6h / ≥$50h | Login plus personal translation-experience/certification statement required |
 
-## Latest rejected evidence
+## Rolling rejected evidence
 
 | Request | Status | Reason |
 |---|---|---|
@@ -24,6 +24,16 @@
 | Global B2B Lead Generation for Bulk Buyers | rejected | ongoing, ambiguous pay basis, estimated < $15/h |
 | B2B Survey Outreach Assistant | rejected | 6 proposals; two-month maintenance |
 | eBay Storefront Design | rejected | 287 proposals |
+| Nexussyn #1 | rejected | 15 USDC on merge; 19 comments; estimated 3h / 5 USDC/h |
+| Nexussyn #3 | rejected | 10 USDC on merge; 24 comments; estimated 3h / 3.33 USDC/h |
+| Nexussyn #2 | rejected | 10 USDC on merge; 18 comments; estimated 4h / 2.50 USDC/h |
+| Nexussyn #4 | rejected | 10 USDC on merge; 24 comments; estimated 4h / 2.50 USDC/h |
+| Nexussyn #5 | rejected | 5 USDC on merge; 37 comments; estimated 3h / 1.67 USDC/h |
+| Agent Bounties #870 | rejected | funded and claimable, but 1 USDC reward / estimated 0.25 USDC/h |
+
+## Channel rejection
+
+Opire listings remained excluded because original GitHub state contradicted the listing. Freelancer produced one economically qualified demand, but the action path requires login and personal identity claims.
 
 ## Next action
 
