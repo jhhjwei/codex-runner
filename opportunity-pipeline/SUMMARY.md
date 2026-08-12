@@ -29,3 +29,16 @@ Public claim attempts on Space and Time #228 and Tailcall rust-grpc #44 both ret
 ## Next single action
 
 Use a connected channel with confirmed write access and complete one qualified public claim before additional discovery.
+
+## Hourly guard status
+
+_Last updated: 2026-08-13 03:09:04 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-13/02.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/02.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
