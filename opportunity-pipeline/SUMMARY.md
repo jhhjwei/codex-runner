@@ -25,3 +25,16 @@ Eight original demand pages were visited. Cocohub #1 had the best low-competitio
 ## Next single action
 
 Rotate away from Opire/Claude-bounty spam to a new public-procurement or escrow-backed microtask channel; prefilter <=5 attempts before opening pages.
+
+## Hourly guard status
+
+_Last updated: 2026-08-12 10:25:17 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-12/09.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-12/09.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
