@@ -1,16 +1,23 @@
-# Hourly income demand heartbeat
+# Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-12 07:00–07:59 +08:00
+- Beijing hour: 2026-08-12 08:00–08:59 +08:00
 - status: failed
-- started_at: 2026-08-12 07:21 +08:00
-- completed_at: 2026-08-12 07:33 +08:00
-- external_action_count: 0
-- new_qualified_demand_count: 0
-- qualified_demand_count: 0
-- target_users_found: 0
-- outreach_sent: 0
-- L3/L4/L6/L9/L10/L11/L12: 0/0/1/1/0/0/0
+- started_at: 2026-08-12 08:20 +08:00
+- completed_at: 2026-08-12 08:33 +08:00
+- visits: 8
+- qualified_L3: 0
+- external_actions: 0
+- revenue_received: 0
+- visit_to_L3: 0%
+- L3_to_action: N/A
+- rolling_24h: 8 visits / 0 L3 / 0 actions / 0 revenue
+
+## Shortfall
+
+- qualified-L3 shortfall: 3
+- external-action shortfall: 2
+- blocker: all eight verified demand pages were assigned, crowded, expired, required hardware, or exceeded the 8-hour/economic gate.
 
 ## Result
 
-Both downstreams had no visible change. FinMind was archived read-only on 2026-06-19; #121 is US$500 with at least 10 linked submissions, while #144 is US$1,000, expired and already submitted. ZIO exposed no current US$150–200 original issue passing all gates. No eligible action or new L3.
+Eight verified demand pages were visited, but none passed assignment, competition, deadline, scope and economics gates. No safe external action was available.
