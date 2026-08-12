@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-12 20:48 +08:00
+- Updated: 2026-08-12 21:47 +08:00
 - qualified-L3: 2
 - applied: 1
 - executing: 0
@@ -17,12 +17,12 @@
 
 ## Latest rejected evidence
 
-Eight new evidenced pages were rejected: Agent Bounties #862/#869/#772/#773/#774 paid only 1–2 USDC and were submitted, verification-pending or claimed; for-funsies #28/#30 paid GSD without a verifiable cash value; through-metal-link #5 required hardware, personal spend and more than eight hours.
+Eight new Expensify $250 issues (#98001, #96140, #96139, #98107, #98106, #97442, #96348, #96291) were rejected because they were selected/assigned, had more than five competitors, or carried Skip Payment/on-hold state.
 
 ## Channel rejection
 
-DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, and hardware bounties remain excluded until state changes.
+DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, hardware bounties, and Expensify Help Wanted remain excluded until state changes.
 
 ## Next action
 
-Rotate to new cash-denominated public procurement with visible applicant counts and execute the first two fully qualified entries.
+Rotate to public fixed-price procurement exposing proposal counts before login and execute the first two fully qualified entries.
