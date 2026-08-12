@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-12 16:23 +08:00
+- Updated: 2026-08-12 17:22 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Latest L3/L4/L6/L9/L10/L11/L12: 2/0/1/1/0/0/0
@@ -10,7 +10,7 @@
 - This hour: 8 new buyer-demand visits → 0 qualified-L3 → 0 external actions → 0 revenue
 - Visit→L3: 0%
 - L3→external action: N/A
-- Rolling 24h: 70 visits / 2 L3 / 0 actions / 0 revenue
+- Rolling 24h: 78 visits / 2 L3 / 0 actions / 0 revenue
 - Shortfall: 0 visits, 3 L3 and 2 external actions
 
 ## Downstreams
@@ -20,11 +20,11 @@
 
 ## Latest validation
 
-Freelancer was stopped and Guru was inspected as a new channel. Eight original demand pages were opened. The strongest was the $250 ceiling manuscript-formatting request with five quotes, but 165 illustrated pages exceeds eight hours. The remaining seven were month-scale SME/photography engagements or required onsite, location and professional identity assertions. Guru's direct quote flow required login, so no quote or external action was claimed.
+Guru was stopped and bounty-plaza was inspected as a new USD code-bounty channel. Eight open demands had 0–3 comments, no assignee, $50–200 labels and a /claim entrance. However, their REWARD_POLICY link is broken and does not expose an enforceable payout workflow, so none passed payment certainty. Claim attempts on #193 and #225 both returned GitHub integration 403; no comment was created and no action counted.
 
 ## Next single action
 
-Leave Guru long-duration listings and rotate to a code-bounty channel whose claim can be published through the connected GitHub account.
+Stop bounty-plaza and restore GitHub issue-comment permission before visiting another GitHub bounty channel.
 
 ## Hourly guard status
 
