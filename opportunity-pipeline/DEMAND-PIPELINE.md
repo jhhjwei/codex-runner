@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-12 16:23 +08:00
+- Updated: 2026-08-12 17:22 +08:00
 - qualified-L3: 2
 - applied: 0
 - executing: 0
@@ -18,19 +18,19 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Guru — The Secrets of Longevity | rejected | 165-page illustrated manuscript exceeds 8h despite ≤$250 and 5 quotes |
-| Guru — Finance Domain Expert | rejected | 1–3 months; 12+ years/1099 identity claim required |
-| Guru — Insurance SME | rejected | 1–3 months; US location and 7+ years identity claim required |
-| Guru — STEM/Biochemistry SME | rejected | 6 months, onsite, 10+ years requirement |
-| Guru — Pharmaceutical SME | rejected | 6 months, onsite, 10+ years requirement |
-| Guru — Medical & Healthcare SME | rejected | 6 months, onsite, 10+ years requirement |
-| Guru — Legal SME | rejected | 6 months, onsite, JD/10+ years requirement |
-| Guru — Photographer | rejected | 1–3 months and NY/CT/NJ/PA location requirement |
+| bounty-plaza #193 prototype pollution | rejected | $200 and 0 comments, but REWARD_POLICY link broken; claim write 403 |
+| bounty-plaza #225 SSTI | rejected | $200 and 0 comments, but REWARD_POLICY link broken; claim write 403 |
+| bounty-plaza #66 pickle RCE | rejected | $200 and 1 comment; payout policy not verifiable |
+| bounty-plaza #251 TOTP log leak | rejected | $150 and 3 comments; payout policy not verifiable |
+| bounty-plaza #259 DNS rebinding | rejected | $150 and 1 comment; payout policy not verifiable |
+| bounty-plaza #226 timing attack | rejected | $120 and 0 comments; payout policy not verifiable |
+| bounty-plaza #214 mass assignment | rejected | $120 and 3 comments; payout policy not verifiable |
+| bounty-plaza #213 SQL injection | rejected | $50 and 3 comments; payout policy not verifiable and floor economics uncertain |
 
 ## Channel rejection
 
-DesignCrowd, stale GitHub bounty indexes, expired Superteam listings, Freelancer low-economics feed and Guru long-duration SME listings remain excluded until state changes. Guru direct quotes required login; no identity or professional qualification statement was invented.
+DesignCrowd, stale GitHub bounty indexes, expired Superteam listings, Freelancer low-economics feed, Guru long-duration listings and bounty-plaza remain excluded until state changes. GitHub issue-comment writes continue to return 403.
 
 ## Next action
 
-Rotate to a code-bounty channel whose claim can be published through the connected GitHub account, and act on the first qualifying demand before further screening.
+Restore GitHub issue-comment permission before visiting another GitHub bounty channel.
