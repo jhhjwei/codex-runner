@@ -28,8 +28,13 @@ Rotate to a current public-procurement/direct-quote channel with cash amount and
 
 ## Hourly guard status
 
-- primary heartbeat: `opportunity-pipeline/health/2026-08-12/11.md`
+_Last updated: 2026-08-12 11:28:02 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-12/10.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-12/10.md`
 - primary status: failed
-- commercial actions: 0
-- shortfall: 2 visits / 3 L3 / 2 external actions
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
