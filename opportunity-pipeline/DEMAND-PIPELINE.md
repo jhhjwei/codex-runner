@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-12 19:43 +08:00
+- Updated: 2026-08-12 20:48 +08:00
 - qualified-L3: 2
 - applied: 1
 - executing: 0
@@ -17,12 +17,12 @@
 
 ## Latest rejected evidence
 
-Eight new Freelancer paid-on-delivery pages were rejected: Precise PDF-to-Excel (11 proposals), Convert PDF Tables (23 and 29), PDF Tables to Excel (32), PDF Tables Conversion (30), CSE Dividend Data (49), Market Research Sheets (31), and Greece Travel Scraper (84). None met the competition ceiling; the scraper also exceeded eight hours.
+Eight new evidenced pages were rejected: Agent Bounties #862/#869/#772/#773/#774 paid only 1–2 USDC and were submitted, verification-pending or claimed; for-funsies #28/#30 paid GSD without a verifiable cash value; through-metal-link #5 required hardware, personal spend and more than eight hours.
 
 ## Channel rejection
 
-DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub bounty listings, and Freelancer's crowded general data-entry feed remain excluded until state changes.
+DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, and hardware bounties remain excluded until state changes.
 
 ## Next action
 
-Rotate to a funded channel exposing applicant counts before login and execute the first two fully qualified entries.
+Rotate to new cash-denominated public procurement with visible applicant counts and execute the first two fully qualified entries.
