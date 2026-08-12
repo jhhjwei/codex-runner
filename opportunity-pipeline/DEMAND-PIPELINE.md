@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-12 22:47 +08:00
+- Updated: 2026-08-12 23:47 +08:00
 - qualified-L3: 2
 - applied: 1
 - executing: 0
@@ -17,12 +17,12 @@
 
 ## Latest rejected evidence
 
-Eight new PeoplePerHour demands (#4515215, #4515210, #4515207, #4515202, #4515196, #4515195, #4515188, #4515187) were rejected: seven exceeded five proposals or required physical/voice identity; the five-proposal UE5 task required an unpaid pre-selection screenshot plus login/portfolio claims.
+Eight new Algora-tagged GitHub bounty issues were rejected. Three $20–30 UnsafeLabs entries required private session/system-context disclosure (one also missed the hourly floor); SecureBananaLabs entries exceeded competition, budget or bounded-scope gates; two ClankerNation entries exceeded budget/time and requested private platform instructions. Safe clarifications on UnsafeLabs #759/#801 both returned 403 and were not counted.
 
 ## Channel rejection
 
-DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, hardware bounties, Expensify Help Wanted, and PeoplePerHour current feed remain excluded until state changes.
+DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, hardware bounties, Expensify, PeoplePerHour current feed, and repositories requiring private-context disclosure remain excluded until state changes.
 
 ## Next action
 
-Rotate to a different public procurement or bounty channel exposing <=5 competitors and a non-login public claim path; execute the first two fully qualified entries.
+Restore an issue-comment-capable GitHub connection, then inspect only established Algora organizations with public payout history and <=5 active attempts.
