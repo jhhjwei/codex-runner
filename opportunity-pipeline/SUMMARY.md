@@ -1,44 +1,38 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-13 02:43 +08:00
+- Updated: 2026-08-13 03:47 +08:00
 - Revenue received: 0
 - Paid consultations: 0
-- Latest L3/L4/L6/L9/L10/L11/L12: 5/0/1/1/0/0/0
+- Latest L3/L4/L6/L9/L10/L11/L12: 6/0/1/1/0/0/0
 
 ## Conversion funnel
 
-- This hour: 8 new buyer-demand visits → 0 qualified-L3 → 0 external actions → 0 revenue
-- Visit→L3: 0%
+- This hour: 8 new buyer-demand visits → 1 qualified-L3 → 0 external actions → 0 revenue
+- Visit→L3: 12.5%
 - L3→external action: 0%
-- Rolling 24h: 147 visits / 5 L3 / 1 action / 0 revenue
-- Shortfall: 0 visits, 3 L3 and 2 external actions
+- Rolling 24h: 155 visits / 6 L3 / 1 action / 0 revenue
+- Shortfall: 0 visits, 2 L3 and 2 external actions
 
 ## Downstreams
 
-- AsyncAPI Studio #1333: unchanged; open, assigned, microgrant label, no new actionable maintainer reply.
+- AsyncAPI Studio #1333: unchanged; open, assigned, microgrant, no actionable maintainer reply.
 - Dokploy PR #4918: unchanged; open, requested review pending, not mergeable, no merge/payment evidence.
 
 ## Latest validation
 
-Eight live original demand pages were verified. None passed all gates: Memanto items exceeded scope/security or competition limits; microG items exceeded time/hardware/budget limits; homelab-stack lacked payout certainty and was crowded; steam-presence was assigned/underspecified; both Expensify jobs were already owned and crowded.
+Eight live original demand pages were verified. Invoice Formatting & Excel Data became qualified-L3: $250–750, payment verified, two proposals, estimated 6–8 active hours. Seven others failed competition or economics gates. Numerous Algora board rows were excluded because their original GitHub issues were closed, archived or 404.
 
 ## External action result
 
-Public claim attempts on Space and Time #228 and Tailcall rust-grpc #44 both returned HTTP 403. Failed writes are recorded as blockers and not counted as actions.
+No external action completed. The top Freelancer bid requires login and identity-bound portfolio, approach, price and delivery claims; the blocked draft is not counted.
 
 ## Next single action
 
-Use a connected channel with confirmed write access and complete one qualified public claim before additional discovery.
+Open an authenticated Freelancer session and submit the tailored Invoice Formatting & Excel Data bid after the user confirms the identity-bound claims.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-13 03:09:04 +08:00_
-
-- audit record: `opportunity-pipeline/health/audit/2026-08-13/02.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-13/02.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/03.md`
 - primary status: failed
-- commercial actions in audited hour: 0 (none)
+- commercial actions: 0
 - enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
