@@ -1,25 +1,25 @@
 # Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-12 23:00–23:59 +08:00
+- Beijing hour: 2026-08-13 00:00–00:59 +08:00
 - status: failed
-- started_at: 2026-08-12 23:20 +08:00
-- completed_at: 2026-08-12 23:47 +08:00
-- visits: 8
-- qualified_L3: 0
+- started_at: 2026-08-13 00:22 +08:00
+- completed_at: 2026-08-13 00:49 +08:00
+- visits: 3
+- qualified_L3: 2
 - external_actions: 0
 - revenue_received: 0
-- visit_to_L3: 0%
+- visit_to_L3: 66.7%
 - L3_to_action: 0%
-- rolling_24h: 135 visits / 3 L3 / 1 action / 0 revenue
+- rolling_24h: 138 visits / 5 L3 / 1 action / 0 revenue
 
 ## Shortfall
 
-- visit shortfall: 0
-- qualified-L3 shortfall: 3
+- visit shortfall: 5
+- qualified-L3 shortfall: 1
 - external-action shortfall: 2
-- blocker: low-price entries demanded disclosure of private system/session context; higher-value entries exceeded budget/time/competition gates. Two safe clarification writes returned GitHub 403.
-- channel: rotated to Algora-tagged GitHub bounties; stopped after safety and economics failure.
+- blocker: the GitHub integration returned 403 for both scoped public attempt comments; most platform-board rows were stale, closed, archived, expired, or over the competition gate.
+- channel: rotated to established Algora organizations; counted only current original issues with complete payment and competition evidence.
 
 ## Result
 
-The hour failed. No customer-facing action was completed; failed writes, search, validation and reporting were not counted as conversion.
+The hour failed. Two qualified-L3 candidates were added, but no customer-facing action completed; failed writes, search, validation and reporting were not counted as conversion.
