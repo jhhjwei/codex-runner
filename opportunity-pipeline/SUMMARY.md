@@ -28,12 +28,13 @@ Stop PeoplePerHour and rotate to a public procurement/bounty channel exposing <=
 
 ## Hourly guard status
 
-_Last updated: 2026-08-12 22:47:00 +08:00_
+_Last updated: 2026-08-12 23:03:02 +08:00_
 
-- latest audit record: `opportunity-pipeline/health/audit/2026-08-12/20.md`
+- audit record: `opportunity-pipeline/health/audit/2026-08-12/22.md`
 - primary heartbeat: `opportunity-pipeline/health/2026-08-12/22.md`
 - primary status: failed
-- commercial actions in hour: 0
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reason: repeated hours below two commercial actions
+- trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
+
