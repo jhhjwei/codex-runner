@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-12 15:31 +08:00
+- Updated: 2026-08-12 16:23 +08:00
 - qualified-L3: 2
 - applied: 0
 - executing: 0
@@ -18,19 +18,19 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| Customer Database Update | rejected | ₹400–750/hour, ongoing, private CRM credentials/NDA |
-| AI Video Creation Tool | rejected | $2–8/hour and >8h major build |
-| FMF AI Email System | rejected | 126 proposals and >40h scope |
-| SoundCloud Promotion | rejected | 37 proposals and ongoing maintenance |
-| IWeb Commission Sales | rejected | contingent 15% payment and ongoing sales work |
-| Video & Music Client Acquisition | rejected | end-client collection risk; payment certainty absent |
-| Website URL Redirect Script | rejected | 9 proposals and mostly <$15/h |
-| Categorized Bank Statement Summary | rejected | 22 proposals and approx. $9–15/h |
+| Guru — The Secrets of Longevity | rejected | 165-page illustrated manuscript exceeds 8h despite ≤$250 and 5 quotes |
+| Guru — Finance Domain Expert | rejected | 1–3 months; 12+ years/1099 identity claim required |
+| Guru — Insurance SME | rejected | 1–3 months; US location and 7+ years identity claim required |
+| Guru — STEM/Biochemistry SME | rejected | 6 months, onsite, 10+ years requirement |
+| Guru — Pharmaceutical SME | rejected | 6 months, onsite, 10+ years requirement |
+| Guru — Medical & Healthcare SME | rejected | 6 months, onsite, 10+ years requirement |
+| Guru — Legal SME | rejected | 6 months, onsite, JD/10+ years requirement |
+| Guru — Photographer | rejected | 1–3 months and NY/CT/NJ/PA location requirement |
 
 ## Channel rejection
 
-DesignCrowd, stale GitHub bounty indexes, expired Superteam listings and the Freelancer low-economics feed remain excluded until state changes. Freelancer direct bid was signed out; no identity or experience statement was invented.
+DesignCrowd, stale GitHub bounty indexes, expired Superteam listings, Freelancer low-economics feed and Guru long-duration SME listings remain excluded until state changes. Guru direct quotes required login; no identity or professional qualification statement was invented.
 
 ## Next action
 
-Use a new fixed-price public procurement channel with guest/API submission and act on the first qualifying demand before further screening.
+Rotate to a code-bounty channel whose claim can be published through the connected GitHub account, and act on the first qualifying demand before further screening.
