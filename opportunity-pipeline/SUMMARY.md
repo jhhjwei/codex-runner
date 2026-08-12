@@ -32,7 +32,13 @@ Rotate to a public cash-bounty organization where the connected GitHub App has w
 
 ## Hourly guard status
 
-- primary heartbeat: `opportunity-pipeline/health/2026-08-13/04.md`
+_Last updated: 2026-08-13 04:53:08 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-13/03.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/03.md`
 - primary status: failed
-- commercial actions: 0
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
