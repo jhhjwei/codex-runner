@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-12 08:33 +08:00
+- Updated: 2026-08-12 09:47 +08:00
 - qualified-L3: 0
 - applied: 0
 - executing: 0
@@ -15,15 +15,15 @@ None.
 
 | Request | Status | Reason |
 |---|---|---|
-| Comet opik #1010 | rejected | US$50; assigned, 21 comments and scope exceeds 8h |
-| Revert #551 | rejected | US$100; two assignees, 10 comments and OAuth integration exceeds 8h |
-| RustDesk #3762 | rejected | US$100; 49 comments, Windows hardware testing and oversized |
-| EdgeChains #290 | rejected | US$50; 61 comments and oversized |
-| EdgeChains #286 | rejected | US$200; 71 comments and far over 8h |
-| EdgeChains #279 | rejected | US$25; 46 comments, stale PaLM2 API and low economics |
-| EdgeChains #273 | rejected | US$30; 59 comments and low economics |
-| LabLab community-content #462 | rejected | US$60; hard deadline 2024-04-08 expired |
+| Cocohub #1 | rejected | 150 XLM escrow, 3 comments, 0 assignees; explicit Large scope exceeds 8h and hourly floor |
+| Copperhead #66 | rejected | US$50; 56 comments, 2 assignees, 13 competing PRs, hardware/provider-heavy |
+| MyZubster #109 | rejected | 0.05 XMR; 11 comments, 2 assignees, submitted PR, below hourly floor |
+| Claude Builders #5 | rejected | US$200 Opire; 1,049 comments |
+| Claude Builders #4 | rejected | US$150 Opire; 1,359 comments |
+| Claude Builders #3 | rejected | US$100 Opire; 1,563 comments |
+| Claude Builders #2 | rejected | US$75 Opire; 1,347 comments |
+| Claude Builders #1 | rejected | US$50 Opire; 2,009 comments |
 
 ## Next action
 
-Fresh Opire issues updated within 30 days; zero assignees, <=5 attempts, direct claim and verifiable payout.
+New public-procurement or escrow-backed microtask channel; prefilter <=5 attempts, 1–8h and >=US$15/h before opening.
