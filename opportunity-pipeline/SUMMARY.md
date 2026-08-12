@@ -25,3 +25,16 @@ The channel rotated from bounty-plaza to Opire/OpenStreetMap-NG. Nine new demand
 ## Next single action
 
 Monitor OpenStreetMap-NG #7 only; rotate new outreach to a non-GitHub public quotation channel to obtain a second independently verifiable action.
+
+## Hourly guard status
+
+_Last updated: 2026-08-12 18:12:48 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-12/17.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-12/17.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
