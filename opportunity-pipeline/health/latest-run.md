@@ -1,23 +1,24 @@
 # Hourly income conversion heartbeat
 
-- Beijing hour: 2026-08-12 10:00–10:59 +08:00
+- Beijing hour: 2026-08-12 11:00–11:59 +08:00
 - status: failed
-- started_at: 2026-08-12 10:21 +08:00
-- completed_at: 2026-08-12 10:53 +08:00
-- visits: 8
+- started_at: 2026-08-12 11:18 +08:00
+- completed_at: 2026-08-12 11:24 +08:00
+- visits: 6
 - qualified_L3: 0
 - external_actions: 0
 - revenue_received: 0
 - visit_to_L3: 0%
 - L3_to_action: N/A
-- rolling_24h: 24 visits / 0 L3 / 0 actions / 0 revenue
+- rolling_24h: 30 visits / 0 L3 / 0 actions / 0 revenue
 
 ## Shortfall
 
+- visit shortfall: 2
 - qualified-L3 shortfall: 3
 - external-action shortfall: 2
-- blocker: five low-competition demands pay only unpriced MRG ledger credits; two cash bounties require hardware/system work beyond 8 hours; one US$1,000 challenge explicitly bans AI/automated submissions.
+- blocker: five verified demands exceeded the competition cap and failed the hourly-rate gate; one canonically funded demand paid only 1 USDC; Opire produced stale listings contradicted by original GitHub state.
 
 ## Result
 
-Eight new original pages were visited, but none passed all buyer, payment, competition, scope and hourly-rate gates. No search or candidate was counted as a conversion.
+Six new original pages were counted. No search, stale listing or candidate was counted as a conversion, and no unassigned task was developed.
