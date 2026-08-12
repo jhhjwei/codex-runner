@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-13 00:49 +08:00
+- Updated: 2026-08-13 01:47 +08:00
 - qualified-L3: 4
 - applied: 1
 - executing: 0
@@ -19,12 +19,20 @@
 
 ## Latest rejected evidence
 
-RustDesk #3762 was rejected because it requires Windows audio hardware testing and the downside estimate falls below $15/hour. Daytona, Coolify, Tailcall, TSCircuit, CloudGakkai and lablab board rows whose original issues were closed, archived, deleted or expired were excluded and not counted as visits.
+| Request | Status | Reason |
+|---|---|---|
+| [Deno #18147](https://github.com/denoland/deno/issues/18147) | rejected | $70 via Opire, 3 solvers, but editor/LSP integration exceeds 8 hours |
+| [Strapi #11998](https://github.com/strapi/strapi/issues/11998) | rejected | Opire listed Open/Available while original issue is closed |
+| [Storybook #12641](https://github.com/storybookjs/storybook/issues/12641) | rejected | Opire listed reward while original issue is closed |
+| [Leantime #1099](https://github.com/Leantime/leantime/issues/1099) | rejected | Opire listed Open/Available while original issue is closed |
+| [Second Life #4445](https://github.com/secondlife/viewer/issues/4445) | rejected | Opire listed Open/Available while original issue is closed |
+| [esp-hal #4163](https://github.com/esp-rs/esp-hal/issues/4163) | rejected | Original issue closed; hardware scope also excluded |
+| [gin #1](https://github.com/madalynerlge2/gin/issues/1) | rejected | Original issue closed as not planned; low buyer credibility |
 
 ## Channel rejection
 
-DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, hardware bounties, Expensify, PeoplePerHour current feed, repositories requiring private-context disclosure, and stale Algora rows remain excluded until state changes.
+DesignCrowd, stale indexes, expired Superteam, Guru, bounty-plaza, crowded GitHub listings, Freelancer general data-entry, Agent Bounties low-value inventory, GSD, hardware bounties, Expensify, PeoplePerHour current feed, repositories requiring private-context disclosure, stale Algora rows and stale Opire rows remain excluded until source state changes.
 
 ## Next action
 
-Restore issue-comment-capable GitHub access, then submit the scoped attempts for Space #228 and Tailcall rust-grpc #44.
+Rotate to a platform with live original-issue state and complete payment/competition evidence; submit the first qualified public claim before further discovery.
