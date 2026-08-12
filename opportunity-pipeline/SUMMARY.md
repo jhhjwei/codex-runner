@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-12 20:48 +08:00
+- Updated: 2026-08-12 21:47 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Latest L3/L4/L6/L9/L10/L11/L12: 3/0/1/1/0/0/0
@@ -10,7 +10,7 @@
 - This hour: 8 new buyer-demand visits → 0 qualified-L3 → 0 external actions → 0 revenue
 - Visit→L3: 0%
 - L3→external action: 0%
-- Rolling 24h: 111 visits / 3 L3 / 1 action / 0 revenue
+- Rolling 24h: 119 visits / 3 L3 / 1 action / 0 revenue
 - Shortfall: 0 visits, 3 L3 and 2 external actions
 
 ## Downstreams
@@ -20,21 +20,20 @@
 
 ## Latest validation
 
-Rotated from Freelancer to Agent Bounties, a public GSD ledger and a hardware bounty. Eight fully evidenced pages were visited. The cash bounties paid only 1–2 USDC or required hardware and more than eight hours; two GSD bounties had no verifiable cash value. No entry cleared all L3 gates and no buyer-facing action was made.
+Rotated to eight original Expensify $250 Help Wanted issues with embedded Upwork paths. All were assigned/selected, had more than five competitors, or carried Skip Payment/on-hold state. No entry cleared L3 and no buyer-facing action was made.
 
 ## Next single action
 
-Rotate to new cash-denominated public procurement pages with visible applicant counts and execute the first two entries meeting the margin and competition gates.
+Stop Expensify and rotate to a public fixed-price channel exposing proposal counts before login; act only on entries with no more than five competitors.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-12 21:22:09 +08:00_
+_Last updated: 2026-08-12 21:47:00 +08:00_
 
-- audit record: `opportunity-pipeline/health/audit/2026-08-12/20.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-12/20.md`
+- latest audit record: `opportunity-pipeline/health/audit/2026-08-12/20.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-12/21.md`
 - primary status: failed
-- commercial actions in audited hour: 0 (none)
+- commercial actions in hour: 0
 - enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
+- trigger reason: repeated hours below two commercial actions
 - counting rule: search, archive and reports are not commercial progress
-
