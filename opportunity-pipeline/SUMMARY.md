@@ -28,11 +28,13 @@ Restore issue-comment write access, then target only established Algora organiza
 
 ## Hourly guard status
 
-_Last updated: 2026-08-12 23:47:00 +08:00_
+_Last updated: 2026-08-13 00:04:04 +08:00_
 
+- audit record: `opportunity-pipeline/health/audit/2026-08-12/23.md`
 - primary heartbeat: `opportunity-pipeline/health/2026-08-12/23.md`
 - primary status: failed
-- commercial actions in hour: 0
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reason: repeated hours below two commercial actions
-- counting rule: failed writes, search, archive and reports are not commercial progress
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
