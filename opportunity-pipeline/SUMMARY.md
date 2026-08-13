@@ -1,17 +1,17 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-13 04:47 +08:00
+- Updated: 2026-08-13 12:35 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Latest L3/L4/L6/L9/L10/L11/L12: 7/0/1/1/0/0/0
 
 ## Conversion funnel
 
-- This hour: 5 new buyer-demand visits → 1 qualified-L3 → 0 external actions → 0 revenue
-- Visit→L3: 20%
-- L3→external action: 0%
-- Rolling 24h: 160 visits / 7 L3 / 1 action / 0 revenue
-- Shortfall: 3 visits, 2 L3 and 2 external actions
+- This hour: 8 new buyer-demand visits → 0 qualified-L3 → 0 external actions → 0 revenue
+- Visit→L3: 0%
+- L3→external action: 0% (no L3 denominator)
+- Rolling 24h: 168 visits / 7 L3 / 1 action / 0 revenue
+- Shortfall: 3 L3 and 2 external actions
 
 ## Downstreams
 
@@ -20,25 +20,21 @@
 
 ## Latest validation
 
-Five new original demand pages passed evidence completeness. Memanto #1852 entered qualified-L3: $100 through BountyHub, one substantive public competitor, 2026-09-30 deadline, bounded 4–6h non-destructive research scope. Gambit #760 remains validating because the paid unit is not yet bounded and its offer is explicitly nonbinding. Three pages were rejected for probable completion, hardware/firmware risk, or economics below floor.
+The channel rotated to Cocohub/GrantFox and eight complete original bounty pages were visited. Payment is explicit XLM escrow released within 48h of merge, but all eight failed the ≤8h / ≥$15h gate or already had submitted implementations. No task entered qualified-L3.
 
 ## External action result
 
-No external action completed. A bounded public participation notice for Memanto #1852 was attempted, but the connected GitHub App returned 403 Resource not accessible by integration; the failed call is not counted.
+No external action completed. The highest gross reward, Cocohub #1 (150 XLM ≈ $29.53), needs an estimated 16–24h for contract, deployment, frontend integration and tests, yielding about $1.23–1.85/h. A claim would be uneconomic and was not posted.
 
 ## Next single action
 
-Rotate to a public cash-bounty organization where the connected GitHub App has write permission, then complete one claim before further discovery.
+Leave Cocohub; search only GitHub App-installed cash-bounty repositories and post the first qualifying public claim before further discovery.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-13 11:31:37 +08:00_
-
-- audit record: `opportunity-pipeline/health/audit/2026-08-13/10.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-13/10.md`
-- primary status: missing
-- commercial actions in audited hour: 0 (none)
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/12.md`
+- primary status: failed
+- commercial actions: 0
 - enforcement state: RED
-- trigger reasons: primary hourly heartbeat missing, two consecutive hours without commercial action
+- trigger reasons: 3 L3 and 2 external-action shortfall
 - counting rule: search, archive and reports are not commercial progress
-
