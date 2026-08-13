@@ -32,9 +32,13 @@ Use an installed/writable public repository or connected public form and complet
 
 ## Hourly guard status
 
+_Last updated: 2026-08-13 16:25:26 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-13/15.md`
 - primary heartbeat: `opportunity-pipeline/health/2026-08-13/15.md`
 - primary status: failed
-- commercial actions in hour: 0
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: external-action shortfall 2; GitHub App lacks comment access on qualifying repos
-- counting rule: search, archive, failed writes and reports are not commercial progress
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
