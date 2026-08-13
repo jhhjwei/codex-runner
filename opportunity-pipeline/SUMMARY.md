@@ -32,9 +32,13 @@ Stop broad GitHub/Algora search; switch to a public fixed-price procurement chan
 
 ## Hourly guard status
 
+_Last updated: 2026-08-13 14:20:21 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-13/13.md`
 - primary heartbeat: `opportunity-pipeline/health/2026-08-13/13.md`
 - primary status: failed
-- commercial actions: 0
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: 3 L3 and 2 external-action shortfall
+- trigger reasons: two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
+
