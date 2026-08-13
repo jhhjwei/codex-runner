@@ -27,3 +27,16 @@ No external action. Guru quote submission requires login plus identity/history/r
 
 ## Next single action
 Stop Guru and stale bounty indexes; connect a third-party-writable procurement/outreach app, then submit two qualifying quotes before more discovery.
+
+## Hourly guard status
+
+_Last updated: 2026-08-13 18:13:43 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-13/17.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/17.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
