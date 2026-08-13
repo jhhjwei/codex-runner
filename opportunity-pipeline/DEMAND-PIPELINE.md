@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-13 13:39 +08:00
+- Updated: 2026-08-13 14:43 +08:00
 - qualified-L3: 6
 - applied: 1
 - executing: 0
@@ -29,19 +29,19 @@
 
 | Request | Status | Reason |
 |---|---|---|
-| [Dozer #1690](https://github.com/getdozer/dozer/issues/1690) | rejected | $250 Algora; ≥7 attempts/solutions and 16–24h |
-| [Daytona #13](https://github.com/daytona/content/issues/13) | rejected | $150 Algora; 137 comments and dozens of listed solutions |
-| [Firecrawl #2167](https://github.com/firecrawl/firecrawl/issues/2167) | rejected | $100 PayPal; closed/completed and payout requested |
-| [Coolify #7743](https://github.com/coollabsio/coolify/issues/7743) | rejected | $100 Algora; closed/rewarded after 38 comments |
-| [Screenpipe #225](https://github.com/screenpipe/screenpipe/issues/225) | rejected | $100 Algora; closed and awarded |
-| [EdgeChains #273](https://github.com/arakoodev/EdgeChains/issues/273) | rejected | $30 Algora; 60 comments, many attempts, <$15/h |
-| [EdgeChains #279](https://github.com/arakoodev/EdgeChains/issues/279) | rejected | $25 Algora; 46 comments, many attempts, <$15/h |
-| [Highlight #8032](https://github.com/highlight/highlight/issues/8032) | rejected | $20 Algora; 54 comments, >20 solutions, <$15/h |
+| [Professional Python Project Development](https://www.freelancer.com/projects/data-analysis/professional-python-project-development) | rejected | 72 proposals; undefined 40–80h lifecycle scope |
+| [Cloud VM Pricing Validation Platform](https://www.freelancer.com/projects/selenium/cloud-pricing-validation-platform) | rejected | 42 proposals; full platform estimated 24–40h |
+| [Replit to GoDaddy Website Migration](https://www.freelancer.com/projects/godaddy/replit-godaddy-website-migration) | rejected | 46 proposals; ₹600–1,500 and credential-dependent migration |
+| [Google & Meta Ads Setup](https://www.freelancer.com/projects/google-ads/google-meta-ads-setup-40639531) | rejected | 73 proposals; $10–30 for 12–20h plus two-week optimization |
+| [Retail Sales Excel Portfolio Report](https://www.freelancer.com/projects/data-analysis/retail-sales-excel-portfolio-report) | rejected | 13 proposals; ₹100–400/h, below $15/h |
+| [Delivery Cost Analysis Spreadsheet](https://www.freelancer.com/projects/google-sheets/delivery-cost-analysis-spreadsheet) | rejected | 113 proposals despite viable 4–8h economics |
+| [Rapid, Precise Data Entry](https://www.freelancer.com/projects/google-sheets/rapid-precise-data-entry) | rejected | 19 proposals; recurring and unbounded batches |
+| [Quick Online Data Entry Task](https://www.freelancer.com/projects/copy-typing/quick-online-data-entry-task) | rejected | 11 proposals; low hourly economics and ongoing monthly work |
 
 ## Channel rejection
 
-GitHub App installed-repository searches returned no third-party bounty repositories. Broad GitHub/Algora discovery was also retired: recent results were closed/rewarded, economically disqualified or saturated. Fake/scanner mirrors and instruction-exfiltration tasks remain excluded.
+Freelancer public listings expose budgets, paid-on-delivery mechanics, applicant counts and bid forms, but this sample was saturated and safe bid submission requires login plus identity-bound experience/portfolio statements. Broad GitHub/Algora discovery remains retired for this cycle.
 
 ## Next action
 
-Switch to a public fixed-price procurement channel that exposes live applicant counts and supports a connected write action; submit the first qualifying quote before further discovery.
+Rotate to a new direct-submit bounty or procurement source exposing live competition ≤5; complete the first qualifying public claim before further discovery.
