@@ -1,6 +1,6 @@
 # Demand-First Opportunity Pipeline
 
-- Updated: 2026-08-13 17:00 +08:00
+- Updated: 2026-08-13 18:00 +08:00
 - qualified-L3: 10
 - applied: 1
 - executing: 0
@@ -43,9 +43,12 @@
 | [Guru Python SaaS](https://www.guru.com/jobs/senior-full-stack-python-developer/2120167) | rejected | Regional and long-term, >40h |
 | [Guru SMTP](https://www.guru.com/jobs/experienced-smtp-email-deliverability/2120164) | rejected | $5–9/h and established infrastructure required |
 | [Guru Zipstd](https://www.guru.com/jobs/zipstd-in-c-builder-as-static-lib/2120162) | rejected | 18 quotes and >8h |
+| [PeoplePerHour book OCR](https://www.peopleperhour.com/freelance-jobs/writing-translation/translators/purhcasing-volumes-of-a-book-then-ocr-them-4514708) | rejected | £21/hour and 3 proposals, but physical purchase/scanning and >8h |
 
 ## Channel result
-Guru provides live public buyer pages, quote counts and SafePay, but this batch produced no L3. Quote submission requires login and identity/history/resource statements; no unattended action was made.
+
+PeoplePerHour was tested as the rotated escrow channel. Only one original buyer page was fully accessible; it failed the 1–8 hour scope gate. Remaining listing pages required JavaScript/login, and sending a proposal requires login plus identity/experience statements. No unattended action was made.
 
 ## Next action
-Stop Guru and stale bounty indexes; connect a third-party-writable procurement/outreach app and submit two qualifying quotes before more discovery.
+
+Pause discovery until a third-party-writable GitHub, procurement or outreach connector is available.
