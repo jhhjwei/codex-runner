@@ -1,42 +1,26 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-13 17:00 +08:00
+- Updated: 2026-08-13 18:00 +08:00
 - Revenue received: 0
-- Paid consultations: 0
-- Latest L3/L4/L6/L9/L10/L11/L12: 11/0/1/1/0/0/0
-
-## Conversion funnel
-- This hour: 8 visits → 0 qualified-L3 → 0 external actions → 0 revenue
-- Visit→L3: 0%
-- L3→external action: 0%
-- Rolling 24h corrected: 183 visits / 10 L3 / 0 actions / 0 revenue
-- Shortfall: 0 visits, 3 L3, 2 external actions
+- This hour: 1 verified buyer-page visit / 0 qualified-L3 / 0 external actions
+- This hour conversion: visit→L3 0%; L3→action 0%
+- Rolling 24h: 176 visits / 10 L3 / 0 external actions / 0 revenue
+- Active latest-state counts: qualified-L3 11 / applied 1 / executing 0 / submitted 0 / paid 0
+- Health: failed
 
 ## Downstreams
-- AsyncAPI Studio #1333: unchanged; open, assigned, microgrant, no actionable maintainer reply.
-- Dokploy PR #4918: unchanged; open, unmerged, not mergeable, review pending, no payment evidence.
 
-## Latest validation
-Eight new Guru buyer pages were checked against public budgets, quote counts, deadlines, direct quote entrances and SafePay. None passed all gates: competition, long-term/oversized scope, regional or infrastructure requirements, or unverifiable hourly economics.
+- AsyncAPI Studio #1333: open, assigned to Shurtu-gal and carrying microgrant label; no new maintainer reply or assignment change.
+- Dokploy PR #4918: open, unmerged, not mergeable and awaiting Siumauricio review; no approval, merge or payment evidence.
 
-## Data correction
-The source-of-truth issues show Storybook #12641, Leantime #1099 and Strapi #11998 closed; electron-template #1 could not be verified. All four stale Opire L3 records were changed to rejected and rolling L3 was corrected.
+## Hour result
 
-## External action result
-No external action. Guru quote submission requires login plus identity/history/resource statements, and unattended browser submission requires action-time confirmation. No draft was counted.
+The rotated PeoplePerHour channel exposed one fully verifiable original buyer page: £21/hour, 3 proposals and escrow-backed payment. It was rejected because purchasing seven physical books, scanning and OCR exceeds the 1–8 hour gate and adds hardware/purchasing dependency. Other candidate pages were blocked behind JavaScript/login and were not counted.
 
-## Next single action
-Stop Guru and stale bounty indexes; connect a third-party-writable procurement/outreach app, then submit two qualifying quotes before more discovery.
+## Persistent blocker
 
-## Hourly guard status
+The connected GitHub app cannot write to third-party buyer repositories. Public proposal channels require login plus personal experience/identity statements. Therefore no truthful unattended application, claim, clarification, quote or PR can be made.
 
-_Last updated: 2026-08-13 18:13:43 +08:00_
+## Decision
 
-- audit record: `opportunity-pipeline/health/audit/2026-08-13/17.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-13/17.md`
-- primary status: failed
-- commercial actions in audited hour: 0 (none)
-- enforcement state: RED
-- trigger reasons: two consecutive hours without commercial action
-- counting rule: search, archive and reports are not commercial progress
-
+The recurring sprint is paused as fully blocked. Resume only after connecting a third-party-writable GitHub, procurement or outreach app.
