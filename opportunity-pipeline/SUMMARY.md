@@ -1,6 +1,6 @@
 # Opportunity Pipeline Summary
 
-- Updated: 2026-08-13 12:35 +08:00
+- Updated: 2026-08-13 13:39 +08:00
 - Revenue received: 0
 - Paid consultations: 0
 - Latest L3/L4/L6/L9/L10/L11/L12: 7/0/1/1/0/0/0
@@ -10,7 +10,7 @@
 - This hour: 8 new buyer-demand visits → 0 qualified-L3 → 0 external actions → 0 revenue
 - Visit→L3: 0%
 - L3→external action: 0% (no L3 denominator)
-- Rolling 24h: 168 visits / 7 L3 / 1 action / 0 revenue
+- Rolling 24h: 176 visits / 7 L3 / 1 action / 0 revenue
 - Shortfall: 3 L3 and 2 external actions
 
 ## Downstreams
@@ -20,25 +20,21 @@
 
 ## Latest validation
 
-The channel rotated to Cocohub/GrantFox and eight complete original bounty pages were visited. Payment is explicit XLM escrow released within 48h of merge, but all eight failed the ≤8h / ≥$15h gate or already had submitted implementations. No task entered qualified-L3.
+Eight new complete GitHub/Algora originals were audited. Three were already closed/rewarded; the five open pages all exceeded the competition ceiling and/or hourly-rate floor. No item entered qualified-L3.
 
 ## External action result
 
-No external action completed. The highest gross reward, Cocohub #1 (150 XLM ≈ $29.53), needs an estimated 16–24h for contract, deployment, frontend integration and tests, yielding about $1.23–1.85/h. A claim would be uneconomic and was not posted.
+No external action completed. Highest-ranked Dozer #1690 offers $250 through Algora, but its public record shows at least seven attempts/solutions and the sample is estimated at 16–24h. No uneconomic or duplicative attempt was posted.
 
 ## Next single action
 
-Leave Cocohub; search only GitHub App-installed cash-bounty repositories and post the first qualifying public claim before further discovery.
+Stop broad GitHub/Algora search; switch to a public fixed-price procurement channel with live applicant counts and complete the first qualifying quote before further discovery.
 
 ## Hourly guard status
 
-_Last updated: 2026-08-13 12:56:52 +08:00_
-
-- audit record: `opportunity-pipeline/health/audit/2026-08-13/11.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-13/11.md`
-- primary status: missing
-- commercial actions in audited hour: 0 (none)
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/13.md`
+- primary status: failed
+- commercial actions: 0
 - enforcement state: RED
-- trigger reasons: primary hourly heartbeat missing, two consecutive hours without commercial action
+- trigger reasons: 3 L3 and 2 external-action shortfall
 - counting rule: search, archive and reports are not commercial progress
-
