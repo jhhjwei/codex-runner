@@ -32,9 +32,13 @@ Leave Cocohub; search only GitHub App-installed cash-bounty repositories and pos
 
 ## Hourly guard status
 
-- primary heartbeat: `opportunity-pipeline/health/2026-08-13/12.md`
-- primary status: failed
-- commercial actions: 0
+_Last updated: 2026-08-13 12:56:52 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-13/11.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/11.md`
+- primary status: missing
+- commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: 3 L3 and 2 external-action shortfall
+- trigger reasons: primary hourly heartbeat missing, two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
+
