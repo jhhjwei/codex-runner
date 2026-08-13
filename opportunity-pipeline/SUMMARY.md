@@ -27,13 +27,13 @@ The recurring sprint is paused as fully blocked. Resume only after connecting a 
 
 ## Hourly guard status
 
-_Last updated: 2026-08-13 23:03:09 +08:00_
+_Last updated: 2026-08-14 00:03:56 +08:00_
 
-- audit record: `opportunity-pipeline/health/audit/2026-08-13/22.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-08-13/22.md`
+- audit record: `opportunity-pipeline/health/audit/2026-08-13/23.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/23.md`
 - primary status: missing
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
-- trigger reasons: primary hourly heartbeat missing, primary hourly pipeline commit missing, two consecutive hours without commercial action
+- trigger reasons: primary hourly heartbeat missing, two consecutive hours without commercial action
 - counting rule: search, archive and reports are not commercial progress
 
