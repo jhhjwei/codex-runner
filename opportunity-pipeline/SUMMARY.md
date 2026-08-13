@@ -24,3 +24,16 @@ The connected GitHub app cannot write to third-party buyer repositories. Public 
 ## Decision
 
 The recurring sprint is paused as fully blocked. Resume only after connecting a third-party-writable GitHub, procurement or outreach app.
+
+## Hourly guard status
+
+_Last updated: 2026-08-13 19:52:49 +08:00_
+
+- audit record: `opportunity-pipeline/health/audit/2026-08-13/18.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-08-13/18.md`
+- primary status: failed
+- commercial actions in audited hour: 0 (none)
+- enforcement state: RED
+- trigger reasons: two consecutive hours without commercial action
+- counting rule: search, archive and reports are not commercial progress
+
