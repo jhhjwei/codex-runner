@@ -1,122 +1,52 @@
-# Upwork Freelancer Profile
+# Upwork Maven Build Rescue Package
 
-## Profile Title
+## Profile title
 
-Fast AI-Assisted Web Fixes, Landing Pages, and Python Automation
+Maven & Spring Boot Build Failure Fix | Reproduced, Patched, Verified
 
-## Professional Overview
+## Professional overview
 
-I help clients complete small web and automation projects quickly with clear scope, practical communication, and human-reviewed AI-assisted development.
+I repair one focused, reproducible Maven or Spring Boot build blocker and deliver evidence that the agreed command passes.
 
-My work is best suited for focused tasks such as HTML/CSS fixes, responsive layout updates, landing page builds, CSV cleanup, Python scripts, data formatting, and simple workflow automation. I use AI-assisted tools to move faster, but every result is reviewed, tested, and adjusted by a person before delivery.
+This service is for dependency conflicts, Java-version mismatches, `javax` / `jakarta` migration errors, `ClassNotFoundException`, `NoSuchMethodError`, Spring Boot startup failures caused by build configuration, and failing `mvn test` or `mvn package` commands.
 
-I prefer small fixed-price projects with defined outcomes, so you know what will be delivered, what it will cost, and when to expect it. Typical turnaround is 24 to 72 hours depending on scope and required revisions.
+You provide a public repository or sanitized ZIP, the exact failing command, the complete error log, and your Java/Maven versions. I reproduce the failure in an isolated environment, prepare the smallest safe patch, rerun the agreed command, and deliver:
 
-If you need a quick website fix, a simple automation script, or a clean landing page without a long development cycle, I can help turn the task around efficiently.
+- the patch or corrected `pom.xml`;
+- dependency trees before and after the repair;
+- the verification command, exit status, and log;
+- a short root-cause report.
 
-Contact: cj2664@qq.com
+Fixed price: USD 65 for one blocker in one repository. Delivery target: 24 hours after the input passes the free preflight. One revision within 48 hours is included for the same blocker.
 
-## Hourly Rate Recommendation
+I do not request passwords, tokens, production access, or account sharing. Deployment, database repair, feature development, unrelated bugs, and ongoing maintenance are outside this package.
 
-Recommended hourly rate: USD 15 to USD 25 per hour.
+Public proof: https://github.com/jhhjwei/codex-runner/tree/main/demos/maven-build-rescue
 
-For Upwork positioning, USD 20 per hour is a practical starting rate for fast, focused web and automation tasks while fixed-price packages remain the primary offer.
+## Project Catalog title
 
-## Skill Tags
+I will reproduce and fix one Maven or Spring Boot build failure
 
-1. HTML
-2. CSS
-3. JavaScript
-4. Responsive Web Design
-5. Landing Page Development
-6. Python
-7. CSV Processing
-8. Web Automation
-9. Data Cleanup
-10. AI-Assisted Development
+## Project Catalog summary
 
-## Fixed-Price Service Packages
+One reproducible Maven build blocker repaired for a fixed USD 65. You receive a tested patch, before/after dependency evidence, the successful verification log, and a concise root-cause report. No calls or production credentials required.
 
-### Small Website Fix - USD 29
+## Requirements
 
-Best for one focused HTML, CSS, or layout issue.
+1. Public repository or sanitized ZIP
+2. Exact failing command
+3. Complete error log
+4. Java and Maven versions
+5. Expected successful command
 
-Includes:
-
-- Fixing a small visual or responsive issue
-- Updating text, spacing, colors, links, or basic layout
-- Reviewing the page after the change
-- Delivery within 24 to 48 hours for simple tasks
-
-### Python or CSV Automation Task - USD 59
-
-Best for a small script or data-processing workflow.
-
-Includes:
-
-- Creating or adjusting a Python script
-- Cleaning, formatting, merging, or converting CSV data
-- Simple file automation or repeatable task processing
-- Basic usage notes
-- Delivery within 24 to 72 hours depending on scope
-
-### Landing Page Development - USD 89
-
-Best for a simple, responsive landing page with clear content and structure.
-
-Includes:
-
-- One-page landing page layout
-- Mobile-friendly HTML/CSS implementation
-- Contact link or call-to-action section
-- Basic visual polish and review
-- Delivery within 48 to 72 hours for a clear brief
-
-## Portfolio Description
-
-### Codex Runner Website
-
-Portfolio link: https://jhhjwei.github.io/codex-runner/
-
-A simple web project demonstrating fast AI-assisted development workflow, clean page structure, and practical front-end delivery. This portfolio item shows the type of focused web work I can support for small business pages, landing pages, and quick implementation tasks.
-
-## Proposal Templates
-
-### HTML/CSS Website Fix
+## Proposal template
 
 Hi,
 
-I can help with this HTML/CSS fix and keep the scope clear. I will review the issue, make the required layout or styling update, and check the result on desktop and mobile where relevant.
+Your post describes a focused Maven/Spring Boot build blocker. I can first reproduce the exact failing command and confirm whether it fits my fixed USD 65 rescue package.
 
-For a small focused fix, I can complete this as a fixed-price task for USD 29 with typical delivery within 24 to 48 hours.
+If accepted, I will deliver the patch or corrected POM, before/after dependency evidence, and the successful verification command and log. The acceptance criterion is concrete: the agreed Maven command returns exit code 0.
 
-I use AI-assisted tools to work efficiently, but I personally review and adjust the final result before delivery.
+I do not need production access or credentials. Please send the repository or a sanitized minimal reproduction, the complete error, and your Java/Maven versions.
 
-Best,  
-cj2664@qq.com
-
-### Python or CSV Automation
-
-Hi,
-
-I can help create a small Python or CSV automation for this task. Based on your description, I will confirm the input file format, expected output, and any rules for cleaning, formatting, merging, or converting the data.
-
-For a focused automation task, I can complete this as a fixed-price project for USD 59 with typical delivery within 24 to 72 hours depending on the file structure and requirements.
-
-The final script or output will be human-reviewed, and I can include short usage notes so the process is easy to repeat.
-
-Best,  
-cj2664@qq.com
-
-### Landing Page Development
-
-Hi,
-
-I can build a clean, responsive landing page for your offer, service, or small business. I will keep the project scope clear: one page, mobile-friendly layout, polished HTML/CSS, and a clear call to action.
-
-For a focused landing page, I can complete this as a fixed-price project for USD 89 with typical delivery within 48 to 72 hours after receiving the content and design direction.
-
-I use AI-assisted development to move quickly, then review and refine the page manually before delivery.
-
-Best,  
-cj2664@qq.com
+Public reproducible example: https://github.com/jhhjwei/codex-runner/tree/main/demos/maven-build-rescue
