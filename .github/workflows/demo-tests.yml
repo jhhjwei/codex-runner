@@ -21,7 +21,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run every demo test suite
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: maven
+      - name: Run every Python demo test suite
         shell: bash
         run: |
           set -euo pipefail
@@ -31,3 +36,5 @@ jobs:
               (cd "$demo" && python -m unittest -v)
             fi
           done
+      - name: Verify Maven build rescue demo
+        run: bash demos/maven-build-rescue/verify.sh
