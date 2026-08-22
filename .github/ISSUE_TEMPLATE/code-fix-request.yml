@@ -1,80 +1,64 @@
-name: 代码修复 / 自动化需求
-description: 提交一个可在 24–72 小时内交付的小型技术需求
-title: "[需求] "
+name: Maven 构建故障免费预检
+description: 提交一个可复现的 Maven 或 Spring Boot 构建阻塞
+title: "[Maven预检] "
 body:
   - type: markdown
     attributes:
       value: |
-        感谢提交需求。请勿粘贴密码、Cookie、Token、私钥或真实个人数据。公开仓库、脱敏样例和报错截图最有助于快速判断。
+        本预检只判断一个 Maven 构建阻塞能否复现并进入固定 65 美元服务。请勿提交密码、Cookie、Token、私钥、生产地址或真实个人数据。
 
   - type: dropdown
-    id: service
+    id: failure_type
     attributes:
-      label: 需求类型
+      label: 故障类型
       options:
-        - 代码报错定位与修复
-        - Python / CSV 自动化
-        - HTML / CSS / 前端页面修复
-        - 简单落地页开发
-        - 其他小型开发任务
-    validations:
-      required: true
-
-  - type: textarea
-    id: problem
-    attributes:
-      label: 当前问题
-      description: 说明你做了什么、出现了什么结果，并粘贴完整报错信息。
-      placeholder: 运行某命令后出现……；预期应当……
-    validations:
-      required: true
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: 期望交付结果
-      description: 用可验证的方式描述完成标准。
-      placeholder: 修复后命令能正常运行，并提供修改后的代码和使用说明。
+        - Maven 依赖冲突或版本问题
+        - Spring Boot 启动失败
+        - Java / javax / jakarta 兼容问题
+        - mvn test 或 mvn package 失败
+        - ClassNotFoundException / NoSuchMethodError
+        - 其他 Maven 构建故障
     validations:
       required: true
 
   - type: input
-    id: reference
+    id: command
     attributes:
-      label: 仓库或脱敏样例链接
-      description: 可填写公开 GitHub 仓库、最小复现或文件分享链接。
-      placeholder: https://github.com/owner/repo
-
-  - type: dropdown
-    id: budget
-    attributes:
-      label: 预算范围
-      options:
-        - 先做免费初步判断
-        - ¥49–¥99
-        - ¥100–¥299
-        - ¥300–¥599
-        - 需要先评估
+      label: 失败命令
+      placeholder: mvn clean test
     validations:
       required: true
 
-  - type: dropdown
-    id: deadline
+  - type: textarea
+    id: error
     attributes:
-      label: 期望时间
-      options:
-        - 24 小时内
-        - 48 小时内
-        - 72 小时内
-        - 一周内
-        - 不着急
+      label: 完整错误日志
+      description: 请粘贴脱敏后的完整错误，不要只提供截图中的一行。
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Java 与 Maven 版本
+      placeholder: Java 17, Maven 3.9.9
+    validations:
+      required: true
+
+  - type: input
+    id: reproduction
+    attributes:
+      label: 公开仓库或脱敏最小复现
+      placeholder: https://github.com/owner/repo
     validations:
       required: true
 
   - type: checkboxes
-    id: safety
+    id: scope
     attributes:
-      label: 信息安全确认
+      label: 范围确认
       options:
-        - label: 我已移除密码、Token、Cookie、私钥和敏感个人数据
+        - label: 我只要求修复上述一个构建阻塞，不包含部署、新功能或长期维护
+          required: true
+        - label: 我已移除密码、Token、Cookie、私钥、生产地址和个人数据
           required: true

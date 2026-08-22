@@ -3,81 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="24–72 小时交付的小型代码修复、Python 自动化与网页问题处理服务。">
-  <title>小型代码修复与自动化交付</title>
+  <meta name="description" content="固定 65 美元修复一个可复现的 Maven 或 Spring Boot 构建故障，交付补丁、依赖证据和通过日志。">
+  <title>Maven 构建故障急救</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <p>AI 辅助开发 · 人工检查 · 明确交付</p>
-    <h1>代码卡住了？先免费判断，再决定是否付费修复</h1>
-    <p>适合报错定位、Python / CSV 自动化、HTML / CSS 修复和简单落地页。通常 24–72 小时交付。</p>
-    <p>
-      <a href="https://github.com/jhhjwei/codex-runner/issues/new?template=code-fix-request.yml">免费提交问题</a>
-    </p>
+    <p>一个故障 · 固定价格 · 可验证交付</p>
+    <h1>Maven 或 Spring Boot 构建卡住？先免费复现，再决定是否修复</h1>
+    <p>固定 65 美元。接受可复现输入后 24 小时内交付补丁、依赖树和成功构建日志。</p>
+    <p><a href="https://github.com/jhhjwei/codex-runner/issues/new?template=code-fix-request.yml">提交免费预检</a></p>
   </header>
 
   <main>
-    <section aria-labelledby="demo-heading">
-      <h2 id="demo-heading">公开可运行案例</h2>
-
-      <h3>1. 配置驱动 CSV/JSON 解析器</h3>
-      <p>无需修改核心代码，即可通过外部配置完成字段映射、类型转换、默认值、数值换算和数据校验。</p>
+    <section>
+      <h2>适用故障</h2>
       <ul>
-        <li>仅使用 Python 标准库</li>
-        <li>包含输入、配置、预期输出和端到端测试</li>
-        <li>可继续定制 Excel、批处理、网页上传或 Windows 可执行文件</li>
-      </ul>
-      <p><a href="https://github.com/jhhjwei/codex-runner/tree/main/demos/config-driven-parser">查看解析器源码</a></p>
-
-      <h3>2. 公开网页文本抓取器</h3>
-      <p>面向公开、免登录页面，检查 robots.txt、限制同域范围和访问频率，并输出 CSV/JSON。</p>
-      <ul>
-        <li>提取页面 URL、标题、正文、状态和错误</li>
-        <li>过滤脚本、样式和不可见内容</li>
-        <li>可继续定制 PDF 下载、增量更新或授权网站字段</li>
-      </ul>
-      <p><a href="https://github.com/jhhjwei/codex-runner/tree/main/demos/public-web-text-scraper">查看抓取器源码</a></p>
-    </section>
-
-    <section aria-labelledby="scope-heading">
-      <h2 id="scope-heading">最适合解决的需求</h2>
-      <ul>
-        <li>程序运行报错，需要定位原因并给出可运行修复</li>
-        <li>重复处理 Excel、CSV 或文本文件，需要 Python 自动化</li>
-        <li>网页样式、响应式布局、表单或交互出现问题</li>
-        <li>需要一个简单、可上线的单页落地页</li>
+        <li>Maven 依赖冲突或版本收敛错误</li>
+        <li>ClassNotFoundException / NoSuchMethodError</li>
+        <li>Java 版本、javax / jakarta 或 Spring Boot 升级问题</li>
+        <li>mvn test、mvn package 或启动阶段失败</li>
       </ul>
     </section>
 
-    <section aria-labelledby="pricing-heading">
-      <h2 id="pricing-heading">参考价格</h2>
+    <section>
+      <h2>你会收到</h2>
       <ul>
-        <li>免费初步判断：确认问题是否能做、预计交付方式</li>
-        <li>小型修复：¥49–¥99</li>
-        <li>Python / CSV 自动化：¥199 起</li>
-        <li>简单落地页：¥399 起</li>
+        <li>可直接应用的补丁或修正后的 pom.xml</li>
+        <li>修复前后的依赖树</li>
+        <li>验证命令、退出状态和成功日志</li>
+        <li>简短的中英文根因报告</li>
       </ul>
-      <p>确认范围、价格和验收标准后再付款。复杂需求会先拆成最小可交付版本。</p>
+      <p>验收标准只有一个：事先约定的 Maven 命令返回 0。</p>
     </section>
 
-    <section aria-labelledby="process-heading">
-      <h2 id="process-heading">交付流程</h2>
+    <section>
+      <h2>公开可运行证明</h2>
+      <p>演示项目包含相同源码的故障版和修复版：旧依赖导致编译失败，修正依赖后构建通过。</p>
+      <p><a href="https://github.com/jhhjwei/codex-runner/tree/main/demos/maven-build-rescue">查看故障、补丁与自动验证</a></p>
+    </section>
+
+    <section>
+      <h2>边界</h2>
+      <p>一个仓库、一个可复现构建阻塞、48 小时内一次同范围修订。不包含生产登录、部署、数据库、新功能、长期维护或账号共享。</p>
+      <p>请勿提交密码、Cookie、Token、私钥或真实个人数据。</p>
+    </section>
+
+    <section>
+      <h2>开始</h2>
       <ol>
-        <li>提交报错、脱敏样例或公开仓库链接</li>
-        <li>收到免费初步判断和固定报价</li>
-        <li>交付代码、运行说明和验证结果</li>
-        <li>按事先约定的验收标准确认完成</li>
+        <li>提供公开仓库或脱敏 ZIP、失败命令、完整日志和 Java/Maven 版本。</li>
+        <li>免费预检确认可复现且范围合格。</li>
+        <li>确认固定价格后开始修复并按成功命令验收。</li>
       </ol>
-    </section>
-
-    <section aria-labelledby="safety-heading">
-      <h2 id="safety-heading">提交前请注意</h2>
-      <p>不要发送密码、Cookie、Token、私钥或真实个人数据。优先提供公开仓库、最小复现和脱敏文件。</p>
-      <p>
-        <a href="https://github.com/jhhjwei/codex-runner/issues/new?template=code-fix-request.yml">提交技术需求</a>
-      </p>
-      <p>不方便使用 GitHub，也可以发邮件到 <a href="mailto:cj2664@qq.com">cj2664@qq.com</a>。</p>
+      <p><a href="https://github.com/jhhjwei/codex-runner/issues/new?template=code-fix-request.yml">提交免费预检</a></p>
     </section>
   </main>
 </body>
