@@ -1,46 +1,32 @@
-# 小型代码修复与 Python 自动化服务
+# Maven 构建故障急救
 
-本仓库展示可在 24–72 小时内交付的小型技术任务：代码报错定位、CSV/JSON 数据处理、公开网页文本抓取、HTML/CSS 修复和简单落地页。
+本仓库现在只承接一种固定范围的交付：修复一个可在本地复现的 Maven 依赖或构建阻塞。
+
+## 固定服务
+
+- 免费预检：判断问题能否复现、是否属于固定范围
+- 价格：65 美元固定价
+- 时间：接受可复现输入后 24 小时内交付
+- 验收：事先约定的 Maven 命令返回 0
+- 售后：48 小时内一次同范围修订
+
+交付包括补丁或修正后的 `pom.xml`、修复前后依赖树、验证命令与日志、简短根因报告。
+
+不承接生产环境登录、部署、数据库故障、新功能、长期维护、账号共享或包含凭据的任务。
 
 ## 入口
 
 - 服务主页：https://jhhjwei.github.io/codex-runner/
-- 提交需求：https://github.com/jhhjwei/codex-runner/issues/new?template=code-fix-request.yml
-- 收入冲刺看板：https://github.com/jhhjwei/codex-runner/issues/1
+- 免费预检：https://github.com/jhhjwei/codex-runner/issues/new?template=code-fix-request.yml
+- 公开验证案例：[`demos/maven-build-rescue`](demos/maven-build-rescue)
 
-## 公开可运行案例
+## 验证案例
 
-### 配置驱动 CSV/JSON 解析器
-
-目录：[`demos/config-driven-parser`](demos/config-driven-parser)
-
-通过外部配置完成字段映射、类型转换、默认值、大小写、数值换算和校验，无需修改核心代码。
-
-### 公开网页文本抓取器
-
-目录：[`demos/public-web-text-scraper`](demos/public-web-text-scraper)
-
-面向公开、免登录页面，检查 `robots.txt`、限制同域范围与访问频率，并输出 CSV/JSON。
-
-## 参考价格
-
-- 免费初步判断
-- 小型代码修复：¥49–¥99
-- Python / CSV 自动化：¥199 起
-- 简单落地页：¥399 起
-
-确认输入、输出、验收标准和固定价格后再开始。请勿提交密码、Cookie、Token、私钥或真实个人数据。
-
-## 本地验证
-
-每个案例目录都包含独立测试：
+案例包含相同 Java 源码的故障版和修复版。故障版因依赖版本过旧无法编译，修复版升级依赖后可通过 Maven 构建。
 
 ```bash
-cd demos/config-driven-parser
-python -m unittest -v
-
-cd ../public-web-text-scraper
-python -m unittest -v
+cd demos/maven-build-rescue
+bash verify.sh
 ```
 
-GitHub Actions 会自动执行所有案例测试。
+GitHub Actions 会同时证明故障版失败、修复版成功。搜索、解释或未运行的修改不计为交付。
