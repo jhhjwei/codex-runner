@@ -27,10 +27,10 @@ The recurring sprint is paused as fully blocked. Resume only after connecting a 
 
 ## Hourly guard status
 
-_Last updated: 2026-10-21 09:25:17 +08:00_
+_Last updated: 2026-10-21 13:57:43 +08:00_
 
-- audit record: `opportunity-pipeline/health/audit/2026-10-21/08.md`
-- primary heartbeat: `opportunity-pipeline/health/2026-10-21/08.md`
+- audit record: `opportunity-pipeline/health/audit/2026-10-21/12.md`
+- primary heartbeat: `opportunity-pipeline/health/2026-10-21/12.md`
 - primary status: missing
 - commercial actions in audited hour: 0 (none)
 - enforcement state: RED
