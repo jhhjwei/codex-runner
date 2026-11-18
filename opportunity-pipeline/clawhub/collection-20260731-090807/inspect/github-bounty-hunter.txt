@@ -1,0 +1,18 @@
+
+┌─ inspect ───────────────────────────────────────────
+│ github-bounty-hunter  Github Bounty Hunter
+│ @sasamittrrr · v1.0.1 · latest=1.0.1
+│
+│ Summary  Automatically scan GitHub repositories for bounty issues, filter by difficulty/reward, and auto-submit solutions.
+│ Owner    @sasamittrrr
+│ Latest   1.0.1
+│ License  MIT-0 (Free to use, modify, and redistribute. No attribution required.)
+│ Updated  2026-05-18 04:10 UTC
+│ Created  2026-02-27 04:21 UTC
+│ Tags     latest=1.0.1
+│ Moderate CLEAN
+│ Reasons  review.llm_review
+│ Mod Time 2026-05-28 10:17 UTC
+│ Engine   v2.4.24
+│ Mod Note Review: review.llm_review
+└──────────────────────────────────────────────────────

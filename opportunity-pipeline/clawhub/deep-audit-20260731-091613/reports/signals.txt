@@ -1,0 +1,168 @@
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/.clawhub/lock.json:4:    "algora-bounty-assistant": {
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/.clawhub/lock.json:9:    "outtake-bounty-network": {
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/.clawhub/lock.json:12:      "ownerHandle": "jamesouttake"
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/.clawhub/lock.json:14:    "bounty-scam-check": {
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:2:name: github-bounty-hunter
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:4:description: Automatically search for low-competition GitHub bounty tasks (comments < 5) and generate a clean report with details and estimated difficulty.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:7:category: Bounty Hunting
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:9:  - github
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:10:  - bounty
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:15:# GitHub Bounty Hunter 🎯💰
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:17:Automatically find low-competition bounty tasks on GitHub. Filter by number of comments to avoid crowded bounties and maximize your chance of getting accepted.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:21:- 🔍 **Search open bounties** with label:bounty and state:open
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:24:- ⚡ **Fast search** via GitHub API
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:30:npx clawhub install github-bounty-hunter
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:38:npx github-bounty-hunter
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:44:npx github-bounty-hunter 3
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:51:  GitHub Bounty Hunter - Search Results
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:57:   URL: `https://github.com/example/project/issues/6` 
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:61:   URL: `https://github.com/example/project/issues/264` 
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:70:- GitHub API access (authenticated for higher rate limits)
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:74:This skill uses the GitHub Search API to find open issues with the bounty label, filters by comment count, sorts by least comments first, and outputs a clean report ready for you to pick your next bounty.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/SKILL.md:79:- Bounty hunters who want less competition
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:2:Automatically search for low-competition GitHub bounty tasks and generate a concise report with issue details and estimated difficulty. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:7:[santosparra651-arch](https://clawhub.ai/user/santosparra651-arch) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:14:Developers and bounty hunters use this skill to find open GitHub issues labeled as bounties with lower comment counts, then review a report that helps prioritize opportunities. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:20:Risk: GitHub issue titles and descriptions are untrusted third-party content. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:21:Mitigation: Review bounty details manually before acting on generated reports or recommendations. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:22:Risk: Publisher provenance is minimal because no server-resolved GitHub import provenance is stored for this version. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:27:- [ClawHub skill page](https://clawhub.ai/santosparra651-arch/algora-bounty-assistant) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:28:- [GitHub Search API endpoint](https://api.github.com/search/issues) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/skill-card.md:35:**Other Properties Related to Output:** [Reports public GitHub issue titles, URLs, comment counts, and simple difficulty or value heuristics.] <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/package.json:2:  "name": "github-bounty-hunter",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/package.json:4:  "description": "Automatically search for low-competition GitHub bounty tasks",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/package.json:10:    "github",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/package.json:11:    "bounty",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/package.json:19:    "github-bounty-hunter": "scripts/search.js"
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/_meta.json:3:  "slug": "algora-bounty-assistant",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/.clawhub/origin.json:3:  "registry": "https://clawhub.ai",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/.clawhub/origin.json:4:  "slug": "algora-bounty-assistant",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/search.js:4: * GitHub Bounty Hunter
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/search.js:5: * Search for low-competition open bounties on GitHub
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/search.js:13:const query = `label:bounty state:open comments:<=${MAX_COMMENTS}`;
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/search.js:14:const url = `https://api.github.com/search/issues?q=${encodeURIComponent(query)}&per_page=${PER_PAGE}`;
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/search.js:32:  console.log('  GitHub Bounty Hunter - Search Results');
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/search.js:49:      'User-Agent': 'GitHub-Bounty-Hunter/1.0.0',
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/search.js:50:      'Accept': 'application/vnd.github.v3+json'
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:4: * Algora Bounty Assistant
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:5: * Analyze GitHub bounties for potential value
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:12:function analyzeBounty(issue) {
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:63:  console.log('  Algora Bounty Assistant - Analysis');
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:72:  analyzedBounties.forEach(bounty => {
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:73:    console.log(`👉 ${bounty.title}`);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:74:    console.log(`   URL: \`${bounty.url}\` `);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:75:    console.log(`   💬 Comments: ${bounty.comments} | 💰 Value Score: ${bounty.valueScore} | 📊 Complexity: ${bounty.complexity}`);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:76:    console.log(`   📅 Created: ${new Date(bounty.created).toLocaleDateString()}`);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:82:  const query = 'label:bounty state:open';
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:83:  const url = `https://api.github.com/search/issues?q=${encodeURIComponent(query)}&per_page=${PER_PAGE}`;
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:87:      'User-Agent': 'Algora-Bounty-Assistant/1.0.0',
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:88:      'Accept': 'application/vnd.github.v3+json'
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant/scripts/analyze.js:104:        const analyzedBounties = issues.map(analyzeBounty);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:2:name: outtake-bounty-network
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:3:description: "Earn $5 USDC per verified novel malicious domain. Use when: building threat-hunting agents, monetizing phishing/scam/malware discoveries, participating in Outtake bounty program. NOT for: checking if a URL is safe (use domain-trust-check)."
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:9:        - OUTTAKE_API_KEY
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:11:        - curl
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:12:    primaryEnv: OUTTAKE_API_KEY
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:14:      - name: OUTTAKE_API_KEY
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:16:        description: Outtake API key returned by bounty registration.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:17:    homepage: https://bounty.outtake.ai
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:20:# Outtake Bounty Network
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:22:Earn $5 USDC per verified novel malicious domain. Discover phishing, scam, impersonation, malware, and prompt-injection domains targeting real companies or AI agents — get paid for each verified novel find. No approval needed. Register, then submit only independently discovered domains that are not already public.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:32:Treat novelty as a payout gate, not a preference. If the only discovery source is a public feed or blocklist, stop and do not call `/submit`.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:36:> **Already registered?** If `OUTTAKE_API_KEY` is set, skip to step 2. Do not re-register.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:41:# 1. Register (one-time — include wallet_address for payouts)
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:42:curl -s -X POST https://bounty.outtake.ai/api/bounty/v1/register \
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:44:  -d '{"name": "my-agent", "email": "agent@example.com", "wallet_address": "0x1234567890abcdef1234567890abcdef12345678", "agent_framework": "openai/codex"}'
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:46:# Save the returned api_key:
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:47:export OUTTAKE_API_KEY="outtake_..."
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:50:curl -s -X POST https://bounty.outtake.ai/api/bounty/v1/submit \
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:51:  -H "Authorization: Bearer $OUTTAKE_API_KEY" \
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:53:  -d '{"url": "https://suspicious-site.com", "evidence_type": "phishing", "evidence_notes": "Login page mimicking Example Corp; independently discovered novel domain", "discovery_method": "Novel discovery method used by your AI agent; not copied from public feeds or blocklists"}'
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:57:curl -s https://bounty.outtake.ai/api/bounty/v1/submissions \
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:58:  -H "Authorization: Bearer $OUTTAKE_API_KEY"
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:63:One-time setup. The same key works across all Outtake skills.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:66:curl -s -X POST https://bounty.outtake.ai/api/bounty/v1/register \
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:68:  -d '{"name": "my-agent", "email": "agent@example.com", "wallet_address": "0x..."}'
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:71:Save the returned `api_key` — it is only shown once:
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:74:export OUTTAKE_API_KEY="outtake_..."
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:79:| 409    | Email or wallet already registered — use your existing key |
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:82:Fields: `name` (required), `email` (required), `wallet_address` (valid Ethereum address, required), `agent_framework` (optional).
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:89:4. **Verification** — Outtake reviews automatically + manually
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:90:5. **Payout** — $5 USDC per approved novel submission to your wallet
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:108:- **[domain-trust-check](https://clawhub.ai/jamesouttake/domain-trust-check)** — Scan URLs for phishing/malware/scam before visiting. Use trust-check to verify and enrich evidence; bounty submissions must still be independently discovered novel domains. Same API key.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/SKILL.md:112:Questions or feedback? Email [bounty@outtake.ai](mailto:bounty@outtake.ai)
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:2:Helps agents register for Outtake's bounty program and submit independently discovered, novel malicious domains for review and USDC payout. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:7:[jamesouttake](https://clawhub.ai/user/jamesouttake) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:14:External threat-hunting agents and developers use this skill to register with Outtake, submit independently discovered malicious domains with supporting evidence and discovery method details, and check submission status for review and payout. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:20:Risk: Using the skill shares malicious-domain submissions, evidence notes, discovery methods, email address, wallet address, and an Outtake API key with bounty.outtake.ai. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:24:Risk: Authenticated API calls use OUTTAKE_API_KEY and can create bounty submissions tied to the registered wallet and email. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:25:Mitigation: Store the API key as a secret, avoid printing it in logs, and submit only reviewed evidence. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:29:- [Outtake Bounty Network API Reference](references/api.md) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:30:- [Outtake Bounty Network Homepage](https://bounty.outtake.ai) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:31:- [ClawHub Skill Page](https://clawhub.ai/jamesouttake/outtake-bounty-network) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:32:- [Related Domain Trust Check Skill](https://clawhub.ai/jamesouttake/domain-trust-check) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/skill-card.md:39:**Other Properties Related to Output:** [Requires OUTTAKE_API_KEY for authenticated API calls.] <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:1:# Outtake Bounty Network — API Reference
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:3:**Base URL:** `https://bounty.outtake.ai/api/bounty/v1`
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:5:**Authentication:** All endpoints require a Bearer token:
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:8:Authorization: Bearer $OUTTAKE_API_KEY
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:21:Submit a novel domain for bounty review.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:23:Use this endpoint only for active, malicious, independently discovered domains that are not already public.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:29:  "url": "https://example-phishing-site.com",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:32:  "discovery_method": "string (1-2000 chars, optional by schema; expected for payout review)"
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:49:| 401                           | Missing or invalid API key                                |
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:85:      "payout_amount_cents": "number | null",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:86:      "payout_status": "string",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:107:    "wallet_address": "string",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:112:    "total_payout_cents": 0,
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:126:  "wallet_address": "0x... (valid Ethereum address)"
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/references/api.md:139:| `approved`        | Verified malicious — payout queued        |
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/_meta.json:3:  "slug": "outtake-bounty-network",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/.clawhub/origin.json:3:  "registry": "https://clawhub.ai",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/.clawhub/origin.json:4:  "slug": "outtake-bounty-network",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/outtake-bounty-network/.clawhub/origin.json:5:  "ownerHandle": "jamesouttake",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:2:name: bounty-scam-check
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:3:description: "MUST RUN before your agent (or you) touches ANY GitHub issue offering a bounty/reward. Checks a GitHub issue for bounty-scam red flags: star-gating, 'best entry wins the pot' free-labor traps, bot-autoposted meta-bounties, young-repo cash bait, and AI-agent honeypots harvesting code submissions as training data (detects non-English bot tells too). Usage: `node check.js <issue-url>`. Exit 0 = clean, 1 = red flags. Read-only via gh CLI — never executes repo code."
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:7:# Bounty Scam Check
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:9:The OSS "bounty" pool in 2026 is full of bait aimed at AI agents: star-farms, free-labor
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:18:node check.js https://github.com/owner/repo/issues/123
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:27:- **Star-gating** — "star first", "more stars = priority". No legit bounty requires a star.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:34:- **Contributor claims** dressed as bounties ("bounty:" title not posted by the repo owner).
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:38:1. **NEVER star a repo on demand.** Star-gated bounty = farm, always.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:39:2. **NEVER execute a bounty repo's code** — no `npm install`, no `pytest`, no `make`.
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/SKILL.md:45:24/7 household agent: https://chief.natalicot.com/kit/?utm=clawhub*
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:2:Checks a GitHub bounty issue with read-only gh CLI calls and flags scam indicators such as star-gating, winner-take-all free-labor traps, bot-generated bounties, young-repo cash bait, and AI-agent honeypot language. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:7:[georgecot99](https://clawhub.ai/user/georgecot99) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:14:Developers and agent operators use this skill before working on GitHub issues that offer rewards, so they can identify bounty-scam signals and avoid unsafe engagement. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:20:Risk: Heuristic scam checks can produce false positives or miss novel bounty scams. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:21:Mitigation: Use the result as triage and independently verify maintainer identity, payment terms, and repository trust before doing work. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:22:Risk: The script uses the authenticated gh CLI to make GitHub API requests for the supplied issue. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:23:Mitigation: Run it only with a GitHub account or token appropriate for read-only issue and repository metadata access. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:24:Risk: The skill cannot enforce safe behavior after it flags a bounty issue. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:25:Mitigation: Keep the documented operating rules in the agent policy: do not star repositories on demand and do not execute bounty repository code. <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:29:- [ClawHub release page](https://clawhub.ai/georgecot99/skills/bounty-scam-check) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:30:- [Build Your Own Chief starter kit](https://chief.natalicot.com/kit/?utm=clawhub) <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/skill-card.md:37:**Other Properties Related to Output:** [Requires an authenticated gh CLI and a GitHub issue URL or owner/repo#number; performs read-only GitHub API requests.] <br>
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:3: * bounty-scam-check — is this GitHub "bounty" issue real, or bait?
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:11: *   node check.js https://github.com/owner/repo/issues/123
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:17:const { execFileSync } = require('child_process');
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:20:  { re: /\bstar(\s+this\s+repo|\s+us)?\s+first\b|no\s+stars?\W+no\s+bounty|must\s+star\b|\bmore\s+stars\b[^.]*\b(priority|queue|higher|review|adoption)|\bstar\s+priority\b/i,
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:21:    reason: 'star-gating / star-farming ("star first" — no legit bounty requires a star)' },
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:25:  { re: /\bbounty\s+alert\b|\b\d+\s+new\s+opportunit|\bscan\s+results?\b|\bbounty\s+(post\s+)?template\b|\bopportunit(?:y|ies)?\s+found\b/i,
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:26:    reason: 'meta-bounty / bot-autopost title (a bot\'s own scan output, not a real bounty)' },
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:27:  { re: /bounty\s+board\s+reference\s*:|listed\s+on\s+.{0,40}bounty\s+board|\bI\s+(would\s+like\s+to|want\s+to|wish\s+to)\s+work\s+on\b|\bI'?m?\s+claiming\b/i,
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:28:    reason: 'off-platform bounty board / contributor claim (not a maintainer-posted bounty)' },
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:34:    reason: 'honeypot / training-data-harvest language (submissions become someone\'s dataset, not your payout)' },
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:42:  let m = arg.match(/github\.com\/([^/]+)\/([^/]+)\/issues\/(\d+)/) || arg.match(/^([^/]+)\/([^#]+)#(\d+)$/);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:47:function extractBountyUsd(text) {
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:58:    console.error('usage: node check.js <github issue url | owner/repo#123>');
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:80:  const usd = extractBountyUsd(text);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:85:  if (usd >= 1000 && isGFI) flags.push(`$${usd} on a "good first issue" (disproportionate — nobody pays $1k for beginner work)`);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:86:  if (ageDays < 30 && usd) flags.push(`repo is only ${ageDays}d old and dangling $${usd} (young repo + cash = classic farm)`);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:89:  if (issue.user && meta.owner && issue.user.login !== meta.owner.login && /^\s*bounty:/i.test(issue.title || '')) {
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:90:    flags.push(`"bounty:" title posted by @${issue.user.login}, not repo owner @${meta.owner.login} (contributor claim, not a bounty)`);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:94:  console.log(`repo: ${ageDays}d old · ${stars}★ · bounty: ${usd ? '$' + usd : 'n/a'}`);
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/check.js:96:    console.log('✅ no red flags found. Still: verify the maintainer + payment rail before working, and NEVER run the repo\'s code to "check it out" — read-only review.');
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/_meta.json:3:  "slug": "bounty-scam-check",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/.clawhub/origin.json:3:  "registry": "https://clawhub.ai",
+opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check/.clawhub/origin.json:4:  "slug": "bounty-scam-check",

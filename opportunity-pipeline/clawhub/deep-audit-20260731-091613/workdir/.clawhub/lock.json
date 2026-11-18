@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "algora-bounty-assistant": {
+      "version": "1.0.0",
+      "installedAt": 1785489385801,
+      "ownerHandle": "santosparra651-arch"
+    },
+    "outtake-bounty-network": {
+      "version": "1.4.1",
+      "installedAt": 1785489392115,
+      "ownerHandle": "jamesouttake"
+    },
+    "bounty-scam-check": {
+      "version": "0.1.0",
+      "installedAt": 1785489398612,
+      "ownerHandle": "georgecot99"
+    }
+  }
+}

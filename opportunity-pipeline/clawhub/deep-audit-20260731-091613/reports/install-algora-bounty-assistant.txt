@@ -1,0 +1,1 @@
+Installed algora-bounty-assistant v1.0.0 -> /workspaces/codex-runner/opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/algora-bounty-assistant

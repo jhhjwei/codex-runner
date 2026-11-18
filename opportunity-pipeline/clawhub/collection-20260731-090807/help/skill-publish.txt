@@ -1,0 +1,30 @@
+🦞 ClawHub CLI v0.23.1 (bb7a2bd6)
+
+Usage: clawhub skill publish [options] <path>
+
+Publish a skill from folder
+
+Arguments:
+  path                        Skill folder path
+
+Options:
+  --slug <slug>               Published skill URL name
+  --name <name>               Display name
+  --owner <handle>            Publish under an org/user publisher handle
+  --source-owner <handle>     Source owner handle when migrating an existing
+                              skill
+  --migrate-owner             Move an existing skill to the selected owner when
+                              republishing
+  --version <version>         Explicit version (defaults to 1.0.0 or next patch)
+  --fork-of <slug[@version]>  Mark as a fork of an existing skill
+  --changelog <text>          Changelog text
+  --tags <tags>               Comma-separated tags (default: "latest")
+  --categories <slugs>        Comma-separated category slugs
+  --topics <topics>           Comma-separated topics
+  --dry-run                   Preview without publishing
+  --json                      Output JSON
+  --source-repo <repo>        GitHub source repository
+  --source-commit <sha>       GitHub source commit
+  --source-ref <ref>          GitHub source ref
+  --source-path <path>        Path to the skill within the source repository
+  -h, --help                  Display help for command

@@ -1,0 +1,13 @@
+
+┌─ inspect ───────────────────────────────────────────
+│ algora-bounty-assistant  Algora Bounty Assistan
+│ @santosparra651-arch · v1.0.0 · latest=1.0.0
+│
+│ Summary  Automatically search for low-competition GitHub bounty tasks (comments < 5) and generate a clean report with details and estimated difficulty.
+│ Owner    @santosparra651-arch
+│ Latest   1.0.0
+│ License  MIT-0 (Free to use, modify, and redistribute. No attribution required.)
+│ Updated  2026-05-11 09:34 UTC
+│ Created  2026-03-21 08:15 UTC
+│ Tags     latest=1.0.0
+└──────────────────────────────────────────────────────

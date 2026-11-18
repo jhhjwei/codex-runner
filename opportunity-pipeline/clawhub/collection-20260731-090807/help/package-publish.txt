@@ -1,0 +1,32 @@
+🦞 ClawHub CLI v0.23.1 (bb7a2bd6)
+
+Usage: clawhub package publish [options] <source>
+
+Publish a code plugin or bundle plugin from a folder or GitHub source
+
+Arguments:
+  source                             Package folder path, GitHub repo
+                                     (owner/repo[@ref]), or URL
+
+Options:
+  --family <family>                  code-plugin|bundle-plugin
+  --name <name>                      Package name
+  --display-name <name>              Display name
+  --owner <handle>                   Publish under this owner/publisher handle
+  --version <version>                Version
+  --changelog <text>                 Changelog text
+  --manual-override-reason <reason>  Required for manual publish when trusted
+                                     publisher config exists
+  --tags <tags>                      Comma-separated tags (default: "latest")
+  --categories <slugs>               Comma-separated category slugs
+  --topics <topics>                  Comma-separated topics
+  --bundle-format <format>           Bundle format
+  --host-targets <targets>           Comma-separated bundle host targets
+  --source-repo <repo>               GitHub repo (owner/repo or URL)
+  --source-commit <sha>              Git commit SHA
+  --source-ref <ref>                 Git ref/tag/branch
+  --source-path <path>               Repo subpath
+  --dry-run                          Preview what would be published without
+                                     uploading
+  --json                             Output JSON (for CI pipelines)
+  -h, --help                         Display help for command

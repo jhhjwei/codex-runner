@@ -1,0 +1,14 @@
+🦞 ClawHub CLI v0.23.1 (bb7a2bd6)
+
+Usage: clawhub skill verify [options] <slug>
+
+Verify a published skill using ClawHub security evidence
+
+Arguments:
+  slug                 Skill slug
+
+Options:
+  --version <version>  Version to verify
+  --tag <tag>          Tag to verify
+  --card               Output generated skill-card.md Markdown
+  -h, --help           Display help for command

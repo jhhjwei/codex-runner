@@ -1,0 +1,13 @@
+🦞 ClawHub CLI v0.23.1 (bb7a2bd6)
+
+Usage: clawhub publisher create [options] <handle>
+
+Create an org publisher you own
+
+Arguments:
+  handle                 Publisher handle, for example example.tools
+
+Options:
+  --display-name <name>  Publisher display name
+  --json                 Output JSON
+  -h, --help             Display help for command

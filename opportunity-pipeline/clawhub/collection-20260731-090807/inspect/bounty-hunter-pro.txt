@@ -1,0 +1,18 @@
+
+┌─ inspect ───────────────────────────────────────────
+│ bounty-hunter-pro  Bounty Hunter Pro
+│ @lugave11 · v1.0.0 · latest=1.0.0
+│
+│ Summary  Autonomous bug bounty hunting with scope safety. Scans targets for subdomains, secrets, vulnerabilities. Uses Certificate Transparency logs, JS analysis, ent...
+│ Owner    @lugave11
+│ Latest   1.0.0
+│ License  MIT-0 (Free to use, modify, and redistribute. No attribution required.)
+│ Updated  2026-05-18 04:13 UTC
+│ Created  2026-03-04 11:22 UTC
+│ Tags     latest=1.0.0
+│ Moderate CLEAN
+│ Reasons  review.llm_review
+│ Mod Time 2026-05-29 21:22 UTC
+│ Engine   v2.4.24
+│ Mod Note Review: review.llm_review
+└──────────────────────────────────────────────────────

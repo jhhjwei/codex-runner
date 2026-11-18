@@ -1,0 +1,13 @@
+
+┌─ inspect ───────────────────────────────────────────
+│ github-product-research  GitHub Product Research
+│ @margaretzybgl · v1.0.0 · latest=1.0.0
+│
+│ Summary  GitHub 产品调研与机会发现 · Product research
+│ Owner    @margaretzybgl
+│ Latest   1.0.0
+│ License  MIT-0 (Free to use, modify, and redistribute. No attribution required.)
+│ Updated  2026-07-30 19:06 UTC
+│ Created  2026-07-30 17:30 UTC
+│ Tags     latest=1.0.0
+└──────────────────────────────────────────────────────

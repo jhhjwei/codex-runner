@@ -1,0 +1,15 @@
+🦞 ClawHub CLI v0.23.1 (bb7a2bd6)
+
+Usage: clawhub install [options] <skill>
+
+Install a skill into <dir>
+
+Arguments:
+  skill                Skill to install, e.g. @openclaw/demo
+
+Options:
+  --version <version>  Version to install
+  --force              Overwrite existing folder
+  --force-install      Install a pending GitHub-backed skill before ClawHub scan
+                       completes
+  -h, --help           Display help for command

@@ -1,0 +1,13 @@
+
+┌─ inspect ───────────────────────────────────────────
+│ outtake-bounty-network  Outtake Bounty Network
+│ @jamesouttake · v1.4.1 · latest=1.4.1
+│
+│ Summary  Earn $5 USDC per verified novel malicious domain. Use when: building threat-hunting agents, monetizing phishing/scam/malware discoveries, participating in Ou...
+│ Owner    @jamesouttake
+│ Latest   1.4.1
+│ License  MIT-0 (Free to use, modify, and redistribute. No attribution required.)
+│ Updated  2026-05-18 15:23 UTC
+│ Created  2026-02-14 00:59 UTC
+│ Tags     latest=1.4.1
+└──────────────────────────────────────────────────────

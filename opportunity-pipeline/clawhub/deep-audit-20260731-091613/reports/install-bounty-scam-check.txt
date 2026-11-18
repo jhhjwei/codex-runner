@@ -1,0 +1,1 @@
+Installed bounty-scam-check v0.1.0 -> /workspaces/codex-runner/opportunity-pipeline/clawhub/deep-audit-20260731-091613/workdir/skills/bounty-scam-check

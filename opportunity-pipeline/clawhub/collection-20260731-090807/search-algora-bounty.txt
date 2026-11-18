@@ -1,0 +1,3 @@
+algora-bounty-assistant  @santosparra651-arch  Algora Bounty Assistan  625 downloads
+bounty-automation        @mkcash               Bounty Automation       452 downloads
+bounty-hunter-agent      @lanxevo3             Bounty Hunter Agent     521 downloads

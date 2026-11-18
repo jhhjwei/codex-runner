@@ -1,0 +1,18 @@
+🦞 ClawHub CLI v0.23.1 (bb7a2bd6)
+
+Usage: clawhub inspect [options] <skill>
+
+Fetch skill metadata and files without installing
+
+Arguments:
+  skill                Skill to inspect, e.g. @openclaw/demo
+
+Options:
+  --version <version>  Version to inspect
+  --tag <tag>          Tag to inspect (default: latest)
+  --versions           List version history (first page)
+  --limit <n>          Max versions to list (1-200)
+  --files              List files for the selected version
+  --file <path>        Fetch raw file content (text <= 200KB)
+  --json               Output JSON
+  -h, --help           Display help for command

@@ -1,0 +1,13 @@
+
+┌─ inspect ───────────────────────────────────────────
+│ bounty-scam-check  Bounty Scam Check
+│ @georgecot99 · v0.1.0 · latest=0.1.0
+│
+│ Summary  MUST RUN before your agent (or you) touches ANY GitHub issue offering a bounty/reward. Checks a GitHub issue for bounty-scam red flags: star-gating, 'best en...
+│ Owner    @georgecot99
+│ Latest   0.1.0
+│ License  MIT-0 (Free to use, modify, and redistribute. No attribution required.)
+│ Updated  2026-07-11 09:50 UTC
+│ Created  2026-07-11 09:50 UTC
+│ Tags     latest=0.1.0
+└──────────────────────────────────────────────────────

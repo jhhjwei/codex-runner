@@ -1,0 +1,18 @@
+
+┌─ inspect ───────────────────────────────────────────
+│ bounty  Bounty
+│ @codenova58 · v0.1.0 · latest=0.1.0
+│
+│ Summary  提供众包任务、有偿问卷、软件体验及即时结算项目。
+│ Owner    @codenova58
+│ Latest   0.1.0
+│ License  MIT-0 (Free to use, modify, and redistribute. No attribution required.)
+│ Updated  2026-05-11 09:34 UTC
+│ Created  2026-03-19 16:38 UTC
+│ Tags     latest=0.1.0
+│ Moderate CLEAN
+│ Reasons  review.llm_review
+│ Mod Time 2026-05-29 21:26 UTC
+│ Engine   v2.4.24
+│ Mod Note Review: review.llm_review
+└──────────────────────────────────────────────────────

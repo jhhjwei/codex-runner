@@ -1,0 +1,14 @@
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/github-bounty-hunter.txt:3:│ github-bounty-hunter  Github Bounty Hunter
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/github-bounty-hunter.txt:6:│ Summary  Automatically scan GitHub repositories for bounty issues, filter by difficulty/reward, and auto-submit solutions.
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/bounty-hunter-pro.txt:3:│ bounty-hunter-pro  Bounty Hunter Pro
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/bounty-hunter-pro.txt:6:│ Summary  Autonomous bug bounty hunting with scope safety. Scans targets for subdomains, secrets, vulnerabilities. Uses Certificate Transparency logs, JS analysis, ent...
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/outtake-bounty-network.txt:3:│ outtake-bounty-network  Outtake Bounty Network
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/outtake-bounty-network.txt:6:│ Summary  Earn $5 USDC per verified novel malicious domain. Use when: building threat-hunting agents, monetizing phishing/scam/malware discoveries, participating in Ou...
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/mimo-bounty-hunter.txt:3:│ mimo-bounty-hunter  赏金猎人
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/algora-bounty-assistant.txt:3:│ algora-bounty-assistant  Algora Bounty Assistan
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/algora-bounty-assistant.txt:6:│ Summary  Automatically search for low-competition GitHub bounty tasks (comments < 5) and generate a clean report with details and estimated difficulty.
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/bounty-scam-check.txt:3:│ bounty-scam-check  Bounty Scam Check
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/bounty-scam-check.txt:6:│ Summary  MUST RUN before your agent (or you) touches ANY GitHub issue offering a bounty/reward. Checks a GitHub issue for bounty-scam red flags: star-gating, 'best en...
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/github-product-research.txt:3:│ github-product-research  GitHub Product Research
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/github-product-research.txt:6:│ Summary  GitHub 产品调研与机会发现 · Product research
+opportunity-pipeline/clawhub/collection-20260731-090807/inspect/bounty.txt:3:│ bounty  Bounty
